@@ -11,6 +11,10 @@ define mc_cuckpoints = 0
 define mc_kinks_black = 0
 define mc_kinks_give_anal = 0
 define mc_kinks_sph = 0
+define mc_kinks_pee = 0
+define mc_kinks_penis = 0
+define mc_kinks_exhibit = 0
+define mc_kinks_cum = 0
 define mc_name = "?"
 define mc = Character("[mc_name]")
 define mc_thoughts = Character("[mc_name]", what_italic = True)
@@ -21,11 +25,24 @@ define em_kinks_black = 0
 define em_kinks_rec_anal = 0
 define em_kinks_sph = 0
 define em_kinks_smoking = 0
+define em_kinks_cheating = 0
+define em_loves_james = 0
 define em = Character("Emily")
 define em_thoughts = Character("Emily", what_italic = True)
 
+# Elise (Emily's sister)
+define el = Character("Elise")
+
+# Eleanor (Emily's mother)
+define ele_loves_mc = ""
+define ele = Character("Eleanor")
+
 # James (Emily's boss)
 define jm = Character("James")
+
+# Jack (MC's best friend)
+define j_loves_elise = 0
+define j = Character("Jack")
 
 # Goddess Victoria (taboo site domina)
 define gv = Character("Goddess Victoria")
@@ -36,6 +53,9 @@ define xg = Character("Girl")
 # Coffee shop waitress
 define cw = Character("Waitress")
 
+# 611 checkout girl
+define cg = Character("Checkout girl")
+
 # Movie characters
 define mw = Character("Wife")
 define mh = Character("Husband")
@@ -45,12 +65,15 @@ define mwb = Character("White bull")
 define mem_chloe_name = ""
 define mem_emily_color = ""
 define mem_short_emily = 0
+define mem_short_player = ""
+define mem_eleanor_secret_player = False
 
 define inventory_dildo = ""
 
 # Choice colors
 define pink_choice = "#F790C0"
 define red_choice = "#C4161C"
+define green_choice = "#64991E"
 
 # The game starts here.
 
