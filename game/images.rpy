@@ -112,9 +112,12 @@ image emily sex_10A = "fgimage/chara/2/Wife_01_Sex_010A.png"
 image emily sex_10B = "fgimage/chara/2/Wife_01_Sex_010B.png"
 
 
-image pc tb_01 = "fgimage/chara/3/PC_Screen_TB_01.png"
-image pc tb_02 = "fgimage/chara/3/PC_Screen_TB_02.png"
-image pc tb_chat_victoria_01 = "fgimage/chara/3/PC_Screen_TB_Chat_Victoria_01.png"
+image pc tb_01:
+    "fgimage/chara/3/PC_Screen_TB_01.png"
+    zoom 1.05
+image pc tb_02:
+    "fgimage/chara/3/PC_Screen_TB_02.png"
+    zoom 0.7
 
 image james 01_01 = "fgimage/chara/4/Boss_Wife_01_01.png"
 image james 01_02 = "fgimage/chara/4/Boss_Wife_01_02.png"

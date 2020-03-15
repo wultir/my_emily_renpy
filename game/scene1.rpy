@@ -25,7 +25,6 @@ label music_info:
     mg "There won't be music playing now after you click anywhere..."
     mg "Have fun!"
 
-    jump scene00_01
 
 label scene00_01:
     scene bg 00_01
@@ -287,15 +286,13 @@ label day1_taboo_site_signup:
 
     $renpy.pause(2)
 
-    show pc tb_01 at truecenter:
-        zoom 1.05
+    show pc tb_01 at top:
     with dissolve
 
     mc_thoughts "Hm. I'm hard as a rock again!"
     mc_thoughts "Let's click on My profile."
 
-    show pc tb_02 at truecenter:
-        zoom 0.7
+    show pc tb_02 at top:
     with dissolve
 
     mc_thoughts "100$!!!"
@@ -310,8 +307,7 @@ label day1_taboo_site_signup:
     mc_thoughts "Click here to start building your profile......"
     mc_thoughts "SHIT! How long will this take?"
 
-    show pc tb_01 at truecenter:
-        zoom 1.05
+    show pc tb_01 at top:
     with dissolve
 
     mc_thoughts "Are you single? Or a couple?"
@@ -527,7 +523,7 @@ label day1_gv_chat:
 
     mc_thoughts "What's this?"
 
-    show pc tb_chat_victoria_01 at truecenter
+    show pc tb_chat_victoria_01 at top
     with dissolve
 
     gv "Hello"
@@ -844,8 +840,6 @@ label scene00_37:
 
 label day1_movie_black:
     scene bg 00_38A with dissolve
-
-    # python:
 
     $ mc_kinks_black += 1
     $ em_kinks_black += 1
@@ -1242,7 +1236,6 @@ label day1_white_dildo:
     em "It's so BIG! "
     em "I've never seen.. No one has this size "
     em "Are you trying to kill me? "
-    # scene1.ks line 1580; save 2
 
 
 label scene00_41A:
@@ -1303,7 +1296,9 @@ label scene00_45A:
     mc_thoughts "Should i lick her ass while pressing the dildo in just a little bit? "
 
     menu:
-        "{color=[pink_choice]}Lick her butt{/color}": #TODO: Should be green
+        # Port note: Changed to pink to keep it consistent with
+        # the cuck/kink = pink rule and with the black dildo branch
+        "{color=[pink_choice]}Lick her butt{/color}":
             jump day1_white_dildo_lick
         "{color=[red_choice]}Eew no way!{/color}":
             jump day1_dildo_no_lick
