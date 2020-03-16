@@ -42,6 +42,7 @@ define jm = Character("James")
 
 # Jack (MC's best friend)
 define j_loves_elise = 0
+define j_loves_emily = 0
 define j = Character("Jack")
 
 # Goddess Victoria (taboo site domina)
