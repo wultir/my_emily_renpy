@@ -550,7 +550,6 @@ label day1_gv_chat:
 
     gv "I know why Emily's never in the mood for sex. I'll be honest with you. But you already know the answer to that. Don't you?"
 
-    # scene1.ks line 614; save 5
     menu:
         "She's cheating on me?":
             gv "Nope. Although i wouldn't be surprised if she's already cucking you."
@@ -1526,8 +1525,6 @@ label day1_sex_end:
             jump day1_sex_cum_inside
         "{color=[pink_choice]}Cum outside{/color}":
             jump day1_sex_cum_outside
-
-        # scene1.ks line 1830; save 1
 
 
 label day1_sex_cum_inside:

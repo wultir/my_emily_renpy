@@ -49,7 +49,7 @@ label day1_sex_shop_girl:
     xg "Follow me! It's just over here"
 
     window hide
-    # scene1xExtras.ks line 57; save 3
+
     show xxx_girl 01_02 at center with dissolve:
         yanchor 0.75
         zoom 1.29
