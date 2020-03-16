@@ -892,7 +892,7 @@ label day2_back_to_car:
     el "Thanks and kisses"
     el "Byeeeee"
 
-    show jtruck ride02 with dissolve
+    show jtruck ride03 with dissolve
 
     j "Pheew. Damn dude!"
     j "I'm just a man, i need pussy so bad!"
