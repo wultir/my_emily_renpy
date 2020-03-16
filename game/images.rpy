@@ -230,9 +230,9 @@ image taxi day = "fgimage/chara/7/TaxiDay.png"
 image taxi night = "fgimage/chara/7/TaxiNight.png"
 
 image jtruck day = "fgimage/chara/9/JacksTruckDay.png"
-image jtruck ride01 = "fgimage/chara/9/02CarRide01.png"
-image jtruck ride02 = "fgimage/chara/9/02CarRide02.png"
-image jtruck ride03 = "fgimage/chara/9/02CarRide03.png"
+image jtruck ride02_01 = "fgimage/chara/9/02CarRide01.png"
+image jtruck ride02_02 = "fgimage/chara/9/02CarRide02.png"
+image jtruck ride02_03 = "fgimage/chara/9/02CarRide03.png"
 
 image tv blackb1 = "fgimage/chara/8/TV_Blackbtv1.png"
 image tv blackb2 = "fgimage/chara/8/TV_Blackbtv2.png"

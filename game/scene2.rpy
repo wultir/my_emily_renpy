@@ -861,7 +861,7 @@ label day2_back_to_car:
 
     show bg house01_ext_day with dissolve
 
-    show jtruck ride01 at top with dissolve
+    show jtruck ride02_01 at top with dissolve
 
     j "Where can i take you blondie?"
 
@@ -874,7 +874,7 @@ label day2_back_to_car:
     "You get going and Elise keeps being overly sexual towards Jack the whole time"
     "You finally arrive outside the coffee shop"
 
-    show jtruck ride02 with dissolve
+    show jtruck ride02_02 with dissolve
 
     el "Thank you Jack!"
     el "Do you want a blowjob as payment? I'll even let him watch"
@@ -892,7 +892,7 @@ label day2_back_to_car:
     el "Thanks and kisses"
     el "Byeeeee"
 
-    show jtruck ride03 with dissolve
+    show jtruck ride02_03 with dissolve
 
     j "Pheew. Damn dude!"
     j "I'm just a man, i need pussy so bad!"
