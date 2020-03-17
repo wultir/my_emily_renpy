@@ -26,7 +26,9 @@ define em_kinks_rec_anal = 0
 define em_kinks_sph = 0
 define em_kinks_smoking = 0
 define em_kinks_cheating = 0
+define em_kinks_cheat_jack = 0
 define em_loves_james = 0
+define em_loves_jack = 0
 define em = Character("Emily")
 define em_thoughts = Character("Emily", what_italic = True)
 
@@ -37,12 +39,16 @@ define el = Character("Elise")
 define ele_loves_mc = ""
 define ele = Character("Eleanor")
 
+# Gabriela (Emily's best friend)
+define g = Character("Gabriela")
+
 # James (Emily's boss)
 define jm = Character("James")
 
 # Jack (MC's best friend)
 define j_loves_elise = 0
 define j_loves_emily = 0
+define j_mem_em_car = False
 define j = Character("Jack")
 
 # Goddess Victoria (taboo site domina)
@@ -56,6 +62,10 @@ define cw = Character("Waitress")
 
 # 611 checkout girl
 define cg = Character("Checkout girl")
+
+# Black Prince (Taboo Palace black bull)
+define bp = Character("Black Prince")
+define bull_marcus = False
 
 # Movie characters
 define mw = Character("Wife")

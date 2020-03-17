@@ -250,6 +250,25 @@ image pc tb_02:
 image pc tb_chat_victoria_01:
     "fgimage/chara/3/PC_Screen_TB_Chat_Victoria_01.png"
     zoom 0.7
+image pc tb_profile:
+    "fgimage/chara/3/PC_Screen_TB_My_Profile_1.jpg"
+    zoom 1.05
+image pc tb_bull01:
+    "fgimage/chara/3/PC_Screen_TB_Bull_01.jpg"
+    zoom 1.05
+image pc tb_pics01:
+    "fgimage/chara/3/PC_Screen_TB_Pics_01.jpg"
+    zoom 1.05
+image pc tb_pics02:
+    "fgimage/chara/3/PC_Screen_TB_Pics_02.jpg"
+    zoom 1.05
+image pc tb_pics03:
+    "fgimage/chara/3/PC_Screen_TB_Pics_03.jpg"
+    zoom 1.05
+image pc tb_pics04:
+    "fgimage/chara/3/PC_Screen_TB_Pics_04.jpg"
+    zoom 1.05
+
 
 image jack 002 = "fgimage/chara/11/Jack002.png"
 image jack 003 = "fgimage/chara/11/Jack003.png"
@@ -273,6 +292,10 @@ image jtruck day = "fgimage/chara/9/JacksTruckDay.png"
 image jtruck ride02_01 = "fgimage/chara/9/02CarRide01.png"
 image jtruck ride02_02 = "fgimage/chara/9/02CarRide02.png"
 image jtruck ride02_03 = "fgimage/chara/9/02CarRide03.png"
+image jtruck ride03_01 = "fgimage/chara/9/03CarRide01.png"
+image jtruck ride03_02 = "fgimage/chara/9/03CarRide02.png"
+image jtruck ride03_03 = "fgimage/chara/9/03CarRide03.png"
+image jtruck ride03_04 = "fgimage/chara/9/03CarRide04.png"
 
 image tv blackb1 = "fgimage/chara/8/TV_Blackbtv1.png"
 image tv blackb2 = "fgimage/chara/8/TV_Blackbtv2.png"

@@ -382,5 +382,634 @@ label weekend1_saturday_pc_taboo:
     mc "Hmm"
     mc "Let's check my profile at taboo palace. Maybe there's something new?"
 
+    show pc tb_01 at top with dissolve
 
-    #weekend1.ks; line 468
+    mc_thoughts "Let's click on my profile"
+
+    show pc tb_profile at top with dissolve
+
+    mc_thoughts "Messages is flashing.. "
+    mc_thoughts "Clicky click"
+    mc_thoughts "It's sent by someone called Black Prince"
+    mc_thoughts "Hmm.. I'm gonna open and read it"
+
+    bp "Hey there!"
+    bp "I've looked through your profile a couple times and you got me very interested.. I want to meet you!"
+    bp "You are both young and sexy. I see that you also have no experience. I could teach you"
+    bp "I have many years of experience as a bull for multiple cuckold couples. You can look me up on the forums here, many of the couples them have posted a review about me"
+    bp "And I've posted about them.. That's how we find people we can trust on this site"
+    bp "Although you have to go back a year or two in my history. I haven't been active lately and I'm not anyone's bull at the moment"
+    bp "Been really busy with work and life. I usually never write to people who got no reviews and I had no plans to write to anyone"
+    bp "But after reading your profile I just had too.."
+    bp "I'm a tall guy with a big heart. I'm calm, compassionate and self confident. I have worked as a teacher. But I run my own company now"
+    bp "I'm financially stable and have a girlfriend and kids. They do not know and never will! But my girlfriend does and she's ok with it"
+    bp "I don't cheat and I hate cheaters and backstabbers. I always play with 100%% open cards"
+    bp "Are you interested?"
+    bp "Just you and me could meet somewhere, maybe for a cup of coffee and just talk.."
+    bp "Check the vibe you know? If we are looking for the same things in life or not. Get to know each others a bit before we plan anything"
+    bp "Hit me up if you are interested"
+    bp "Ps"
+    bp "Sorry for the pic.. But chicks dig it! L.O.L"
+
+    show pc tb_bull01 at top with dissolve
+
+    "Will you answer him?"
+
+    menu:
+        "{color=[pink_choice]}Oh god! I'm interested!{/color}":
+            jump weekend1_saturday_tb_interested_yes
+        "{color=[red_choice]}Not interested!{/color}":
+            jump weekend1_saturday_tb_interested_no
+
+
+label weekend1_saturday_tb_interested_yes:
+    $ bull_marcus = True
+
+    "With trembling fingers you start to type:"
+
+    mc "Hi!"
+    mc "I think I'm very interested in seeing you. But I'm very shy so I don't know how.. Or when.. Or what to tell my girlfriend Emily"
+    mc "I don't know how any of this works.. This feels so real now.. Lol my hands are so shaky now. I don't know what to say, I feel stupid"
+    mc "Meeting you would maybe be a fantasy come true. But I don't know if fantasy and reality are the same?"
+    mc "Ps"
+    mc "It sounds like I'm high. Sorry"
+    mc "But I'm not high on drugs. I've never even tried any"
+
+    "Message sent*"
+
+    mc_thoughts "Oh my god!"
+    mc_thoughts "I did it!"
+    mc_thoughts "I can hear and feel my heart pouding insanely hard in my chest"
+    mc_thoughts "Damn it! He gave me a picture of him. I should send a pic of us and some nudes I have of Emily"
+    mc_thoughts "Just the thought of him... Oh fuck I'm so fucking hard right now!"
+
+    "You quickly send another message with some pictures"
+
+    show pc tb_pics01 at top with dissolve
+    call wait_for_click
+
+    show pc tb_pics02 at top with dissolve
+    call wait_for_click
+
+    show pc tb_pics03 at top with dissolve
+    call wait_for_click
+
+    show pc tb_pics04 at top with dissolve
+    call wait_for_click
+
+    hide pc with dissolve
+    pause 0.5
+
+    mc_thoughts "I wonder if he has a huge cock?"
+    mc_thoughts "And how big and hard will it get when he sees Emily? Will he masturbate and cum on her pictures?"
+    mc_thoughts "I need to lay down before I explode..."
+
+    jump weekend1_saturday_tb_message_done
+
+
+label weekend1_saturday_tb_interested_no:
+    $ bull_marcus = False
+    
+    mc_thoughts "I'm not interested!"
+    mc_thoughts "This feels unreal.. It's better if I dont even answer him!"
+    mc_thoughts "Did I just turn down a good opportunity to learn something?"
+    mc_thoughts "I'll lie down and think about it.."
+
+    hide pc with dissolve
+    pause 0.5
+
+
+label weekend1_saturday_tb_message_done:
+    scene bg black with dissolve
+
+    "Inside Jack's car"
+
+    show bg house01_ext_day with dissolve
+
+    show jtruck ride03_01 at top with dissolve
+
+    em "Thanks again Jack for giving me a ride!"
+    em "I don't mind using the subway and luckily the metro station is right across the street from our apartment but it always smells like pee there and there's always weirdos looking at me when i need to pass the public bathroom to reach the tracks"
+    em "Car is nicer. Just one weirdo here and just your smell... Haha"
+
+    j "No worries Em!"
+    j "It's much more fun to drive together with someone than alone"
+    j "By the way did you ever use the bathroom there?"
+
+    em "No. I'm too scared "
+    em "I mean they never even said anything to me, and I've seen other girls walk in there without getting mugged or anything. But I swear they are doing or selling drugs in there"
+
+    j "Haha really?"
+    j "No Em..."
+    j "Your station has the famous gloryholes"
+    j "They are waiting for you to go in there or anyone wanting to suck or get sucked..."
+
+    em "Suck?"
+    em "Oh.."
+    em "I see?..."
+
+    "A couple of minutes later"
+
+    show jtruck ride03_02 at top with dissolve
+
+    em "Jack?"
+
+    j "Yeah?"
+
+    em "Exactly what is a gloryhole?"
+
+    j "Ehh hmm It it it..."
+    j "It's a hole in the wall..."
+    j "Where a stranger walks in and puts his coc..Junk in the hole and on the other side another stranger sucks him off"
+    j "Or fucks, or jerks.. But usually sucks.."
+
+    em "Ohhh now I get it!"
+    em "..."
+    em "Isn't that risky?"
+
+    j "Iiii don't know?"
+    j "I guess it could be?"
+
+    em "Have you ever been there?"
+
+    j "Wwwhhhaaaa.."
+    j "N nnoo I don't think so,,,, I don't remember...."
+
+    em "Really? You can't remember?"
+
+    j "Well..."
+    j "Maybe when I was younger..."
+
+    em "Has my baby been in there?"
+
+    j "What?? Oh hell no!"
+    j "You know him! He's way too shy and he has some... complex body issues.."
+
+    em "Yeah..."
+    em "Sure he isn't huge down there, but I love him anyway. At least he's not shy anymore to show it to me hihi"
+    em "Sooo what do you think about his penis? Is yours bigger?"
+
+    j "Wwhhaaaaaaaaaaaa"
+    j "LALALALALALALALALA"
+    j "I CAN'T HEAR YOUUUUUUUU"
+
+    em "Hahahahaha"
+
+    j "You evil evil bitch"
+
+    em "Yup hihi"
+
+    "Should Emily ask Jack about?:"
+
+    menu:
+        "{color=[red_choice]}Don't ask. Just continue your ride{/color}":
+            jump weekend1_saturday_continue_ride
+        "{color=[pink_choice]}Why didn't you want to date me when we met online?{/color}":
+            jump weekend1_saturday_why_no_date
+    
+    
+label weekend1_saturday_why_no_date:
+    em "I always wondered that? Wasn't I good enough? Did i do something wrong? "
+    em "Now I'm happy you handed me over to your friend who now is the love of my life.. "
+    em "But back then... It hurt.. "
+
+    j "Ah shit.. "
+    j "I'm sorry.. "
+    j "I was just young and stupid and always horny.. Sorry for all the pictures I made you send to me.. "
+    j "I was... or wanted... I don't know what I wanted... "
+    j "But I got the feeling you only wanted to fuck and nothing else...  "
+    j "I wanted to fuck too, but I also wanted something else too "
+
+    em "So I was a slut? "
+
+    j "Nooo nooooo nooohoooo "
+    j "Fuck "
+    j "I wanted a slut that would love me forever... Like a good wife gone nympho... "
+    j "But I knew at that point I would join the army at some point and I didn't think I would come back...  "
+    j "So I stopped talking with every girl I knew.. I didn't want unhappy love or broken love "
+
+    j "I knew [mc_name] was a virgin... So I tried to be a good friend because I thought you would fuck his brains out.. "
+
+    j "And that you both would have been happy with that.. "
+    j "I was wrong about you, but you both are happy now! "
+    j "So I did the right thing! "
+    j "Hah "
+    j "Right? "
+
+    em "Awww that's so stupid... But kinda romantic in a stupid way "
+
+    em_thoughts "I'm pretty sure I saw his peni... cock earlier when I was dancing around in my pink underwear.. "
+    em_thoughts "It looked big and hard.. "
+    em_thoughts "Damn it I want to see it! "
+    em_thoughts "And I remember how horny he always made me when we chatted in the past, all the sexy pictures he made me send him "
+    em_thoughts "Mmmm "
+    em_thoughts "He's so tall and big... So strong... And he smells so manly right now.. "
+    em_thoughts "I'm so wet right now, this is wrong but I want to fuck him now! "
+    em_thoughts "We have almost arrived at my office... Should I just tease him a little? "
+
+    menu:
+        "{color=[pink_choice]}YES!{/color}":
+            jump weekend1_saturday_tease_jack
+        "{color=[red_choice]}No I have no interest for him anymore{/color}":
+            jump weekend1_saturday_continue_ride
+
+
+label weekend1_saturday_tease_jack:
+    $ em_loves_jack += 1
+    $ em_kinks_cheat_jack += 1
+    $ j_mem_em_car = True
+    $ mc_cuckpoints += 1
+
+    show jtruck ride03_03 with dissolve
+
+    "Emily slides closer and grabs Jack head giving him a sensual wet kiss on his cheek while whispering "
+
+    em "I would have been your perfect nympho wife Jack "
+    em "I would have been loyal to you and only you. Doing everything you asked me to do "
+    em "You could have fucked me anytime you wanted, however you wanted "
+    em "In my throat? My wet pussy? Or my tight virgin butt? "
+    em "I would have been your personal whore and your loving wife "
+    em "Ahhh "
+    em "Take me Jack "
+    em "Show me your huge... cock and shove it inside me hard! "
+    em "Hihihi "
+
+    show jtruck ride03_04 with dissolve
+
+    em_thoughts "Oh god.. Did I go too far? "
+    em_thoughts "I don't care... "
+    em_thoughts "Please use your strong arms and force my face down on your cock now! "
+    em_thoughts "I would suck him so hard! "
+
+    j "Www w wee We "
+    j "Are here now... "
+    j "Are are you ok? "
+
+    em "Oh yes hihi "
+    em "Oops I didn't even notice.. "
+    em "Thank you for the ride Jack! "
+    em "See you later! "
+
+    j "Bbbye bbyeee "
+
+    "You can feel his gaze lingering on your ass while you get out extra slow and bending over too much on purpose "
+
+    hide jtruck with dissolve
+    pause 0.5
+
+    jump weekend1_saturday_at_work
+
+label weekend1_saturday_continue_ride:
+    $ mc_cuckpoints -= 2
+    show jtruck ride03_04 with dissolve
+
+    em "Time went so fast! "
+    em "Thank you for the ride Jack "
+    em "See you later! "
+
+    j "Later! "
+
+    hide jtruck with dissolve
+    pause 0.5
+
+    
+label weekend1_saturday_at_work:
+    scene bg work_wife_lobby_day with dissolve
+
+    "You finally arrive at the office"
+
+    if em_kinks_cheat_jack == 0:
+        jump weekend1_saturday_work_begin
+
+    em_thoughts "Oh no I feel awful!"
+    em_thoughts "What did I do?"
+    em_thoughts "I think I would have cheated! I really wanted his... cock so badly.. I want it.. Just thinking about it makes me... Oh god.."
+    em_thoughts "I'm so horny, my legs are like jello.. I need cock.. A big hard one!"
+
+    em_thoughts "I really love [mc_name] but I can't get all these dirty fantasies away from my head after he showed me that movie "
+    em_thoughts "I had accepted sex won't be awesome with him, So I didn't think much about sex anymore.. I knew he had needs but I was hoping they would go away with time and we would just be a happy normal family.."
+    em_thoughts "But then he showed me that movie where their wives fucked huge cocks openly in front of their man and he got me that huge dildo showing me he wants me to be one of those wives.. How can he get off from that?"
+    em_thoughts "Any real man dreams about fucking girls hard and being the dominant one.. I think.. Maybe he doesn't because he knows he can never be that guy?"
+    em_thoughts "So he gets off from watching me get fucked by those alpha males?"
+    em_thoughts "It must be humiliating and shameful for him.. Does that make it better or worse?"
+    em_thoughts "I have to google cuckolding.. I want to understand him.."
+    em_thoughts "And I want to be fucked like those ladies.... Ahh.. I need to be fucked like them... "
+    em_thoughts "I don't think that dildo will be able to please me forever.. I want a big dominant guy to use me completely while [mc_name] is holding my hand and kissing me telling me how beautiful and sexy I am"
+    em_thoughts "But I don't want to hurt him!"
+    em_thoughts "Would I go so far that I would cheat on him??"
+    em_thoughts "I need to stop thinking about this!"
+    em_thoughts "Let's just find my phone?"
+
+    "Emily continued looking for it with shaky legs and panties so wet any man could smell her"
+
+
+label weekend1_saturday_work_begin:
+    scene bg 0317 with dissolve
+
+    em_thoughts "I wonder if it's in Jame's office?"
+    em_thoughts "..."
+    em_thoughts "Is that?"
+
+
+label scene0318:
+    scene bg 0318 with dissolve
+
+    em_thoughts "It is!"
+    em_thoughts "Oh no is he ok?"
+
+
+label scene0319:
+    scene bg 0319 with dissolve
+
+    "Emily was worried for James, remembering what day it is for him. But she didn't know what to do so she tiptoed close to him"
+
+    em "Hi!"
+    em "Hey!"
+    em "Wake up!"
+    em "Are you ok?"
+    em "Please!"
+    em "Hello?"
+
+
+label scene0320:
+    scene bg 0320 with dissolve
+
+    jm "Yawn*"
+    jm "Eyy god damn it"
+    jm "What? Who?"
+    jm "Lisa???"
+
+    em "No it's me! "
+    em "Emily.."
+    em "Your favorite girl.."
+
+    jm "Hick*"
+    jm "Oh hai there angel"
+    jm "Daddy's a little.. Ehhmm. "
+    jm "Where the hell am I??"
+
+    em "In your office.."
+
+    jm "Ohhh.. Fuck it!"
+    jm "Monday already bloody hell? "
+    jm "Heid doon arse up!"
+    jm "Chop chop! There's work to be done!"
+    jm "Emily can you please hick* get a coffee for me?"
+    jm "What clients do I have today??"
+
+    em "It's Saturday James!"
+    em "And I know why you are here drunk.."
+
+    jm "Hmph.."
+    jm "I was just... having one too many beer yesterday"
+    jm "You know how us scots needs our beer!"
+
+    em "You mean irish.."
+
+    jm "..."
+    jm "Aye.. Those red haired little bastards..."
+
+    em "I still think about her everyday James"
+    em "She was my best friend..."
+
+    "James goes completely silent and stares into the void looking completely defeated"
+
+    em "Is this where you disappear this day each year?"
+
+    jm "..."
+    jm "No"
+    jm "..."
+    jm "In her room.."
+
+    em "I'm sorry too James"
+    em "But you've been doing this for 20 years now.."
+    em "Do you think Lisa would want her dad to almost kill himself every year?"
+    em "No!"
+    em "She would slap you and tell you are silly!"
+    em "Then ask you nicely if you could cook her famous ice cream dinner.. "
+
+    jm "Chuckles*"
+    jm "Aye.. That's my girl allright"
+
+    "James gets up so fast Emilys brain only registers he's naked but without seeing any details"
+    "Then he drags her without Emily having any time to do anything"
+
+
+label scene0321:
+    scene bg 0321 with dissolve
+
+    jm "Come here bonnie!"
+
+    em "Eekk haha"
+    em "You sometimes call me Bonnie! "
+
+    jm "Aye!"
+
+    em "I want to know what it means you crazy old man!"
+
+    jm "Beautiful"
+
+    em "Ohh"
+    em "Awww that's sweet!"
+
+    jm "You bring back so many memories to me, You are my two favorite girls packaged into one!"
+
+    em "Lisa and...?"
+
+    jm "Her crazy mother..."
+    jm "What a wummin she was"
+    jm "Ye smell just like her..."
+    jm "That crazy wummin always called me daddy"
+    jm "Ohoho the stories I have..."
+
+    if em_loves_james == 1:
+        jump weekend1_saturday_emily_sits
+    else:
+        jump weekend1_saturday_emily_sits_not
+
+
+label weekend1_saturday_emily_sits:
+    "Suddenly Emily remembers how good she felt on Friday when James complimented her. Telling how good looking she was in pink.."
+    "How sexy her legs were... How it made her blush and the tingly feeling in her stomach.. How he wanted her to dress from that day"
+    "It's making her dizzy and even more horny.."
+    "She answers without hesitation and thought"
+
+    em "Ahh"
+    em "Tell me more daddy!"
+    em "I want to know!"
+
+
+label scene0322:
+    scene bg 0322 with dissolve
+
+    call wait_for_click
+
+    "That's when she feels it!"
+    "Something big and hard hits her lower back and keeps pressing her. Almost trying to force its way into her"
+    "The feeling of his naked and hard cock rubbing Emily's naked back is driving her wild with lust"
+
+    em "Ahhh daddy..."
+    em "I II iI i AHHH"
+    em "I have too"
+
+    "Emily manages to snap back into reality for a few seconds"
+
+    em "Clean!"
+    em "I have to clean the mess you made"
+
+    "Emily gets off his lap and starts to wipe the spilled alcohol under his sofa"
+
+
+label scene0323:
+    scene bg 0323 with dissolve
+
+    call wait_for_click
+
+#Emily
+    em "Oh you made such a mess down here!"
+#
+    "James gets up too slightly drunk, confused and horny"
+    "His hands move by themselves firmly grabbing Emily's ass"
+
+
+label scene0324:
+    scene bg 0324 with dissolve
+
+    call wait_for_click
+
+    "Without James thinking his firm grip is just ever so slightly pulling her cheeks apart making it easy for his big cock to firmly plant itself against her ass and anus"
+    "Emily's cleaning motions is making her butt move up and down giving them both pleasure"
+    "When Emily finally understand what's happening her mind becomes blank and she's lost again"
+    "She starts to press harder and harder down on his cock each time she goes down"
+    "Dragging her deeper and deeper into deep lust and away from reality"
+    "She can't take it anymore and turns around getting on her knees"
+
+
+label scene0325:
+    scene bg 0325 with dissolve
+
+    call wait_for_click
+
+    em "Oh god daddy"
+    em "It's so huge! "
+    em "My fingers can't even reach around it!"
+    em "I don't think it even fits into my mouth!"
+    em "Please daddy, you HAVE TO FUCK ME!"
+
+    "James slowly starts to realise what's happening and his brain starts to gain control over his giant cock"
+
+
+label scene0326:
+    scene bg 0326 with dissolve
+
+    call wait_for_click
+
+    "Emilys pussy has taken over her control and she jump up on James "
+    "She sits down hard on his cock and starts to rub and grind fast without any control. Her only thought is to get fucked and cum"
+
+    em "Ahh daddy"
+    em "I need you!"
+    em "Fuck me fuck me fuck me"
+    em "Ahhh ahhhh ahhhh"
+    em "Gaaaawwddd I want you inside me daddy"
+
+    "James automatically grabs her ass pressing it harder and harder to match her speed "
+
+    jm "Ahh!"
+    jm "Aye fuck"
+    jm "Ma heid’s mince girl!"
+
+    em "Just fuckkkk meee daddy!"
+
+
+label scene0327:
+    scene bg 0327 with dissolve
+
+    call wait_for_click
+
+    "James brain finally wins the battle over his cock"
+    "He gets up with Emily still griding and moaning"
+
+    em "Ohh daddy.."
+
+    jm "Bless ye woman, but this is wrong"
+    jm "I'm drunk and dreaming.. This never has happened"
+    jm "Sorry and see ye on Monday bonnie"
+
+    "With that he carries Emily out of his office and puts her down there then he goes back inside"
+
+    "Emily starts to walk back to the lobby horny and confused"
+
+
+label scene0328:
+    scene bg 0328 with dissolve
+
+    em_thoughts "What is happening to me?"
+    em_thoughts "Why am I so fucking horny?"
+    em_thoughts "Oh my god I fucking need to get fucked now!!!!!!"
+
+    "She leans agains the wall with her hand going inside her panties"
+
+
+label scene0329:
+    scene bg 0329 with dissolve
+
+    em_thoughts "It's so warm and wet"
+    em_thoughts "I can't go on like this, I have to cum!"
+    em_thoughts "Mmm Jame's big sexy cock deep inside me"
+
+    "She is so wet she slams 2 fingers deep inside her without any trouble. Then a third.."
+    "The sounds of flesh slapping hard against wet skin creates lewd and loud echoes through the building while she only keeps fucking herself harder and harder"
+    "She's fucking herself so hard it hurts a bit, but that pain only makes it better right now"
+    "Finally her legs give up and she slams down screaming in orgasm"
+
+
+label scene0330:
+    scene bg 0330 with dissolve
+
+    em "Nhgggaaa AHHHHHHH"
+    em "OHHHHHH YESSSSSSSSSSSSSSSSSSSS"
+    em "Fuuccckkkkkkkkkk"
+
+    "Some time passes and Emily is still sitting on the floor resting against the wall breathing hard with her hand covering her still pulsating pussy while she's trying to recover "
+    "Her pussy just keeps pulsating and twitching giving her mini orgasms after orgasm. Making her violently shake and moan"
+
+    em "Oh my goddddd"
+
+    "?" "HEY THERE BABY! "
+    "?" "I'VE BEEN LOOKING FOR YOUUUU!"
+
+    "That loud voice scares and shocks Emily making her pussy twitch hard again giving her another mini orgasm"
+
+    em "Ngghhh"
+    em "Ahhhhhhh"
+
+
+label scene0331:
+    scene bg 0331 with dissolve
+
+    "Emily finally manages to look up"
+
+    g "Hey baby!"
+    g "What's happening to you?"
+
+    em_thoughts "Oh no!"
+    em_thoughts "That's Gabby, my best friend"
+    em_thoughts "She's home from Brazil?"
+    em_thoughts "What a shitty timing!"
+    em_thoughts "How do I explain this??"
+
+    em "Hiiiiii Gabby!!"
+    em "I.. Uhh.. Ehmmm..."
+
+    # weekend1.ks; line 1215
+
+
+label weekend1_saturday_emily_sits_not:
+    $ mc_cuckpoints -= 2
+    scene bg work_wife_lobby_day with dissolve
+    show bg 0331a
+
+    g "HIII BABY!"
+
+    # weekend1.ks; line 1427
