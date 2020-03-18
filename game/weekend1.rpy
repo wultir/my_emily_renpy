@@ -865,7 +865,7 @@ label scene0323:
 
     call wait_for_click
 
-#Emily
+
     em "Oh you made such a mess down here!"
 #
     "James gets up too slightly drunk, confused and horny"
@@ -1002,14 +1002,392 @@ label scene0331:
     em "Hiiiiii Gabby!!"
     em "I.. Uhh.. Ehmmm..."
 
-    # weekend1.ks; line 1215
+    show bg work_wife_lobby_day with dissolve
+    show gabriela 032A with dissolve
+
+    call wait_for_click
+
+    g "Schhh!"
+    g "I can smell it!"
+    g "What happened baby?"
+    g "I can understand the excitement  of doing it in public.."
+    g "But that's soooo not like you!"
+
+    g "You are still with [mc_name] right?"
+
+    em "Oh god... Yes..."
+
+    "The reality is starting to sink in hard on Emily and what she's done"
+    "Tears start to form in her eyes"
+
+    hide gabriela with dissolve
+    pause 0.5
+
+
+label scene0332:
+    scene bg 0332 with dissolve
+
+    call wait_for_click
+
+    g "Baby..."
+    g "It's ok.. We all need excitement in our lives from time to time.."
+    g "Hey!"
+    g "Remember when we were younger and you caught me jerking off my mom's dog..."
+
+    em "Hahah eeeeww"
+    em "Yeah how could I forget? "
+
+
+label scene0333:
+    scene bg 0333 with dissolve
+
+    call wait_for_click
+
+    g "That's what friends are for!"
+    g "To get caught by their friends in embarrassing moments they can't possibly explain haha"
+
+    em "Haha!"
+    em "But why the dog Gab?"
+
+    g "Did you see the size on him?"
+    g "He always burried his nose between my legs, always humped me, always licking me everywhere on my body with clothes on.."
+    g "He always got a hard on when he saw me and followed me everywhere.."
+    g "One day I was alone in the house and I was super horny and I wanted to experiment..."
+    g "Then you came... And I lost a couple months of sleep haha"
+
+    em "Awww I'm sorry baby"
+    em "But ewwwww Gab!!!"
+
+    g "Hey don't mock it untill you've tried it!"
+    g "They are like beasts when it comes to fucking"
+    g "They take what they want and they do it hard and brutally"
+
+    em "Gabbbbbb eeewww"
+
+    g "Besides I think mom had trained him..."
+
+    em "GAAABBBBB!!!"
+
+    g "Haha sorry you little virgin princess!"
+    g "Here let me help you up"
+
+    scene bg work_wife_lobby_day with dissolve
+
+    show gabriela 033A with dissolve
+
+    call wait_for_click
+
+    "Gabby drags you up to your feet"
+
+    g "But why would you be here all alone masturbating on a saturday?"
+
+    em "..."
+    em "I came here to pick up my phone.."
+
+    g "Yeah I know! I've called you so many times since yesterday when I got back home so I called [mc_name] "
+    g "And he told me where to find you"
+    g "But why did you start to masturbate alone? Did something happen?"
+
+    em "I ehh... I'm not alone.. "
+    em "James is in his office.."
+
+    g "WHAT?"
+    g "OH MY GOD! Did you cheat on [mc_name] ?"
+
+    em "NO!"
+    em "I don't know..."
+
+    g "Did you have sex with him?"
+
+    em "No"
+
+    g "Did you have oral sex with him?"
+
+    em "No"
+    em "But I think I tried.."
+    em "Or I would have if James would have wanted.."
+
+    g "But you didn't!"
+    g "That's what matters baby"
+    g "Nothing happened but you can't tell  [mc_name] about this"
+    g "It would just make him super jealous and break his heart"
+
+    em "Yeah I guess you are right"
+    em "He doesn't know about this and it should stay like that"
+    em "I won't do it again!"
+
+    g "Good!"
+    g "So..."
+    g "You just saw your boss and got so horny you came out here to rub it off?"
+
+    em "Noo.. I didn't know he was here!"
+    em "I came here... little... horny.. already looking for my phone"
+    em "So I walked into his office and there he was naked.."
+    em "You know it's Lisa day today.."
+
+    g "Oh yeah.. "
+    g "Poor guy!"
+    g "Go on..."
+
+    em "So there he was and he thought I was Lisa at first"
+    em "But I told him it's me and that I miss her too... "
+    em "He wanted to hug me after that so he dragged me into his lap.."
+
+    g "Oh my god!"
+    g "And you felt his cock?"
+
+    em "Yeah..."
+    em "I felt it become hard and he said something about me reminding him about Lisa's mother and that she used to call him daddy.."
+    em "Then his... cock and smell and grip.. And everything made me so horny I kinda lost track of everything and started calling him daddy.."
+
+    g "Pussy power.. It's a dangerous tool that can consume your mind in seconds haha"
+
+    em "Yes just oh my god! It totally did!"
+    em "I was so horny Gabby! I would have done anything.."
+    em "At one point I was on my knees grabbing his cock I think.. Then I was on his lap grinding like a possessed..  crazy bitch..."
+    em "But he said it's a mistake or something and carried me outside.. And.. you saw the rest.."
+
+    g "Wow"
+    g "He's a true gentleman"
+    g "Was his body hot? Is he big? Is he single?"
+
+    em "Oh.. mmm.."
+    em "He has like the perfect daddy body and I've never seen a cock that big!"
+
+    g "Is he much bigger than [mc_name] ?"
+
+    em "YES!"
+    em "[mc_name] Is like 10-12cm.. On a good day maybe.. James was like 20 maybe? "
+    em "And my fingers couldn't even reach around his.. cock!"
+
+    g "Hihi"
+    g "Yeah I always imagined him as a smaller guy"
+    g "And I totally understand your big cock kink.. It's just natural for us.."
+    g "We want the most dangerous biggest and tallest muscular hot guy with the biggest cock who can shoot a huge amount of potent cum deep inside us"
+    g "Just like they want the thinnest submissive princesses with the biggest boobs and asses to impregnate our tight little pussies"
+    g "It's all hard wired into us for evolution and survival"
+
+    "The both of you kept talking for a while until you both decided to leave"
+
+    jump weekend1_saturday_back_home
 
 
 label weekend1_saturday_emily_sits_not:
     $ mc_cuckpoints -= 2
     scene bg work_wife_lobby_day with dissolve
-    show bg 0331a
+    pause 0.5
+    show bg 0331a with dissolve
 
     g "HIII BABY!"
 
-    # weekend1.ks; line 1427
+    em "OH MY GOD GABBY!!!!!!"
+    em "I didn't know my best friend had come home from Brazil yet!"
+
+    scene bg work_wife_lobby_day with dissolve
+
+    show gabriela 032A with dissolve
+
+    call wait_for_click
+
+    g "I KNOW!"
+    g "I've tried to call you so many times so today I called [mc_name] and he told me where to find you!"
+
+    em "Aww sorry. I've been looking for it!"
+
+    g "So what's up with you? Anything new?"
+
+    "The both of you kept talking for a while until you both decided to leave"
+
+
+label weekend1_saturday_back_home:
+    scene bg black with dissolve
+
+    "Some time later you both arrive home at you"
+
+    scene bg house01_entry_day with dissolve
+
+    show gabriela 035 with dissolve
+
+    call wait_for_click
+
+    "Gabriela kisses and hugs Emily before leaving"
+
+    g "It was wonderful to see you again baby!"
+    g "Now that I'm back home we need to do lots of things!"
+    g "Tanning, swimming, drinking, shopping, gossipping"
+    g "Ohhh and training!!"
+    g "We need to finally do it! We always talked about it Em!"
+    g "I know the perfect gym!"
+
+    em "Haha yeah I guess you are right!"
+    em "Ok if you do it, then I'll do it!"
+
+    g "YES!"
+    g "We are gonna shock the world with our sexy asses when we are done!!"
+
+    em "Hahaha"
+
+    mc "Ohh can't wait to see them"
+    mc ".."
+    mc "I mean.. "
+    mc "I love your ass"
+    mc "EMILYS"
+    mc "Like I just..."
+    mc "I'll shut up"
+
+    "Emily & Gabriela" "Hahahahahahaha"
+
+    g "So you don't like my ass?"
+    g "What's wrong with it?"
+    g "Touch it!"
+
+    mc "..."
+    mc "Ehm Its like I mean I like that, just like i like Emilys.. Which I prefer... If you would..."
+    mc "What was the question again?"
+    mc "Fuck it's so hot today.."
+    mc "Sunny! I need a cold drink"
+    mc "Alcohol!"
+    mc "Do we have it baby?"
+    mc "I love you!"
+
+    g "Haha"
+
+    em "Stop teasing the poor guy haha"
+
+    show gabriela 036 with dissolve
+
+    g "Haha awwww I love teasing him!"
+
+    "Gabriela grabs Emily's breasts"
+
+    g "I'll go and fix the gym membership for us"
+
+    em "No no, I can't let you do that!"
+
+    g "Don't worry! I know the owner so it's free!"
+
+    show gabriela 037 with dissolve
+
+    g "And you!"
+
+    "She gets you close for a hug and kiss on the cheek"
+    "You feel her big breasts pressing against you and you can only hope she won't feel your small but hard cock"
+
+    g "Don't be shy..You can touch it! "
+
+    mc "Aiiii don't know what to say"
+
+    g "Haha"
+    g "Good!"
+    g "It was good seeing you too!"
+    g "Maybe you can join us at the gym?"
+
+    em "I would love that!"
+
+    g "That's decided then"
+    g "See you guys later!"
+    g "Love you!"
+
+    mc "Bai bai"
+
+    em "Bye, love you too!"
+
+    hide gabriela with dissolve
+    pause 0.5
+
+    "You and Emily spent the rest of the day doing nothing at all. Just the normal lazy day stuff"
+
+    scene bg house01_bedroom_night with dissolve
+
+    "Soon it was late already and you both went to sleep"
+
+    mc "Good night baby"
+
+    em "Good night babe"
+
+    scene bg black with dissolve
+
+    pause 0.5
+
+    if em_kinks_cheat_jack == 0 and em_loves_james == 0:
+        jump weekend1_sunday
+
+
+label weekend1_saturday_sad_emily:
+    scene bg 0334 with dissolve
+
+    call wait_for_click
+
+    "Crying*"
+
+    em_thoughts "God what did I do today?"
+    em_thoughts "I'm such a slut!!"
+    em_thoughts "How could I do that? I love [mc_name] so much!"
+    em_thoughts "Thank god I actually didn't do anything... But I would have.. I think"
+
+
+label weekend1_saturday_jack_cheat:
+    $ mc_cuckpoints += 1
+
+    em_thoughts "Jack must think I'm just a big cheating slut.. I really wanted to suck him.. Am I attracted sexually only to big guys?"
+    em_thoughts "Is that a kink? Or am I just simply a slut?"
+    em_thoughts "I hope he thinks I was just teasing him like a friend..."
+    em_thoughts "My babe's small body and sexy ass turns me on so much,, but a big manly man just makes my leg weak and my pussy so wet... I just want to get taken by him any way possible at that point"
+    em_thoughts "Why???"
+    em_thoughts "And"
+
+    if em_loves_james == 0:
+        jump weekend1_saturday_em_crying
+
+
+label weekend1_saturday_james_cheat:
+    $ mc_cuckpoints += 1
+
+    em_thoughts "James..."
+    em_thoughts "Oh my fucking god!"
+    em_thoughts "I touched him!"
+    em_thoughts "I was so close to fucking him.. I wanted too.."
+    em_thoughts "I needed to fuck him.."
+    em_thoughts "Oh no.. "
+    em_thoughts "What will happen next time we meet?"
+    em_thoughts "I can only hope he was too drunk to remember.."
+    em_thoughts "Gab is right! I can never tell what happened today.."
+
+
+label weekend1_saturday_em_crying:
+    scene bg 0335 with dissolve
+
+    call wait_for_click
+
+    em "Sniff sniff"
+
+    "You wake up by strange sounds and movements in your bed"
+    "You turn your cell phone light on and try to figure out what's happening"
+
+    mc "Baby?"
+    mc "Are you crying?"
+    mc "What's wrong?"
+
+    em "Nn nothing"
+    em "..."
+    em "I just love you!"
+    em "You know that right??"
+    em "I really love you!"
+
+    mc "Of course baby.. "
+    mc "I love you too!"
+    mc "Are you sure you are ok?"
+    mc "Can I do anything?"
+
+    em "Awww no babe"
+    em "I just.. I guess it's that time.. You know.."
+    em "I'm just full of emotions... But I'm not pregnant.. Don't worry.. Haha"
+
+    mc "Haha okay"
+    mc "Come here baby!"
+
+    "You snuggle up and soon you both fall asleep"
+
+
+label weekend1_sunday:
+    "The end for now..."

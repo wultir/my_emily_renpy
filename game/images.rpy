@@ -317,6 +317,11 @@ image tv whitew6 = "fgimage/chara/8/TV_Whitewtv6.png"
 image tv whitew7 = "fgimage/chara/8/TV_Whitewtv7.png"
 image tv whitew8 = "fgimage/chara/8/TV_Whitewtv8.png"
 
+image gabriela 032A = "fgimage/chara/10/Gabriela032A.png"
+image gabriela 033A = "fgimage/chara/10/Gabriela033A.png"
+image gabriela 035 = "fgimage/chara/10/Gabriela035.png"
+image gabriela 036 = "fgimage/chara/10/Gabriela036.png"
+image gabriela 037 = "fgimage/chara/10/Gabriela037.png"
 
 transform zoom800x600:
     zoom 2.4
