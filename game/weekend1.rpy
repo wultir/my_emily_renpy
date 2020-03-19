@@ -1390,4 +1390,360 @@ label weekend1_saturday_em_crying:
 
 
 label weekend1_sunday:
-    "The end for now..."
+    scene bg black with dissolve
+    show text "Day 4 Sunday" at topright with dissolve
+
+    pause 2.0
+
+    hide text with dissolve
+
+label scene0401:
+    scene bg 0401 with dissolve
+
+    "So far Sunday has been like Saturday.. Just a lazy day together with the love of your life"
+    "Once again you both are watching tv"
+
+
+label scene04tstv2:
+    scene bg 04tstv2 with dissolve
+
+    em "Babe I found something the other day that made me curious.."
+    em "I wanted to watch it with you so..."
+    em "I kinda recorded it.."
+
+    mc "Nice.. What is it?"
+
+    em "It's.."
+    em "Eehh. Hmmm..Well..."
+    em "It's porn.."
+
+    mc "Haha sure baby.."
+    mc "..."
+    mc "Wait... Are you serious?"
+
+    em "Yes I am!"
+    em "This is embarrassing already.. Can we just watch it?"
+
+    mc "Hell yeah!"
+
+    "Emily takes the remote and presses Play"
+
+
+label scene04tstv1:
+    scene bg 04tstv1 with dissolve
+
+    call wait_for_click
+
+    show tv 04trans1 at top with dissolve
+
+    call wait_for_click
+
+    show tv 04trans2 at top with dissolve
+
+    call wait_for_click
+
+    mc "..."
+    mc "Woooah!"
+    mc "Baby..."
+    mc "That's a shemale with a man..."
+    mc "And I think that shemale is about to fu..."
+
+    em "Schhhhh!"
+    em "Or would you rather go to bed and miss our Sunday?"
+
+    menu:
+        "{color=[red_choice]}Eww Hell no. Good night!{/color}":
+            jump weekend1_sunday_hell_no
+        "{color=[pink_choice]}Continue with the shemale porn{/color}":
+            jump weekend1_sunday_continue_shemale
+
+
+label weekend1_sunday_hell_no:
+    $ mc_cuckpoints -= 2
+
+    "Emily looks upset"
+    "The rest of the evening isn't that great"
+    "You feel like a biggot"
+
+    hide tv with dissolve
+    pause 0.5
+
+
+label weekend1_sunday_continue_shemale:
+    $ mc_cuckpoints += 1
+    
+    show tv 04trans3 at top with dissolve
+
+    "You both watch as the shemale spits into the man's asshole to lubricate it then how she starts to finger him"
+
+    show tv 04trans4 at top with dissolve
+
+    ms "That's a good boy slut!"
+    ms "Your asshole is so tight but soon it's going to be loose after I fuck you with my massive cock"
+    ms "Are you ready slut?"
+
+    mss "Ahhh... yes.."
+
+    show tv 04trans5 at top with dissolve
+
+    ms "Are you sure?"
+    ms "Let me just spank your cute little gay ass before I destroy you"
+
+    "Slap Slap SLAP"
+
+    mss "Ahh Ahhh AOOUUUU"
+
+    show tv 04trans6 at top with dissolve
+
+    ms "Good fuck whore.."
+    ms "Get ready bitch!"
+
+    "You watch as the shemale starts to press hard but it won't go in"
+    "The man starts to moan and whimper from pain and maybe pleasure too?"
+
+    show tv 04trans7 at top with dissolve
+
+    "The shemale spits again a couple times and start to finger him harder this time.. She continues to spit and adds another finger"
+    "After a minute or so she stops and speaks"
+
+    ms "That's enough!"
+    ms "I'm going to fuck you now whether you want it or not"
+    ms "Crying will just make me harder and fuck you harder so shut the fuck up or cry you stupid fucking gay bitch"
+
+    show tv 04trans8 at top with dissolve
+
+    "SMACK"
+
+    "She enters him hard in one hard push"
+
+    mss "AHH AIIIII AOOUUUUU PLEASE...."
+
+    "He starts crying from the sudden and hard intrusion"
+
+    ms "Shut the fuck up!"
+    ms "I'll give you a few seconds to relax..."
+
+
+label weekend1_sunday_movie_starts:
+    $ renpy.movie_cutscene("video/MovieTranny1.webm")
+
+    menu:
+        "See again (repeat)": # TODO: Should be black
+            jump weekend1_sunday_movie_starts
+        "Move on": # TODO: Should be black
+            jump weekend1_sunday_movie_ends
+
+
+label weekend1_sunday_movie_ends:
+    show tv 04trans9 at top with dissolve
+
+    "She speeds up her fucking to brutally fast and hard after some seconds"
+    "After 10 minutes of tears, moans and brutal fucking she goes ball deep inside his ass and fills it with cum"
+
+    ms "How did it feel to lose your manliness bitch?"
+    ms "You are a fucking gay sissy now.. Got it??"
+    ms "Will you wait for my call to get fucked again?"
+
+    mss "It hurt but felt great.."
+    mss "Yes mistress I'm a gay sissy now.. I will wait for your call"
+
+    ms "Good gay boy"
+    ms "Now piss off"
+
+    "The man runs away"
+    "She turns to the camera showing her big cum dripping cock and starts to laugh before the movie ends"
+
+    ms "He won't be able to sit for a few days now.. Good luck trying to act all manly home and at your work now.."
+    ms "Who should I break next?"
+
+    hide tv with dissolve
+    pause 0.5
+
+    show bg 04tstv2 with dissolve
+
+    "You can tell from Emily's breathing she's horny now"
+
+    em "..."
+    em "That's so..."
+    em "Wow..."
+    em "I want to see a shemale in real life.."
+
+    mc "Omg why? What would you do?"
+
+    em "I dunno. I just want to talk and see what happens"
+
+    "You feel jealous but curious at the same time.. Your little dick feels horny. Really horny"
+
+    em "I think they are super pretty and sexy"
+    em "Aren't you curious about them like I am?"
+
+    menu:
+        "{color=[pink_choice]}I think I'm maybe? I've never seen one{/color}":
+            jump weekend1_sunday_curious_yes
+        "{color=[red_choice]}No. Let's just continue our day and then go to bed{/color}":
+            jump weekend1_sunday_curious_no
+
+
+label weekend1_sunday_curious_no:
+    $ mc_cuckpoints -= 1
+
+    jump weekend1_sunday_sleep
+
+
+label weekend1_sunday_curious_yes:
+    $ mc_cuckpoints += 1
+
+    scene 0401 with dissolve
+
+    "Emily starts to softly stroke your thigh"
+
+    em "I'm so fucking horny babe"
+    em "We could maybe go to the red light district some night and try to find one we can... rent for a little time?"
+
+    mc "..."
+    mc "Are you really serious now?"
+    mc "I don't know if I'm ready to see you getting... being with another person..."
+    mc "Yet..?"
+
+    em "Yes I'm serious!"
+    em "One of my sexual fantasies is..."
+    em "To.."
+    em "Please don't get mad.."
+    em "I want to see you on your knees jerking her big cock off..."
+
+    "You can't believe what came out from her mouth and you feel dizzy"
+
+    mc "..."
+    mc "I dont kno.. What did yo.."
+    mc "WHAT?"
+
+    em "Please babe"
+    em "Would you do that for me?"
+    em "That would make me so fucking horny.."
+    em "Could you at least think about it?"
+
+    mc "..."
+
+    menu:
+        "{color=[red_choice]}No no no. I'm sorry but I just can't{/color}":
+            jump weekend1_sunday_no_trans
+        "{color=[pink_choice]}I..would do anything for you baby...{/color}":
+            jump weekend1_sunday_promise_trans
+
+label weekend1_sunday_promise_trans:
+    $ mc_cuckpoints += 2
+
+    em "Ahh"
+    em "Anything?"
+    em "What a good boy you are!"
+    em "Wait here while I get something for us.."
+
+    "Emily turns around and puts her hand on your pants where your rock hard little dick is"
+    "She pushes herself up by pressing on it with her whole weight making you groan in pain and pleasure"
+    "Her face comes close to yours and she has a mysterious but sexy smile then she gives your lips a soft bite and kiss before she runs off to the bedroom"
+
+    jump weekend1_sunday_dildo_time
+
+
+label weekend1_sunday_no_trans:
+    $ mc_cuckpoints += 2
+
+    em "Awww what a shame.."
+    em "But I respect that.."
+    em "Let's just forget this and go on with our Sunday"
+
+    "You continued your lazy day until it was time to go to sleep"
+
+    jump weekend1_sunday_sleep
+
+
+label weekend1_sunday_dildo_time:
+    if inventory_dildo == "white":
+        jump weekend1_sunday_white_dildo_sofa
+    if inventory_dildo == "black":
+        jump weekend1_sunday_black_dildo_sofa
+
+
+label weekend1_sunday_sleep:
+    hide tv with dissolve
+
+    if mc_cuckpoints < 15:
+        jump weekend1_sunday_game_over
+
+
+label weekend1_sunday_no_game_over:
+    if mem_short_player == "candy":
+        jump weekend1_sunday_candy
+    
+    scene bg house01_entry_night with dissolve
+
+    "Sunday was coming to a end and Emily had already gone to bed while you went to pee"
+    "You were walking back to the bedroom wondering if you did everything right tonight?"
+
+
+label scene0447a:
+    scene bg 0447a with dissolve
+    call wait_for_click
+
+    mc_thoughts "Aww she already fell asleep.."
+    mc_thoughts "Well good night my sweet ass hehe"
+    mc_thoughts "Love your ass and you!"
+
+    scene bg black with dissolve
+
+    "After you turned the lights off and snuggled together with Emily she says in a tired voice"
+
+    em "Babe.."
+    em "We should join that game thing.. Just to see what will happen and we'll leave if it becomes too much.."
+
+    mc "Aa are you sure babe?"
+
+    em "I'm just little curious.. "
+    em "Let's try it?"
+
+    mc "Oh okay babe"
+    mc "Love you!"
+
+    em "Good night babe"
+
+    jump day5_start
+
+
+label weekend1_sunday_candy:
+    scene bg house01_entry_night with dissolve
+
+    "Sunday was coming to a end and Emily had already gone to bed while you went to pee"
+    "You were walking back to the bedroom wondering if you did everything right tonight?"
+    "Maybe you did? Or maybe you didn't? "
+    "But suddenly you remember about the candy bar you bought a couple of days ago"
+    "You walk to the kitchen and take it with you to the bedroom to surprise Emily"
+
+
+label scene0447:
+    scene 0447 with dissolve
+    call wait_for_click
+
+    mc_thoughts "Wow"
+    mc_thoughts "I'll just place it here, she'll see it when she wakes up"
+    mc_thoughts "Haha I know she won't be able to keep her hands away from it!"
+    mc_thoughts "And I have a hard time keeping my hands off her sexy ass..."
+    mc_thoughts "Good night baby..."
+
+    scene bg black with dissolve
+
+    "After you turned the lights off and snuggled together with Emily she says in a tired voice"
+
+    em "Babe.."
+    em "We should join that game thing.. Just to see what will happen and we'll leave if it becomes too much.."
+
+    mc "Aa are you sure babe?"
+
+    em "I'm just little curious.. "
+    em "Let's try it?"
+
+    mc "Oh okay babe"
+    mc "Love you!"
+
+    em "Good night babe"
+
+    jump day5_start

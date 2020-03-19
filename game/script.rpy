@@ -72,6 +72,8 @@ define mw = Character("Wife")
 define mh = Character("Husband")
 define mb = Character("Black bull")
 define mwb = Character("White bull")
+define ms = Character("Shemale")
+define mss = Character("Slut")
 
 define mem_chloe_name = ""
 define mem_emily_color = ""

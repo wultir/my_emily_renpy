@@ -158,6 +158,17 @@ image bg 0333 = "bgimage/003/0333.jpg"
 image bg 0334 = "bgimage/003/0334.jpg"
 image bg 0335 = "bgimage/003/0335.jpg"
 
+image bg 0401 = "bgimage/004/0401.jpg"
+image bg 04tstv1 = "bgimage/004/04tstv1.jpg"
+image bg 04tstv2 = "bgimage/004/04tstv2.jpg"
+image bg 0445a = "bgimage/004/0445a.jpg"
+image bg 0445b = "bgimage/004/0445b.jpg"
+image bg 0446a = "bgimage/004/0446a.jpg"
+image bg 0446b = "bgimage/004/0446b.jpg"
+image bg 0447 = "bgimage/004/0447.jpg"
+image bg 0447a = "bgimage/004/0447a.jpg"
+
+
 image bg pc = "bgimage/PC/PC_BG_00_Day.jpg"
 
 image bg black = "bgimage/Backgrounds/Black.jpg"
@@ -170,6 +181,7 @@ image bg house01_entry_day = "bgimage/Backgrounds/BG_House_01_Entry_Day.jpg"
 image bg house01_entry_night = "bgimage/Backgrounds/BG_House_01_Entry_Night.jpg"
 image bg house01_ext_day = "bgimage/Backgrounds/BG_House_01_Ext_Day.jpg"
 image bg house01_ext_night = "bgimage/Backgrounds/BG_House_01_Ext_Night.jpg"
+image bg house01_living_day = "bgimage/Backgrounds/BG_House_01_Living_Day.jpg"
 image bg house01_living_night = "bgimage/Backgrounds/BG_House_01_Living_Night.jpg"
 
 image bg work_wife_lobby_day = "bgimage/Backgrounds/BG_Work_Wife_Lobby_Day.jpg"
@@ -240,6 +252,85 @@ image emily sex_09B = "fgimage/chara/2/Wife_01_Sex_09B.png"
 image emily sex_10A = "fgimage/chara/2/Wife_01_Sex_010A.png"
 image emily sex_10B = "fgimage/chara/2/Wife_01_Sex_010B.png"
 
+image emily 0401a = "fgimage/chara/2/0401a.png"
+image emily 0402a = "fgimage/chara/2/0402a.png"
+image emily 0402b = "fgimage/chara/2/0402b.png"
+image emily 0403a = "fgimage/chara/2/0403a.png"
+image emily 0403b = "fgimage/chara/2/0403b.png"
+image emily 0404 = "fgimage/chara/2/0404.png"
+image emily 0405 = "fgimage/chara/2/0405.png"
+image emily 0406 = "fgimage/chara/2/0406.png"
+image emily 0407 = "fgimage/chara/2/0407.png"
+image emily 0408 = "fgimage/chara/2/0408.png"
+image emily 0409 = "fgimage/chara/2/0409.png"
+image emily 0410 = "fgimage/chara/2/0410.png"
+image emily 0411 = "fgimage/chara/2/0411.png"
+image emily 0412 = "fgimage/chara/2/0412.png"
+image emily 0413 = "fgimage/chara/2/0413.png"
+image emily 0414 = "fgimage/chara/2/0414.png"
+image emily 0415 = "fgimage/chara/2/0415.png"
+image emily 0416a = "fgimage/chara/2/0416a.png"
+image emily 0416b = "fgimage/chara/2/0416b.png"
+image emily 0417a = "fgimage/chara/2/0417a.png"
+image emily 0417b = "fgimage/chara/2/0417b.png"
+image emily 0418a = "fgimage/chara/2/0418a.png"
+image emily 0418b = "fgimage/chara/2/0418b.png"
+image emily 0419a = "fgimage/chara/2/0419a.png"
+image emily 0419b = "fgimage/chara/2/0419b.png"
+image emily 0420a = "fgimage/chara/2/0420a.png"
+image emily 0420b = "fgimage/chara/2/0420b.png"
+image emily 0421a = "fgimage/chara/2/0421a.png"
+image emily 0421b = "fgimage/chara/2/0421b.png"
+image emily 0422a = "fgimage/chara/2/0422a.png"
+image emily 0422b = "fgimage/chara/2/0422b.png"
+image emily 0423a = "fgimage/chara/2/0423a.png"
+image emily 0423b = "fgimage/chara/2/0423b.png"
+image emily 0424a = "fgimage/chara/2/0424a.png"
+image emily 0424b = "fgimage/chara/2/0424b.png"
+image emily 0425b = "fgimage/chara/2/0425b.png"
+image emily 0425a = "fgimage/chara/2/0425a.png"
+image emily 0426a = "fgimage/chara/2/0426a.png"
+image emily 0426b = "fgimage/chara/2/0426b.png"
+image emily 0427a = "fgimage/chara/2/0427a.png"
+image emily 0427b = "fgimage/chara/2/0427b.png"
+image emily 0428a = "fgimage/chara/2/0428a.png"
+image emily 0428b = "fgimage/chara/2/0428b.png"
+image emily 0429 = "fgimage/chara/2/0429.png"
+image emily 0429a = "fgimage/chara/2/0429a.png"
+image emily 0429b = "fgimage/chara/2/0429b-min.png"
+image emily 0430a = "fgimage/chara/2/0430a.png"
+image emily 0430b = "fgimage/chara/2/0430b-min.png"
+image emily 0431a = "fgimage/chara/2/0431a.png"
+image emily 0431b = "fgimage/chara/2/0431b.png"
+image emily 0432a = "fgimage/chara/2/0432a.png"
+image emily 0432b = "fgimage/chara/2/0432b.png"
+image emily 0433 = "fgimage/chara/2/0433.png"
+image emily 0434 = "fgimage/chara/2/0434.png"
+image emily 0435 = "fgimage/chara/2/0435.png"
+image emily 0436 = "fgimage/chara/2/0436.png"
+image emily 0437 = "fgimage/chara/2/0437.png"
+image emily 0438 = "fgimage/chara/2/0438.png"
+image emily 0439 = "fgimage/chara/2/0439.png"
+image emily 0440 = "fgimage/chara/2/0440.png"
+image emily 0441 = "fgimage/chara/2/0441.png"
+image emily 0442 = "fgimage/chara/2/0442.png"
+image emily 0443 = "fgimage/chara/2/0443.png"
+image emily 0444 = "fgimage/chara/2/0444.png"
+
+
+image emily 04_wdildo_sofa:
+    "fgimage/default/Animation/04WDildoSofa/04WDildoSofa1.webp"
+    pause 0.4
+    "fgimage/default/Animation/04WDildoSofa/04WDildoSofa2.webp"
+    pause 0.4
+    repeat
+
+image emily 04_bdildo_sofa:
+    "fgimage/default/Animation/04BDildoSofa/04BDildoSofa1.webp"
+    pause 0.4
+    "fgimage/default/Animation/04BDildoSofa/04BDildoSofa2.webp"
+    pause 0.4
+    repeat
 
 image pc tb_01:
     "fgimage/chara/3/PC_Screen_TB_01.png"
@@ -317,6 +408,16 @@ image tv whitew6 = "fgimage/chara/8/TV_Whitewtv6.png"
 image tv whitew7 = "fgimage/chara/8/TV_Whitewtv7.png"
 image tv whitew8 = "fgimage/chara/8/TV_Whitewtv8.png"
 
+image tv 04trans1 = "fgimage/chara/8/TV04Trans1.png"
+image tv 04trans2 = "fgimage/chara/8/TV04Trans2.png"
+image tv 04trans3 = "fgimage/chara/8/TV04Trans3.png"
+image tv 04trans4 = "fgimage/chara/8/TV04Trans4.png"
+image tv 04trans5 = "fgimage/chara/8/TV04Trans5.png"
+image tv 04trans6 = "fgimage/chara/8/TV04Trans6.png"
+image tv 04trans7 = "fgimage/chara/8/TV04Trans7.png"
+image tv 04trans8 = "fgimage/chara/8/TV04Trans8.png"
+image tv 04trans9 = "fgimage/chara/8/TV04Trans9.png"
+
 image gabriela 032A = "fgimage/chara/10/Gabriela032A.png"
 image gabriela 033A = "fgimage/chara/10/Gabriela033A.png"
 image gabriela 035 = "fgimage/chara/10/Gabriela035.png"
@@ -342,5 +443,11 @@ init python:
         d = dynamic_animation(st, "fgimage/default/Animation/transsnow/transsnow", 241, 3, 0.05)
         return At(d, zoom800x600), 0.05
 
+    def white_dildo_animation(st, at):
+        d = dynamic_animation(st, "fgimage/default/Animation/04WDildoSofa/04WDildoSofa", 2, 1, 0.05)
+        return d, 0.75
+
+
 image waiting = DynamicDisplayable(waiting_animation)
 image transsnow = DynamicDisplayable(transsnow_animation)
+#image emily 04_wdildo_sofa = DynamicDisplayable(white_dildo_animation)
