@@ -1468,6 +1468,8 @@ label weekend1_sunday_hell_no:
     hide tv with dissolve
     pause 0.5
 
+    jump weekend1_sunday_sleep
+
 
 label weekend1_sunday_continue_shemale:
     $ mc_cuckpoints += 1
@@ -1666,6 +1668,9 @@ label weekend1_sunday_dildo_time:
 
 label weekend1_sunday_sleep:
     hide tv with dissolve
+    pause 0.5
+
+    scene bg black with dissolve
 
     if mc_cuckpoints < 15:
         jump weekend1_sunday_game_over
