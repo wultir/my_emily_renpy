@@ -9,28 +9,28 @@ define mg = Character("Message from god")
 define god = Character("God")
 
 # Main character
-define mc_cuckpoints = 0
-define mc_kinks_black = 0
-define mc_kinks_give_anal = 0
-define mc_kinks_sph = 0
-define mc_kinks_pee = 0
-define mc_kinks_penis = 0
-define mc_kinks_exhibit = 0
-define mc_kinks_cum = 0
-define mc_name = "?"
+default mc_cuckpoints = 0
+default mc_kinks_black = 0
+default mc_kinks_give_anal = 0
+default mc_kinks_sph = 0
+default mc_kinks_pee = 0
+default mc_kinks_penis = 0
+default mc_kinks_exhibit = 0
+default mc_kinks_cum = 0
+default mc_name = "?"
 define mc = Character("[mc_name]")
 define mc_thoughts = Character("[mc_name]", what_italic = True)
 
 # Emily
-define em_kinks_exhibit = 0
-define em_kinks_black = 0
-define em_kinks_rec_anal = 0
-define em_kinks_sph = 0
-define em_kinks_smoking = 0
-define em_kinks_cheating = 0
-define em_kinks_cheat_jack = 0
-define em_loves_james = 0
-define em_loves_jack = 0
+default em_kinks_exhibit = 0
+default em_kinks_black = 0
+default em_kinks_rec_anal = 0
+default em_kinks_sph = 0
+default em_kinks_smoking = 0
+default em_kinks_cheating = 0
+default em_kinks_cheat_jack = 0
+default em_loves_james = 0
+default em_loves_jack = 0
 define em = Character("Emily")
 define em_thoughts = Character("Emily", what_italic = True)
 
@@ -38,7 +38,7 @@ define em_thoughts = Character("Emily", what_italic = True)
 define el = Character("Elise")
 
 # Eleanor (Emily's mother)
-define ele_loves_mc = ""
+default ele_loves_mc = ""
 define ele = Character("Eleanor")
 
 # Gabriela (Emily's best friend)
@@ -48,9 +48,9 @@ define g = Character("Gabriela")
 define jm = Character("James")
 
 # Jack (MC's best friend)
-define j_loves_elise = 0
-define j_loves_emily = 0
-define j_mem_em_car = False
+default j_loves_elise = 0
+default j_loves_emily = 0
+default j_mem_em_car = False
 define j = Character("Jack")
 
 # Goddess Victoria (taboo site domina)
@@ -66,8 +66,8 @@ define cw = Character("Waitress")
 define cg = Character("Checkout girl")
 
 # Black Prince (Taboo Palace black bull)
+default bull_marcus = False
 define bp = Character("Black Prince")
-define bull_marcus = False
 
 # Movie characters
 define mw = Character("Wife")
@@ -87,7 +87,8 @@ define mem_short_emily = 0
 define mem_short_player = ""
 define mem_eleanor_secret_player = False
 
-define inventory_dildo = ""
+default inventory_dildo = ""
+default some_test = 10
 
 # Choice colors
 define pink_choice = "#F790C0"
