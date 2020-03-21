@@ -59,7 +59,7 @@ label day1_coffe_shop_waiting:
     menu:
         "{color=[pink_choice]}I'll find something, don't worry!{/color}":
             jump day1_coffe_shop_getwork
-        "We could sell your butt!  ;)":
+        "{color=[red_choice]}We could sell your butt!  ;){/color}":
             jump day1_coffe_shop_sellyou
 
 
