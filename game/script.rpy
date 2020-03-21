@@ -5,6 +5,8 @@
 
 # Message from god (intro narration)
 define mg = Character("Message from god")
+# God (game over narration)
+define god = Character("God")
 
 # Main character
 define mc_cuckpoints = 0
@@ -74,6 +76,10 @@ define mb = Character("Black bull")
 define mwb = Character("White bull")
 define ms = Character("Shemale")
 define mss = Character("Slut")
+
+# End 1 characters
+define dr = Character("Dr")
+define a = Character("Amanda")
 
 define mem_chloe_name = ""
 define mem_emily_color = ""

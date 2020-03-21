@@ -193,6 +193,36 @@ image bg coffee_01_day = "bgimage/Backgrounds/BG_Coffee_01_Day.jpg"
 
 image bg 611_day = "bgimage/Backgrounds/BG611Day.jpg"
 
+image bg e0101 = "bgimage/End1/E0101.jpg"
+image bg e0102 = "bgimage/End1/E0102.jpg"
+image bg e0103 = "bgimage/End1/E0103.jpg"
+image bg e0104 = "bgimage/End1/E0104.jpg"
+image bg e0105 = "bgimage/End1/E0105.jpg"
+image bg e0106 = "bgimage/End1/E0106.jpg"
+image bg e0107 = "bgimage/End1/E0107.jpg"
+image bg e0108 = "bgimage/End1/E0108.jpg"
+image bg e0109 = "bgimage/End1/E0109.jpg"
+image bg e0110 = "bgimage/End1/E0110.jpg"
+image bg e0111 = "bgimage/End1/E0111.jpg"
+image bg e0112 = "bgimage/End1/E0112.jpg"
+image bg e0113 = "bgimage/End1/E0113.jpg"
+image bg e0114 = "bgimage/End1/E0114.jpg"
+image bg e0115 = "bgimage/End1/E0115.jpg"
+image bg e0116 = "bgimage/End1/E0116.jpg"
+image bg e0117 = "bgimage/End1/E0117.jpg"
+image bg e0118 = "bgimage/End1/E0118.jpg"
+image bg e0119 = "bgimage/End1/E0119.jpg"
+image bg e0120 = "bgimage/End1/E0120.jpg"
+image bg e0121 = "bgimage/End1/E0121.jpg"
+image bg e0122 = "bgimage/End1/E0122.jpg"
+image bg e0123 = "bgimage/End1/E0123.jpg"
+image bg e0124 = "bgimage/End1/E0124.jpg"
+image bg e0125 = "bgimage/End1/E0125.jpg"
+image bg e0126 = "bgimage/End1/E0126.jpg"
+image bg e0127 = "bgimage/End1/E0127.jpg"
+image bg e0128 = "bgimage/End1/E0128.jpg"
+
+
 # Emily character images
 image emily 01_01 = "fgimage/chara/2/Wife_01_01.png"
 image emily 01_02 = "fgimage/chara/2/Wife_01_02.png"
@@ -317,7 +347,6 @@ image emily 0442 = "fgimage/chara/2/0442.png"
 image emily 0443 = "fgimage/chara/2/0443.png"
 image emily 0444 = "fgimage/chara/2/0444.png"
 
-
 image emily 04_wdildo_sofa:
     "fgimage/default/Animation/04WDildoSofa/04WDildoSofa1.webp"
     pause 0.4
@@ -331,6 +360,8 @@ image emily 04_bdildo_sofa:
     "fgimage/default/Animation/04BDildoSofa/04BDildoSofa2.webp"
     pause 0.4
     repeat
+
+image emily couple = "fgimage/chara/2/Couple.png"
 
 image pc tb_01:
     "fgimage/chara/3/PC_Screen_TB_01.png"
