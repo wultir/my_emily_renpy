@@ -842,7 +842,7 @@ label day1_movie_black:
 
     $ mc_kinks_black += 1
     $ em_kinks_black += 1
-    $ mem_color_emily = "pink"
+    $ mem_emily_color = "pink"
     $ mc_cuckpoints += 1
 
     em "They look great together. It looks like it's homemade. I wonder if they are married?"

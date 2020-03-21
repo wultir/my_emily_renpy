@@ -291,7 +291,7 @@ label day2_after_store:
 
     "You are putting the coffee away when you hear Emily walk out from the bedroom getting ready to leave for work"
 
-    if mem_color_emily == "pink":
+    if mem_emily_color == "pink":
         jump day2_pink_emily
     else:
         jump day2_no_pink_emily
@@ -696,7 +696,7 @@ label day2_work:
     scene bg black with dissolve
     "Meanwhile at Emily's workplace"
 
-    if mem_color_emily == "pink":
+    if mem_emily_color == "pink":
         scene bg 0133 with dissolve
     else:
         scene bg 0133A with dissolve
@@ -818,7 +818,7 @@ label day2_boss_daily_routine:
 
     "You start to leave his office"
 
-    if mem_color_emily == "pink":
+    if mem_emily_color == "pink":
         jump day2_pink_boss
     else:
         jump day2_back_to_car
