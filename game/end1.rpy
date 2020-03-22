@@ -289,7 +289,7 @@ label scene_e0125:
 label end1_message:
     stop music fadeout 6.0
     pause 6.0
-    scene bg black with dissolve
+    scene bg black with Dissolve(1.0)
 
 
     show text "{font=fonts/Elsie-Regular.ttf}{color=#f686b8}{size=100}The End{/size}{/color}{/font}" with ComposeTransition(Dissolve(1.0), after=CropMove(1.0, "wiperight")):

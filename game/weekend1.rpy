@@ -1,13 +1,13 @@
 label weekend1_saturday:
-    scene bg black with dissolve
+    scene bg black with Dissolve(1.0)
 
-    show text "Day 3 Saturday" at topright with dissolve
+    show text "Day 3 Saturday" at topright with Dissolve(1.0)
 
-    show bg  0301 with dissolve
+    show bg  0301 with Dissolve(1.0)
 
     call wait_for_click
 
-    hide text with dissolve
+    hide text with Dissolve(1.0)
 
     "It's about 10:00 and you and Emily have done nothing today. Just enjoying your Saturday together being lazy and watching tv"
 
@@ -53,7 +53,7 @@ label weekend1_saturday:
 
 
 label weekend1_saturday_jack:
-    scene bg house01_entry_day with dissolve
+    scene bg house01_entry_day with Dissolve(1.0)
 
     "You get up too and start to walk into your bedroom when suddenly.."
     "BOOM BOOM" with hpunch
@@ -63,14 +63,14 @@ label weekend1_saturday_jack:
 
     "You open the door"
 
-    show jack 002 with dissolve
+    show jack 002 with Dissolve(1.0)
 
     "Boom boom boom*" with hpunch
 
     j "Whaaaaaaaaaaaaaats up baby?"
     j "Daddy's homeeeeeeee!"
 
-    show jack 003 with dissolve
+    show jack 003 with Dissolve(1.0)
 
     mc "Hey Jack"
     mc "What are you up to?"
@@ -84,13 +84,13 @@ label weekend1_saturday_jack:
 
     "You walk into the bedroom with Jack following and lay down on the bed"
 
-    hide jack with dissolve
+    hide jack with Dissolve(1.0)
 
     pause 0.5
 
 
 label scene0303:
-    scene bg 0303 with dissolve
+    scene bg 0303 with Dissolve(1.0)
 
     j "Ohh I see..."
     j "You know I'm not ready for this yet.. You are still too hairy.."
@@ -98,7 +98,7 @@ label scene0303:
     mc "What? Bahh!!"
 
 label scene0304:
-    scene bg 0304 with dissolve
+    scene bg 0304 with Dissolve(1.0)
 
     "Jack burst into laughing and jumps right next to you on the bed"
 
@@ -142,7 +142,7 @@ label scene0304:
 
 
 label scene0305:
-    scene 0305 with dissolve
+    scene 0305 with Dissolve(1.0)
 
     em "TADAAAAAAAA"
     em "Do you like it babe?"
@@ -153,7 +153,7 @@ label scene0305:
 
 
 label scene0306:
-    scene 0306 with dissolve
+    scene 0306 with Dissolve(1.0)
 
     "She continues to sing and dance"
 
@@ -166,7 +166,7 @@ label scene0306:
 
 
 label scene0307:
-    scene 0307 with dissolve
+    scene 0307 with Dissolve(1.0)
 
     em "You wan't to fuck me? Don't you?"
     em "I've been extra horny after that movie you showed me and that dildo"
@@ -180,7 +180,7 @@ label scene0307:
 
 
 label scene0308:
-    scene 0308 with dissolve
+    scene 0308 with Dissolve(1.0)
 
     em "And put it inside me NOW!"
     em "Fuck meeeeee hard babe!!!"
@@ -192,7 +192,7 @@ label scene0308:
 
 
 label scene0309:
-    scene 0309 with dissolve
+    scene 0309 with Dissolve(1.0)
 
     em "...."
     em "....."
@@ -200,7 +200,7 @@ label scene0309:
 
     
 label scene0310:
-    scene 0310 with dissolve
+    scene 0310 with Dissolve(1.0)
 
     em "No no no no no no no"
     em "I'm sooooooo embarrassed!"
@@ -211,7 +211,7 @@ label scene0310:
 
 
 label scene0311:
-    scene 0311 with dissolve
+    scene 0311 with Dissolve(1.0)
 
     mc_thoughts "This feels awkward and I feel a bit jealous, but it's also hot.."
     mc_thoughts "Is she looking at Jacks crotch?"
@@ -220,7 +220,7 @@ label scene0311:
 
 
 label scene0312:
-    scene 0312 with dissolve
+    scene 0312 with Dissolve(1.0)
 
     j "You aren't fat!"
     j "You are pretty!"
@@ -232,7 +232,7 @@ label scene0312:
 
 
 label scene0313:
-    scene 0313 with dissolve
+    scene 0313 with Dissolve(1.0)
 
     "And hugs Emily"
 
@@ -258,7 +258,7 @@ label scene0313:
 
 
 label scene0314:
-    scene 0314 with dissolve
+    scene 0314 with Dissolve(1.0)
 
     em "AAAAAAAHHHHHHHHH"
     em "JAAAAAAACKK!!!!!!!!!!"
@@ -287,7 +287,7 @@ label scene0314:
 
 
 label scene0315:
-    scene 0315 with dissolve
+    scene 0315 with Dissolve(1.0)
 
     "You get out and are alone with Jack"
 
@@ -347,7 +347,7 @@ label weekend1_saturday_we_love_you:
 
 
 label weekend1_saturday_trust_love:
-    scene bg 0315a with dissolve
+    scene bg 0315a with Dissolve(1.0)
 
     em "Oki I'm ready!"
     em "What are you guys talking about?"
@@ -358,7 +358,7 @@ label weekend1_saturday_trust_love:
 
 
 label scene0316:
-    scene bg 0316 with dissolve
+    scene bg 0316 with Dissolve(1.0)
 
     j "Yes miLady"
     j "This way miLady"
@@ -373,20 +373,20 @@ label scene0316:
 
 
 label weekend1_saturday_pc_taboo:
-    scene bg house01_bedroom_day_pc with dissolve
+    scene bg house01_bedroom_day_pc with Dissolve(1.0)
 
     "You walk back to the bedroom not knowing what to do or what to think"
 
-    show bg pc with dissolve
+    show bg pc with Dissolve(1.0)
 
     mc "Hmm"
     mc "Let's check my profile at taboo palace. Maybe there's something new?"
 
-    show pc tb_01 at top with dissolve
+    show pc tb_01 at top with Dissolve(1.0)
 
     mc_thoughts "Let's click on my profile"
 
-    show pc tb_profile at top with dissolve
+    show pc tb_profile at top with Dissolve(1.0)
 
     mc_thoughts "Messages is flashing.. "
     mc_thoughts "Clicky click"
@@ -411,7 +411,7 @@ label weekend1_saturday_pc_taboo:
     bp "Ps"
     bp "Sorry for the pic.. But chicks dig it! L.O.L"
 
-    show pc tb_bull01 at top with dissolve
+    show pc tb_bull01 at top with Dissolve(1.0)
 
     "Will you answer him?"
 
@@ -445,19 +445,19 @@ label weekend1_saturday_tb_interested_yes:
 
     "You quickly send another message with some pictures"
 
-    show pc tb_pics01 at top with dissolve
+    show pc tb_pics01 at top with Dissolve(1.0)
     call wait_for_click
 
-    show pc tb_pics02 at top with dissolve
+    show pc tb_pics02 at top with Dissolve(1.0)
     call wait_for_click
 
-    show pc tb_pics03 at top with dissolve
+    show pc tb_pics03 at top with Dissolve(1.0)
     call wait_for_click
 
-    show pc tb_pics04 at top with dissolve
+    show pc tb_pics04 at top with Dissolve(1.0)
     call wait_for_click
 
-    hide pc with dissolve
+    hide pc with Dissolve(1.0)
     pause 0.5
 
     mc_thoughts "I wonder if he has a huge cock?"
@@ -475,18 +475,18 @@ label weekend1_saturday_tb_interested_no:
     mc_thoughts "Did I just turn down a good opportunity to learn something?"
     mc_thoughts "I'll lie down and think about it.."
 
-    hide pc with dissolve
+    hide pc with Dissolve(1.0)
     pause 0.5
 
 
 label weekend1_saturday_tb_message_done:
-    scene bg black with dissolve
+    scene bg black with Dissolve(1.0)
 
     "Inside Jack's car"
 
-    show bg house01_ext_day with dissolve
+    show bg house01_ext_day with Dissolve(1.0)
 
-    show jtruck ride03_01 at top with dissolve
+    show jtruck ride03_01 at top with Dissolve(1.0)
 
     em "Thanks again Jack for giving me a ride!"
     em "I don't mind using the subway and luckily the metro station is right across the street from our apartment but it always smells like pee there and there's always weirdos looking at me when i need to pass the public bathroom to reach the tracks"
@@ -510,7 +510,7 @@ label weekend1_saturday_tb_message_done:
 
     "A couple of minutes later"
 
-    show jtruck ride03_02 at top with dissolve
+    show jtruck ride03_02 at top with Dissolve(1.0)
 
     em "Jack?"
 
@@ -620,7 +620,7 @@ label weekend1_saturday_tease_jack:
     $ j_mem_em_car = True
     $ mc_cuckpoints += 1
 
-    show jtruck ride03_03 with dissolve
+    show jtruck ride03_03 with Dissolve(1.0)
 
     "Emily slides closer and grabs Jack head giving him a sensual wet kiss on his cheek while whispering "
 
@@ -634,7 +634,7 @@ label weekend1_saturday_tease_jack:
     em "Show me your huge... cock and shove it inside me hard! "
     em "Hihihi "
 
-    show jtruck ride03_04 with dissolve
+    show jtruck ride03_04 with Dissolve(1.0)
 
     em_thoughts "Oh god.. Did I go too far? "
     em_thoughts "I don't care... "
@@ -654,14 +654,14 @@ label weekend1_saturday_tease_jack:
 
     "You can feel his gaze lingering on your ass while you get out extra slow and bending over too much on purpose "
 
-    hide jtruck with dissolve
+    hide jtruck with Dissolve(1.0)
     pause 0.5
 
     jump weekend1_saturday_at_work
 
 label weekend1_saturday_continue_ride:
     $ mc_cuckpoints -= 2
-    show jtruck ride03_04 with dissolve
+    show jtruck ride03_04 with Dissolve(1.0)
 
     em "Time went so fast! "
     em "Thank you for the ride Jack "
@@ -669,12 +669,12 @@ label weekend1_saturday_continue_ride:
 
     j "Later! "
 
-    hide jtruck with dissolve
+    hide jtruck with Dissolve(1.0)
     pause 0.5
 
     
 label weekend1_saturday_at_work:
-    scene bg work_wife_lobby_day with dissolve
+    scene bg work_wife_lobby_day with Dissolve(1.0)
 
     "You finally arrive at the office"
 
@@ -704,7 +704,7 @@ label weekend1_saturday_at_work:
 
 
 label weekend1_saturday_work_begin:
-    scene bg 0317 with dissolve
+    scene bg 0317 with Dissolve(1.0)
 
     em_thoughts "I wonder if it's in Jame's office?"
     em_thoughts "..."
@@ -712,14 +712,14 @@ label weekend1_saturday_work_begin:
 
 
 label scene0318:
-    scene bg 0318 with dissolve
+    scene bg 0318 with Dissolve(1.0)
 
     em_thoughts "It is!"
     em_thoughts "Oh no is he ok?"
 
 
 label scene0319:
-    scene bg 0319 with dissolve
+    scene bg 0319 with Dissolve(1.0)
 
     "Emily was worried for James, remembering what day it is for him. But she didn't know what to do so she tiptoed close to him"
 
@@ -732,7 +732,7 @@ label scene0319:
 
 
 label scene0320:
-    scene bg 0320 with dissolve
+    scene bg 0320 with Dissolve(1.0)
 
     jm "Yawn*"
     jm "Eyy god damn it"
@@ -796,7 +796,7 @@ label scene0320:
 
 
 label scene0321:
-    scene bg 0321 with dissolve
+    scene bg 0321 with Dissolve(1.0)
 
     jm "Come here bonnie!"
 
@@ -840,7 +840,7 @@ label weekend1_saturday_emily_sits:
 
 
 label scene0322:
-    scene bg 0322 with dissolve
+    scene bg 0322 with Dissolve(1.0)
 
     call wait_for_click
 
@@ -861,7 +861,7 @@ label scene0322:
 
 
 label scene0323:
-    scene bg 0323 with dissolve
+    scene bg 0323 with Dissolve(1.0)
 
     call wait_for_click
 
@@ -873,7 +873,7 @@ label scene0323:
 
 
 label scene0324:
-    scene bg 0324 with dissolve
+    scene bg 0324 with Dissolve(1.0)
 
     call wait_for_click
 
@@ -886,7 +886,7 @@ label scene0324:
 
 
 label scene0325:
-    scene bg 0325 with dissolve
+    scene bg 0325 with Dissolve(1.0)
 
     call wait_for_click
 
@@ -900,7 +900,7 @@ label scene0325:
 
 
 label scene0326:
-    scene bg 0326 with dissolve
+    scene bg 0326 with Dissolve(1.0)
 
     call wait_for_click
 
@@ -923,7 +923,7 @@ label scene0326:
 
 
 label scene0327:
-    scene bg 0327 with dissolve
+    scene bg 0327 with Dissolve(1.0)
 
     call wait_for_click
 
@@ -942,7 +942,7 @@ label scene0327:
 
 
 label scene0328:
-    scene bg 0328 with dissolve
+    scene bg 0328 with Dissolve(1.0)
 
     em_thoughts "What is happening to me?"
     em_thoughts "Why am I so fucking horny?"
@@ -952,7 +952,7 @@ label scene0328:
 
 
 label scene0329:
-    scene bg 0329 with dissolve
+    scene bg 0329 with Dissolve(1.0)
 
     em_thoughts "It's so warm and wet"
     em_thoughts "I can't go on like this, I have to cum!"
@@ -965,7 +965,7 @@ label scene0329:
 
 
 label scene0330:
-    scene bg 0330 with dissolve
+    scene bg 0330 with Dissolve(1.0)
 
     em "Nhgggaaa AHHHHHHH"
     em "OHHHHHH YESSSSSSSSSSSSSSSSSSSS"
@@ -986,7 +986,7 @@ label scene0330:
 
 
 label scene0331:
-    scene bg 0331 with dissolve
+    scene bg 0331 with Dissolve(1.0)
 
     "Emily finally manages to look up"
 
@@ -1002,8 +1002,8 @@ label scene0331:
     em "Hiiiiii Gabby!!"
     em "I.. Uhh.. Ehmmm..."
 
-    show bg work_wife_lobby_day with dissolve
-    show gabriela 032A with dissolve
+    show bg work_wife_lobby_day with Dissolve(1.0)
+    show gabriela 032A with Dissolve(1.0)
 
     call wait_for_click
 
@@ -1020,12 +1020,12 @@ label scene0331:
     "The reality is starting to sink in hard on Emily and what she's done"
     "Tears start to form in her eyes"
 
-    hide gabriela with dissolve
+    hide gabriela with Dissolve(1.0)
     pause 0.5
 
 
 label scene0332:
-    scene bg 0332 with dissolve
+    scene bg 0332 with Dissolve(1.0)
 
     call wait_for_click
 
@@ -1039,7 +1039,7 @@ label scene0332:
 
 
 label scene0333:
-    scene bg 0333 with dissolve
+    scene bg 0333 with Dissolve(1.0)
 
     call wait_for_click
 
@@ -1071,9 +1071,9 @@ label scene0333:
     g "Haha sorry you little virgin princess!"
     g "Here let me help you up"
 
-    scene bg work_wife_lobby_day with dissolve
+    scene bg work_wife_lobby_day with Dissolve(1.0)
 
-    show gabriela 033A with dissolve
+    show gabriela 033A with Dissolve(1.0)
 
     call wait_for_click
 
@@ -1174,18 +1174,18 @@ label scene0333:
 
 label weekend1_saturday_emily_sits_not:
     $ mc_cuckpoints -= 2
-    scene bg work_wife_lobby_day with dissolve
+    scene bg work_wife_lobby_day with Dissolve(1.0)
     pause 0.5
-    show bg 0331a with dissolve
+    show bg 0331a with Dissolve(1.0)
 
     g "HIII BABY!"
 
     em "OH MY GOD GABBY!!!!!!"
     em "I didn't know my best friend had come home from Brazil yet!"
 
-    scene bg work_wife_lobby_day with dissolve
+    scene bg work_wife_lobby_day with Dissolve(1.0)
 
-    show gabriela 032A with dissolve
+    show gabriela 032A with Dissolve(1.0)
 
     call wait_for_click
 
@@ -1200,13 +1200,13 @@ label weekend1_saturday_emily_sits_not:
 
 
 label weekend1_saturday_back_home:
-    scene bg black with dissolve
+    scene bg black with Dissolve(1.0)
 
     "Some time later you both arrive home at you"
 
-    scene bg house01_entry_day with dissolve
+    scene bg house01_entry_day with Dissolve(1.0)
 
-    show gabriela 035 with dissolve
+    show gabriela 035 with Dissolve(1.0)
 
     call wait_for_click
 
@@ -1254,7 +1254,7 @@ label weekend1_saturday_back_home:
 
     em "Stop teasing the poor guy haha"
 
-    show gabriela 036 with dissolve
+    show gabriela 036 with Dissolve(1.0)
 
     g "Haha awwww I love teasing him!"
 
@@ -1266,7 +1266,7 @@ label weekend1_saturday_back_home:
 
     g "Don't worry! I know the owner so it's free!"
 
-    show gabriela 037 with dissolve
+    show gabriela 037 with Dissolve(1.0)
 
     g "And you!"
 
@@ -1292,12 +1292,12 @@ label weekend1_saturday_back_home:
 
     em "Bye, love you too!"
 
-    hide gabriela with dissolve
+    hide gabriela with Dissolve(1.0)
     pause 0.5
 
     "You and Emily spent the rest of the day doing nothing at all. Just the normal lazy day stuff"
 
-    scene bg house01_bedroom_night with dissolve
+    scene bg house01_bedroom_night with Dissolve(1.0)
 
     "Soon it was late already and you both went to sleep"
 
@@ -1305,7 +1305,7 @@ label weekend1_saturday_back_home:
 
     em "Good night babe"
 
-    scene bg black with dissolve
+    scene bg black with Dissolve(1.0)
 
     pause 0.5
 
@@ -1314,7 +1314,7 @@ label weekend1_saturday_back_home:
 
 
 label weekend1_saturday_sad_emily:
-    scene bg 0334 with dissolve
+    scene bg 0334 with Dissolve(1.0)
 
     call wait_for_click
 
@@ -1355,7 +1355,7 @@ label weekend1_saturday_james_cheat:
 
 
 label weekend1_saturday_em_crying:
-    scene bg 0335 with dissolve
+    scene bg 0335 with Dissolve(1.0)
 
     call wait_for_click
 
@@ -1390,22 +1390,22 @@ label weekend1_saturday_em_crying:
 
 
 label weekend1_sunday:
-    scene bg black with dissolve
-    show text "Day 4 Sunday" at topright with dissolve
+    scene bg black with Dissolve(1.0)
+    show text "Day 4 Sunday" at topright with Dissolve(1.0)
 
     pause 2.0
 
-    hide text with dissolve
+    hide text with Dissolve(1.0)
 
 label scene0401:
-    scene bg 0401 with dissolve
+    scene bg 0401 with Dissolve(1.0)
 
     "So far Sunday has been like Saturday.. Just a lazy day together with the love of your life"
     "Once again you both are watching tv"
 
 
 label scene04tstv2:
-    scene bg 04tstv2 with dissolve
+    scene bg 04tstv2 with Dissolve(1.0)
 
     em "Babe I found something the other day that made me curious.."
     em "I wanted to watch it with you so..."
@@ -1430,15 +1430,15 @@ label scene04tstv2:
 
 
 label scene04tstv1:
-    scene bg 04tstv1 with dissolve
+    scene bg 04tstv1 with Dissolve(1.0)
 
     call wait_for_click
 
-    show tv 04trans1 at top with dissolve
+    show tv 04trans1 at top with Dissolve(1.0)
 
     call wait_for_click
 
-    show tv 04trans2 at top with dissolve
+    show tv 04trans2 at top with Dissolve(1.0)
 
     call wait_for_click
 
@@ -1465,7 +1465,7 @@ label weekend1_sunday_hell_no:
     "The rest of the evening isn't that great"
     "You feel like a biggot"
 
-    hide tv with dissolve
+    hide tv with Dissolve(1.0)
     pause 0.5
 
     jump weekend1_sunday_sleep
@@ -1474,11 +1474,11 @@ label weekend1_sunday_hell_no:
 label weekend1_sunday_continue_shemale:
     $ mc_cuckpoints += 1
     
-    show tv 04trans3 at top with dissolve
+    show tv 04trans3 at top with Dissolve(1.0)
 
     "You both watch as the shemale spits into the man's asshole to lubricate it then how she starts to finger him"
 
-    show tv 04trans4 at top with dissolve
+    show tv 04trans4 at top with Dissolve(1.0)
 
     ms "That's a good boy slut!"
     ms "Your asshole is so tight but soon it's going to be loose after I fuck you with my massive cock"
@@ -1486,7 +1486,7 @@ label weekend1_sunday_continue_shemale:
 
     mss "Ahhh... yes.."
 
-    show tv 04trans5 at top with dissolve
+    show tv 04trans5 at top with Dissolve(1.0)
 
     ms "Are you sure?"
     ms "Let me just spank your cute little gay ass before I destroy you"
@@ -1495,7 +1495,7 @@ label weekend1_sunday_continue_shemale:
 
     mss "Ahh Ahhh AOOUUUU"
 
-    show tv 04trans6 at top with dissolve
+    show tv 04trans6 at top with Dissolve(1.0)
 
     ms "Good fuck whore.."
     ms "Get ready bitch!"
@@ -1503,7 +1503,7 @@ label weekend1_sunday_continue_shemale:
     "You watch as the shemale starts to press hard but it won't go in"
     "The man starts to moan and whimper from pain and maybe pleasure too?"
 
-    show tv 04trans7 at top with dissolve
+    show tv 04trans7 at top with Dissolve(1.0)
 
     "The shemale spits again a couple times and start to finger him harder this time.. She continues to spit and adds another finger"
     "After a minute or so she stops and speaks"
@@ -1512,7 +1512,7 @@ label weekend1_sunday_continue_shemale:
     ms "I'm going to fuck you now whether you want it or not"
     ms "Crying will just make me harder and fuck you harder so shut the fuck up or cry you stupid fucking gay bitch"
 
-    show tv 04trans8 at top with dissolve
+    show tv 04trans8 at top with Dissolve(1.0)
 
     "SMACK"
 
@@ -1537,7 +1537,7 @@ label weekend1_sunday_movie_starts:
 
 
 label weekend1_sunday_movie_ends:
-    show tv 04trans9 at top with dissolve
+    show tv 04trans9 at top with Dissolve(1.0)
 
     "She speeds up her fucking to brutally fast and hard after some seconds"
     "After 10 minutes of tears, moans and brutal fucking she goes ball deep inside his ass and fills it with cum"
@@ -1558,10 +1558,10 @@ label weekend1_sunday_movie_ends:
     ms "He won't be able to sit for a few days now.. Good luck trying to act all manly home and at your work now.."
     ms "Who should I break next?"
 
-    hide tv with dissolve
+    hide tv with Dissolve(1.0)
     pause 0.5
 
-    show bg 04tstv2 with dissolve
+    show bg 04tstv2 with Dissolve(1.0)
 
     "You can tell from Emily's breathing she's horny now"
 
@@ -1595,7 +1595,7 @@ label weekend1_sunday_curious_no:
 label weekend1_sunday_curious_yes:
     $ mc_cuckpoints += 1
 
-    scene 0401 with dissolve
+    scene 0401 with Dissolve(1.0)
 
     "Emily starts to softly stroke your thigh"
 
@@ -1667,10 +1667,10 @@ label weekend1_sunday_dildo_time:
 
 
 label weekend1_sunday_sleep:
-    hide tv with dissolve
+    hide tv with Dissolve(1.0)
     pause 0.5
 
-    scene bg black with dissolve
+    scene bg black with Dissolve(1.0)
 
     if mc_cuckpoints < 15:
         jump weekend1_sunday_game_over
@@ -1680,21 +1680,21 @@ label weekend1_sunday_no_game_over:
     if mem_short_player == "candy":
         jump weekend1_sunday_candy
     
-    scene bg house01_entry_night with dissolve
+    scene bg house01_entry_night with Dissolve(1.0)
 
     "Sunday was coming to a end and Emily had already gone to bed while you went to pee"
     "You were walking back to the bedroom wondering if you did everything right tonight?"
 
 
 label scene0447a:
-    scene bg 0447a with dissolve
+    scene bg 0447a with Dissolve(1.0)
     call wait_for_click
 
     mc_thoughts "Aww she already fell asleep.."
     mc_thoughts "Well good night my sweet ass hehe"
     mc_thoughts "Love your ass and you!"
 
-    scene bg black with dissolve
+    scene bg black with Dissolve(1.0)
 
     "After you turned the lights off and snuggled together with Emily she says in a tired voice"
 
@@ -1715,7 +1715,7 @@ label scene0447a:
 
 
 label weekend1_sunday_candy:
-    scene bg house01_entry_night with dissolve
+    scene bg house01_entry_night with Dissolve(1.0)
 
     "Sunday was coming to a end and Emily had already gone to bed while you went to pee"
     "You were walking back to the bedroom wondering if you did everything right tonight?"
@@ -1725,7 +1725,7 @@ label weekend1_sunday_candy:
 
 
 label scene0447:
-    scene 0447 with dissolve
+    scene 0447 with Dissolve(1.0)
     call wait_for_click
 
     mc_thoughts "Wow"
@@ -1734,7 +1734,7 @@ label scene0447:
     mc_thoughts "And I have a hard time keeping my hands off her sexy ass..."
     mc_thoughts "Good night baby..."
 
-    scene bg black with dissolve
+    scene bg black with Dissolve(1.0)
 
     "After you turned the lights off and snuggled together with Emily she says in a tired voice"
 

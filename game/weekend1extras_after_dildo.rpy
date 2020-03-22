@@ -1,7 +1,7 @@
 
 label weekend1_sunday_your_cum:
 
-    show emily 0433 with dissolve
+    show emily 0433 with Dissolve(1.0)
 
     em "Damn that hurt.. It hit something deep inside me.."
     em "I think it hit my cervix.."
@@ -18,7 +18,7 @@ label weekend1_sunday_your_cum:
 
     "Emily looks at you then she gets on her knees and grabs your tiny cock"
 
-    show emily 0434 with dissolve
+    show emily 0434 with Dissolve(1.0)
 
     em "Aww poor little baby"
     em "I completely forgot about you.."
@@ -30,10 +30,10 @@ label weekend1_sunday_your_cum:
 
     "You can't wait and close your eyes"
 
-    hide emily with dissolve
+    hide emily with Dissolve(1.0)
     pause 0.5
 
-    show bg black with dissolve
+    show bg black with Dissolve(1.0)
 
     em "Mmmm do you love when I stroke your hard little cock?"
 
@@ -47,9 +47,9 @@ label weekend1_sunday_your_cum:
     "And there's pressure..."
     "Too confused over what's happening and the good feeling that's about to make you cum makes you open your eyes in shock"
 
-    scene bg house01_living_day with dissolve
+    scene bg house01_living_day with Dissolve(1.0)
 
-    show emily 0435 with dissolve
+    show emily 0435 with Dissolve(1.0)
 
     em "Hihi welcome back babe"
     em "You will love.. this.."
@@ -62,7 +62,7 @@ label weekend1_sunday_your_cum:
     em "Good boy!"
     em "Take this my little slut..."
 
-    show emily 0436 with dissolve
+    show emily 0436 with Dissolve(1.0)
 
 
     "Another finger gets in and it's too much for you!"
@@ -71,7 +71,7 @@ label weekend1_sunday_your_cum:
 
     "Your eyes roll back and you have your strongest orgasm ever"
 
-    show emily 0437 with dissolve
+    show emily 0437 with Dissolve(1.0)
 
     "While still cumming and shaking Emily wastes no time and sucks your cock deep into her mouth with two fingers inside your ass milking you"
     "Your cock keeps pumping her mouth full of cum"
@@ -86,7 +86,7 @@ label weekend1_sunday_your_cum:
 label weekend1_sunday_swallow:
     $ mc_cuckpoints += 1
 
-    show emily 0438 with dissolve
+    show emily 0438 with Dissolve(1.0)
 
     call wait_for_click
 
@@ -108,7 +108,7 @@ label weekend1_sunday_swallow:
     em "Oh my phone"
     em "Hold on a sec babe"
 
-    show emily 0440 with dissolve
+    show emily 0440 with Dissolve(1.0)
 
     em "Hello?"
     em "Oh hello dad!"
@@ -131,7 +131,7 @@ label weekend1_sunday_swallow:
 label weekend1_sunday_no_play:
     $mc_cuckpoints -= 2
 
-    scene bg black with dissolve
+    scene bg black with Dissolve(1.0)
 
     "Emily keeps talking and talking"
     "And talking"
@@ -152,7 +152,7 @@ label weekend1_sunday_no_play:
 
 
 label weekend1_sunday_play:
-    show emily 0441 with dissolve
+    show emily 0441 with Dissolve(1.0)
 
     "You pinch her nipple carefully before you put two fingers inside her pussy"
     "You just want to know how it feels after a big cock has fucked her"
@@ -165,7 +165,7 @@ label weekend1_sunday_play:
     mc_thoughts "She looks shocked,, but not angry.."
     mc_thoughts "Good I'll continue.."
 
-    hide emily with dissolve
+    hide emily with Dissolve(1.0)
     pause 0.5
 
     em "Eeek"
@@ -186,7 +186,7 @@ label weekend1_sunday_common_phone:
 
     mc "Panting*"
 
-    show emily 0442 with dissolve
+    show emily 0442 with Dissolve(1.0)
     
     "You now start to move the dildo in and out from under her and you look up at her"
 
@@ -201,7 +201,7 @@ label weekend1_sunday_common_phone:
 
     "You know she's close to cum again so you start to move it faster "
 
-    show emily 0443 with dissolve
+    show emily 0443 with Dissolve(1.0)
 
     "She starts to shake and tries to keep still but her arms won't"
     "She's almost screaming"
@@ -210,7 +210,7 @@ label weekend1_sunday_common_phone:
     em "AHHHHHHHHHHH "
     em "YAYYYYYYYYYY"
 
-    show emily 0444 with dissolve
+    show emily 0444 with Dissolve(1.0)
 
     "You let go of the dildo after her orgasm"
 

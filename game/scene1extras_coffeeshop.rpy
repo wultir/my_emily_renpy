@@ -1,5 +1,5 @@
 label day1_coffee_shop:
-    show bg coffee_01_day with dissolve
+    show bg coffee_01_day with Dissolve(1.0)
 
     "You go and find a table then join Emily who's about to place your order"
 
@@ -17,17 +17,17 @@ label day1_coffee_shop:
 
 
 label scene00_29:
-    scene bg 00_29 with dissolve
+    scene bg 00_29 with Dissolve(1.0)
 
     show waiting at topleft
     pause
 
 
 label day1_coffe_shop_waiting:
-    scene bg coffee_01_day with dissolve
+    scene bg coffee_01_day with Dissolve(1.0)
 
     window show
-    show emily 01_07 at right with dissolve:
+    show emily 01_07 at right with Dissolve(1.0):
         yalign 0.5
         yoffset -100
 
@@ -35,7 +35,7 @@ label day1_coffe_shop_waiting:
     em "I just hope those burgers are good. 40$ Dang it. It's way too much for us right now"
     em "James recommended the burgers here. Said it was like licking an angel haha"
 
-    show emily 01_08 at right with dissolve:
+    show emily 01_08 at right with Dissolve(1.0):
         yalign 0.5
         yoffset -100
 
@@ -66,7 +66,7 @@ label day1_coffe_shop_waiting:
 label day1_coffe_shop_getwork:
     $ mc_cuckpoints += 1
 
-    show emily 01_09A at right with dissolve:
+    show emily 01_09A at right with Dissolve(1.0):
             yalign 0.5
             yoffset -100
 
@@ -79,7 +79,7 @@ label day1_coffe_shop_getwork:
 label day1_coffe_shop_sellyou:
     $ mc_cuckpoints -= 1
 
-    show emily 01_09B at right with dissolve:
+    show emily 01_09B at right with Dissolve(1.0):
             yalign 0.5
             yoffset -100
 
@@ -95,20 +95,20 @@ label day1_coffe_shop_sellyou:
 
 
 label day1_coffe_shop_kiss:
-    show emily 01_10 at right with dissolve:
+    show emily 01_10 at right with Dissolve(1.0):
         yalign 0.5
         yoffset -100
 
     em "Anyways. Let's just forget about anything important tonight and just enjoy our evening together!"
     em "Come here. I want a kiss!"
 
-    show emily 01_11 at right with dissolve:
+    show emily 01_11 at right with Dissolve(1.0):
         yalign 0.5
         yoffset -100
 
     "Emily stands up and bends over the table to reach you"
 
-    show emily 01_12A at right with dissolve:
+    show emily 01_12A at right with Dissolve(1.0):
         yalign 0.5
         yoffset -100
 
@@ -125,7 +125,7 @@ label day1_coffe_shop_kiss:
 
 
 label day1_coffe_shop_longer_kiss:
-    show emily 01_12B at right with dissolve:
+    show emily 01_12B at right with Dissolve(1.0):
         yalign 0.5
         yoffset -100
 
@@ -139,7 +139,7 @@ label day1_coffe_shop_longer_kiss:
 label day1_coffe_shop_burgers:
     "Your hamburgers arrive"
 
-    show emily 01_13 at right with dissolve:
+    show emily 01_13 at right with Dissolve(1.0):
         yalign 0.5
         yoffset -100
 
@@ -153,7 +153,7 @@ label day1_coffe_shop_burgers:
     "You wish you could nuke wherever this crap was invented. And every place containing it!"
     "And people keep paying for it?"
 
-    show emily 01_07 at right with dissolve:
+    show emily 01_07 at right with Dissolve(1.0):
         yalign 0.5
         yoffset -100
 
@@ -168,7 +168,7 @@ label day1_coffe_shop_burgers:
     "Emily winks"
     "You both leave"
 
-    hide emily with dissolve
+    hide emily with Dissolve(1.0)
     pause 0.5
 
     jump day1_coffee_shop_exit

@@ -1,15 +1,15 @@
 label weekend1_sunday_black_dildo_sofa:
-    scene bg house01_living_day with dissolve
+    scene bg house01_living_day with Dissolve(1.0)
 
     "You are all excited and waiting for Emily to return!"
     "What will she do?"
     "A few seconds later"
 
 
-    show emily 0401a with dissolve
+    show emily 0401a with Dissolve(1.0)
     call wait_for_click
 
-    show emily 0402b with dissolve
+    show emily 0402b with Dissolve(1.0)
 
     em "I need Mr Black now"
     em "He'll take care of me... "
@@ -23,18 +23,18 @@ label weekend1_sunday_black_dildo_sofa:
 
     mc "YES!"
 
-    show emily 0403b with dissolve
+    show emily 0403b with Dissolve(1.0)
 
     em "Good boy"
     em "I just love Mr Blacks huge black cock!"
 
-    show emily 0404 with dissolve
+    show emily 0404 with Dissolve(1.0)
 
     em "You won't need these!"
 
     "She pulls your pants off"
 
-    show emily 0405 with dissolve
+    show emily 0405 with Dissolve(1.0)
 
     em "That's..."
     em "A sad little thing..."
@@ -43,14 +43,14 @@ label weekend1_sunday_black_dildo_sofa:
     em "You just don't compare babe"
     em "Not many white do.."
 
-    show emily 0406 with dissolve
+    show emily 0406 with Dissolve(1.0)
 
     em "Are you sure you want to see how Mr Black will use your girlfriend?"
     em "Right in front of your eyes?"
 
     mc "Oh god yes!"
 
-    show emily 0407 with dissolve
+    show emily 0407 with Dissolve(1.0)
 
     em "Okey"
     em "Suit yourself babe..."
@@ -59,13 +59,13 @@ label weekend1_sunday_black_dildo_sofa:
     em "Make him horny..."
     em "So he can destroy my white little.. pussy"
 
-    show emily 0408 with dissolve
+    show emily 0408 with Dissolve(1.0)
     call wait_for_click
 
-    show emily 0409 with dissolve
+    show emily 0409 with Dissolve(1.0)
     call wait_for_click
 
-    show emily 0410 with dissolve
+    show emily 0410 with Dissolve(1.0)
     call wait_for_click
 
     em "Is my ass good enough for him?"
@@ -73,7 +73,7 @@ label weekend1_sunday_black_dildo_sofa:
     mc "Ah oh yes baby"
     mc "It's so sexy!"
 
-    show emily 0411 with dissolve
+    show emily 0411 with Dissolve(1.0)
 
     em "You should invite all your friends over and let them fuck me.."
     em "And after that party we should go to a club and pick up every black man in there"
@@ -84,36 +84,36 @@ label weekend1_sunday_black_dildo_sofa:
 
     mc "Ahhhhh"
 
-    show emily 0412 with dissolve
+    show emily 0412 with Dissolve(1.0)
 
     em "Does that make your tiny little thing hard?"
     em "Thinking of all your friends group fucking your girlfriend"
 
     mc "Yyy yesss"
 
-    show emily 0413 with dissolve
+    show emily 0413 with Dissolve(1.0)
     em "Next time I see Jack I'll ask him to make me pregnant while I make you lick his ass!"
 
     "Pre cum starts to coat your little dick"
 
-    show emily 0414 with dissolve
+    show emily 0414 with Dissolve(1.0)
 
     em "Mmm I bet he can reach deep inside me..."
     em "Oh look.."
 
-    show emily 0415 with dissolve
+    show emily 0415 with Dissolve(1.0)
 
     em "Come here my black stallion"
     em "I'm starting to get bored of my white husband's tiny dick"
 
-    show emily 0416b with dissolve
+    show emily 0416b with Dissolve(1.0)
 
     "She bends down your hard dick"
 
     em "Mmmm"
     em "I love your black cock so much baby"
 
-    show emily 0417b with dissolve
+    show emily 0417b with Dissolve(1.0)
 
     "She plops the dildo right on top of your hard dick making it bend down"
 
@@ -123,31 +123,31 @@ label weekend1_sunday_black_dildo_sofa:
 
     mc "Ohhh"
 
-    show emily 0418b with dissolve
+    show emily 0418b with Dissolve(1.0)
 
     em "First I start by licking him all over his massive shaft and huge balls"
 
-    show emily 0419b with dissolve
+    show emily 0419b with Dissolve(1.0)
 
     em "Then i lick and make out with his big glans"
     em "He loves when I do that.."
 
-    show emily 0420b with dissolve
+    show emily 0420b with Dissolve(1.0)
     
     em "Then I..."
     em "Hmmh Hnnghh"
 
-    show emily 0421b with dissolve
+    show emily 0421b with Dissolve(1.0)
     call wait_for_click
 
-    show emily 0422b with dissolve
+    show emily 0422b with Dissolve(1.0)
 
     "Cough cough*"
 
     em "He's so big!"
     em "He really needs to train me better.."
 
-    show emily 0423b with dissolve
+    show emily 0423b with Dissolve(1.0)
 
     "Just by instinct you put your hands on her head and ask:"
 
@@ -162,11 +162,11 @@ label weekend1_sunday_black_dildo_sofa:
 
     mc "Ahh yeees"
 
-    show emily 0424b with dissolve
+    show emily 0424b with Dissolve(1.0)
 
     "You press her head down hard on the big black cock"
 
-    show emily 0425b with dissolve
+    show emily 0425b with Dissolve(1.0)
 
     em "Gasping for air*"
     em "Drools*"
@@ -181,7 +181,7 @@ label weekend1_sunday_black_dildo_sofa:
 
     em "Hnnghhh"
 
-    show emily 0426b with dissolve
+    show emily 0426b with Dissolve(1.0)
     call wait_for_click
 
     menu:
@@ -192,7 +192,7 @@ label weekend1_sunday_black_dildo_sofa:
 
 
 label weekend1_sunday_black_deep:
-    show emily 0427b with dissolve
+    show emily 0427b with Dissolve(1.0)
     call wait_for_click
 
     "You press down as hard as you can!"
@@ -206,7 +206,7 @@ label weekend1_sunday_black_deep:
 
     "You quickly let go of her head"
 
-    show emily 0428b with dissolve
+    show emily 0428b with Dissolve(1.0)
     call wait_for_click
 
     "Her head flies up with a loud plop"
@@ -226,17 +226,17 @@ label weekend1_sunday_black_deep:
 label weekend1_sunday_black_not_deep:
     $ mc_cuckpoints -= 1
 
-    show emily 0429 with dissolve
+    show emily 0429 with Dissolve(1.0)
 
     em "Emily gets off you and leans back with her legs spread apart"
     em "She plays with her nipple and moans"
     em "Come here Mr Black. I'm yours, fuck me!"
 
-    show emily 0429b with dissolve
+    show emily 0429b with Dissolve(1.0)
 
     "She's so wet she presses the dildo in halfway without any trouble and starts to fuck herself"
 
-    show emily 0430b with dissolve
+    show emily 0430b with Dissolve(1.0)
     call wait_for_click
 
     show emily 04_bdildo_sofa
@@ -245,7 +245,7 @@ label weekend1_sunday_black_not_deep:
     show emily 0430b
     pause 0.5
 
-    show emily 0431b with dissolve
+    show emily 0431b with Dissolve(1.0)
 
     "She slams the dildo with a loud slap bottoming it out deep inside her"
 
@@ -258,7 +258,7 @@ label weekend1_sunday_black_not_deep:
     em "I'M CUMMMMMINNNNGGGGGGGGGGG"
     em "AHHHHHHHHHHHHHHHHHHH"
 
-    show emily 0432b with dissolve
+    show emily 0432b with Dissolve(1.0)
 
     "She lets go of the dildo and it plops out with a loud PLOP sound sending it flying"
     "The dildo has left her pussy wide open and squirting with her pussy fluids on you and the sofa"
@@ -269,7 +269,7 @@ label weekend1_sunday_black_not_deep:
 
 
 label weekend1_sunday_black_phone:
-    scene bg 0445b with dissolve
+    scene bg 0445b with Dissolve(1.0)
 
     "You grab her black cock beside her and push it in under her pussy"
     "Not inside, just under it so she's sitting on it and you make sure to rub her clitoris while pushing it in there"
@@ -281,6 +281,6 @@ label weekend1_sunday_black_phone:
 
 
 label scene0046b:
-    show bg 0446b with dissolve
+    show bg 0446b with Dissolve(1.0)
 
     jump weekend1_sunday_common_phone
