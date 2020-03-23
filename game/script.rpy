@@ -17,6 +17,7 @@ default mc_kinks_pee = 0
 default mc_kinks_penis = 0
 default mc_kinks_exhibit = 0
 default mc_kinks_cum = 0
+default mc_kinks_sissy = 0
 default mc_name = "?"
 define mc = Character("[mc_name]")
 define mc_thoughts = Character("[mc_name]", what_italic = True)
@@ -31,6 +32,7 @@ default em_kinks_cheating = 0
 default em_kinks_cheat_jack = 0
 default em_loves_james = 0
 default em_loves_jack = 0
+default em_kinks_sub = 0
 define em = Character("Emily")
 define em_thoughts = Character("Emily", what_italic = True)
 
@@ -52,6 +54,7 @@ default j_loves_elise = 0
 default j_loves_emily = 0
 default j_mem_em_car = False
 define j = Character("Jack")
+define jtease = Character("Jack in a girly teasing voice")
 
 # Goddess Victoria (taboo site domina)
 define gv = Character("Goddess Victoria")
@@ -64,6 +67,17 @@ define cw = Character("Waitress")
 
 # 611 checkout girl
 define cg = Character("Checkout girl")
+
+# Walter Walker (school principal)
+define sp = Character("Principal")
+define ww = Character("Master Walker")
+
+# School students
+define mi = Character("Mimi")
+define ash = Character("Ash")
+define da = Character("Darell")
+define ch = Character("Chloe")
+define ty = Character("Tyler")
 
 # Black Prince (Taboo Palace black bull)
 default bull_marcus = False
@@ -81,11 +95,12 @@ define mss = Character("Slut")
 define dr = Character("Dr")
 define a = Character("Amanda")
 
-define mem_chloe_name = ""
-define mem_emily_color = ""
-define mem_short_emily = 0
-define mem_short_player = ""
-define mem_eleanor_secret_player = False
+default mem_chloe_name = ""
+default mem_emily_color = ""
+default mem_short_emily = 0
+default mem_short_player = ""
+default mem_short_massage = False
+default mem_eleanor_secret_player = False
 
 default inventory_dildo = ""
 default some_test = 10
@@ -94,6 +109,7 @@ default some_test = 10
 define pink_choice = "#F790C0"
 define red_choice = "#C4161C"
 define green_choice = "#64991E"
+define white_choice = "#FFFFFF"
 
 # The game starts here.
 
