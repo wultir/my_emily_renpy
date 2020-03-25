@@ -1948,7 +1948,7 @@ label day5_lether_yes:
     mc "Leaving"
     mc "Bye ahh bye"
 
-label scene0568b
+label scene0568b:
     scene bg 0568b with Dissolve(1.0)
 
     "Emilys finger never leaves your butt and she looks at you happy and whispers"
@@ -1974,7 +1974,7 @@ label day5_continue_walk:
     "You reach the water. It's not far from the table, but it's covered behind trees and bushes"
 
 
-label scene0570
+label scene0570:
     scene bg 0570 with Dissolve(1.0)
 
     em "So beautiful and calm"

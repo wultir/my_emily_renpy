@@ -243,6 +243,8 @@ image bg 0565 = "/bgimage/005/0565.jpg"
 image bg 0566 = "/bgimage/005/0566.jpg"
 image bg 0567 = "/bgimage/005/0567.jpg"
 image bg 0568 = "/bgimage/005/0568.jpg"
+image bg 0568a = "/bgimage/005/0568a.jpg"
+image bg 0568b = "/bgimage/005/0568b.jpg"
 image bg 0569 = "/bgimage/005/0569.jpg"
 image bg 0570 = "/bgimage/005/0570.jpg"
 
