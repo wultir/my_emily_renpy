@@ -1186,6 +1186,806 @@ label day5_computer_start:
     "She sits in your lap while you open the webpage"
     "You give her your username and password "
 
+    show pc tb_01 at top with Dissolve(1.0):
+        yoffset 6
 
-    # scene3.ks line 1368
+    em "Taboo Palace..."
+
+    show pc tb_profile with Dissolve(0.6)
+
+    em "Oh my!"
+    em "It's public! You wrote all that about us with a picture and that.... kink???"
+    em "OMG"
+
+    mc "It's a serious pay site babe.."
+    mc "Only other paying members can see this"
+    mc "And if they do, why are they here too?"
+    mc "Nothing will happen"
+
+    em "..."
+    em "I hope you are right!"
+    em "It says 1 read message.."
+    em "Click there!"
+
+    mc "..."
+    mc "Ok.."
+
+    show pc tb_bull01 with Dissolve(0.6)
+
+    "You open the message "
+
+    em "Black Prince... What a name.."
+    em "You need to be careful!"
+    em "What if he's a bad person and will rape me?"
+
+    mc "There's some point and review system here. Look he has lots of verifications and points.."
+    mc "Relax baby!"
+
+    em "..."
+
+    if bull_marcus:
+        jump day5_answer_black_prince
+
+
+label day5_no_answer_black:
+    em "Still..."
+    em "You need to be careful!"
+    em "I'll change the password later. Don't try to log in here anymore!"
+
+    jump day5_end_chat
+
+
+label day5_answer_black_prince:
+
+    em "It says you have answered... Click it!"
+    "Emily starts reading your reply to him"
+
+    em "Hi!"
+    em "I think I'm very interested in seeing you. But I'm very shy so I don't know how.. Or when.. Or what to tell my girlfriend Emily"
+    em "I don't know how any of this works.. This feels so real now.. Lol my hands are so shaky now. I don't know what to say, I feel stupid"
+    em "Meeting you would maybe be a fantasy come true. But I don't know if fantasy and reality are the same?"
+    em "Ps"
+    em "It sounds like I'm high. Sorry"
+    em "But I'm not high on drugs. I've never even tried any"
+    em "..."
+    em "You sent another message too. Click it.."
+
+    show pc tb_pics01 with Dissolve(0.6)
+
+    em "Ok... This was already in our profile.."
+    em "Next!"
+
+    show pc tb_pics02 with Dissolve(0.6)
+
+    em "WHAT????"
+    em "NEXT!"
+
+    show pc tb_pics03 with Dissolve(0.6)
+
+    em "Oh lord.."
+    em "Just....next..."
+
+    show pc tb_pics04 with Dissolve(0.6)
+
+    em "Oh my god..."
+    em "Babe... You sent naked pictures of me to a stranger online.."
+    em "Do you understand what you have done?"
+    em "My pictures could be online in different russian scammer forums where they steal and make money from it.."
+    em "Fuck those guys.."
+    em "And different guys masturbating over me now..."
+    em "What if.. What if..."
+
+    mc "I'm sorry baby.. But he won't do it!"
+    mc "I'm sure!"
+    mc "He is serious!"
+
+    em "I really hope you are right.."
+    em "You know what?"
+    em "You will meet that guy later.."
+
+    mc "Www hh aaaaat? "
+    mc "But but.."
+
+    em "No buts"
+    em "You will meet him and then you can tell me how serious he is!"
+    em "And he's kinda hot.. So you can tell me how hot he's in real life too"
+    em "Also don't try to log in here anymore. It's clear I need to take control over it!"
+
+
+label day5_end_chat:
+    em "Let's go and check out that store at the shopping centre before I get too tired.."
+    em "And I've always wanted to visit it!"
+
+    hide pc with Dissolve(1.0)
+
+    scene bg black with Dissolve(1.0)
+
+    "30 minutes or so later at the shopping centre"
+
+
+label day5_shopping:
+    scene bg 0526 with Dissolve(1.0)
+
+    sg "Hello and welcome to Victoria's Sin"
+    sg "How may I help you?"
+
+    em "Hello"
+    em "We would like to modernize and change out our wardrobe completely.."
+
+    sg "You came to the right place then! We have everything sexy and trendy for both sexes"
+    sg "Where should we begin?"
+
+    em "Oh I have no idea, but we are supposed to have store credit here if we mention Mistress Victoria.."
+
+    sg "Let me check.."
+    sg "And what is your name?"
+
+    em "Emily White"
+
+
+label scene0527:
+    scene bg 0527 with Dissolve(1.0)
+
+    sg "Yes you do!"
+    sg "1000$ to be exact.. And here's a note about clothing rules.. Let me read.."
+    sg "..."
+    sg "'mumbling.. feminine..sexy...pink...slutty but not too slutty...short...tight..."
+    sg "..."
+    sg "Sorry for the wait.. You really came to the right place!"
+    sg "Have you been here before?"
+
+    em "No sorry, I've always wanted but there wasn't any time"
+
+    sg "No worries, you are here now. Follow me and I'll show you around!"
+
+
+label scene0528:
+    scene bg 0528 with Dissolve(1.0)
+
+    sg "Our biggest collection is our sexy underwear and lingerie"
+    sg "But we have clothing for every occasion and need so we'll find something really sexy for you both today!"
+
+
+label scene0529:
+    scene bg 0529 with Dissolve(1.0)
+
+    sg "Let's start here with some sexy panties"
+
+    em "Good choice haha"
+
+    "You end up being the one carrying everything while the girls chat and pick up piles of clothes for you to carry"
+
+
+label scene0530:
+    scene bg 0530 with Dissolve(1.0)
+
+    sg "Here's our more private changing rooms"
+    sg "I'll take you there so you two get more privacy"
+
+
+label scene0531:
+    scene bg 0531 with Dissolve(1.0)
+
+    sg "Here we are!"
+    sg "Just take your time and I'll bring you more clothes to try hihi"
+    sg "Have fun!"
+
+    em "Thank you! "
+
+
+label scene0532:
+    scene bg 0532 with Dissolve(1.0)
+
+    "You put the pile of clothes into one changing booth and then you take a seat being totally spent"
+
+    em "Aww babe, tired already?"
+
+    mc "Mhmm"
+
+    em "Rest quickly we have tons to try out!"
+
+    mc "Mhhhmmmm"
+
+    em "Did you like her outfit?"
+    em "Do you want me to wear something like that?"
+
+    menu:
+        "{color=[pink_choice]}Yes baby! It would look so sexy on you!{/color}":
+            jump day5_yes_baby
+        "{color=[red_choice]}No! It was a bit too slutty maybe?{/color}":
+            jump day5_no_baby
+
+
+label day5_yes_baby:
+    $ em_kinks_exhibit += 1
+
+    em "You think so?"
+    em "I'll remember that!"
+    em "It was kinda sexy but I would look too fat in it I think!"
+
+    jump day5_yesno_baby_done
+
+
+label day5_no_baby:
+    em "Really? "
+    em "I kinda liked it..."
+
+
+label day5_yesno_baby_done:
+    scene bg 0533 with Dissolve(1.0)
+
+    em "Soo ummm"
+
+    mc "What's wrong baby?"
+
+    em "I feel sooooo fat!"
+
+    mc "What? No"
+
+
+label scene0534:
+    scene bg 0534 with Dissolve(1.0)
+
+    "The blonde salesgirl enters before you can say anymore"
+
+
+label scene0535:
+    scene bg 0535 with Dissolve(1.0)
+
+    sg "Oh wow! Really sexy"
+    sg "It suits you perfectly"
+
+    em "R rreally?"
+
+    sg "Yes!"
+    sg "Come out here girl and check yourself out in the mirror here"
+
+
+label scene0536:
+    scene bg 0536 with Dissolve(1.0)
+    "She turns around"
+
+    sg "And I've got something for you too!"
+    sg "Really sexy ones too"
+    sg "They are really really soft but the outside is coated with a soft but firm coating that gives them shine and firmness to protect you from..."
+    sg "Embarrassing moments as long as you don't get too... excited.."
+
+    mc "I I iiahh don't know.."
+
+    sg "Don't be shy, go on. In with you and try them on!"
+
+    "She hands them to you and walks out"
+
+    mc_thoughts "Ahhhhhhh fuck"
+    mc_thoughts "They look way too close to panties"
+
+    em "Go on babe. I want to see them on you!"
+
+    mc "Aww do I have too?"
+
+    em "Yes!"
+
+
+label scene0537:
+    scene bg 0537 with Dissolve(1.0)
+
+    "You walk into the booth"
+
+    mc "Are you sure? "
+    mc "Do I really really have too?"
+
+    em "YES haha. Change!"
+
+    scene bg black with Dissolve(1.0)
+
+    "You are really taking your time hoping the grounds will open up and swallow you"
+
+    em "Come out now babe! I'm waiting.."
+
+    mc "Awww.. Ok.. ok.."
+
+
+label scene0538:
+    scene bg 0538 with Dissolve(1.0)
+
+    em "Wow!"
+    em "There's my sexy boy"
+    em "With his sexy body.."
+
+
+label scene0539:
+    scene bg 0539 with Dissolve(1.0)
+    em "And his sexy and hard nipples"
+
+    mc "Ahh"
+
+
+label scene0540:
+    scene bg 0540 with Dissolve(1.0)
+    "Emily squeezes your nipple between her fingers and pulls your head back kissing your neck and whispering"
+
+    em "Fuck you are so sexy right now!"
+    em "I want to eat you right now!"
+
+
+label scene0541:
+    scene bg 0541 with Dissolve(1.0)
+
+    "Suddenly and without any warning she grabs your neck and forces you into bending over"
+    em "Fuck I love your body and your ass!"
+    em "Be a good boy and don't move a muscle!"
+
+    menu:
+        "{color=[pink_choice]}Stay still like a good boy{/color}":
+            jump day5_good_boy
+        "{color=[red_choice]}Laugh and stop the situation{/color}":
+            jump day5_bad_boy
+
+
+label day5_good_boy:
+    scene bg 0541a with Dissolve(1.0)
+    "She grabs your underwear and you can feel her finger moving around your butt crack"
+
+    em "Oh yes"
+    em "You are such a good boy"
+
+    "Her breathing becomes more heavy"
+
+    em "I wish I had a dick now babe"
+    em "A big one!"
+    em "I would fuck you right now"
+    em "Mmm your tight and delicious ass"
+    em "I would take your virginity over and over again"
+    em "I would cum inside you and make you walk around with my cum deep inside you"
+
+    mc "Ahhh"
+
+    em "That's right.. Moan for me babe!"
+
+
+label scene0541b:
+    $ mc_kinks_butt_play += 1
+    $ em_kinks_exhibit += 1
+    scene bg 0541b with Dissolve(1.0)
+
+    "Without any warning again she turns you around pushing your head while pressing her tongue deep into your mouth and caressing and squeezing your butt"
+    "You are feeling helpless and confused by her sudden and public behaviour. But it's turning you on too at the same time.. "
+
+    em "Mmm"
+    em "I love you so much!"
+    em "I got a bit carried away.."
+    em "Sorry"
+    em "I have to stop before I rape you haha"
+
+    "You laugh nervously"
+
+
+label scene0542:
+    scene bg 0542 with Dissolve(1.0)
+
+    em "We better continue trying out more clothes and sorry again"
+
+    mc "Don't be... I love you.."
+
+    em "Haha awww"
+    em "I love you too"
+
+    scene bg black with Dissolve(1.0)
+
+    "Alot of time passes"
+
+
+label scene0543:
+    scene bg 0543 with Dissolve(1.0)
+
+    "While she tries on different outfits and underwear"
+    "...."
+
+
+label scene0544:
+    scene bg 0544 with Dissolve(1.0)
+
+    "Outfit after outfit"
+
+    jump day5_good_bad_done
+
+
+label day5_bad_boy:
+    "Emily looks sad and irritated but let's you go "
+    "You sit down and wait for what feels an eternity while she tries on clothing after clothing..."
+
+
+label day5_good_bad_done:
+    scene bg black with Dissolve(1.0)
+
+    "After some more outfits you are finally done and head upstairs to pay"
+
+
+label scene0545:
+    scene bg 0545 with Dissolve(1.0)
+    "Another eternity is lost when waiting for it to be paid and done"
+    "The girls are laughing and chatting while she blips them with her computer and bags all of your new outfits"
+    "10 shopping bags later..."
+
+    sg "That's 793$ subtracted from your credit"
+    sg "I hope to see you guys again!"
+
+    em "I loved it! You will for sure!"
+    em "He's already carrying 2 and I can't carry much more.."
+    em "Is it ok if we return little later to pick the rest up?"
+
+    sg "That won't be necessary! "
+    sg "We offer free home delivery for our great customers.."
+    sg "And you are great hihi"
+    sg "If you want I could also use the remaining store credit to throw in more of the clothing styles you want?"
+
+    em "Yes please!"
+    em "Thank you so much!"
+
+    sg "No no.. Thank you!"
+    sg "Have a great day you two and see you later!"
+
+    em "Bye bye!"
+
+
+label scene0546:
+    scene bg black with Dissolve(1.0)
+
+    "30 minutes or so later back home"
+
+    scene bg 0546 with Dissolve(1.0)
+    
+    em "Pheew home sweet home"
+
+    mc "Yeeeees but I really have to peeeeeeeeee"
+
+    "You throw the bags onto your bed and run to the bathroom"
+
+    "A couple minutes later when coming out from the bathroom"
+
+
+label scene0547:
+    scene bg 0547 with Dissolve(1.0)
+
+    em "I'm going to try this outfit while going out to jog"
+    em "Do you like it?"
+
+    mc "Yes you are sexy! But are you leaving?"
+
+    em "No babe,, We are leaving.."
+    em "I put your new working out clothes on the bed"
+    em "Go on and put them on"
+
+    mc "Okey.."
+
+    scene bg house01_bedroom_day_pc with Dissolve(1.0)
+
+    "You walk into the bedroom not knowing what to expect"
+
+
+label scene0548:
+    scene bg 0548 with Dissolve(1.0)
+
+    mc_thoughts "Oh crap"
+    mc_thoughts "What are these? "
+    mc_thoughts "Is it the official gay day or something??"
+    mc_thoughts "Fuck fuck "
+
+label scene0549:
+    scene bg 0549 with Dissolve(1.0)
+
+    mc_thoughts "...."
+    mc_thoughts "I want to cry"
+    mc_thoughts "But that would just complete the whole gay look"
+    mc_thoughts "Purple skin hugging tighties.... really??"
+    mc_thoughts "Fuuuuuuuuuuuuuuuuuuuuuuuuuck"
+    mc_thoughts "But on the plus side... They could have been pink.."
+    mc_thoughts "Yeah hahaha, I would hang myself in those"
+
+
+label scene0550:
+    scene bg 0550 with Dissolve(1.0)
+
+    em "So what do you think?"
+    em "You look so pretty in those!"
+
+    mc "Hnnngghhh"
+    mc "Oh fuck. When did you come in here? I didn't hear you!"
+
+    em "Yeah I saw how busy you were admiring your sexy butt in those tighties"
+
+    mc "Noooo.. Baby I look.."
+    mc "Kinda gay..."
+
+    em "Haha"
+    em "No, you look sexy!"
+    em "Lots of guys wear purple,red and pink"
+    em "It's trendy and sexy on guys"
+
+    mc "..."
+    mc "Maybe.."
+
+    em "Besides.."
+    em "You aren't wearing pink tights today.."
+
+    mc "Pink? Today? What? You mind reading witch! Nooooooo"
+
+    em "Hahaha relax you big sissy hihi"
+    em "Are you ready now?"
+
+    mc "Nooo"
+
+    em "Haha yes you are! Come on let's go out for a jog now"
+
+
+label scene0551:
+    scene bg black with Dissolve(1.0)
+
+    "Couple of minutes later outside at the park"
+
+    scene bg 0551 with Dissolve(1.0)
+
+    em "I love this park. This is where I usually run"
+    em "When did you run last time?"
+
+    mc "Ehhh"
+    mc "..."
+    mc "Never I think"
+
+    em "Oh god!"
+    em "Then this will be a very needed run for you"
+    em "It's important to stretch out before"
+    em "Just watch me and do what I'm doing"
+    em "Ok?"
+
+    mc "Yup"
+
+
+label scene0552:
+    scene bg 0552 with Dissolve(1.0)
+
+    "You try to follow her movements but soon give up and just stare at her body"
+
+
+label scene0553:
+    scene bg 0553 with Dissolve(1.0)
+    call wait_for_click
+
+
+label scene0554:
+    scene bg 0554 with Dissolve(1.0)
+    call wait_for_click
+
+
+label scene0555:
+    scene bg 0555 with Dissolve(1.0)
+
+    em "Ready babe?"
+
+    mc "Uhu"
+
+    em "Great!"
+    em "Let's go!"
+
+
+label scene0556:
+    scene bg 0556 with Dissolve(1.0)
+    call wait_for_click
+
+
+label scene0556x:
+    scene bg 0556x with Dissolve(1.0)
+    call wait_for_click
+
+    show emily jogging with Dissolve(1.0)
+    show text "{color=#f686b8}{font=fonts/Elsie-Regular.ttf}{size=38}Click to continue{/size}{/font}{/color}":
+        pos(876, 974)
+        anchor(0,0)
+    call wait_for_click(False)
+
+    hide text with Dissolve(1.0)
+    pause 1.0
+    hide emily with Dissolve(1.0)
+
+
+label scene0557:
+    scene bg 0557 with Dissolve(1.0)
+
+    mc "Hnnhhhhhhhhh"
+    mc "Fuck this is hard"
+
+
+label scene0558:
+    scene bg 0558 with Dissolve(1.0)
+
+    mc "Hhhuuuuaaaaaaa"
+    mc "I think... I can't..........."
+
+label scene0559:
+    scene bg 0559 with Dissolve(1.0)
+
+    mc "Baby"
+    mc "I can't.."
+    mc "It hurts"
+
+
+label scene0560:
+    scene bg 0560 with Dissolve(1.0)
+
+    em "What's wrong?"
+
+    mc "I can hear my lungs and it hurts so much everywhere"
+
+    em "Aww come here"
+    em "Kiss*"
+    em "You are just out of shape! Don't worry we can walk for a bit"
+
+    mc "Thanks!"
+
+
+label scene0561:
+    scene bg 0561 with Dissolve(1.0)
+
+    em "Feeling better now?"
+
+    mc "No, running sucks!"
+
+    em "We better go to a gym then to get you into shape"
+    em "You really are out of it"
+    em "That wasn't even a warm up distance!"
+    em "And I can't wait to see those pink tights on your tight little butt!"
+    em "Hihi"
+
+    mc "..."
+
+
+label scene0562:
+    scene bg 0562 with Dissolve(1.0)
+
+    "Some walking later"
+
+    em "See that table over there to the right?"
+    em "That's my favorite spot here"
+    em "It's so beautiful here and you can see and smell the water"
+    em "I usually take a break there and just enjoy the smells and surroundings"
+
+
+label scene0563:
+    scene bg 0563 with Dissolve(1.0)
+
+    mc "You sit down at the table and Emily sits on top of it in front of you"
+
+    em "Can you smell it babe? "
+    em "Isn't it beautiful?"
+
+    mc "..."
+
+    menu:
+        "{color=[pink_choice]}Not as beautiful as you (+ Touching){/color}":
+            jump day5_beautiful
+        "{color=[red_choice]}Don't{/color}":
+            jump day5_notouch
+
+
+label day5_beautiful:
+    scene bg 0564 with Dissolve(1.0)
+    call wait_for_click
+
+
+label scene0565:
+    scene bg 0565 with Dissolve(1.0)
+
+    em "Eeeeeeeeeekkk Hihihi"
+    em "Stop it! Haha"
+
+
+label scene0566:
+    scene bg 0566 with Dissolve(1.0)
+
+    em "You always go after my butt!"
+    em "You silly silly boy"
+
+    mc "I can't help it!"
+    mc "Such beauty must be enjoyed!"
+
+    em "Bahh"
+    em "Come I want to show you the water!"
+
+    jump day5_touchdone
+
+
+label day5_notouch:
+    scene bg 0566 with Dissolve(1.0)
+
+    em "Let's continue"
+    em "I want to show you the water now!"
+
+
+label day5_touchdone:
+    scene bg 0567 with Dissolve(1.0)
+
+    om "Hello ladies "
+    om "Oh sorry"
+    om "Girl and boy"
+    om "Do you mind if I use the bench and table for a little rest?"
+
+    em "Hi"
+    em "And we don't mind! We were just leaving"
+
+    om "Oh thank you!"
+    om "Be safe kids"
+
+    em "Hihi"
+    em "You too!"
+
+    "While they are talking you feel Emilys hand on your butt go inside your tights "
+
+
+label scene0568:
+    scene bg 0568 with Dissolve(1.0)
+
+    "Then you feel her finger brush against your anus"
+    "And it starts to massage it and put pressure on it. But not enough to slip inside"
+    "You are shocked and stunned"
+    "But at the same time it feels so good and kinky.. "
+    "You feel your dick move a little"
+
+    menu:
+        "{color=[pink_choice]}Let her and try to act normal{/color}":
+            jump day5_lether_yes
+        "{color=[red_choice]}Be a man and prrrotect your rrrump{/color}":
+            jump day5_lether_no
+
+
+label day5_lether_yes:
+    $ mc_kinks_butt_play += 1
+    $ henry_mem_saw_buttplay = True
+    scene bg 0568a with Dissolve(1.0)
+
+    mc "Oiii"
+    mc "Helloo"
+    mc "Yeah we were just ahhh"
+    mc "Leaving"
+    mc "Bye ahh bye"
+
+label scene0568b
+    scene bg 0568b with Dissolve(1.0)
+
+    "Emilys finger never leaves your butt and she looks at you happy and whispers"
+
+    em "I love your butt so much and I love how you moan when I'm playing with it!"
+
+    mc_thoughts "Is he?"
+    mc_thoughts "Oh shit"
+    mc_thoughts "He saw her hand.."
+
+    jump day5_continue_walk
+
+
+label day5_lether_no:
+    "This is too much for you and you quickly jump away from her hand "
+    "Emily dosen't say anything but her disappointed face says it all"
+
+
+label day5_continue_walk:
+    scene bg 0569 with Dissolve(1.0)
+
+    "You take a quick glance back after taking a couple more steps while you two start walking and the old man seems to really have needed the rest"
+    "You reach the water. It's not far from the table, but it's covered behind trees and bushes"
+
+
+label scene0570
+    scene bg 0570 with Dissolve(1.0)
+
+    em "So beautiful and calm"
+    em "Isn't it babe?"
+
+    mc "Yeah"
+    mc "We should come here more often!"
+
+    em "Yes we should"
+    em "And we will!"
+    em "Our secret spot!"
+
+    # scene3.ks line 2296
 

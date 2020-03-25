@@ -1,5 +1,6 @@
-label wait_for_click:
-    show waiting at topleft
+label wait_for_click(img=True):
+    if img:
+        show waiting at topleft
     pause
     hide waiting
 

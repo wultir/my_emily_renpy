@@ -18,6 +18,7 @@ default mc_kinks_penis = 0
 default mc_kinks_exhibit = 0
 default mc_kinks_cum = 0
 default mc_kinks_sissy = 0
+default mc_kinks_butt_play = 0
 default mc_name = "?"
 define mc = Character("[mc_name]")
 define mc_thoughts = Character("[mc_name]", what_italic = True)
@@ -82,6 +83,13 @@ define ty = Character("Tyler")
 # Black Prince (Taboo Palace black bull)
 default bull_marcus = False
 define bp = Character("Black Prince")
+
+# Victoria's Sin salesgirl
+define sg = Character("Salesgirl")
+
+# Old man in park (Henry)
+default henry_mem_saw_buttplay = False
+define om = Character("Old man")
 
 # Movie characters
 define mw = Character("Wife")
