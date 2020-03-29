@@ -34,6 +34,7 @@ default em_kinks_cheat_jack = 0
 default em_loves_james = 0
 default em_loves_jack = 0
 default em_kinks_sub = 0
+default em_kinks_incest_play = 0
 define em = Character("Emily")
 define em_thoughts = Character("Emily", what_italic = True)
 
@@ -89,6 +90,7 @@ define sg = Character("Salesgirl")
 
 # Old man in park (Henry)
 default henry_mem_saw_buttplay = False
+default henry_mem_saw_penis = False
 define om = Character("Old man")
 
 # Movie characters

@@ -1987,5 +1987,342 @@ label scene0570:
     em "And we will!"
     em "Our secret spot!"
 
-    # scene3.ks line 2296
 
+label scene0571:
+    scene bg 0571 with Dissolve(1.0)
+
+    em "What are you thinking about babe?"
+    mc "Just about my sexy bride. How lucky I am and how calm I am right now"
+
+
+label scene0572:
+    scene bg 0572 with Dissolve(1.0)
+
+    em "Yeah?"
+    em "And I'm thinking about my sexy soon the be hubby"
+
+    "Her hand starts to glide down your leg"
+
+
+label scene0573:
+    scene bg 0573 with Dissolve(1.0)
+
+    "It goes further down and your dick is now fully awaken"
+
+    mc "Oh baby"
+
+    em "Do you like this?"
+    em "My hand slowly going down..."
+
+    mc "Yes!"
+
+    "Your hand goes down too behind her grabbing her butt"
+    "And your finger slides in under her clothes trying to find her tight anus"
+
+
+label scene0574:
+    scene bg 0574 with Dissolve(1.0)
+    "Emily grabs your dick hard"
+
+    em "NO!"
+    em "My butt is a virgin and it will stay that way!"
+
+    if em_kinks_rec_anal == 1:
+        jump day5_em_check_anal_yes
+    else:
+        jump day5_em_check_anal_no
+
+
+label day5_em_check_anal_yes:
+    em "Don't get any hopes for anything else!"
+    em "My anus is only for pooping and nothing else!"
+    em "I know I liked it when you licked me there before.."
+    em "But it was only a one time deal, a heat of the moment thing!"
+    em "I love you but don't go near it again unless I tell you so"
+    em "That would seriously piss me off if you can't listen to me and if you won't respect me and my wishes!"
+    em "Do you understand?"
+
+    mc "Yes"
+    mc "I'm sorry baby"
+
+    em "Good little boy!"
+
+
+label day5_em_check_anal_no:
+    scene bg 0575 with Dissolve(1.0)
+
+    em "Wait!"
+    em "Can you hear that?"
+    em "What's that?"
+    em "OH MY GOD"
+
+
+label scene0576:
+    scene bg 0576 with Dissolve(1.0)
+
+    em "Psst look babe!"
+    em "The old many didn't see us and he's flashing us now"
+    em "Oh god he's going to pee!"
+    em "Hihi"
+
+    menu:
+        "{color=[pink_choice]}Curiously watch with her{/color}":
+            jump day5_watch_henry
+        "{color=[red_choice]}Just no. Hell.NO.. Stop! {/color}":
+            jump day5_dont_watch_henry
+
+
+label day5_watch_henry:
+    $ henry_mem_saw_penis = True
+    scene bg 0577 with Dissolve(1.0)
+    call wait_for_click
+
+
+label scene0578:
+    scene bg 0578 with Dissolve(1.0)
+    call wait_for_click
+
+
+label scene0579:
+    scene bg 0579 with Dissolve(1.0)
+    "You can hear Emily's breathing intensify and she starts to massage your still hard dick "
+
+label scene0580:
+    scene bg 0580 with Dissolve(1.0)
+
+    "Emily keeps staring at him while massaging you more and more intensely"
+    "She lets out a quiet moan"
+
+
+label scene0581:
+    scene bg 0581 with Dissolve(1.0)
+    "Still whispering"
+
+    em "Ohh baby"
+    em "This is so wrong but I'm getting really wet"
+
+    "You see her other hand reaching down and she starts to touch herself"
+
+    mc "Don't you think he's kinda small.. down there..?"
+
+    em "I say he's normal sized.."
+    em "And maybe he's a grower? Lots of guys are.."
+    em "And maybe he knows how to really use it? "
+    em "Maybe he's a beast in bed?"
+    em "Hihi"
+
+
+label scene0582:
+    scene bg 0582 with Dissolve(1.0)
+
+    em "Oh no"
+    em "He's done"
+
+
+label scene0583:
+    scene bg 0583 with Dissolve(1.0)
+
+    em "Oh look!"
+    em "He's getting hard I think"
+
+
+label scene0584:
+    scene bg 0584 with Dissolve(1.0)
+
+    em "Oh god!"
+    em "Yes!"
+    em "Maybe he can smell my wet pussy?"
+    em "Hihi"
+
+
+label scene0585:
+    scene bg 0585 with Dissolve(1.0)
+
+    em "Aww now he's leaving"
+    em "I would have loved to see more!"
+    em "Imagine if he had started to masturbate"
+    em "Oh my god"
+
+   
+label scene0586:
+    scene bg 0586 with Dissolve(1.0)
+
+    em "I'm so fucking horny now!"
+    em "You never licked my pussy.. Right babe?"
+
+    mc "Ye Yeah Never. I wanted too but yy you never..."
+
+    em "Hushhh"
+    em "Now is the time!"
+    em "I want you to lick it!! And deep!!"
+
+
+label scene0587:
+    scene bg 0587 with Dissolve(1.0)
+
+    em "Wait!"
+    em "Quiet!"
+    em "What's that?"
+    em "Something is coming!"
+
+    "?" "Singing*"
+    "?" "Bi baba barabo"
+    "?" "Baba barabo"
+    "?" "Dib da dub dub"
+    "?" "I'm the Scatman"
+    "?" "Hahaha silly kids and their pop songs these days"
+
+
+label scene0588:
+    scene bg 0588 with Dissolve(1.0)
+
+    om "Ski-bi dibby dib yo da dub dub"
+
+    em "Gasp*"
+
+
+label scene0589:
+    scene bg 0589 with Dissolve(1.0)
+
+    om "HHHIIIOOOOAAAAAAAAAUUUUUU NHGGGGGGGGG"
+    om "Scheiße"
+
+    em "Loud gasp*"
+
+
+label scene0590:
+    scene bg 0590 with Dissolve(1.0)
+
+    om "You kids scared the living hell out of me!"
+
+    "He quickly covers himself up"
+
+    em "I'm sorry mister.. We are sorry.."
+
+
+label scene0591:
+    scene bg 0591 with Dissolve(1.0)
+
+    om "Well crap"
+    om "You've already seen it so there's no point in hiding"
+
+    "Emilys head and eyes fixate on his penis again"
+
+    om "Where did you kids come from?"
+    om "I was just peing here and I was alone!"
+
+    em "Nope hihi"
+    em "We saw it all!"
+
+    om "Well I'm sorry!"
+    om "I had no idea"
+
+    em "It's ok. Really!"
+
+    om "I don't show myself naked to people like this.. Or in any way.."
+    om "It's just... This was a funny tradition I started with my wife many many years ago.."
+    om "And she isn't here anymore.. But I still try to do it every Monday.."
+
+    em "Aww I'm sorry!"
+
+    om "Don't be sweetie! You live and you die.."
+    om "Be happy and crazy while you still can"
+
+    em "Yes hihi"
+
+
+label scene0592:
+    scene bg 0592 with Dissolve(1.0)
+
+    "You can't see Emilys eyes but you know her eyes are locked on his old but hard cock"
+    "You are feeling jealous but at the same time incredibly horny too"
+    "The way she's tightly clining to your thigh, dangerously close to your rock hard cock"
+    "The way she breathes"
+    "You swear you can smell her pussy now"
+    "Emily starts to talk in a husky and trembling almost hypnotized voice "
+
+    em "Ahh "
+    em "Do dd do you want us to join next time? Mmm aybe we'll do that?"
+
+    om "Really?"
+    om "That would be lovely!"
+
+    em "Good! It's a date then.. Oohh"
+    em "Mmmaybe"
+    em "Sorry we need to leave rright now"
+    em "Bye bye"
+    em "Moan*"
+
+    om "Bye youngsters"
+
+    "Emily drags you up by an incredible force. You have no time to think what's happening and before you know it you are running with Emily dragging you faster and faster"
+
+
+label scene0593:
+    scene bg 0593 with Dissolve(1.0)
+
+    em "This is good enough!"
+
+    mc "What is?"
+
+label scene0594:
+    scene bg 0594 with Dissolve(1.0)
+    "Emily pushes you down hard and jumps up on you"
+
+    em "Oh my god!"
+    em "Lick"
+    em "NOW!!"
+
+
+label scene0595:
+    scene bg 0595 with Dissolve(1.0)
+
+    mc "Whaaa?"
+    "Emily grabs your head and pushes your head hard onto her pussy"
+    "You have no choise right now so you try to push your tongue out with all your might and start to lick her tights where her pussy is"
+    "She grabs your head harder and moves it in different motions, up down, left and right, circles"
+    "Her movements are very stiff and jerky. You know she's close the way she's moving your head around"
+    "10 seconds later"
+
+    em "OHHHHHHHHHHH YEEEEEEEEESSSSSSSSSSS"
+    em "FUUUUUUUUUUUUCCCCCCKKKKKKK"
+    em "Ahhhhhhhhhhh"
+
+    "She sits on your head and you can feel her pussy pulsate while she's spasming on top of you"
+
+    em "Fuck"
+    em "Fuck "
+    em "Fuckkk"
+    em "That was soo goooood"
+    em "Sorry babe!"
+    em "Shit we need to run!"
+    em "I don't wan't to know if anyone saw us.."
+    em "Let's go.. Fast!"
+    jump day5_curiosity_done
+
+
+label day5_dont_watch_henry:
+    scene bg big_park_day with Dissolve(1.0)
+    "You have no interest in that!"
+    "So you decided to leave the park with Emily"
+
+
+label day5_curiosity_done:
+    scene bg black with Dissolve(1.0)
+
+    "You two keep walking around the city hand in hand close to your apartment and looking at things and places all around you"
+    "And talking about everything and nothing"
+
+
+label day5_night:
+    scene bg house01_ext_night with Dissolve(1.0)
+
+    "It has already become dark outside so you both decide to head home"
+
+    scene bg house01_entry_night with Dissolve(1.0)
+
+    em "I loved today babe!"
+    em "But I'm tired now.. Let's go to bed and rest"
+    em "Tomorrow will be a new day.. I can't wait to see what will happen"
+
+    jump day5_goodnight
