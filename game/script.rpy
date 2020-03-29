@@ -34,7 +34,7 @@ default em_kinks_cheat_jack = 0
 default em_loves_james = 0
 default em_loves_jack = 0
 default em_kinks_sub = 0
-default em_kinks_incest_play = 0
+default em_kinks_incest_play = False
 define em = Character("Emily")
 define em_thoughts = Character("Emily", what_italic = True)
 

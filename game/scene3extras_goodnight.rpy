@@ -109,7 +109,7 @@ label scene05101:
 
 
 label day5_yes_mommy:
-    $ em_kinks_incest_play += 1
+    $ em_kinks_incest_play = True
 
     em "Ahhhh "
     em "Ohh yesss"
@@ -176,7 +176,7 @@ label day5_suck_sph:
     scene bg 05102 with Dissolve(1.0)
     call wait_for_click
 
-    if em_kinks_incest_play == 1:
+    if em_kinks_incest_play:
         jump day5_mommy_sph
     else:
         jump day5_not_mommy_sph
@@ -282,7 +282,7 @@ label day5_lick_done:
 
     em "It's ok babe.."
 
-    if em_kinks_incest_play == 1:
+    if em_kinks_incest_play:
         jump day5_mommy_end
 
 
