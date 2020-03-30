@@ -93,6 +93,9 @@ default henry_mem_saw_buttplay = False
 default henry_mem_saw_penis = False
 define om = Character("Old man")
 
+# Jasmine
+define ja = Character("Jasmine")
+
 # Movie characters
 define mw = Character("Wife")
 define mh = Character("Husband")
