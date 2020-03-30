@@ -12,7 +12,7 @@ init offset = -1
 style default:
     properties gui.text_properties()
     language gui.language
-    outlines [ (absolute(0), "#000", absolute(1), absolute(1)) ]
+    outlines [ (absolute(0), "#000", absolute(2), absolute(2)) ]
 
 style input:
     properties gui.text_properties("input", accent=True)
@@ -24,6 +24,7 @@ style hyperlink_text:
 
 style gui_text:
     properties gui.text_properties("interface")
+    outlines []
 
 
 style button:
