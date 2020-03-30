@@ -671,7 +671,7 @@ label day6_2_slave:
 
 
 label day6_2_boyfriend:
-#Emily
+
     em "You like playing with fire?"
     em "But I won't punish you sice I tricked you!"
     em "You are both!"
@@ -780,4 +780,192 @@ label scene0654:
     mc_thoughts "But touching you feels so good!"
     mc_thoughts "No no, please go to bed Jr!"
 
-    # scene4.ks line 936
+    if ele_loves_mc == "love":
+        jump day6_eleanor_home
+
+label day6_eleanor_not_home:
+    scene bg house01_bedroom_day_pc with Dissolve(1.0)
+    "ring ring*"
+
+    show phone mc_em_call with Dissolve(1.0):
+        pos (510, 2)
+        anchor(0, 0)
+
+    mc "Hello"
+
+    em "Hey slave boy"
+    em "Are you in the bedroom now?"
+
+    mc "Yeah!"
+
+    em "I left you some clothes on the dresser.. Wear every piece! Ok?"
+    em "And you didn't receive any challenges from mistress Victoria right?"
+
+    mc "No I didn't... Did you?"
+
+    em "Yes!"
+    em "It's hair day! Yaaay!"
+    em "I already got my hair done.. I'm at the office today, James isn't here and we have so little work today so I treated myself"
+    em "I booked you a time. You have to be there in 1 hour and 30 minutes!"
+    em "Don't forget!"
+    em "I'll text you the place and where it is"
+    em "I won't be there because I'm running to the office again just for some small paper work. But I'll come over there when they are doing you!"
+    em "I have to go now"
+    em "See you soon "
+    em "1 hour, 30 minutes!"
+    em "Love you"
+    em "Bye!"
+
+    mc "Bye!"
+
+
+label scene0655c:
+    scene bg 0655c with Dissolve(1.0)
+
+    mc_thoughts "Fuck.. I see panties..."
+
+    scene bg black with Dissolve(1.0)
+    "You start putting your clothes on"
+    "Luckily the panties weren't panties. But Jockstraps instead..."
+    
+    scene bg pc with Dissolve(1.0)
+
+    mc_thoughts "I'll just play some game for an hour or so untill I have to leave"
+
+    show pc game_anne with Dissolve(1.0):
+        pos (293, 10)
+        anchor (0, 0)
+
+    "After playing some time you decide it's time to start leaving"
+
+    scene bg house01_ext_day with Dissolve(1.0)
+
+    mc_thoughts "I better hurry. I don't want to be late"
+
+
+label day6_eleanor_done:
+    scene bg black with Dissolve(1.0)
+
+    "After some time you arrive at the right place"
+
+
+label scene0675:
+    scene bg 0675 with Dissolve(1.0)
+
+    "?" "Hey!"
+    "?" "Can I help you?"
+
+
+label scene0676:
+    scene bg 0676 with Dissolve(1.0)
+
+    mc "My girlfriend was here before and booked me a time too!"
+
+    "?" "Emily?"
+
+    mc "Yes! That's her"
+
+    "?" "Follow me"
+
+
+label scene0677:
+    scene bg 0677 with Dissolve(1.0)
+
+    "?" "Please take a seat"
+    "?" "She had some very specific wishes so this can take some time"
+    "?" "But now that I see you I'm sure we can do it"
+
+
+label scene0678:
+    scene bg 0678 with Dissolve(1.0)
+
+    "?" "We'll get some permanent extenders and we'll cut and bleach you"
+    "?" "It's a really pretty and modern style!"
+
+
+label scene0679:
+    scene bg 0679 with Dissolve(1.0)
+
+    mc "Permanent extenders?"
+
+    "?" "Yep, they'll get fused with your hair. You won't notice the difference and the only way to get rid of them is to cut them off"
+
+
+label scene0680:
+    scene bg 0680 with Dissolve(1.0)
+
+    mc "Will it hurt?"
+
+    "?" "Ah don't worry!"
+    "?" "You won't feel it!"
+
+    scene bg black with Dissolve(1.0)
+
+    "After some time you start to nod off"
+
+
+label scene0681:
+    scene bg 0681 with Dissolve(1.0)
+
+    "?" "Hey there!"
+    "?" "Slept well?"
+    "?" "I think we are starting to get done!"
+
+
+label scene0682:
+    scene bg 0682 with Dissolve(1.0)
+
+    em "Hello"
+
+    "?" "Oh Hey!"
+    "?" "We just got done!"
+    "?" "What do you think?"
+
+
+label scene0683:
+    scene bg 0683 with Dissolve(1.0)
+
+    em "OH MY GOD!!!!!"
+    em "Soooooooooo prettyyyyyyyyyyyyy!"
+
+    mc "This can't be good?"
+
+    em "Hey! You look fantastic!"
+
+    "?" "Turn around and take a look!"
+
+
+label scene0684:
+    scene bg 0684 with Dissolve(1.0)
+
+    mc "AAAAAAAAEEEEEEEIIIIIIIIIIi"
+
+    em "What??"
+
+    mc "..."
+
+
+label scene0685:
+    scene bg 0685 with Dissolve(1.0)
+
+    "?" "You don't like it?"
+
+    mc "..."
+
+    em "He loves it!"
+    em "He's just really sensitive!"
+
+    "?" "Oh okey!"
+    "?" "Good!"
+
+    mc "..."
+
+    jump day6_waxing_start
+
+
+label day6_waxing_done:
+    scene bg black with Dissolve(1.0)
+
+    "You and Emily take the subway home"
+
+    # line 1165
