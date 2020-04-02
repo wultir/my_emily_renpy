@@ -968,4 +968,26 @@ label day6_waxing_done:
 
     "You and Emily take the subway home"
 
-    # line 1165
+
+label day6_end:
+    scene bg house01_ext_day with Dissolve(1.0)
+
+    em "I loved todays challenge!"
+    em "I can't wait to see what else we get.."
+    em "Oh and I did talk with Mistress Victoria today..."
+    em "She pointed me in the right direction and gave me some nice ideas"
+    em "Can't wait to try them out!"
+
+
+    scene bg house01_entry_day with Dissolve(1.0)
+
+    em "Let's just relax for the rest of today"
+    em "Set your alarm before we go to bed because tomorrow I want to wake up by you massaging my feet!"
+
+    scene bg black with Dissolve(1.0)
+
+
+    god "Hang on all the way to the end.. "
+    god "Santa has left you something!"
+
+    jump the_end_04

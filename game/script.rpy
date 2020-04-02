@@ -5,7 +5,7 @@
 
 # Message from god (intro narration)
 define mg = Character("Message from god")
-# God (game over narration)
+# God (end/game over narration)
 define god = Character("God")
 
 # Main character
@@ -95,7 +95,7 @@ define om = Character("Old man")
 
 # Jasmine
 define ja = Character("Jasmine")
-
+define ej = Character("Emily & Jasmine")
 # Movie characters
 define mw = Character("Wife")
 define mh = Character("Husband")
