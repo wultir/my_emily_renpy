@@ -1,4 +1,4 @@
-﻿# The script of the game goes in this file.
+# The script of the game goes in this file.
 
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
@@ -109,7 +109,7 @@ define dr = Character("Dr")
 define a = Character("Amanda")
 
 default mem_chloe_name = ""
-default mem_emily_color = ""
+default mem_emily_pink = False
 default mem_short_emily = 0
 default mem_short_player = ""
 default mem_short_massage = False
