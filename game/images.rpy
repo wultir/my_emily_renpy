@@ -589,6 +589,9 @@ image bg c31 = "bgimage/Bonus1/c31.jpg"
 image bg c32 = "bgimage/Bonus1/c32.jpg"
 image bg c33 = "bgimage/Bonus1/c33.jpg"
 
+image bg christmas = "bgimage/Menus/christmas.jpg"
+
+image bg bullask = "bgimage/004/bullask.jpg"
 
 # Emily character images
 image emily 01_01 = "fgimage/chara/2/Wife_01_01.png"
@@ -895,6 +898,29 @@ image gabriela 036 = "fgimage/chara/10/Gabriela036.png"
 image gabriela 037 = "fgimage/chara/10/Gabriela037.png"
 
 image troll = "fgimage/default/Misc/troll.png"
+
+image pussy:
+    "fgimage/default/Animation/pussy/pussy-01.png"
+    pause 0.13
+    "fgimage/default/Animation/pussy/pussy-02.png"
+    pause 0.13
+    "fgimage/default/Animation/pussy/pussy-03.png"
+    pause 0.13
+    "fgimage/default/Animation/pussy/pussy-04.png"
+    pause 0.13
+    "fgimage/default/Animation/pussy/pussy-05.png"
+    pause 0.13
+    "fgimage/default/Animation/pussy/pussy-06.png"
+    pause 0.13
+    "fgimage/default/Animation/pussy/pussy-07.png"
+    pause 0.13
+    "fgimage/default/Animation/pussy/pussy-08.png"
+    pause 0.13
+    "fgimage/default/Animation/pussy/pussy-09.png"
+    pause 0.13
+    "fgimage/default/Animation/pussy/pussy-10.png"
+    pause 0.13
+    repeat
 
 image santa walking_animated:
     "fgimage/default/Animation/santa-walking-animated-2/santa-walking-animated-2-1.png"

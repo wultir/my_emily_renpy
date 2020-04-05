@@ -1,4 +1,4 @@
-# The script of the game goes in this file.
+﻿# The script of the game goes in this file.
 
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
@@ -123,10 +123,11 @@ define pink_choice = "#F790C0"
 define red_choice = "#C4161C"
 define green_choice = "#64991E"
 define white_choice = "#FFFFFF"
+define black_choice = "#000000"
 
 # The game starts here.
 
 label start:
-    stop music
+    stop music fadeout 3.0
 
     jump intro
