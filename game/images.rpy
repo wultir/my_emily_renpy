@@ -408,6 +408,64 @@ image bg 06106 = "/bgimage/006/06106.jpg"
 image bg 06107 = "/bgimage/006/06107.jpg"
 image bg 06108 = "/bgimage/006/06108.jpg"
 image bg 06109 = "/bgimage/006/06109.jpg"
+image bg 06110 = "/bgimage/006/06110.jpg"
+image bg 06111 = "/bgimage/006/06111.jpg"
+image bg 06112 = "/bgimage/006/06112.jpg"
+image bg 06113 = "/bgimage/006/06113.jpg"
+image bg 06114 = "/bgimage/006/06114.jpg"
+image bg 06115 = "/bgimage/006/06115.jpg"
+image bg 06116 = "/bgimage/006/06116.jpg"
+image bg 06117 = "/bgimage/006/06117.jpg"
+image bg 06118 = "/bgimage/006/06118.jpg"
+image bg 06119 = "/bgimage/006/06119.jpg"
+image bg 06120 = "/bgimage/006/06120.jpg"
+image bg 06120a = "/bgimage/006/06120a.jpg"
+image bg 06120b = "/bgimage/006/06120b.jpg"
+image bg 06121 = "/bgimage/006/06121.jpg"
+image bg 06122 = "/bgimage/006/06122.jpg"
+image bg 06123 = "/bgimage/006/06123.jpg"
+image bg 06124a = "/bgimage/006/06124a.jpg"
+image bg 06124b = "/bgimage/006/06124b.jpg"
+image bg 06124c = "/bgimage/006/06124c.jpg"
+image bg 06124d = "/bgimage/006/06124d.jpg"
+image bg 06125 = "/bgimage/006/06125.jpg"
+image bg 06126 = "/bgimage/006/06126.jpg"
+image bg 06127 = "/bgimage/006/06127.jpg"
+image bg 06128 = "/bgimage/006/06128.jpg"
+image bg 06129 = "/bgimage/006/06129.jpg"
+image bg 06130 = "/bgimage/006/06130.jpg"
+image bg 06131 = "/bgimage/006/06131.jpg"
+image bg 06132 = "/bgimage/006/06132.jpg"
+image bg 06133 = "/bgimage/006/06133.jpg"
+image bg 06134 = "/bgimage/006/06134.jpg"
+image bg 06135 = "/bgimage/006/06135.jpg"
+image bg 06136 = "/bgimage/006/06136.jpg"
+image bg 06137 = "/bgimage/006/06137.jpg"
+image bg 06138 = "/bgimage/006/06138.jpg"
+image bg 06139 = "/bgimage/006/06139.jpg"
+image bg 06140 = "/bgimage/006/06140.jpg"
+image bg 06141 = "/bgimage/006/06141.jpg"
+image bg 06142 = "/bgimage/006/06142.jpg"
+image bg 06143 = "/bgimage/006/06143.jpg"
+image bg 06144a = "/bgimage/006/06144a.jpg"
+image bg 06144b = "/bgimage/006/06144b.jpg"
+image bg 06144c = "/bgimage/006/06144c.jpg"
+image bg 06145 = "/bgimage/006/06145.jpg"
+image bg 06146 = "/bgimage/006/06146.jpg"
+image bg 06147 = "/bgimage/006/06147.jpg"
+image bg 06148 = "/bgimage/006/06148.jpg"
+image bg 06149a = "/bgimage/006/06149a.jpg"
+image bg 06149b = "/bgimage/006/06149b.jpg"
+image bg 06149c = "/bgimage/006/06149c.jpg"
+image bg 06149d = "/bgimage/006/06149d.jpg"
+image bg 06149e = "/bgimage/006/06149e.jpg"
+image bg 06150 = "/bgimage/006/06150.jpg"
+image bg 06151a = "/bgimage/006/06151a.jpg"
+image bg 06151b = "/bgimage/006/06151b.jpg"
+image bg 06151c = "/bgimage/006/06151c.jpg"
+image bg 06151d = "/bgimage/006/06151d.jpg"
+image bg 06152 = "/bgimage/006/06152.jpg"
+image bg 06153 = "/bgimage/006/06153.jpg"
 
 image bg 06_morning_bed:
     "/bgimage/006/0614.jpg"
@@ -464,6 +522,7 @@ image bg 611_day = "bgimage/Backgrounds/BG611Day.jpg"
 
 image bg big_park_day = "bgimage/Backgrounds/BG_Big_Park_Day.jpg"
 
+# Non-cuck ending
 image bg e0101 = "bgimage/End1/E0101.jpg"
 image bg e0102 = "bgimage/End1/E0102.jpg"
 image bg e0103 = "bgimage/End1/E0103.jpg"
@@ -493,6 +552,46 @@ image bg e0126 = "bgimage/End1/E0126.jpg"
 image bg e0127 = "bgimage/End1/E0127.jpg"
 image bg e0128 = "bgimage/End1/E0128.jpg"
 
+# Christmas bonus
+image bg c1 = "bgimage/Bonus1/c1.jpg"
+image bg c2 = "bgimage/Bonus1/c2.jpg"
+image bg c3 = "bgimage/Bonus1/c3.jpg"
+image bg c4 = "bgimage/Bonus1/c4.jpg"
+image bg c5 = "bgimage/Bonus1/c5.jpg"
+image bg c6 = "bgimage/Bonus1/c6.jpg"
+image bg c7 = "bgimage/Bonus1/c7.jpg"
+image bg c8 = "bgimage/Bonus1/c8.jpg"
+image bg c9 = "bgimage/Bonus1/c9.jpg"
+image bg c10 = "bgimage/Bonus1/c10.jpg"
+image bg c11 = "bgimage/Bonus1/c11.jpg"
+image bg c12 = "bgimage/Bonus1/c12.jpg"
+image bg c13 = "bgimage/Bonus1/c13.jpg"
+image bg c14 = "bgimage/Bonus1/c14.jpg"
+image bg c15 = "bgimage/Bonus1/c15.jpg"
+image bg c15a = "bgimage/Bonus1/c15a.jpg"
+image bg c15b = "bgimage/Bonus1/c15b.jpg"
+image bg c16 = "bgimage/Bonus1/c16.jpg"
+image bg c17 = "bgimage/Bonus1/c17.jpg"
+image bg c18 = "bgimage/Bonus1/c18.jpg"
+image bg c19 = "bgimage/Bonus1/c19.jpg"
+image bg c20 = "bgimage/Bonus1/c20.jpg"
+image bg c21 = "bgimage/Bonus1/c21.jpg"
+image bg c22 = "bgimage/Bonus1/c22.jpg"
+image bg c23 = "bgimage/Bonus1/c23.jpg"
+image bg c24 = "bgimage/Bonus1/c24.jpg"
+image bg c25 = "bgimage/Bonus1/c25.jpg"
+image bg c26 = "bgimage/Bonus1/c26.jpg"
+image bg c27 = "bgimage/Bonus1/c27.jpg"
+image bg c28 = "bgimage/Bonus1/c28.jpg"
+image bg c29 = "bgimage/Bonus1/c29.jpg"
+image bg c30 = "bgimage/Bonus1/c30.jpg"
+image bg c31 = "bgimage/Bonus1/c31.jpg"
+image bg c32 = "bgimage/Bonus1/c32.jpg"
+image bg c33 = "bgimage/Bonus1/c33.jpg"
+
+image bg christmas = "bgimage/Menus/christmas.jpg"
+
+image bg bullask = "bgimage/004/bullask.jpg"
 
 # Emily character images
 image emily 01_01 = "fgimage/chara/2/Wife_01_01.png"
@@ -797,6 +896,54 @@ image gabriela 033A = "fgimage/chara/10/Gabriela033A.png"
 image gabriela 035 = "fgimage/chara/10/Gabriela035.png"
 image gabriela 036 = "fgimage/chara/10/Gabriela036.png"
 image gabriela 037 = "fgimage/chara/10/Gabriela037.png"
+
+image troll = "fgimage/default/Misc/troll.png"
+
+image pussy:
+    "fgimage/default/Animation/pussy/pussy-01.png"
+    pause 0.13
+    "fgimage/default/Animation/pussy/pussy-02.png"
+    pause 0.13
+    "fgimage/default/Animation/pussy/pussy-03.png"
+    pause 0.13
+    "fgimage/default/Animation/pussy/pussy-04.png"
+    pause 0.13
+    "fgimage/default/Animation/pussy/pussy-05.png"
+    pause 0.13
+    "fgimage/default/Animation/pussy/pussy-06.png"
+    pause 0.13
+    "fgimage/default/Animation/pussy/pussy-07.png"
+    pause 0.13
+    "fgimage/default/Animation/pussy/pussy-08.png"
+    pause 0.13
+    "fgimage/default/Animation/pussy/pussy-09.png"
+    pause 0.13
+    "fgimage/default/Animation/pussy/pussy-10.png"
+    pause 0.13
+    repeat
+
+image santa walking_animated:
+    "fgimage/default/Animation/santa-walking-animated-2/santa-walking-animated-2-1.png"
+    pause 0.1
+    "fgimage/default/Animation/santa-walking-animated-2/santa-walking-animated-2-2.png"
+    pause 0.1
+    "fgimage/default/Animation/santa-walking-animated-2/santa-walking-animated-2-3.png"
+    pause 0.1
+    "fgimage/default/Animation/santa-walking-animated-2/santa-walking-animated-2-4.png"
+    pause 0.1
+    "fgimage/default/Animation/santa-walking-animated-2/santa-walking-animated-2-5.png"
+    pause 0.1
+    "fgimage/default/Animation/santa-walking-animated-2/santa-walking-animated-2-6.png"
+    pause 0.1
+    "fgimage/default/Animation/santa-walking-animated-2/santa-walking-animated-2-7.png"
+    pause 0.1
+    "fgimage/default/Animation/santa-walking-animated-2/santa-walking-animated-2-8.png"
+    pause 0.1
+    "fgimage/default/Animation/santa-walking-animated-2/santa-walking-animated-2-9.png"
+    pause 0.1
+    "fgimage/default/Animation/santa-walking-animated-2/santa-walking-animated-2-10.png"
+    pause 0.1
+    repeat
 
 transform zoom800x600:
     zoom 2.4

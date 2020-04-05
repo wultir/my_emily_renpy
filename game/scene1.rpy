@@ -30,8 +30,8 @@ label scene00_01:
     scene bg 00_01
     with Dissolve(1.0)
 
-    show text "Day 1 Thursday" at topright
-    with Dissolve(1.0)
+    show text "{color=#ffffff}{size=36}Day 1 Thursday{/size}{/color}" at topright with Dissolve(1.0):
+        offset (-10, 10)
 
     mc "This is you..  24 years old and175cm tall and pretty slim. Shy and horrendously low self esteem. Your best and only friend is Jack. He's the reason you survived school. He's a big guy, the biggest you've ever seen. He's tough of the outside but inside he's a big softie."
     mc "He's a couple years older than you and you always saw him more like a brother or father"
@@ -842,7 +842,7 @@ label day1_movie_black:
 
     $ mc_kinks_black += 1
     $ em_kinks_black += 1
-    $ mem_emily_color = "pink"
+    $ mem_emily_pink = True
     $ mc_cuckpoints += 1
 
     em "They look great together. It looks like it's homemade. I wonder if they are married?"

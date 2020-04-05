@@ -1,11 +1,11 @@
-﻿# The script of the game goes in this file.
+# The script of the game goes in this file.
 
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
 # Message from god (intro narration)
 define mg = Character("Message from god")
-# God (game over narration)
+# God (end/game over narration)
 define god = Character("God")
 
 # Main character
@@ -95,7 +95,7 @@ define om = Character("Old man")
 
 # Jasmine
 define ja = Character("Jasmine")
-
+define ej = Character("Emily & Jasmine")
 # Movie characters
 define mw = Character("Wife")
 define mh = Character("Husband")
@@ -109,7 +109,7 @@ define dr = Character("Dr")
 define a = Character("Amanda")
 
 default mem_chloe_name = ""
-default mem_emily_color = ""
+default mem_emily_pink = False
 default mem_short_emily = 0
 default mem_short_player = ""
 default mem_short_massage = False
@@ -123,10 +123,11 @@ define pink_choice = "#F790C0"
 define red_choice = "#C4161C"
 define green_choice = "#64991E"
 define white_choice = "#FFFFFF"
+define black_choice = "#000000"
 
 # The game starts here.
 
 label start:
-    stop music
+    stop music fadeout 3.0
 
     jump intro
