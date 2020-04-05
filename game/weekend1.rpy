@@ -1,7 +1,8 @@
 label weekend1_saturday:
     scene bg black with Dissolve(1.0)
 
-    show text "Day 3 Saturday" at topright with Dissolve(1.0)
+    show text "Day 3 Saturday" at topright with Dissolve(1.0):
+        offset (-10, 10)
 
     show bg  0301 with Dissolve(1.0)
 
@@ -1391,7 +1392,8 @@ label weekend1_saturday_em_crying:
 
 label weekend1_sunday:
     scene bg black with Dissolve(1.0)
-    show text "Day 4 Sunday" at topright with Dissolve(1.0)
+    show text "Day 4 Sunday" at topright with Dissolve(1.0):
+        offset (-10, 10)
 
     pause 2.0
 

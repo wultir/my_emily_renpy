@@ -3,8 +3,8 @@
 label day2_start:
     scene bg black with Dissolve(1.0)
 
-    show text "Day 2 Friday" at topright
-    with Dissolve(1.0)
+    show text "Day 2 Friday" at topright with Dissolve(1.0):
+        offset (-10, 10)
 
     show waiting at topleft
     pause 1.0

@@ -1,9 +1,9 @@
 label day6_start:
     scene bg white with Dissolve(1.0)
     scene bg black with Dissolve(2.0)
-    show text "{color=#ffffff}{size=36}Day 6 Tuesday{/size}{/color}" with Dissolve(1.0):
-        pos (1638,30)
-        anchor (0,0)
+    show text "{color=#ffffff}{size=36}Day 6 Tuesday{/size}{/color}" at topright with Dissolve(1.0):
+        offset (-10, 10)
+        
     pause 1.0
     hide text with Dissolve(1.0)
 

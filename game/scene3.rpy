@@ -1,8 +1,8 @@
 label day5_start:
     scene bg black with Dissolve(1.0)
-    show text "{color=#ffffff}{size=36}Day 5 Monday{/size}{/color}" with Dissolve(1.0):
-        pos (1638,30)
-        anchor (0,0)
+    show text "{color=#ffffff}{size=36}Day 5 Monday{/size}{/color}" at topright with Dissolve(1.0):
+        offset (-10, 10)
+    
     pause 2.0
     hide text with Dissolve(1.0)
 
