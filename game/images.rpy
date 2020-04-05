@@ -522,6 +522,7 @@ image bg 611_day = "bgimage/Backgrounds/BG611Day.jpg"
 
 image bg big_park_day = "bgimage/Backgrounds/BG_Big_Park_Day.jpg"
 
+# Non-cuck ending
 image bg e0101 = "bgimage/End1/E0101.jpg"
 image bg e0102 = "bgimage/End1/E0102.jpg"
 image bg e0103 = "bgimage/End1/E0103.jpg"
@@ -550,6 +551,43 @@ image bg e0125 = "bgimage/End1/E0125.jpg"
 image bg e0126 = "bgimage/End1/E0126.jpg"
 image bg e0127 = "bgimage/End1/E0127.jpg"
 image bg e0128 = "bgimage/End1/E0128.jpg"
+
+# Christmas bonus
+image bg c1 = "bgimage/Bonus1/c1.jpg"
+image bg c2 = "bgimage/Bonus1/c2.jpg"
+image bg c3 = "bgimage/Bonus1/c3.jpg"
+image bg c4 = "bgimage/Bonus1/c4.jpg"
+image bg c5 = "bgimage/Bonus1/c5.jpg"
+image bg c6 = "bgimage/Bonus1/c6.jpg"
+image bg c7 = "bgimage/Bonus1/c7.jpg"
+image bg c8 = "bgimage/Bonus1/c8.jpg"
+image bg c9 = "bgimage/Bonus1/c9.jpg"
+image bg c10 = "bgimage/Bonus1/c10.jpg"
+image bg c11 = "bgimage/Bonus1/c11.jpg"
+image bg c12 = "bgimage/Bonus1/c12.jpg"
+image bg c13 = "bgimage/Bonus1/c13.jpg"
+image bg c14 = "bgimage/Bonus1/c14.jpg"
+image bg c15 = "bgimage/Bonus1/c15.jpg"
+image bg c15a = "bgimage/Bonus1/c15a.jpg"
+image bg c15b = "bgimage/Bonus1/c15b.jpg"
+image bg c16 = "bgimage/Bonus1/c16.jpg"
+image bg c17 = "bgimage/Bonus1/c17.jpg"
+image bg c18 = "bgimage/Bonus1/c18.jpg"
+image bg c19 = "bgimage/Bonus1/c19.jpg"
+image bg c20 = "bgimage/Bonus1/c20.jpg"
+image bg c21 = "bgimage/Bonus1/c21.jpg"
+image bg c22 = "bgimage/Bonus1/c22.jpg"
+image bg c23 = "bgimage/Bonus1/c23.jpg"
+image bg c24 = "bgimage/Bonus1/c24.jpg"
+image bg c25 = "bgimage/Bonus1/c25.jpg"
+image bg c26 = "bgimage/Bonus1/c26.jpg"
+image bg c27 = "bgimage/Bonus1/c27.jpg"
+image bg c28 = "bgimage/Bonus1/c28.jpg"
+image bg c29 = "bgimage/Bonus1/c29.jpg"
+image bg c30 = "bgimage/Bonus1/c30.jpg"
+image bg c31 = "bgimage/Bonus1/c31.jpg"
+image bg c32 = "bgimage/Bonus1/c32.jpg"
+image bg c33 = "bgimage/Bonus1/c33.jpg"
 
 
 # Emily character images
@@ -855,6 +893,31 @@ image gabriela 033A = "fgimage/chara/10/Gabriela033A.png"
 image gabriela 035 = "fgimage/chara/10/Gabriela035.png"
 image gabriela 036 = "fgimage/chara/10/Gabriela036.png"
 image gabriela 037 = "fgimage/chara/10/Gabriela037.png"
+
+image troll = "fgimage/default/Misc/troll.png"
+
+image santa walking_animated:
+    "fgimage/default/Animation/santa-walking-animated-2/santa-walking-animated-2-1.png"
+    pause 0.1
+    "fgimage/default/Animation/santa-walking-animated-2/santa-walking-animated-2-2.png"
+    pause 0.1
+    "fgimage/default/Animation/santa-walking-animated-2/santa-walking-animated-2-3.png"
+    pause 0.1
+    "fgimage/default/Animation/santa-walking-animated-2/santa-walking-animated-2-4.png"
+    pause 0.1
+    "fgimage/default/Animation/santa-walking-animated-2/santa-walking-animated-2-5.png"
+    pause 0.1
+    "fgimage/default/Animation/santa-walking-animated-2/santa-walking-animated-2-6.png"
+    pause 0.1
+    "fgimage/default/Animation/santa-walking-animated-2/santa-walking-animated-2-7.png"
+    pause 0.1
+    "fgimage/default/Animation/santa-walking-animated-2/santa-walking-animated-2-8.png"
+    pause 0.1
+    "fgimage/default/Animation/santa-walking-animated-2/santa-walking-animated-2-9.png"
+    pause 0.1
+    "fgimage/default/Animation/santa-walking-animated-2/santa-walking-animated-2-10.png"
+    pause 0.1
+    repeat
 
 transform zoom800x600:
     zoom 2.4

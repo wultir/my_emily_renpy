@@ -83,12 +83,12 @@ define config.intra_transition = dissolve
 
 ## A transition that is used after a game has been loaded.
 
-define config.after_load_transition = None
+define config.after_load_transition = Dissolve(1.0)
 
 
 ## Used when entering the main menu after the game has ended.
 
-define config.end_game_transition = None
+define config.end_game_transition = Dissolve(1.0)
 
 
 ## A variable to set the transition used when the game starts does not exist.
@@ -177,16 +177,23 @@ init python:
 
     ## Classify files as None to exclude them from the built distributions.
 
+    build.classify('game/cache/**', None)
     build.classify('**~', None)
     build.classify('**.bak', None)
     build.classify('**/.**', None)
     build.classify('**/#**', None)
     build.classify('**/thumbs.db', None)
+    build.classify('**/*.rpy', None)
 
     ## To archive files, classify them as 'archive'.
 
-    # build.classify('game/**.png', 'archive')
-    # build.classify('game/**.jpg', 'archive')
+    # build.archive('scripts', 'all')
+    # build.classify('game/**.rpyc', 'scripts')
+
+    # build.archive('images', 'all')
+    # build.classify('game/**.png', 'images')
+    # build.classify('game/**.jpg', 'images')
+    # build.classify('game/**.webp', 'images')
 
     ## Files matching documentation patterns are duplicated in a mac app build,
     ## so they appear in both the app and the zip file.
