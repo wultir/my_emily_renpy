@@ -301,13 +301,7 @@ screen navigation():
 
         spacing gui.navigation_spacing
 
-        if main_menu:
-
-            textbutton _("New Game") action Start()
-
-            textbutton _("Quick Start") action Start("quick_start")
-
-        else:
+        if not main_menu:
 
             textbutton _("History") action ShowMenu("history")
 
@@ -366,42 +360,62 @@ screen main_menu():
     add gui.main_menu_background
     add "transsnow"
 
-    ## This empty frame darkens the main menu.
-    frame:
-        pass
+    vbox:
+        pos (162, 206)
 
-    ## The use statement includes another screen inside this one. The actual
-    ## contents of the main menu are in the navigation screen.
-    use navigation
+        textbutton _("New Game") action Start() style style.main_menu_button
+        textbutton _("Load Game") action ShowMenu("load") style style.main_menu_button:
+            ypos 10
+
+        textbutton _("Quick Start") action Start("quick_start") style style.main_menu_button:
+            ypos 96
+
+    text "Get the latest update from f95zone.com" style "main_menu_message":
+        pos(690, 22)
+        anchor(0, 0)
 
     if gui.show_name:
-
         vbox:
             text "[config.name!t]":
                 style "main_menu_title"
 
-            text "[config.version]":
+            text "v [config.version]":
+                pos (336, 19)
                 style "main_menu_version"
 
+style main_menu_button is gui_button:
+    background "gui/main_menu_button.png"
+    hover_background "gui/main_menu_button_hover.png"
+    xsize 315
+    ysize 84
+
+style main_menu_button_text is gui_button_text:
+    outlines [ (absolute(0), "#DF87AD", absolute(1), absolute(1))]
+    size 40
+    color "#ffffff"
+    anchor (0.5, 0.5)
+    align (0.5, 0.5)
 
 style main_menu_frame is empty
 style main_menu_vbox is vbox
 style main_menu_text is gui_text
-style main_menu_title is main_menu_text
-style main_menu_version is main_menu_text
+style main_menu_title is main_menu_text:
+    outlines [ (absolute(0), "#000", absolute(2), absolute(2)) ]
+style main_menu_version is main_menu_text:
+    size 40
+    color "#ffffff"
+style main_menu_message is main_menu_text:
+    outlines [ (absolute(0), "#000", absolute(2), absolute(2)) ]
+    size 50
+    color "#09ed1c"
 
 style main_menu_frame:
     xsize 420
     yfill True
 
-    #background "gui/overlay/main_menu.png"
 
 style main_menu_vbox:
-    xalign 0.0
-    xoffset 40
-    xmaximum 1200
-    yalign 1.0
-    yoffset -80
+    pos (157, 683)
 
 style main_menu_text:
     properties gui.text_properties("main_menu", accent=True)
@@ -532,8 +546,8 @@ style game_menu_label:
 
 style game_menu_label_text:
     size gui.title_text_size
-    color gui.accent_color
-    yalign 0.5
+    color gui.title_text_color
+    yalign 0
 
 style return_button:
     xpos gui.navigation_xpos
