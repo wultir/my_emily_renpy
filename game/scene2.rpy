@@ -78,7 +78,7 @@ label scene0103:
     menu:
         "{color=[pink_choice]}Watch her{/choice}":
             jump day2_watch_pee
-        "{color=[red_choice]}Not interested!{/color}":
+        "Not interested! [red]":
             mc_thoughts "Why would I do that?"
             jump day2_toilet_done
 
@@ -158,9 +158,9 @@ label scene0108:
     em "I'll be back in a bit. See you soon"
 
     menu:
-        "{color=[pink_choice]}Caress her butt while she leaves{/color}":
+        "Caress her butt while she leaves [pink]":
             jump day2_caress_butt
-        "{color=[red_choice]}I better not ?{/color}":
+        "I better not ? [red]":
             jump day2_no_caress
 
 
@@ -210,9 +210,9 @@ label scene0109:
     show bg 0109 with Dissolve(1.0)
 
     menu:
-        "{color=[green_choice]}Buy her{/color}":
+        "Buy her [green]":
             jump day2_buy_candy
-        "{color=[red_choice]}Don't buy{/color}":
+        "Don't buy [red]":
             jump day2_no_candy
 
 
@@ -358,9 +358,9 @@ label day2_outfit_ok:
     em "Oh i did NOT forget my bra today, It was sooo embarrassing last time!"
 
     menu:
-        "{color=[pink_choice]}Aww it must have been so hot to see you like that!{/color}":
+        "Aww it must have been so hot to see you like that! [pink]":
             jump day2_aww_exhibionist
-        "Say nothing, just laugh": # TODO: Should be white
+        "Say nothing, just laugh":
             jump day2_say_nothing_exhibitionist
 
 label day2_aww_exhibionist:
@@ -547,9 +547,9 @@ label scene0117:
     "She starts to bend down to pick it up"
 
     menu:
-        "{color=[green_choice]}Keep looking{/color}":
+        "Keep looking [green]":
             jump day2_elise_look
-        "{color=[red_choice]}Nah, better not{/color}":
+        "Nah, better not [red]":
             jump day2_elise_no_look
 
 
@@ -592,9 +592,9 @@ label scene0118:
     "He's coming towards you with open arms"
 
     menu:
-        "{color=[green_choice]}He's my best friend! Hug him{/color}":
+        "He's my best friend! Hug him [green]":
             jump day2_jack_hug_yes
-        "{color=[red_choice]}Noooo man hugs. Avoid it{/color}":
+        "Noooo man hugs. Avoid it [red]":
             jump day2_jack_hug_no
 
 
@@ -835,9 +835,9 @@ label day2_pink_boss:
     "How do you answer him?"
 
     menu:
-        "{color=[pink_choice]}T thank you.. I'm glad you like it{/color}":
+        "T thank you.. I'm glad you like it [pink]":
             jump day2_thank_james
-        "{color=[red_choice]}Just get back to work{/color}":
+        "Just get back to work [red]":
             jump day2_back_to_car
 
 
@@ -906,9 +906,9 @@ label day2_back_to_car:
     j "I know she's your girlfriend's sister.. So I'm trying my best to not fuck anything up.."
 
     menu:
-        "{color=[green_choice]}You can go for it! I don't care{/color}":
+        "You can go for it! I don't care [green]":
             jump day2_go_for_elise
-        "{color=[red_choice]}Say nothing{/color}":
+        "Say nothing [red]":
             jump day2_say_nothing_elise
 
 
@@ -1036,9 +1036,9 @@ label scene0125:
     "He throws his pants off"
 
     menu:
-        "{color=[pink_choice]}Take a quick peek{/color}":
+        "Take a quick peek [pink]":
             jump day2_peek_penis_yes
-        "{color=[red_choice]}No no no, I've already seen too much{/color}":
+        "No no no, I've already seen too much [red]":
             jump day2_peek_penis_no
 
 label day2_peek_penis_yes:
@@ -1078,9 +1078,9 @@ label day2_peek_penis_no:
     j "Chopper is on full speed. Look down dude!"
 
     menu:
-        "{color=[pink_choice]}Look down{/color}":
+        "Look down [pink]":
             jump day2_penis_look
-        "{color=[red_choice]}Don't look down{/color}":
+        "Don't look down [red]":
             jump day2_penis_look_no
 
 
@@ -1143,9 +1143,9 @@ label scene0130:
     j "I'll close my eyes dude, just take it like a man and walk in!"
 
     menu:
-        "{color=[green_choice]}Do it! Uncover and get in{/color}":
+        "Do it! Uncover and get in [green]":
             jump day2_free_willy
-        "{color=[red_choice]}I can't! Sorry{/color}":
+        "I can't! Sorry [red]":
             jump day2_no_willy
 
 
@@ -1247,7 +1247,7 @@ label scene0135:
     menu:
         "Look closer":
             jump day2_eleanor_look_closer
-        "{color=[red_choice]}Cough to get her attention{/color}":
+        "Cough to get her attention [red]":
             jump day2_eleanor_cough
 
 
@@ -1286,9 +1286,9 @@ label scene0137:
     "She steps closer giving you a better view"    
 
     menu:
-        "{color=[pink_choice]}Look at them{/color}":
+        "Look at them [pink]":
             jump day2_eleanor_look_breasts
-        "{color=[red_choice]}RUN OUT!{/color}":
+        "RUN OUT! [red]":
             jump day2_eleanor_run
 
 
@@ -1309,11 +1309,11 @@ label day2_eleanor_look_breasts:
     ele "I'm a big girl, I can take it"
 
     menu:
-        "{color=[green_choice]}They look ok{/color}":
+        "They look ok [green]":
             jump day2_eleanor_breasts_ok
-        "{color=[pink_choice]}They are sexy!{/color}":
+        "They are sexy! [pink]":
             jump day2_eleanor_breasts_sexy
-        "{color=[red_choice]}Don't you think they are too big?{/color}":
+        "Don't you think they are too big? [red]":
             jump day2_eleanor_breasts_hate
 
 label day2_eleanor_breasts_sexy:
@@ -1371,9 +1371,9 @@ label day2_eleanor_breasts_sexy_and_ok:
     show bg black with Dissolve(1.0)
 
     menu:
-        "{color=[green_choice]}Look back{/color}":
+        "Look back [green]":
             jump day2_eleanor_look_back
-        "{color=[red_choice]}Just leave{/color}":
+        "Just leave [red]":
             jump day2_eleanor_dont_look_back
 
 
@@ -1399,9 +1399,9 @@ label day2_eleanor_dont_look_back:
     mc_thoughts "Should i read it?"
 
     menu:
-        "{color=[pink_choice]}Yes{/color}":
+        "Yes [pink]":
             jump day2_eleanor_read
-        "{color=[red_choice]}No{/color}":
+        "No [red]":
             jump day2_eleanor_reading_done
 
 
@@ -1518,7 +1518,7 @@ label scene0142C:
     mc_thoughts "Should i do that?"
 
     menu:
-        "{color=[red_choice]}Just close your eyes{/color}":
+        "Just close your eyes [red]":
             jump day2_eleanor_no_peek
         "Get comfortable and peek":
             jump day2_eleanor_skirt_peek
@@ -1770,9 +1770,9 @@ label day2_emily_handjob:
     em "You could just swallow..."
 
     menu:
-        "{color=[pink_choice]}Swallow{/color}":
+        "Swallow [pink]":
             jump day2_swallow
-        "{color=[red_choice]}Spit!{/color}":
+        "Spit! [red]":
             jump day2_spit
 
 
@@ -1900,9 +1900,9 @@ label day2_snowball:
     "Both girls turn towards you and look at you questioningly"
 
     menu:
-        "{color=[pink_choice]}I trust you baby, Go have some fun!{/color}":
+        "I trust you baby, Go have some fun! [pink]":
             jump day2_club_go
-        "{color=[red_choice]}I don't want you to leave this late{/color}":
+        "I don't want you to leave this late [red]":
             jump day2_club_dont_go
 
 label day2_club_go:

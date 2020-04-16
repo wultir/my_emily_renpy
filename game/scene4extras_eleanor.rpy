@@ -208,9 +208,9 @@ label scene0673:
     mc "Its.."
 
     menu:
-        "{color=[pink_choice]}We are trying some bdsm.. I think..{/color}":
+        "We are trying some bdsm.. I think.. [pink]":
             jump day6_bdsm
-        "{color=[red_choice]}It's ok...{/color}":
+        "It's ok... [red]":
             jump day6_its_ok
 
 

@@ -87,7 +87,7 @@ label scene00_26:
     xg "Oki, we can fix that! But how big is your cock?"
 
     menu:
-        "{color=[pink_choice]}Oh ah. 10cm.. M m m maybe..{/color}":
+        "Oh ah. 10cm.. M m m maybe.. [pink]":
             $ mem_chloe_name = "Tiny"
             xg "Really? OMG! hihi."
             xg "That's sooo tiny!"
@@ -135,14 +135,14 @@ label scene00_28A:
     xg "It's only 10$ more, but it's made from much more realistic materials!"
 
     menu:
-        "{color=[pink_choice]}Do you have it in different colors?{/color}":
+        "Do you have it in different colors? [pink]":
             show bg 00_27
             with Dissolve(1.0)
 
             xg "Of course we do!"
 
             jump day1_sex_shop_black
-        "Thank you! I'm fine with this": # TODO: Should be green
+        "Thank you! I'm fine with this [green]":
             $ inventory_dildo = "white"
             jump day1_sex_shop_done 
 
@@ -155,9 +155,9 @@ label day1_sex_shop_black:
     xg "Which color would you want?"
 
     menu:
-        "Black": # TODO: Should be black
+        "Black [black]":
             jump day1_sex_shop_black_dildo
-        "White": # TODO: Should be white
+        "White":
             jump day1_sex_shop_white_dildo
 
 

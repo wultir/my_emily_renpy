@@ -53,6 +53,8 @@ define gui.interface_text_color = '#404040'
 
 define gui.title_text_color = '#f052a9'
 
+define gui.name_text_color ="#96c9f2"
+
 ## Fonts and Font Sizes ########################################################
 
 ## The font used for in-game text.
@@ -62,7 +64,13 @@ define gui.text_font = "DejaVuSans.ttf"
 define gui.name_text_font = "DejaVuSans.ttf"
 
 ## The font used for out-of-game text.
-define gui.interface_text_font = "fonts/GreatVibes-Regular.ttf"
+define gui.interface_text_font = "DejaVuSans.ttf"
+
+## Font used in the main menu
+define gui.main_menu_text_font = "fonts/GreatVibes-Regular.ttf"
+
+## The font used for ingame menu buttons
+define gui.ingame_menu_button_font = "DejaVuSans.ttf"
 
 ## The size of normal dialogue text.
 define gui.text_size = 29
@@ -88,6 +96,7 @@ define gui.title_text_size = 123
 ## The images used for the main and game menus.
 define gui.main_menu_background = "images/bgimage/Menus/christmas.jpg"
 define gui.game_menu_background = "gui/game_menu.png"
+define gui.save_load_background = "gui/save_load.jpg"
 
 
 ## Dialogue ####################################################################
@@ -210,10 +219,9 @@ define gui.choice_button_borders = Borders(150, 8, 150, 8)
 define gui.choice_button_text_font = gui.text_font
 define gui.choice_button_text_size = gui.text_size
 define gui.choice_button_text_xalign = 0.5
-define gui.choice_button_text_idle_color = "#cccccc"
-define gui.choice_button_text_hover_color = "#ffffff"
+define gui.choice_button_text_idle_color = "#000000"
+define gui.choice_button_text_hover_color = gui.hover_color
 define gui.choice_button_text_insensitive_color = "#444444"
-
 
 ## File Slot Buttons ###########################################################
 ##
@@ -222,17 +230,17 @@ define gui.choice_button_text_insensitive_color = "#444444"
 ## image files in gui/button, like the other kinds of buttons.
 
 ## The save slot button.
-define gui.slot_button_width = 414
-define gui.slot_button_height = 309
+define gui.slot_button_width = 430
+define gui.slot_button_height = 280
 define gui.slot_button_borders = Borders(15, 15, 15, 15)
-define gui.slot_button_text_size = 21
+define gui.slot_button_text_size = 24
 define gui.slot_button_text_xalign = 0.5
-define gui.slot_button_text_idle_color = gui.idle_small_color
+define gui.slot_button_text_idle_color = "#f3f3f3"
 define gui.slot_button_text_selected_idle_color = gui.selected_color
 define gui.slot_button_text_selected_hover_color = gui.hover_color
 
 ## The width and height of thumbnails used by the save slots.
-define config.thumbnail_width = 384
+define config.thumbnail_width = 400
 define config.thumbnail_height = 216
 
 ## The number of columns and rows in the grid of save slots.

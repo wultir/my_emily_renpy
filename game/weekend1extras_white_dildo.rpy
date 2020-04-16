@@ -171,9 +171,9 @@ label weekend1_sunday_white_dildo_sofa:
     call wait_for_click
 
     menu:
-        "{color=[pink_choice]}Push her head deeper{/color}":
+        "Push her head deeper [pink]":
             jump weekend1_sunday_white_deep
-        "{color=[red_choice]}Don't do it{/color}":
+        "Don't do it [red]":
             jump weekend1_sunday_white_not_deep
 
 
