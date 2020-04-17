@@ -179,13 +179,10 @@ screen input(prompt):
     window:
 
         vbox:
-            xalign gui.dialogue_text_xalign
-            xpos gui.dialogue_xpos
-            xsize gui.dialogue_width
-            ypos gui.dialogue_ypos
-
             text prompt style "input_prompt"
-            input id "input"
+            frame:
+                xsize 1.0
+                input id "input"
 
 style input_prompt is default
 
@@ -196,7 +193,13 @@ style input_prompt:
 style input:
     xalign gui.dialogue_text_xalign
     xmaximum gui.dialogue_width
+    color "#000"
 
+style input_window:
+    background "#0000"
+    xsize 500
+    ysize 100
+    yalign 0.5
 
 ## Choice screen ###############################################################
 ##
@@ -245,34 +248,42 @@ style choice_vbox:
 
 style choice_button is default:
     properties gui.button_properties("choice_button")
-    background "#ffffff"
+    background Frame("gui/choices/white.png", 10, 10)
+    hover_background Frame("gui/choices/white_hover.png", 10, 10)
 
 style choice_button_text is default:
     properties gui.button_text_properties("choice_button")
+    outlines [ (absolute(0), "#A8806050", absolute(-1), absolute(1))]
 
 style pink_choice_button is choice_button:
-    background "#F790C0"
+    background Frame("gui/choices/pink.png", 10, 10)
+    hover_background Frame("gui/choices/pink_hover.png", 10, 10)
 style pink_choice_button_text is choice_button_text:
-    color "#ffffff"
-    hover_color gui.hover_color
+    color "#FEEEF5"
+    hover_color "#FEEEEE"
 
 style red_choice_button is choice_button:
-    background "#C4161C"
+    background Frame("gui/choices/red.png", 10, 10)
+    hover_background Frame("gui/choices/red_hover.png", 10, 10)
 style red_choice_button_text is choice_button_text:
-    color "#ffffff"
-    hover_color gui.hover_color
+    color "#F7DDDE"
+    outlines [(absolute(0), "#B9158850", absolute(-1), absolute(0))]
 
 style black_choice_button is choice_button:
-    background "#000000"
+    background Frame("gui/choices/black.png", 10, 10)
+    hover_background Frame("gui/choices/black_hover.png", 10, 10)
 style black_choice_button_text is choice_button_text:
-    color "#ffffff"
-    hover_color gui.hover_color
+    color "#D7D7D7"
+    outlines [(absolute(0), "#32328E50", absolute(-1), absolute(0))]
 
 style green_choice_button is choice_button:
-    background "#64991E"
+    background Frame("gui/choices/green.png", 10, 10)
+    hover_background Frame("gui/choices/green_hover.png", 10, 10)
 style green_choice_button_text is choice_button_text:
-    color "#ffffff"
-    hover_color gui.hover_color
+    color "#DEF0DE"
+    outlines [(absolute(0), "#5CB6A750", absolute(-1), absolute(0))]
+
+
 ## Quick Menu screen ###########################################################
 ##
 ## The quick menu is displayed in-game to provide easy access to the out-of-game
