@@ -11,7 +11,9 @@ init offset = -2
 init python:
     gui.init(1920, 1080)
 
-
+    config.font_replacement_map["fonts/Aleo-Regular.otf", False, True] = ("fonts/Aleo-Italic.otf", False, False)
+    config.font_replacement_map["fonts/Aleo-Regular.otf", True, False] = ("fonts/Aleo-Bold.otf", False, False)
+    config.font_replacement_map["fonts/Aleo-Regular.otf", True, True] = ("fonts/Aleo-BoldItalic.otf", False, False)
 
 ################################################################################
 ## GUI Configuration Variables
@@ -58,19 +60,19 @@ define gui.name_text_color ="#96c9f2"
 ## Fonts and Font Sizes ########################################################
 
 ## The font used for in-game text.
-define gui.text_font = "DejaVuSans.ttf"
+define gui.text_font = "fonts/Aleo-Regular.otf"
 
 ## The font used for character names.
-define gui.name_text_font = "DejaVuSans.ttf"
+define gui.name_text_font = "fonts/Aleo-Regular.otf"
 
 ## The font used for out-of-game text.
-define gui.interface_text_font = "DejaVuSans.ttf"
+define gui.interface_text_font = "fonts/Aleo-Regular.otf"
 
 ## Font used in the main menu
 define gui.main_menu_text_font = "fonts/GreatVibes-Regular.ttf"
 
 ## The font used for ingame menu buttons
-define gui.ingame_menu_button_font = "DejaVuSans.ttf"
+define gui.ingame_menu_button_font = "fonts/Aleo-Regular.otf"
 
 ## The size of normal dialogue text.
 define gui.text_size = 29
