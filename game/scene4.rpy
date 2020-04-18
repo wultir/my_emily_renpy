@@ -41,9 +41,9 @@ label day6_mom_yes:
     em "We could forget all about it.. Like it never happened!"
 
     menu:
-        "{color=[pink_choice]}I liked it...{/color}":
+        "I liked it... [pink]":
             jump day6_mom_continue
-        "{color=[red_choice]}Yeah maybe we went too far{/color}":
+        "Yeah maybe we went too far [red]":
             jump day6_mom_no
 
 
@@ -259,9 +259,9 @@ label scene0622:
         em "So??"
 
     menu:
-        "{color=[pink_choice]}Go closer and get down{/color}":
+        "Go closer and get down [pink]":
             jump day6_pee_starts
-        "{color=[red_choice]}Brush your teeth and leave{/color}":
+        "Brush your teeth and leave [red]":
             jump day6_pee_done
 
 
@@ -291,9 +291,9 @@ label scene0625:
     em "Do you love watching me pee?"
 
     menu:
-        "{color=[pink_choice]}Go closer and get down{/color}":
+        "Go closer and get down [pink]":
             jump day6_yes_pee
-        "{color=[red_choice]}Brush your teeth and leave{/color}":
+        "Brush your teeth and leave [red]":
             jump day6_no_pee
 
 
@@ -313,9 +313,9 @@ label day6_yes_pee:
     "Her urine flow stops and she's done"
 
     menu:
-        "{color=[pink_choice]}Start licking her to clean it up{/color}":
+        "Start licking her to clean it up [pink]":
             jump day6_pee_drink_yes
-        "{color=[red_choice]}I just like to watch...{/color}":
+        "I just like to watch... [red]":
             jump day6_pee_drink_no
 
 
@@ -472,9 +472,9 @@ label scene0639:
     em "SHOW ME!"
 
     menu:
-        "{color=[pink_choice]}Start licking{/color}":
+        "Start licking [pink]":
             jump day6_lick_shoes
-        "{color=[red_choice]}I'm so sorry{/color}":
+        "I'm so sorry [red]":
             jump day6_sorry_no_lick
 
 
@@ -633,9 +633,9 @@ label day6_butt_lick_done:
     em "What am I to you?"
 
     menu:
-        "{color=[white_choice]}My mistress{/color}":
+        "My mistress":
             jump day6_1_mistress
-        "{color=[white_choice]}My babe{/color}":
+        "My babe":
             jump day6_1_babe
 
 label day6_1_mistress:
@@ -656,9 +656,9 @@ label day6_1_done:
     em "What are you to me?"
 
     menu:
-        "{color=[white_choice]}Your... slave..{/color}":
+        "Your... slave..":
             jump day6_2_slave
-        "{color=[white_choice]}Your boyfriend{/color}":
+        "Your boyfriend":
             jump day6_2_boyfriend
 
 label day6_2_slave:
@@ -683,9 +683,9 @@ label day6_2_done:
     em "What is your ass to you and us from now?"
 
     menu:
-        "{color=[white_choice]}A pussy?{/color}":
+        "A pussy?":
             jump day6_3_pussy
-        "{color=[white_choice]}Please no! I can't. I hate it! Please!{/color}":
+        "Please no! I can't. I hate it! Please!":
             jump day6_3_no_anal
 
 label day6_3_pussy:

@@ -57,9 +57,9 @@ label day1_coffe_shop_waiting:
     em "You really have to find work soon. I'm already working for James and teaching classes part time. I enjoy it, but it's so stressy!"
 
     menu:
-        "{color=[pink_choice]}I'll find something, don't worry!{/color}":
+        "I'll find something, don't worry! [pink]":
             jump day1_coffe_shop_getwork
-        "{color=[red_choice]}We could sell your butt!  ;){/color}":
+        "We could sell your butt!  ;) [red]":
             jump day1_coffe_shop_sellyou
 
 
@@ -117,9 +117,9 @@ label day1_coffe_shop_kiss:
     mc_thoughts "Should i kiss her longer? That way he would get a better look.."
 
     menu:
-        "{color=[pink_choice]}Longer Kiss{/color}":
+        "Longer Kiss [pink]":
             jump day1_coffe_shop_longer_kiss
-        "{color=[red_choice]}Stop{/color}":
+        "Stop [red]":
             mc_thoughts "No. I don't want that creep to see anything more!"
             jump day1_coffe_shop_burgers
 

@@ -307,9 +307,9 @@ label scene06119:
     ja "So you can close your eyes and pretend like nothing.. Or keep them open and see stuff you might regret haha"
 
     menu:
-        "{color=[pink_choice]}Look{/color}":
+        "Look [pink]":
             jump day6_under_skirt
-        "{color=[red_choice]}Don't{/color}":
+        "Don't [red]":
             jump day6_not_looking
 
 
@@ -589,9 +589,9 @@ label scene06142:
     ja "Does my girl cock scare you?"
 
     menu:
-        "{color=[pink_choice]}N...No..{/color}":
+        "N...No.. [pink]":
             jump day6_scared_no
-        "{color=[red_choice]}Yes..{/color}":
+        "Yes.. [red]":
             jump day6_scared_yes
 
 
@@ -786,9 +786,9 @@ label scene06151a:
     em "And call her mistress!"
 
     menu:
-        "{color=[pink_choice]}Thank you mistress & kiss the tip{/color}":
+        "Thank you mistress & kiss the tip [pink]":
             jump day6_thank_you_mistress
-        "{color=[red_choice]}Just thank her{/color}":
+        "Just thank her [red]":
             jump day6_thank_you
 
 label day6_thank_you_mistress:

@@ -150,7 +150,7 @@ label scene00_09:
     menu:
         "Press your dick against her butt":
             jump scene00_10
-        "{color=[pink_choice]}Press your face against her butt{/color}":
+        "Press your face against her butt [pink]":
             $ mc_cuckpoints += 1
             jump scene00_10a
 
@@ -551,10 +551,10 @@ label day1_gv_chat:
     gv "I know why Emily's never in the mood for sex. I'll be honest with you. But you already know the answer to that. Don't you?"
 
     menu:
-        "She's cheating on me?":
+        "She's cheating on me? [black]":
             gv "Nope. Although i wouldn't be surprised if she's already cucking you."
             gv "She needs a cock she can feel. She can't feel yours! "
-        "{color=[pink_choice]}My penis is not that big?{/color}":
+        "My penis is not that big? [pink]":
             gv "Yes. Good boy! "
             gv "She needs a big cock that can stretch her and make her scream! "
             gv "Your tiny teeny thingy won't give her anything at all.. "
@@ -563,7 +563,7 @@ label day1_gv_chat:
             gv "As her boyfriend and lover that's your job... Right? "
             gv "To always make sure your girl gets what she needs and deserves! "
             gv "Seeing her getting pleasured the way she needs is the only pleasure you deserve... "
-        "{color=[red_choice]}She just doesn't need sex?{/color}":
+        "She just doesn't need sex? [red]":
             gv "No you idiot! "
             gv "She needs a real cock. Not your pencil sized clit! "
 
@@ -620,7 +620,7 @@ label day1_phone:
     em "Hello??"
 
     menu:
-        "{color=[pink_choice]}I'm sorry! But it is kind of hot!{/color}":
+        "I'm sorry! But it is kind of hot! [pink]":
             jump day1_phone_hot
         "Oh no. I'm so sorry!":
             em "You better be!"
@@ -832,9 +832,9 @@ label scene00_37:
     mc_thoughts "Which one of the movies should i choose? "
 
     menu:
-        "{color=[pink_choice]}Black bull fucks my blonde wife{/color}":
+        "Black bull fucks my blonde wife [pink]":
             jump day1_movie_black
-        "19 year white guy fucks my mature wife": # TODO: Should be white
+        "19 year white guy fucks my mature wife":
             jump day1_movie_white
 
 label day1_movie_black:
@@ -1130,9 +1130,9 @@ label scene00_45B:
     mc_thoughts "Should i lick her ass while pressing the dildo in just a little bit?"
 
     menu:
-        "{color=[pink_choice]}Yes! Lick it!{/color}":
+        "Yes! Lick it! [pink]":
             jump day1_black_dildo_lick
-        "{color=[red_choice]}Eww. Nope! NO!{/color}":
+        "Eww. Nope! NO! [red]":
             jump day1_dildo_no_lick
 
 
@@ -1297,9 +1297,9 @@ label scene00_45A:
     menu:
         # Port note: Changed to pink to keep it consistent with
         # the cuck/kink = pink rule and with the black dildo branch
-        "{color=[pink_choice]}Lick her butt{/color}":
+        "Lick her butt [pink]":
             jump day1_white_dildo_lick
-        "{color=[red_choice]}Eew no way!{/color}":
+        "Eew no way! [red]":
             jump day1_dildo_no_lick
 
 
@@ -1418,9 +1418,9 @@ label day1_sex_starts:
     em "dirty like that to you "
 
     menu:
-        "{color=[pink_choice]}Y yyeah i think i almost came{/color}":
+        "Y yyeah i think i almost came [pink]":
             jump day1_sex_sph_yes
-        "{color=[red_choice]}No i dont think i liked that{/color}":
+        "No i dont think i liked that [red]":
             jump day1_sex_sph_no
 
 
@@ -1521,9 +1521,9 @@ label day1_sex_end:
     mc "What? Already? You didn't even move anyth..."
 
     menu:
-        "{color=[red_choice]}Cum inside her{/color}":
+        "Cum inside her [red]":
             jump day1_sex_cum_inside
-        "{color=[pink_choice]}Cum outside{/color}":
+        "Cum outside [pink]":
             jump day1_sex_cum_outside
 
 

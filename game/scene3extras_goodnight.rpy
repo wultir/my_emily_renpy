@@ -11,9 +11,9 @@ label day5_goodnight:
     em "Why are you looking at me like that?"
 
     menu:
-        "{color=[pink_choice]}Because you are so sexy and you made me so horny today{/color}":
+        "Because you are so sexy and you made me so horny today [pink]":
             jump day5_you_are_so_sexy
-        "{color=[red_choice]}I'm just tired End day{/color}":
+        "I'm just tired End day [red]":
             # Port note: Changed to end of day instead of end of game version.
             jump day6_start
 
@@ -84,9 +84,9 @@ label day5_continue_anal:
     em "Or do you want mommy to teach you?"
 
     menu:
-        "{color=[pink_choice]}Yes mommy please teach me!{/color}":
+        "Yes mommy please teach me! [pink]":
             jump day5_yes_mommy
-        "{color=[red_choice]}Stay silent{/color}":
+        "Stay silent [red]":
             jump day5_stay_silent
 
 
@@ -166,9 +166,9 @@ label day5_no_sph:
 
 label day5_stay_silent_done:
     menu:
-        "{color=[pink_choice]}Please suck my tiny worthless cock{/color}":
+        "Please suck my tiny worthless cock [pink]":
             jump day5_suck_sph
-        "{color=[red_choice]}Can you please suck it{/color}":
+        "Can you please suck it [red]":
             jump day5_suck_no_sph
 
 

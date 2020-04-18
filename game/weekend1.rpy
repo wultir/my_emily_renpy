@@ -298,9 +298,9 @@ label scene0315:
     j "I just love you both and didn't want to make anyone feel awkward.."
 
     menu:
-        "{color=[red_choice]}I know you didn't mean anything bad. Let's just forget this ever happened{/color}":
+        "I know you didn't mean anything bad. Let's just forget this ever happened [red]":
             jump weekend1_saturday_forget
-        "{color=[pink_choice]}You can watch her and tell her those things because I really trust you! And we love you too...{/color}":
+        "You can watch her and tell her those things because I really trust you! And we love you too... [pink]":
             jump weekend1_saturday_we_love_you
 
 
@@ -417,9 +417,9 @@ label weekend1_saturday_pc_taboo:
     "Will you answer him?"
 
     menu:
-        "{color=[pink_choice]}Oh god! I'm interested!{/color}":
+        "Oh god! I'm interested! [pink]":
             jump weekend1_saturday_tb_interested_yes
-        "{color=[red_choice]}Not interested!{/color}":
+        "Not interested! [red]":
             jump weekend1_saturday_tb_interested_no
 
 
@@ -563,9 +563,9 @@ label weekend1_saturday_tb_message_done:
     "Should Emily ask Jack about?:"
 
     menu:
-        "{color=[red_choice]}Don't ask. Just continue your ride{/color}":
+        "Don't ask. Just continue your ride [red]":
             jump weekend1_saturday_continue_ride
-        "{color=[pink_choice]}Why didn't you want to date me when we met online?{/color}":
+        "Why didn't you want to date me when we met online? [pink]":
             jump weekend1_saturday_why_no_date
     
     
@@ -609,9 +609,9 @@ label weekend1_saturday_why_no_date:
     em_thoughts "We have almost arrived at my office... Should I just tease him a little? "
 
     menu:
-        "{color=[pink_choice]}YES!{/color}":
+        "YES! [pink]":
             jump weekend1_saturday_tease_jack
-        "{color=[red_choice]}No I have no interest for him anymore{/color}":
+        "No I have no interest for him anymore [red]":
             jump weekend1_saturday_continue_ride
 
 
@@ -1454,9 +1454,9 @@ label scene04tstv1:
     em "Or would you rather go to bed and miss our Sunday?"
 
     menu:
-        "{color=[red_choice]}Eww Hell no. Good night!{/color}":
+        "Eww Hell no. Good night! [red]":
             jump weekend1_sunday_hell_no
-        "{color=[pink_choice]}Continue with the shemale porn{/color}":
+        "Continue with the shemale porn [pink]":
             jump weekend1_sunday_continue_shemale
 
 
@@ -1532,9 +1532,9 @@ label weekend1_sunday_movie_starts:
     $ renpy.movie_cutscene("video/MovieTranny1.webm")
 
     menu:
-        "See again (repeat)": # TODO: Should be black
+        "See again (repeat) [black]":
             jump weekend1_sunday_movie_starts
-        "Move on": # TODO: Should be black
+        "Move on [black]":
             jump weekend1_sunday_movie_ends
 
 
@@ -1582,9 +1582,9 @@ label weekend1_sunday_movie_ends:
     em "Aren't you curious about them like I am?"
 
     menu:
-        "{color=[pink_choice]}I think I'm maybe? I've never seen one{/color}":
+        "I think I'm maybe? I've never seen one [pink]":
             jump weekend1_sunday_curious_yes
-        "{color=[red_choice]}No. Let's just continue our day and then go to bed{/color}":
+        "No. Let's just continue our day and then go to bed [red]":
             jump weekend1_sunday_curious_no
 
 
@@ -1629,9 +1629,9 @@ label weekend1_sunday_curious_yes:
     mc "..."
 
     menu:
-        "{color=[red_choice]}No no no. I'm sorry but I just can't{/color}":
+        "No no no. I'm sorry but I just can't [red]":
             jump weekend1_sunday_no_trans
-        "{color=[pink_choice]}I..would do anything for you baby...{/color}":
+        "I..would do anything for you baby... [pink]":
             jump weekend1_sunday_promise_trans
 
 label weekend1_sunday_promise_trans:

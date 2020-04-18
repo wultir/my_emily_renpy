@@ -4,7 +4,6 @@
 ## them. Lines beginning with a single '#' mark are commented-out code, and you
 ## may want to uncomment them when appropriate.
 
-
 ## Basics ######################################################################
 
 ## A human-readable name of the game. This is used to set the default window
@@ -23,7 +22,7 @@ define gui.show_name = True
 
 ## The version of the game.
 
-define config.version = "0.4f-0.1"
+define config.version = "0.4a-0.1"
 
 
 ## Text that is placed on the game's about screen. Place the text between the

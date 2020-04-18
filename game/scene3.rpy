@@ -175,9 +175,9 @@ label scene0508:
     em "Y Yes Of course.."
 
     menu:
-        "{color=[pink_choice]}Master Walker{/color}":
+        "Master Walker [pink]":
             jump day5_yes_master
-        "{color=[white_choice]}Mr Walker{/color}":
+        "Mr Walker":
             jump day5_no_master
 
 label day5_yes_master:
@@ -452,9 +452,9 @@ label scene0520:
     em "Ohh I really shouldn't..."
 
     menu:
-        "{color=[pink_choice]}Just one smoke{/color}":
+        "Just one smoke [pink]":
             jump day5_smoke_yes
-        "{color=[red_choice]}Don't smoke and leave{/color}":
+        "Don't smoke and leave [red]":
             jump day5_smoke_no
 
 
@@ -651,9 +651,9 @@ label day5_game4:
     j "Uh huh yes it does! I saw your girl ass just a couple of days ago when we went swimming"
 
     menu:
-        "{color=[pink_choice]}Her butt is much bigger!! And mine isn't that sexy{/color}":
+        "Her butt is much bigger!! And mine isn't that sexy [pink]":
             jump day5_sexy_butt
-        "{color=[red_choice]}Whetever...{/color}":
+        "Whetever... [red]":
             jump day5_no_sexy_butt
 
 label day5_sexy_butt:
@@ -831,9 +831,9 @@ label day5_sissy2:
     j "Hell do all I said and even men will go crazy"
 
     menu:
-        "{color=[pink_choice]}Maybe I'll shave off everything, get a wig and put on some panties next time we meet?{/color}":
+        "Maybe I'll shave off everything, get a wig and put on some panties next time we meet? [pink]":
             jump day5_teasing_jack
-        "{color=[red_choice]}Just continue playing...{/color}":
+        "Just continue playing... [red]":
             # Port note: Changed from day5_sissy2_not to day5_game8
             # since that repeated the same scene with the non-sissy variant
             jump day5_game8
@@ -1053,12 +1053,12 @@ label tv0504:
     em "So nice.. I just wish i had someone who could massage my feet all the time!"
 
     menu:
-        "{color=[pink_choice]}Let me! You know I love massaging you{/color}":
+        "Let me! You know I love massaging you [pink]":
             $ mem_short_massage = True
             em "Aww you are so cute! I love you.."
             em "I'll let you massage them little later"
 
-        "{color=[red_choice]}Stay quiet{/color}":
+        "Stay quiet [red]":
             em "..."
 
 
@@ -1390,9 +1390,9 @@ label scene0532:
     em "Do you want me to wear something like that?"
 
     menu:
-        "{color=[pink_choice]}Yes baby! It would look so sexy on you!{/color}":
+        "Yes baby! It would look so sexy on you! [pink]":
             jump day5_yes_baby
-        "{color=[red_choice]}No! It was a bit too slutty maybe?{/color}":
+        "No! It was a bit too slutty maybe? [red]":
             jump day5_no_baby
 
 
@@ -1516,9 +1516,9 @@ label scene0541:
     em "Be a good boy and don't move a muscle!"
 
     menu:
-        "{color=[pink_choice]}Stay still like a good boy{/color}":
+        "Stay still like a good boy [pink]":
             jump day5_good_boy
-        "{color=[red_choice]}Laugh and stop the situation{/color}":
+        "Laugh and stop the situation [red]":
             jump day5_bad_boy
 
 
@@ -1861,9 +1861,9 @@ label scene0563:
     mc "..."
 
     menu:
-        "{color=[pink_choice]}Not as beautiful as you (+ Touching){/color}":
+        "Not as beautiful as you (+ Touching) [pink]":
             jump day5_beautiful
-        "{color=[red_choice]}Don't{/color}":
+        "Don't [red]":
             jump day5_notouch
 
 
@@ -1931,9 +1931,9 @@ label scene0568:
     "You feel your dick move a little"
 
     menu:
-        "{color=[pink_choice]}Let her and try to act normal{/color}":
+        "Let her and try to act normal [pink]":
             jump day5_lether_yes
-        "{color=[red_choice]}Be a man and prrrotect your rrrump{/color}":
+        "Be a man and prrrotect your rrrump [red]":
             jump day5_lether_no
 
 
@@ -2066,9 +2066,9 @@ label scene0576:
     em "Hihi"
 
     menu:
-        "{color=[pink_choice]}Curiously watch with her{/color}":
+        "Curiously watch with her [pink]":
             jump day5_watch_henry
-        "{color=[red_choice]}Just no. Hell.NO.. Stop! {/color}":
+        "Just no. Hell.NO.. Stop!  [red]":
             jump day5_dont_watch_henry
 
 

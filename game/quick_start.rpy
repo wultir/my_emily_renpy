@@ -35,10 +35,10 @@ label quick_start_dildo:
     "Which dildo did you choose?"
 
     menu:
-        "{color=[black_choice]}Black{/color}":
+        "Black [black]":
             $ inventory_dildo = "black"
             $ em_kinks_black += 1
-        "{color=[white_choice]}White{/color}":
+        "White":
             $ inventory_dildo = "white"
 
 
@@ -49,11 +49,11 @@ label quick_start_video:
     "(Black on white made Emily fascinated by the color pink)"
 
     menu:
-        "{color=[black_choice]}Black bull fucks my blonde wife{/color}":
+        "Black bull fucks my blonde wife [black]":
             $ mem_emily_pink = True
             $ em_kinks_black += 1
             show bg 00_38A with Dissolve(1.0)
-        "{color=[white_choice]}19 year white guy fucks my mature wife{/color}":
+        "19 year white guy fucks my mature wife":
             show bg 00_38B with Dissolve(1.0)
 
 
@@ -74,10 +74,10 @@ label quick_start_pink_work:
     "(Thanking James could lead to something)"
 
     menu:
-        "{color=[pink_choice]}Emily thanked James{/color}":
+        "Emily thanked James [pink]":
             $ em_loves_james += 1
             jump quick_start_work_done
-        "{color=[white_choice]}Emily ignored James{/color}":
+        "Emily ignored James":
             jump quick_start_work_done
 
 
@@ -88,11 +88,11 @@ label quick_start_work_done:
     "(If you did you also found and read the note hidden in her handbag)"
 
     menu:
-        "{color=[pink_choice]}Yes! Sexy gilf!{/color}":
+        "Yes! Sexy gilf! [pink]":
             $ ele_loves_mc = "love"
             $ mem_eleanor_secret_player = True
             jump quick_start_jack_elise
-        "{color=[white_choice]}Noooo I'm not interested in her{/color}":
+        "Noooo I'm not interested in her":
             jump quick_start_jack_elise
     
 
@@ -102,10 +102,10 @@ label quick_start_jack_elise:
     "Did you tell Jack it's ok to go after Elise if he feels like it?"
 
     menu:
-        "{color=[white_choice]}Yes{/color}":
+        "Yes":
             $ j_loves_elise = 1
             jump quick_start_day3
-        "{color=[black_choice]}No{/color}":
+        "No [black]":
             jump quick_start_day3
 
 
@@ -121,10 +121,10 @@ label quick_start_day3:
     "(Telling him it's ok results in Jack's feelings growing for her)"
 
     menu:
-        "{color=[pink_choice]}You told Jack he did nothing wrong{/color}":
+        "You told Jack he did nothing wrong [pink]":
             $ j_loves_emily = 1
             jump quick_start_bull
-        "{color=[red_choice]}You didn't like it{/color}":
+        "You didn't like it [red]":
             jump quick_start_bull
 
 
@@ -134,10 +134,10 @@ label quick_start_bull:
     "When looking at your profile on taboo palace Black Prince contacted you. Are you interested in him?"
 
     menu:
-        "{color=[pink_choice]}Yes I am{/color}":
+        "Yes I am [pink]":
             $ bull_marcus = True
             jump quick_start_day5
-        "{color=[red_choice]}No I'm not{/color}":
+        "No I'm not [red]":
             $ bull_marcus = False
             jump quick_start_day5
 
@@ -152,12 +152,12 @@ label quick_start_day5:
     "When you were in the park with Emily and met the old man did you let Emily play with your butt and did the old man notice this?"
 
     menu:
-        "{color=[pink_choice]}Yes he did{/color}":
+        "Yes he did [pink]":
             $ henry_mem_saw_buttplay = True
             show bg 0568b with Dissolve(1.0)
             pause 1.0
             jump quick_start_look_old_man_peeing
-        "{color=[red_choice]}No he didn't{/color}":
+        "No he didn't [red]":
             $ henry_mem_saw_buttplay = False
             jump quick_start_look_old_man_peeing
 
@@ -168,10 +168,10 @@ label quick_start_look_old_man_peeing:
     "Did you and Emily look when the old man needed to pee and thought he was alone?"
 
     menu:
-        "{color=[pink_choice]}Yes... Yes we did{/color}":
+        "Yes... Yes we did [pink]":
             $ henry_mem_saw_penis = True
             jump quick_start_misc
-        "{color=[red_choice]}Eww.. Naaaa!{/color}":
+        "Eww.. Naaaa! [red]":
             $ henry_mem_saw_penis = False
             jump quick_start_misc
 
@@ -186,10 +186,10 @@ label quick_start_misc:
     "Does Emily like to smoke?"
 
     menu:
-        "{color=[white_choice]}Emily smokes{/color}":
+        "Emily smokes":
             $ em_kinks_smoking = 2
             jump quick_start_mommy
-        "{color=[white_choice]}Emily doesn't like smoking{/color}":
+        "Emily doesn't like smoking":
             jump quick_start_mommy
 
 
@@ -197,11 +197,11 @@ label quick_start_mommy:
     "Did you and Emily get into some kinky mom/son roleplay?"
 
     menu:
-        "{color=[white_choice]}Yes mom{/color}":
+        "Yes mom":
             $ em_kinks_incest_play = True
             "Wow... You kinky son of a bitch!"
             jump quick_start_done
-        "{color=[white_choice]}No we did not!{/color}":
+        "No we did not!":
             $ em_kinks_incest_play = False
             jump quick_start_done
 
