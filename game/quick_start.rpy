@@ -168,7 +168,7 @@ label quick_start_name:
     show text "{color=#ffffff}{size=36}Misc{/size}{/color}" at topright with Dissolve(1.0):
         offset (-10, 10)
 
-    show bg black with Dissolve(1.0)
+    scene bg black with Dissolve(1.0)
 
     "Does Emily like to smoke?"
 

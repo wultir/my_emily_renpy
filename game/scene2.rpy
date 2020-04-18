@@ -1517,7 +1517,7 @@ label day2_eleanor_run:
 
 
 label day2_sofa_tv_done:
-    show bg black with Dissolve(1.0)
+    scene bg black with Dissolve(1.0)
 
     mc_thoughts "Ahhhhh. I love this feeling.. It feels so good!"
     mc_thoughts "Like i'm having sex.."

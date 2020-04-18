@@ -16,15 +16,12 @@ label day1_coffee_shop:
     em "Okkkey we. will. just. sit. there"
 
     scene bg 00_29 with Dissolve(1.0)
-
-    show waiting at topleft
-    pause
+    call wait_for_click
 
 
 label day1_coffe_shop_waiting:
-    scene bg coffee_01_day with Dissolve(1.0)
+    show bg coffee_01_day with Dissolve(1.0)
 
-    window show
     show emily 01_07 at right with Dissolve(1.0):
         yalign 0.5
         yoffset -100
