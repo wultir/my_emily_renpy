@@ -26,7 +26,7 @@ style gui_text:
     outlines []
 
 
-style button:
+style button: 
     properties gui.button_properties("button")
 
 style button_text is gui_text:
@@ -837,6 +837,8 @@ style page_button:
 style page_button_text:
     properties gui.button_text_properties("page_button")
     color "#f3f3f3"
+    hover_color gui.hover_color
+    
 
 style slot_button:
     properties gui.button_properties("slot_button")
