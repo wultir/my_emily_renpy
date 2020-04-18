@@ -42,25 +42,16 @@ label the_end1:
 
     hide text with Dissolve(1.0)
 
-
-label scene_e0101:
     scene e0101 with Dissolve(5.0)
-
     dr "{cps=7}Are you ready to know your results?{/cps}{p=2.0}{nw}"
     mc "{cps=7}Yes!{/cps}{p=2.0}{nw}"
     em "{cps=7}Don't worry babe!{/cps}{p=2.0}{nw}"
     dr "{cps=7}Please sit down{/cps}{p=2.0}{nw}"
 
-
-label scene_e0102:
     show e0102 with Dissolve(5.0)
-
     dr "{cps=7}I see{/cps}{p=2.0}{nw}"
 
-
-label scene_e0103:
     show e0103 with Dissolve(5.0)
-
     dr "{cps=7}I'm sorry [mc_name]{/cps}{p=2.0}{nw}"
 
     em "{cps=7}How bad is it?{/cps}{p=2.0}{nw}"
@@ -70,8 +61,6 @@ label scene_e0103:
     dr "{cps=7}It could happen tomorrow... Next month... Or maybe never{/cps}{p=2.0}{nw}"
     dr "{cps=7}In that case there are some alternatives we can discuss should the need for those arise{/cps}{p=2.0}{nw}"
 
-
-label scene_e0104:
     scene bg black with Dissolve(5.0)
 
     show text "{font=fonts/Elsie-Regular.ttf}{color=#f686b8}{size=100}2 years later{/size}{/color}{/font}" with ComposeTransition(Dissolve(2.0), after=CropMove(3.0, "wiperight")):
@@ -87,8 +76,6 @@ label scene_e0104:
     "{cps=7}Luck was on your side{/cps}{p=2.0}{nw}"
     "{cps=7}You don't know if you or Emily is more nervous about the baby{/cps}{p=2.0}{nw}"
 
-
-label scene_e0105:
     scene bg e0105 with Dissolve(5.0)
 
     stop music fadeout 3.0
@@ -104,33 +91,21 @@ label scene_e0105:
 
     hide text with Dissolve(1.0)
 
-
-label scene_e0106:
     play music "audio/bgm/Music/bensound-memories.ogg" fadein 1.0
     scene bg e0106 with Dissolve(5.0)
 
-
-label scene_e0107:
     scene bg e0107 with Dissolve(5.0)
 
-
-label scene_e0108:
     scene bg e0108 with Dissolve(5.0)
-
     "{cps=7}The stress hasn't been easy for you or Emily{/cps}{p=2.0}{nw}"
     "{cps=7}You both have changed{/cps}{p=2.0}{nw}"
     "{cps=7}You finally managed to find a job as a waste truck driver{/cps}{p=2.0}{nw}"
     "{cps=7}It's better than nothing! And it pays the bills...{/cps}{p=2.0}{nw}"
 
-
-label scene_e0109:
     scene bg e0109 with Dissolve(5.0)
     scene bg black with Dissolve(5.0)
 
-
-label scene_e0110:
     scene bg e0110 with Dissolve(5.0)
-
     "{cps=7}You both managed to increase your loan to buy a house in a friendly neighborhood{/cps}{p=2.0}{nw}"
 
     mc "{cps=7}Hey baby{/cps}{p=2.0}{nw}"
@@ -140,17 +115,11 @@ label scene_e0110:
     em "{cps=7}Haha be ready! I hear running!{/cps}{p=2.0}{nw}"
 
 
-label scene_e0111:
     scene bg e0111 with Dissolve(5.0)
 
-
-label scene_e0112:
     scene bg e0112 with Dissolve(5.0)
 
-
-label scene_e0113:
     scene bg e0113 with Dissolve(5.0)
-
     a "{cps=7}Daddy! Daddy!{/cps}{p=2.0}{nw}"
     a "{cps=7}Do you know what time it is?{/cps}{p=2.0}{nw}"
 
@@ -167,10 +136,7 @@ label scene_e0113:
     a "{cps=7}Yup!{/cps}{p=2.0}{nw}"
     a "{cps=7}And now I need ice cream! Please pleaseeeee{/cps}{p=2.0}{nw}"
 
-
-label scene_e0114:
     scene bg e0114 with Dissolve(5.0)
-
     mc "{cps=7}Gahh 2 against 1{/cps}{p=2.0}{nw}"
 
     em "{cps=7}Yup{/cps}{p=2.0}{nw}"
@@ -194,26 +160,17 @@ label scene_e0114:
 
     hide text with Dissolve(1.0)
 
-
-label scene_e0115:
     play music "audio/bgm/Music/Danosongs_-_Bright_Brazil.ogg" fadein 1.0
     scene bg e0115 with Dissolve(5.0)
 
-label scene_e0116:
     scene bg e0116 with Dissolve(5.0)
-
     em "{cps=7}Be careful sweetie!{/cps}{p=2.0}{nw}"
 
     a "{cps=7}I'm winning!{/cps}{p=2.0}{nw}"
 
-
-label scene_e0117:
     scene bg e0117 with Dissolve(5.0)
 
-
-label scene_e0118:
     scene bg e0118 with Dissolve(5.0)
-
     mc "{cps=7}You want your ice cream, princess?{/cps}{p=2.0}{nw}"
 
     a "{cps=7}Yes yes yeeeaaasss please{/cps}{p=2.0}{nw}"
@@ -223,13 +180,9 @@ label scene_e0118:
     a "{cps=7}Hmm{/cps}{p=2.0}{nw}"
 
 
-label scene_e0119:
     scene bg e0119 with Dissolve(5.0)
-
     a "{cps=7}Hmmmmmm{/cps}{p=2.0}{nw}"
 
-
-label scene_e0120:
     scene bg e0120 with Dissolve(5.0)
 
     a "{cps=7}Ohhh I know!{/cps}{p=2.0}{nw}"
@@ -245,16 +198,12 @@ label scene_e0120:
 
     mc "{cps=7}Come here! Let's go and get your ice cream!{/cps}{p=2.0}{nw}"
 
-
-label scene_e0121:
     scene bg e0121 with Dissolve(5.0)
 
     a "{cps=7}Yippeeeeeee{/cps}{p=2.0}{nw}"
 
     em "{cps=7}BE CAREFUL!{/cps}{p=2.0}{nw}"
 
-
-label scene_e0122:
     scene bg e0122 with Dissolve(5.0)
 
     em "{cps=7}Oh god! Don't jump like that sweetie!{/cps}{p=2.0}{nw}"
@@ -263,8 +212,6 @@ label scene_e0122:
 
     mc "{cps=7}Let's go supergirls!{/cps}{p=2.0}{nw}"
 
-
-label scene_e0123:
     scene bg black with Dissolve(5.0)
 
     show text "{font=fonts/Elsie-Regular.ttf}{color=#f686b8}{size=100}Thank you for playing!{/size}{/color}{/font}" with ComposeTransition(Dissolve(2.0), after=CropMove(3.0, "wiperight")):
@@ -277,16 +224,10 @@ label scene_e0123:
 
     scene bg e0123 with Dissolve(5.0)
 
-
-label scene_e0124:
     scene bg e0124 with Dissolve(5.0)
 
-
-label scene_e0125:
     scene bg e0125 with Dissolve(5.0)
 
-
-label end1_message:
     stop music fadeout 6.0
     pause 6.0
     scene bg black with Dissolve(1.0)

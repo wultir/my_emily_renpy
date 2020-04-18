@@ -1,15 +1,12 @@
 label day1_sex_shop:
-    scene bg xxx_store_01_day
-    with Dissolve(1.0)
+    scene bg xxx_store_01_day with Dissolve(1.0)
 
     mc_thoughts "I've never been to a place like this! It feels dirty and i'm nervous."
     mc_thoughts "Let's just focus and calm down!"
     mc_thoughts "Hm is it empty? No one is here?"
     mc_thoughts "What's that sound? Moaning?"
 
-label scene00_25:
-    scene bg 00_25
-    with Dissolve(1.0)
+    scene bg 00_25 with Dissolve(1.0)
 
     "?" "Hey there and welcome! I was.. getting a massage. Back problems!"
     "?" "So what can i get you?"
@@ -26,8 +23,7 @@ label scene00_25:
 
 
 label day1_sex_shop_girl:
-    scene bg xxx_store_01_day
-    with Dissolve(1.0)
+    scene bg xxx_store_01_day with Dissolve(1.0)
 
     show xxx_girl 01_01 at center with Dissolve(1.0):
         yanchor 0.75
@@ -75,10 +71,7 @@ label day1_sex_shop_girl:
     hide xxx_girl 01_02 with Dissolve(1.0)
     pause 0.5
 
-
-label scene00_26:
-    scene bg 00_26
-    with Dissolve(1.0)
+    scene bg 00_26 with Dissolve(1.0)
 
     xg "So what kind are you looking for? We have everything!! Monster, huge bbc, fantasy, dog, tentacles, horse, fist, plugs, vibrators.. We have every type of dildo you could ever need!"
 
@@ -96,10 +89,7 @@ label scene00_26:
             xg "Oki...."
             xg "Let's pick one of our smallest!"
 
-
-label scene00_27:
-    scene bg 00_27
-    with Dissolve(1.0)
+    scene bg 00_27 with Dissolve(1.0)
 
     show waiting at topleft
     pause
@@ -107,10 +97,7 @@ label scene00_27:
     
     xg "Found it!"
 
-
-label scene00_28:
-    scene bg 00_28
-    with Dissolve(1.0)
+    scene bg 00_28 with Dissolve(1.0)
 
     xg "This is one of the smallest we have! Smaller ones just don't sell."
     xg "It's about 15cm usable size."
@@ -120,15 +107,12 @@ label scene00_28:
 
     xg "OH wait!!!"
 
-    show bg 00_27
-    with Dissolve(1.0)
+    show bg 00_27 with Dissolve(1.0)
 
     xg "I have something much better!"
 
 
-label scene00_28A:
-    scene bg 00_28A
-    with Dissolve(1.0)
+    scene bg 00_28A with Dissolve(1.0)
 
     xg "This one!"
     xg "It's little longer at 22cm but usable lenght is 18cm,"
@@ -148,8 +132,7 @@ label scene00_28A:
 
 
 label day1_sex_shop_black:
-    scene bg 00_28B
-    with Dissolve(1.0)
+    scene bg 00_28B with Dissolve(1.0)
 
     xg "Black. Our top selling color!"
     xg "Which color would you want?"
@@ -190,13 +173,11 @@ label day1_sex_shop_done:
     xg "You will soon be back for bigger ones! Have fun, See you later and thank you!"
     xg "Huggies!"
 
-    scene bg black
-    with Dissolve(1.0)
+    scene bg black with Dissolve(1.0)
 
     "You thank her and leave"
     "Back home 15 minutes later"
 
-    scene bg black
-    with Dissolve(1.0)
+    scene bg black with Dissolve(1.0)
 
     jump day1_phone

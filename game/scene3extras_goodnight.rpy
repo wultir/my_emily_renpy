@@ -31,8 +31,6 @@ label day5_you_are_so_sexy:
     em "Is it my breasts maybe?"
     em "Or..."
 
-
-label scene0598:
     scene bg 0598 with Dissolve(1.0)
     call wait_for_click
 
@@ -98,8 +96,6 @@ label day5_stay_silent:
 
     "Emily removes your undies "
 
-
-label scene05101:
     scene bg 05101 with Dissolve(1.0)
 
     em "What should I do with this..."
@@ -286,7 +282,6 @@ label day5_lick_done:
         jump day5_mommy_end
 
 
-label scene05104:
     scene bg 05104 with Dissolve(1.0)
 
     em "You will learn.."
@@ -299,8 +294,6 @@ label scene05104:
     em "Shhh!"
     em "Good night babe"
 
-
-label scene05105:
     scene bg 05105 with Dissolve(1.0)
 
     "You both lay down naked. Emily presses her body against yours and giggles"
@@ -355,8 +348,6 @@ label day5_mommy_end:
 
     "She lays down beside you and drags you in close to her "
 
-
-label scene05105_mommy:
     scene bg 05105 with Dissolve(1.0)
 
     "You cling tightly against her and she presses her ass and pussy against you hard"

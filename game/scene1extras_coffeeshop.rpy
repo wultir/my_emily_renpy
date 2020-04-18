@@ -15,8 +15,6 @@ label day1_coffee_shop:
 
     em "Okkkey we. will. just. sit. there"
 
-
-label scene00_29:
     scene bg 00_29 with Dissolve(1.0)
 
     show waiting at topleft

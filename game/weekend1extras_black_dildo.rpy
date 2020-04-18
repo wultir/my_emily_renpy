@@ -279,8 +279,6 @@ label weekend1_sunday_black_phone:
     "You push her black cock further in making it rub her clit more "
     "Just a couple more strokes and you'll cum too"
 
-
-label scene0046b:
     show bg 0446b with Dissolve(1.0)
 
     jump weekend1_sunday_common_phone

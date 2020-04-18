@@ -14,10 +14,7 @@ label intro:
     mg "Pink choices often mean, submissive,yes,I want more, continue etc."
     mg "Red choices often mean, no,stop,hell no, abort,stop kink, etc"
 
-
-label music_info:
-    scene bg music
-    with Dissolve(1.0)
+    scene bg music with Dissolve(1.0)
 
     mg "If you see this message then it means there will most likely be music or some type of sounds after clicking. If there isn't then I simply forgot to add it in :p"
     mg "It's to give you a heads up so you don't wake up your whole house with loud rock music in the middle of the night with your pants down..."
@@ -25,10 +22,7 @@ label music_info:
     mg "There won't be music playing now after you click anywhere..."
     mg "Have fun!"
 
-
-label scene00_01:
-    scene bg 00_01
-    with Dissolve(1.0)
+    scene bg 00_01 with Dissolve(1.0)
 
     show text "{color=#ffffff}{size=36}Day 1 Thursday{/size}{/color}" at topright with Dissolve(1.0):
         offset (-10, 10)
@@ -42,8 +36,7 @@ label scene00_01:
     mc "She must have thought it was cute because here you are!"
     mc "Turns out her parents are wealthy and she owns a nice apartment in the city center. She asked you to move in 3 months ago"
 
-    hide text
-    with Dissolve(1.0)
+    hide text with Dissolve(1.0)
 
 
 label input_mc_name:
@@ -58,26 +51,15 @@ label input_mc_name:
     "Your name is set to: [mc_name] Small"
 
 
-label scene00_02:
-    scene bg 00_02
-    with Dissolve(1.0)
+label day1_start:
+    scene bg 00_02 with Dissolve(1.0)
 
     "..."
 
+    scene bg 00_03 with Dissolve(1.0)
+    call wait_for_click
 
-label scene00_03:
-    scene bg 00_03
-    with Dissolve(1.0)
-
-    show waiting at topleft
-    pause
-    hide waiting
-
-
-label scene00_04:
-    scene bg 00_04
-    with Dissolve(1.0)
-
+    scene bg 00_04 with Dissolve(1.0)
     "There she is!!"
     "This is Emily White. She's your girlfriend. Or fiancée since you proposed to her last week!"
     "She's a independent 29 year old girl with a strong will. But a strong soft heart!"
@@ -88,10 +70,7 @@ label scene00_04:
     "So it's pretty much daily jerking for you. You dont think she knows"
     "It's frustrating! But you love her very much and she means everything for you!"
 
-
-label scene00_05:
-    scene bg 00_05
-    with Dissolve(1.0)
+    scene bg 00_05 with Dissolve(1.0)
 
     em "Aaaahhhh. I thought you were still sleeping! How long have you been up?"
 
@@ -101,18 +80,10 @@ label scene00_05:
     em "You wont get lucky now silly.. But nice try!"
     em "I need to get ready for work"
 
-
-label scene00_06:
-    scene bg 00_06
-    with Dissolve(1.0)
-
+    scene bg 00_06 with Dissolve(1.0)
     em "Kiss*"
 
-
-label scene00_07:
-    scene bg 00_07
-    with Dissolve(1.0)
-
+    scene bg 00_07 with Dissolve(1.0)
     "You have had some troubling thoughts for a while now.."
     "They just get harder and harder to control, and they become more and more extreme.."
     "You get rock hard while fantasizing about her fucking others while not giving you anything. Controlling you, humiliating you and worse.. The more extreme it is the harder you come"
@@ -123,24 +94,15 @@ label scene00_07:
     "You have decided to finally open a account there hoping you will find some answers and learn something. Maybe you can learn how to control yourself and those fantasies you have?"
 
 
-label scene00_08:
-    scene bg 00_08
-    with Dissolve(1.0)
-
-    show waiting animated at topleft
-    pause
-    hide waiting
+    scene bg 00_08 with Dissolve(1.0)
+    call wait_for_click
 
     mc_thoughts "Oh no!"
     mc_thoughts "Can't focus..."
     mc_thoughts "Need to fuck..."
     mc_thoughts "NOW!"
 
-
-label scene00_09:
-    scene bg 00_09
-    with Dissolve(1.0)
-
+    scene bg 00_09 with Dissolve(1.0)
     mc "She certainly didn't choose me for my rock hard 10 centimeters. Or my non existent wealth!"
     mc "Pufff.. There goes my underwear. I swear I'm the fastest man on this planet to lose them"
     mc "I'm so happy she dosent look like the girls from all the other games i play where they claim to be my 45 year old mother who looks to be 4 years under 18 and a body drawn by a retarded monkey who just found the breast and butt size scale sliders. Ghhhh. Hate those games!"
@@ -149,71 +111,56 @@ label scene00_09:
 
     menu:
         "Press your dick against her butt":
-            jump scene00_10
+            jump press_dick_against_butt
         "Press your face against her butt [pink]":
             $ mc_cuckpoints += 1
-            jump scene00_10a
+            jump press_face_against_butt
 
 
 # Press your dick against her butt
-label scene00_10:
-    scene bg 00_10
-    with Dissolve(1.0)
+label press_dick_against_butt:
+    scene bg 00_10 with Dissolve(1.0)
 
     show waiting animated at topleft
     pause
     pause
     hide waiting
 
-    jump scene00_10_common
+    jump press_against_butt_done
 
 
 # Press your face against her butt
-label scene00_10a:
-    scene bg 00_10a
-    with Dissolve(1.0)
+label press_face_against_butt:
+    scene bg 00_10a with Dissolve(1.0)
 
     show waiting animated at topleft
     pause
     hide waiting
 
-    jump scene00_10_common
 
+label press_against_butt_done:
+    scene bg house01_bedroom_day_pc with Dissolve(1.0)
 
-label scene00_10_common:
-    scene bg house01_bedroom_day_pc
-    with Dissolve(1.0)
-
-    show emily 01_01 at left
-    with Dissolve(1.0)
+    show emily 01_01 at left with Dissolve(1.0)
 
     em "Aiiieeee*"
     em "WHAT THE HELL ARE YOU DOING??"
 
-    show emily 01_02 at left
-    with Dissolve(1.0)
+    show emily 01_02 at left with Dissolve(1.0)
 
     em "You cant sneak up on me like that! What's wrong with you?"
     em "Just sit down... and wait while I'm getting dressed for work!"
 
-    hide emily
-    with Dissolve(1.0)
+    hide emily with Dissolve(1.0)
 
-
-label scene00_11:
-    scene bg 00_11
-    with Dissolve(1.0)
-
+    scene bg 00_11 with Dissolve(1.0)
     mc_thoughts "Crap!"
     mc_thoughts "Damn you penis and the ideas you give me.."
     mc_thoughts "How can i smooth this out?   'Hey, its not my fault. It's yours for not letting me fuck'..."
     mc_thoughts "Yeah right.. Can't say that if i want her to stay together with me... Think! Think!"
 
 
-label scene00_12:
-    scene bg 00_12
-    with Dissolve(1.0)
-
+    scene bg 00_12 with Dissolve(1.0)
     em "Babe, why did you do that?"
 
     mc "Because i love you and you are so sexy. It's just..."
@@ -232,17 +179,12 @@ label scene00_12:
     em "I really have to go now. But before..."
 
 
-label scene00_13:
-    scene bg 00_13
-    with Dissolve(1.0)
+    scene bg 00_13 with Dissolve(1.0)
 
     em "Give me a big kiss!"
     em "Kiss*"
 
-
-label scene00_14:
-    scene bg 00_14
-    with Dissolve(1.0)
+    scene bg 00_14 with Dissolve(1.0)
 
     em "Oh what's this?"
 
@@ -250,50 +192,41 @@ label scene00_14:
     em "Be a good boy and you might get rewarded tonight.."
 
 
-label scene00_15:
-    scene bg 00_15
-    with Dissolve(1.0)
+    scene bg 00_15 with Dissolve(1.0)
 
     em "Talk to you later babe. Take a shower and look for jobs today!"
     em "I really have to run now! Byeee"
 
 
-label scene00_16:
-    scene bg 00_16
-    with Dissolve(1.0)
+    scene bg 00_16 with Dissolve(1.0)
     
     mc_thoughts "Shit. I must have stretched a muscle in my back when i jumped out from the bed!"
 
 
-label scene00_18:
-    scene bg 00_18
-    with Dissolve(1.0)
+    scene bg 00_18 with Dissolve(1.0)
 
     mc_thoughts "Time to shower and then i'm gonna look up that taboo site"
 
     "You brush your teeth, pee and take a shower"
 
+
 label day1_taboo_site_signup:
-    scene bg house01_bedroom_day_pc
-    with Dissolve(1.0)
+    scene bg house01_bedroom_day_pc with Dissolve(1.0)
 
     "Some time later..."
 
     mc_thoughts "Let's check that site out!"
 
-    scene bg pc
-    with Dissolve(1.0)
+    scene bg pc with Dissolve(1.0)
 
     $renpy.pause(2)
 
-    show pc tb_01 at top:
-    with Dissolve(1.0)
+    show pc tb_01 at top with Dissolve(1.0)
 
     mc_thoughts "Hm. I'm hard as a rock again!"
     mc_thoughts "Let's click on My profile."
 
-    show pc tb_02 at top:
-    with Dissolve(1.0)
+    show pc tb_02 at top with Dissolve(1.0)
 
     mc_thoughts "100$!!!"
     mc_thoughts "Oh well. Let's do it!"
@@ -307,8 +240,7 @@ label day1_taboo_site_signup:
     mc_thoughts "Click here to start building your profile......"
     mc_thoughts "SHIT! How long will this take?"
 
-    show pc tb_01 at top:
-    with Dissolve(1.0)
+    show pc tb_01 at top with Dissolve(1.0)
 
     mc_thoughts "Are you single? Or a couple?"
     mc_thoughts "Couple!"
@@ -357,23 +289,18 @@ label day1_taboo_site_signup:
 
 
 label day1_bathroom_after_site:
-    scene bg house01_bathroom_day
-    with Dissolve(1.0)
+    scene bg house01_bathroom_day with Dissolve(1.0)
 
     mc_thoughts "Almost. Soon there.. 1 more second!"
 
 
-label scene00_19:
-    scene bg 00_19
-    with Dissolve(1.0)
+    scene bg 00_19 with Dissolve(1.0)
 
     mc_thoughts "Ahhhhhh. I love this feeling! It's like a different and milder type of a orgasm.."
     mc_thoughts "Same with poopi... What??"
 
 
-label scene00_20:
-    scene bg 00_20
-    with Dissolve(1.0)
+    scene bg 00_20 with Dissolve(1.0)
 
     mc_thoughts "Hnnnghhhhhghh"
     mc_thoughts "SHIT"
@@ -384,15 +311,11 @@ label scene00_20:
 
     
 label day1_meanwhile_emily_work:
-    scene bg black
-    with Dissolve(1.0)
+    scene bg black with Dissolve(1.0)
 
     "Meanwhile at Emily's workplace"
 
-
-label scene00_21:
-    scene bg 00_21
-    with Dissolve(1.0)
+    scene bg 00_21 with Dissolve(1.0)
 
     em_thoughts "I know i forgot something today... But what?"
     em_thoughts "And i wonder why [mc_name] acted like that this morning"
@@ -415,19 +338,15 @@ label scene00_21:
     em_thoughts "Now.... What the hell did i forget??"
 
 
-label scene00_22:
-    scene bg 00_22
-    with Dissolve(1.0)
+    scene bg 00_22 with Dissolve(1.0)
 
     em_thoughts "Yup i painted my nails.. Did i put on any makeup?"
     em_thoughts "Hmmm no.. It's something else"
 
     "?" "Ahem"
         
-        
-label scene00_23:
-    scene bg 00_23
-    with Dissolve(1.0)
+
+    scene bg 00_23 with Dissolve(1.0)
 
     em_thoughts "Oh"
     em_thoughts "That's my boss James Moore. One of the best lawyers in the country"
@@ -440,9 +359,7 @@ label scene00_23:
     jm "There's my favorite girl in this whole building!"
 
 
-label scene00_24:
-    scene bg 00_24
-    with Dissolve(1.0)
+    scene bg 00_24 with Dissolve(1.0)
 
     show waiting animated at topleft
     pause
@@ -450,30 +367,24 @@ label scene00_24:
 
 
 label day1_emily_james_lobby:
-    scene bg work_wife_lobby_day
-    with Dissolve(1.0)
+    scene bg work_wife_lobby_day with Dissolve(1.0)
 
-    show emily 01_03 at left
-    with Dissolve(1.0)
+    show emily 01_03 at left with Dissolve(1.0)
 
-    show james 01_01 at right
-    with Dissolve(1.0)
+    show james 01_01 at right with Dissolve(1.0)
 
     em "Hey! I'm the ONLY girl working here!"
     
-    show emily 01_04 at left
-    with Dissolve(1.0)
+    show emily 01_04 at left with Dissolve(1.0)
 
     jm "Hence the whole building thing after my favorite girl.."
     jm "Just kidding! You are the.........."
 
-    show james 01_02 at right
-    with Dissolve(1.0)
+    show james 01_02 at right with Dissolve(1.0)
 
     jm "cough cough*"
 
-    show james 01_03 at right
-    with Dissolve(1.0)
+    show james 01_03 at right with Dissolve(1.0)
 
     jm "What's the origin of the word \"Boob\"?"
 
@@ -486,15 +397,13 @@ label day1_emily_james_lobby:
     
     jm "Look down Em.."
 
-    show emily 01_05 at left
-    with Dissolve(1.0)
+    show emily 01_05 at left with Dissolve(1.0)
 
     em "OH MY GOD!"
 
     jm "Haha. Boobs are proof men can concentrate on two things at once"
 
-    show emily 01_06 at left
-    with Dissolve(1.0)
+    show emily 01_06 at left with Dissolve(1.0)
 
     em "This is soooo embarrassing!"
     em "I forgot to put my bra on because [mc_name] .... Distracted me this morning!"
@@ -503,28 +412,24 @@ label day1_emily_james_lobby:
     jm "I just came down to say good morning and to tease you a bit. I got to go and make some phone calls now.  See you later. And..."
     jm "You have grown nicely. Hahaha!"
 
-    hide james
-    with Dissolve(1.0)
+    hide james with Dissolve(1.0)
 
     em "I'm going to die!"
 
-    scene bg black
-    with Dissolve(1.0)
+    scene bg black with Dissolve(1.0)
 
     "Meanwhile back home"
 
 
 label day1_gv_chat:
-    scene bg house01_bedroom_day_pc
-    with Dissolve(1.0)
+    scene bg house01_bedroom_day_pc with Dissolve(1.0)
 
     mc_thoughts "Pheew. I hate cleaning!"
     mc_thoughts "Let's finally check the taboo site again. I think i forgot to log out"
 
     mc_thoughts "What's this?"
 
-    show pc tb_chat_victoria_01 at top
-    with Dissolve(1.0)
+    show pc tb_chat_victoria_01 at top with Dissolve(1.0)
 
     gv "Hello"
 
@@ -587,8 +492,7 @@ label day1_gv_chat:
 
     "Goddess Victoria has gone offline"
 
-    scene bg black
-    with Dissolve(1.0)
+    scene bg black with Dissolve(1.0)
 
     "After 15 minutes you arrive at a sex shop"
 
@@ -599,8 +503,7 @@ label day1_gv_chat:
 
 
 label day1_phone:
-    scene bg house01_entry_day
-    with Dissolve(1.0)
+    scene bg house01_entry_day with Dissolve(1.0)
 
     "ring ring*"
 
@@ -652,8 +555,7 @@ label day1_phone_done:
     hide phone with Dissolve(1.0)
     pause 1.0
 
-    scene bg house01_bedroom_day_pc
-    with Dissolve(1.0)
+    scene bg house01_bedroom_day_pc with Dissolve(1.0)
 
     mc "I'm exhausted"
     mc "I'll just take a short nap.."
@@ -725,7 +627,7 @@ label day1_coffee_shop_exit:
     mc "Get changed, get yourself some wine and come here so i can massage your feet!"
 
 
-label scene00_30:
+label day1_tv:
     scene bg 00_30 with Dissolve(1.0)
 
     "You quickly get changed and sit down to wait for Emily"
@@ -734,19 +636,16 @@ label scene00_30:
     em "I can't wait"
 
 
-label scene00_31:
     scene bg 00_31 with Dissolve(1.0)
 
     em "I'll just put this bottle down here "
 
-label scene00_32:
     scene bg 00_32 with Dissolve(1.0)
 
     em "Let me take this off too! "
     em "First that heavenly burger, now wine and massage "
 
 
-label scene00_33:
     scene bg 00_33 with Dissolve(1.0)
 
     em "Oh god. That's so good "
@@ -757,7 +656,6 @@ label scene00_33:
     em "Ahh soo gooood! You can ask me anything right now "
 
 
-label scene00_34:
     scene bg 00_34 with Dissolve(1.0)
 
     "She's already getting a bit tipsy and relaxed to give you a great view "
@@ -788,12 +686,10 @@ label scene00_34:
     "You both stand up and embrace each other in a hug "
 
 
-label scene00_36:
     scene bg 00_36 with Dissolve(1.0)
     ".. "
 
 
-label scene00_35:
     scene bg 00_35 with Dissolve(1.0)
 
     em "I feel so good now babe "
@@ -818,7 +714,6 @@ label scene00_35:
     "You go and grab the dildo and a usb stick with 2 of your favorite porn movies in it "
 
 
-label scene00_37:
     scene bg black with Dissolve(1.0)
 
     show waiting at topleft
@@ -1061,8 +956,6 @@ label day1_black_dildo:
     em "It looks like the guys di... Penis we just watched!"
     em "Oh my god, it will never fit! Are you crazy??"
 
-
-label scene00_41B:
     scene bg 00_41B with Dissolve(1.0)
 
     mc "I wanted to give you something big. You deserve it"
@@ -1075,7 +968,6 @@ label scene00_41B:
     "You notice how she's dripping already"
 
 
-label scene00_42B:
     scene bg 00_42B with Dissolve(1.0)
 
     em "Oh look!"
@@ -1089,15 +981,11 @@ label scene00_42B:
     em "Come here babe. Follow me"
 
 
-label scene00_43B:
     scene bg 00_43 with Dissolve(1.0)
 
-    show waiting at topleft
-    pause
-    hide waiting
+    call wait_for_click
 
 
-label scene00_44B:
     scene bg 00_44B with Dissolve(1.0)
 
     em "You really want to see me take that black monster?"
@@ -1109,7 +997,6 @@ label scene00_44B:
     em "But take it slow!"
 
 
-label scene00_45B:
     scene bg 00_45B with Dissolve(1.0)
 
     show waiting at topleft
@@ -1145,9 +1032,7 @@ label day1_black_dildo_lick:
     scene bg 00_46B with Dissolve(1.0)
 
     window hide
-    show waiting at topleft
-    pause
-    hide waiting
+    call wait_for_click
 
     em "AHHHHHHHH "
     em "WHAT are you doing? "
@@ -1163,8 +1048,6 @@ label day1_black_dildo_lick:
     "You press your tongue much harder and manage to get the tip in while simultaneously pressing the dildo head inside her "
     "The dildo is going in surprisingly easy. But you are being very careful because you are really hoping to fuck her tonight and not hurting or pissing her off "
 
-
-label scene00_47B:
     scene bg 00_47B with Dissolve(1.0)
 
     show waiting at topleft with hpunch
@@ -1237,7 +1120,6 @@ label day1_white_dildo:
     em "Are you trying to kill me? "
 
 
-label scene00_41A:
     scene bg 00_41A with Dissolve(1.0)
 
     mc "I thought you would like it "
@@ -1247,7 +1129,6 @@ label scene00_41A:
     em "But that wine and movie really got me into mood. I'm already dripping! "
 
 
-label scene00_42A:
     scene bg 00_42A with Dissolve(1.0)
 
     em "Oh my god! "
@@ -1260,15 +1141,10 @@ label scene00_42A:
     em "Follow me babe "
 
 
-label scene00_43A:
     scene bg 00_43 with Dissolve(1.0)
-
-    show waiting at topleft
-    pause
-    hide waiting
+    call wait_for_click
 
 
-label scene00_44A:
     scene bg 00_44 with Dissolve(1.0)
 
     em "I think im ready for this big boy now "
@@ -1276,7 +1152,6 @@ label scene00_44A:
     em "But take it slow! "
 
 
-label scene00_45A:
     scene bg 00_45A with Dissolve(1.0)
 
     show waiting at topleft
@@ -1328,13 +1203,9 @@ label day1_white_dildo_lick:
     "You press your tongue much harder and manage to get the tip in while simultaneously pressing the dildo head inside her.. "
 
 
-label scene00_47A:
     scene bg 00_47A with Dissolve(1.0)
-
     window hide
-    show waiting at topleft
-    pause
-    hide waiting
+    call wait_for_click
 
     em "MORE\nHARDER HARDER\nMORE MOOOREEEE"
 
@@ -1342,6 +1213,7 @@ label scene00_47A:
     mc_thoughts "I need to feel her warm pussy soon "
 
     show bg black with Dissolve(1.0)
+
 
 label day1_white_dildo_turn_around:
     show emily sex_01 at top with Dissolve(1.0)

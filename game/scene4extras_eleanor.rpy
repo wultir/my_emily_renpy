@@ -4,20 +4,17 @@ label day6_eleanor_home:
     mc "I SAID GO TO BED!!!!"
 
 
-label scene0655:
     scene bg 0655 with Dissolve(1.0)
     "?" "Huh??"
 
     mc "FUCK!"
 
 
-label scene0655a:
     scene bg 0655a with Dissolve(1.0)
 
     ele "Oh!"
 
 
-label scene0655b:
     scene bg 0655b with Dissolve(1.0)
 
     ele "Ah hah"
@@ -29,7 +26,6 @@ label scene0655b:
     ele "Love you! Kisses!"
 
 
-label scene0656:
     scene bg 0656 with Dissolve(1.0)
 
     ele "That was Em on the phone, she sent kisses to you"
@@ -44,7 +40,6 @@ label scene0656:
     mc "Fuck"
 
 
-label scene0657:
     scene bg 0657 with Dissolve(1.0)
 #Elanor
     ele "Sorry!"
@@ -52,7 +47,6 @@ label scene0657:
     ele "Haha"
 
 
-label scene0658:
     scene bg 0658 with Dissolve(1.0)
 
     ele "Let's see what she chose for you!"
@@ -61,7 +55,6 @@ label scene0658:
 
     ele "Excuse me!"
 
-label scene0659:
     scene bg 0659 with Dissolve(1.0)
 
     ele "What are these? "
@@ -74,7 +67,6 @@ label scene0659:
     mc "FUCK FUCK FUCK FUCK FUCK FUCK FUCK FUCK FUCK FUCK FUCK FUCK FUCK FUCK FUCK FUCK FUCK FUCK FUCK FUCK FUCK FUCK FUCK FUCK FUCK"
 
 
-label scene0660:
     scene bg 0660 with Dissolve(1.0)
 
     ele "Ohhhhh "
@@ -99,7 +91,6 @@ label scene0660:
     ele "Stop holding your cock hihi and put these on!"
 
 
-label scene0661:
     scene bg 0661 with Dissolve(1.0)
     "When realising you are still naked and holding your cock in your hand you grab the straps and jump into them"
 
@@ -107,7 +98,6 @@ label scene0661:
     ele "I told you so, now turn around!"
 
 
-label scene0662:
     scene bg 0662 with Dissolve(1.0)
     "Defeated and humiliated you turn around"
 
@@ -117,13 +107,11 @@ label scene0662:
     "Suddenly the tights and your pink t-shirt doesn't bother you anymore. And you get dressed really fast under Elanors gaze"
 
 
-label scene0663:
     scene bg 0663 with Dissolve(1.0)
 
     mc "Nice!"
 
 
-label scene0664:
     scene bg 0664 with Dissolve(1.0)
 
     ele "You like it?"
@@ -131,7 +119,6 @@ label scene0664:
     mc "Yeah.. Looks expensive!"
 
 
-label scene0665:
     scene bg 0665 with Dissolve(1.0)
 
     ele "Oh I'm sure it was"
@@ -139,14 +126,12 @@ label scene0665:
     ele "But I don't complain! I get access to some nice things too hihi"
 
 
-label scene0666:
     scene bg 0666 with Dissolve(1.0)
 
     mc "Oh like what?"
     mc "Now I'm curious!"
 
 
-label scene0667:
     scene bg 0667 with Dissolve(1.0)
 
     ele "Curiosity killed the cat!"
@@ -156,7 +141,6 @@ label scene0667:
     "When she presses the start button it sounds like a war broke out right behind you and like the world is going under"
 
 
-label scene0668:
     scene bg 0668 with Dissolve(1.0)
 
     mc "Ohhh myyy goddddd!"
@@ -164,7 +148,6 @@ label scene0668:
     ele "Yeah I know! It's so violent.. But I'll drive slowly. This car scares me!"
 
 
-label scene0669:
     scene bg 0669 with Dissolve(1.0)
 
     mc "Where are we going?"
@@ -172,12 +155,10 @@ label scene0669:
     ele "I know a good place, right in the city. Just a couple of minutes away!"
 
 
-label scene0670:
     scene bg 0670 with Dissolve(1.0)
     "You arrive and you take a seat while Elanor goes and orders something"
 
 
-label scene0671:
     scene bg 0671 with Dissolve(1.0)
 
     ele "Here you go!"
@@ -185,7 +166,6 @@ label scene0671:
     ele "And I know you aren't a fan of coffee so I got you this. It's called Milkers tears."
 
 
-label scene0672:
     scene bg 0672 with Dissolve(1.0)
 
     ele "And a big steaming hot black one for me.. I love them black haha"
@@ -193,7 +173,6 @@ label scene0672:
     ele "Tell me everything that's new!"
 
 
-label scene0673:
     scene bg black with Dissolve(1.0)
 
     "After 15 minutes or so talking about life in general"
@@ -279,7 +258,6 @@ label day6_sex_question_done:
     hide phone with Dissolve(1.0)
 
 
-label scene0674:
     scene bg 0674 with Dissolve(1.0)
 
     ele "Was it Em?"
