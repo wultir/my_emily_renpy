@@ -9,7 +9,7 @@ label day2_start:
     show waiting at topleft
     pause 1.0
 
-    show bg 0101
+    show bg 0101 with Dissolve(1.0)
 
     pause
     hide waiting
