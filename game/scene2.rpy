@@ -1,18 +1,18 @@
 # Scene 2 (second day)
 
 label day2_start:
+    $ quick_menu = False
     scene bg black with Dissolve(1.0)
 
     show text "Day 2 Friday" at topright with Dissolve(1.0):
         offset (-10, 10)
 
-    show waiting at topleft
+    show waiting at topleft with Dissolve(1.0)
     pause 1.0
 
-    show bg 0101
+    show bg 0101 with Dissolve(1.0)
 
-    pause
-    hide waiting
+    call wait_for_click
 
     hide text with Dissolve(1.0)
 
@@ -26,11 +26,10 @@ label day2_start:
     mc_thoughts "Crap... Did she hear my thoughts?"
 
 
-label scene0102:
-    scene bg 0102 with Dissolve(1.0)
+    show bg 0102 with Dissolve(1.0)
 
     "Emily turns around and kisses you"
-#Emily
+
     em "Good morning babe"
     em "Finally friday! I love fridays and"
     em "I feel so great.."
@@ -58,14 +57,12 @@ label scene0102:
     "You both get up and start walking to the bathroom"
 
 
-label scene0104:
-    scene bg 0104 with Dissolve(1.0)
+    show bg 0104 with Dissolve(1.0)
 
     "You get tunnel vision from looking at her ass while walking to the bathroom and thinking about all the stuff you would want to do with it"
 
 
-label scene0103:
-    scene bg 0103 with Dissolve(1.0)
+    show bg 0103 with Dissolve(1.0)
 
     em "BABE??"
     em "Did you hear me? Did you fall asleep again?"
@@ -112,7 +109,6 @@ label day2_toilet_done:
     "You both pee and brush your teeth. You then start to walk towards the kitchen and bedroom"
 
 
-label scene0105:
     scene bg 0105 with Dissolve(1.0)
 
     "You stop at the doorway while Emily sits down on the bed"
@@ -126,8 +122,7 @@ label scene0105:
     em "Bahhh"
 
 
-label scene0105x:
-    scene bg 0105x with Dissolve(1.0)
+    show bg 0105x with Dissolve(1.0)
 
     mc_thoughts "Where the hell is the coffee powder bean thingy?"
     mc_thoughts "Is it here? Nope! Is it there? Nope!"
@@ -136,8 +131,7 @@ label scene0105x:
     em "NOOO... SHIT.."
 
 
-label scene0106:
-    scene bg 0106 with Dissolve(1.0)
+    show bg 0106 with Dissolve(1.0)
 
     em "Could you please run down to the six twelve convenience store while I go jogging?"
     em "Please? I really need coffee!"
@@ -145,15 +139,13 @@ label scene0106:
     mc "Of course! How could i say no to you?"
 
 
-label scene0107:
-    scene bg 0107 with Dissolve(1.0)
+    show bg 0107 with Dissolve(1.0)
     "Kiss*"
 
     em "Thanks babe, love you!"
 
 
-label scene0108:
-    scene bg 0108 with Dissolve(1.0)
+    show bg 0108 with Dissolve(1.0)
 
     em "I'll be back in a bit. See you soon"
 
@@ -187,8 +179,7 @@ label day2_no_caress:
     mc_thoughts "Let's go and get dressed before I leave to the store"
 
 
-label scene0108x:
-    scene bg 0108x with Dissolve(1.0)
+    show bg 0108x with Dissolve(1.0)
 
     mc_thoughts "I'm Mr Small. [mc_name] Small!"
     mc_thoughts "And i've got a license to ... not get pussy"
@@ -197,7 +188,6 @@ label scene0108x:
     mc_thoughts "Let's just leave"
 
 
-label scene0109:
     scene bg black with Dissolve(1.0)
 
     "15 min later at the convenience store"
@@ -235,9 +225,7 @@ label day2_store_done:
     "So you peek over the desk "
 
 
-label scene0110:
     scene bg 0110 with Dissolve(1.0)
-
     call wait_for_click
 
     mc_thoughts "Holy...."
@@ -247,8 +235,7 @@ label scene0110:
     mc_thoughts "Hmm would it even work? I bet big asses need big dicks, So they can reach inside?"
 
 
-label scene0111:
-    scene bg 0111 with Dissolve(1.0)
+    show bg 0111 with Dissolve(1.0)
 
     cg "Ahhhhh"
     cg "Sorry!"
@@ -264,8 +251,7 @@ label scene0111:
     mc "I would like to buy these"
 
 
-label scene0112:
-    scene bg 0112 with Dissolve(1.0)
+    show bg 0112 with Dissolve(1.0)
 
     cg "That will be 9.64$ "
 
@@ -298,7 +284,7 @@ label day2_after_store:
 
 
 label day2_pink_emily:
-    scene 0113 with Dissolve(1.0)
+    scene bg 0113 with Dissolve(1.0)
 
     em "So what do you think babe?"
     em "I finally washed away that aging hair dye and changed my hair a bit!"
@@ -319,10 +305,12 @@ label day2_pink_emily:
 
     "She drags you in for a kiss"
 
-    window hide
+    window auto hide
+    $ quick_menu = False
     show emily 0201A at topleft with Dissolve(1.0)
     pause 3.0
 
+    $ quick_menu = True
     "Mwah *"
 
     hide emily with Dissolve(1.0)
@@ -365,7 +353,7 @@ label day2_outfit_ok:
 
 label day2_aww_exhibionist:
     $ em_kinks_exhibit += 1
-    $mc_cuckpoints += 1
+    $ mc_cuckpoints += 1
 
     em "Sometimes i just don't understand your dirty jokes"
     em "But I'm happy you do them instead of getting jealous like some of my exes!"
@@ -394,16 +382,14 @@ label day2_pc_taboo_victoria:
 
     show bg pc with Dissolve(1.0)
 
-    show pc tb_01 at top
-    with Dissolve(1.0)
+    show pc tb_01 at top with Dissolve(1.0)
 
     mc "Let's see"
 
     "You have 1 friend online"
     "A chat window pops up"
 
-    show pc tb_chat_victoria_01 at top
-    with Dissolve(1.0)
+    show pc tb_chat_victoria_01 at top with Dissolve(1.0)
 
     gv "Good morning!"
     gv "How are you?"
@@ -488,8 +474,7 @@ label day2_pc_taboo_victoria:
     mc_thoughts "Is someone breaking into our apartment??"
 
 
-label scene0114:
-    scene 0114 with Dissolve(1.0)
+    scene bg 0114 with Dissolve(1.0)
 
     el "HELLOOOOOO skinny!"
 
@@ -515,14 +500,12 @@ label scene0114:
     "Elise walks to the living room"
 
 
-label scene0115:
-    scene 0115 with Dissolve(1.0)
+    show 0115 with Dissolve(1.0)
 
     "Her phone keeps making sounds and she stops for a second"
 
 
-label scene0116:
-    scene 0116 with Dissolve(1.0)
+    show 0116 with Dissolve(1.0)
 
     "You both sit down in front of the tv. And before you are even down she's already talking on the phone"
 
@@ -537,8 +520,7 @@ label scene0116:
     "With that she climbs over your sofa"
 
 
-label scene0117:
-    scene 0117 with Dissolve(1.0)
+    show 0117 with Dissolve(1.0)
 
     "While doing so you see her phone slip down and hit the ground"
 
@@ -578,7 +560,6 @@ label day2_elise_looking_done:
     "You run there"
 
 
-label scene0118:
     scene bg 0118 with Dissolve(1.0)
 
     j "HEELLLOOOOOOOOOOOO"
@@ -629,7 +610,6 @@ label day2_jack_hug_done:
     "You two keep chatting for a while"
 
 
-label scene0120:
     scene bg 0120 with Dissolve(1.0)
 
     el "Hiiiiiiiiiii Jack!!!!"
@@ -649,7 +629,6 @@ label scene0120:
     el "Why? You want to join too?"
 
 
-label scene0121:
     scene bg 0121 with Dissolve(1.0)
 
     "She stands closer to Jack and keeps looking at him with that shy but horny schoolgirl look"
@@ -708,7 +687,6 @@ label day2_work:
     em_thoughts "Oh it's already time to bring James his morning coffee!"
 
 
-label scene0134:
     scene bg 0134 with Dissolve(1.0)
 
     "Knock knock*"
@@ -717,7 +695,6 @@ label scene0134:
     em "I have your cof... Oh sorry! I didn't know you were on your phone"
 
 
-label scene0134x:
     scene bg 0134x with Dissolve(1.0)
 
     jm "No no! It's ok, come in! "
@@ -1010,22 +987,19 @@ label day2_car_ride_done:
     j "Right?"
 
 
-label scene0123:
-    scene bg 0123 with Dissolve(1.0)
+    show bg 0123 with Dissolve(1.0)
 
     mc "Yeah It's nice here!"
 
     j "Time to strip!"
 
 
-label scene0124:
-    scene bg 0124 with Dissolve(1.0)
+    show bg 0124 with Dissolve(1.0)
 
     j "Dude... Get on with it! "
     j "I swear i won't look!  Ok?"
 
-label scene0125:
-    scene bg 0125 with Dissolve(1.0)
+    show bg 0125 with Dissolve(1.0)
 
     "Jack continues to get naked without any worries at all"
 
@@ -1113,8 +1087,7 @@ label day2_penis_look_no:
     "SPLAAAAAAAAAAAAAAASHHH*"
 
 
-label scene0128:
-    scene bg 0128 with Dissolve(1.0)
+    show bg 0128 with Dissolve(1.0)
 
     j "See? That's how you do it!"
 #
@@ -1122,24 +1095,20 @@ label scene0128:
     "Without thinking you turn around to buy some precious time which covers your dick"
 
 
-label scene0129:
-    scene bg 0129 with Dissolve(1.0)
+    show bg 0129 with Dissolve(1.0)
 
     "Instinctively you bend down to take them off completely"
     "Jack had no intentions of watching.. He gets momentarily shocked by the full and holy bullseye view you are providing for him at the moment"
 
-label scene0130:
-    scene bg 0130 with Dissolve(1.0)
+    show bg 0130 with Dissolve(1.0)
 
     "You cover yourself and turn around"
-#Jack
+
     j "I... ehhh.. Damn dude.. You have a girls ass!"
     j "Hahaha"
-#
-#&f.PlayerName
+
     mc "What? You aren't really making this any easier"
-#
-#Jack
+
     j "I'll close my eyes dude, just take it like a man and walk in!"
 
     menu:
@@ -1179,8 +1148,7 @@ label day2_willy_show_over:
     "You fight the urge to scream more and get in fast feeling very cold and humiliated"
 
 
-label scene0132:
-    scene bg 0132 with Dissolve(1.0)
+    show bg 0132 with Dissolve(1.0)
 
     mc "Sorry... It just came out... I couldn't control it..."
 
@@ -1232,9 +1200,7 @@ label day_after_swim:
     mc_thoughts "I'm going to run in there.. But not missing the toilet this time.. At least I'm not hard this time so it shouldn't be a problem"
 
 
-label scene0135:
-    scene 0135 with Dissolve(1.0)
-
+    scene bg 0135 with Dissolve(1.0)
     call wait_for_click
 
     mc_thoughts "Whaaaaaaaaaaaaaaaaaaaaaaat???"
@@ -1253,20 +1219,17 @@ label scene0135:
 
 label day2_eleanor_look_closer:
     scene bg 0135A with Dissolve(1.0)
-
     call wait_for_click
 
 
 label day2_eleanor_cough:
     scene bg 0136 with Dissolve(1.0)
-
     "She stands up looking in the mirror and sees you"
 
     ele "Eeeeek!"
 
 
-label scene0137:
-    scene bg 0137 with Dissolve(1.0)
+    show bg 0137 with Dissolve(1.0)
 
     ele "Oh my gosh!!!"
     ele "You scared me so badly!"
@@ -1368,7 +1331,7 @@ label day2_eleanor_breasts_sexy_and_ok:
     "She turns around and starts filling the tub"
     "Should you look back one last time before going?"
 
-    show bg black with Dissolve(1.0)
+    scene bg black with Dissolve(1.0)
 
     menu:
         "Look back [green]":
@@ -1379,7 +1342,6 @@ label day2_eleanor_breasts_sexy_and_ok:
 
 label day2_eleanor_look_back:
     scene bg 0137B with Dissolve(1.0)
-
     call wait_for_click
 
     mc_thoughts "She's so hot!"
@@ -1390,7 +1352,7 @@ label day2_eleanor_dont_look_back:
     mc_thoughts "There's the bag"
     mc_thoughts "Let's see what's inside"
 
-    show bg house01_bedroom_day_pc with Dissolve(1.0)
+    scene bg house01_bedroom_day_pc with Dissolve(1.0)
 
     mc_thoughts "Here's something"
     mc_thoughts "Oh it's baby oil.. What's that?"
@@ -1426,7 +1388,6 @@ label day2_eleanor_reading_done:
     mc_thoughts "Here's the purple bottle she talked about and a couple of minutes have passed now. Let's bring it to her"
 
 
-label scene0138:
     scene bg 0138 with Dissolve(1.0)
 
     ele "Thank you sweetie pie!"
@@ -1446,8 +1407,7 @@ label scene0138:
     mc "How could you even finish that fast?"
 
 
-label scene0139:
-    scene bg 0139 with Dissolve(1.0)
+    show bg 0139 with Dissolve(1.0)
 
     "She giggles"
 
@@ -1464,13 +1424,11 @@ label scene0139:
     "You walk out to your living room"
 
 
-label scene0140:
     scene bg 0140 with Dissolve(1.0)
 
     mc_thoughts "Just commercials on the tv.... What the hell am i paying for?"
 
 
-label scene0141:
     scene bg 0141 with Dissolve(1.0)
 
     "Elanor walks in and sits down"
@@ -1490,8 +1448,7 @@ label scene0141:
 
     mc "Yeah,, thanks!"
 
-label scene0142:
-    scene bg 0142 with Dissolve(1.0)
+    show bg 0142 with Dissolve(1.0)
 
     ele "Ohh the news are starting!"
     ele "I know you are tired so just straighten out and take a short nap!"
@@ -1499,20 +1456,17 @@ label scene0142:
     mc "Sure"
 
 
-label scene0142A:
-    scene bg 0142A with Dissolve(1.0)
+    show bg 0142A with Dissolve(1.0)
 
     mc_thoughts "I'm really tired..."
 
 
-label scene0142B:
-    scene bg 0142B with Dissolve(1.0)
+    show bg 0142B with Dissolve(1.0)
 
     "..."
 
 
-label scene0142C:
-    scene bg 0142C with Dissolve(1.0)
+    show bg 0142C with Dissolve(1.0)
 
     mc_thoughts "If i would stretch out a bit i might actually be able to see under her skirt...."
     mc_thoughts "Should i do that?"
@@ -1525,7 +1479,6 @@ label scene0142C:
 
 label day2_eleanor_skirt_peek:
     scene bg 0143 with Dissolve(1.0)
-
     call wait_for_click
 
     mc_thoughts "Oh wow, I can see her pussy and it looks shaved!"
@@ -1551,7 +1504,7 @@ label day2_eleanor_run:
     "Gahh"
     "I hate commercials!"
 
-    scene bg 0140 with Dissolve(1.0)
+    show bg 0140 with Dissolve(1.0)
 
     "It doesn't take long for you to fall asleep"
     "Zzzzzzzzzz"
@@ -1560,16 +1513,14 @@ label day2_eleanor_run:
 
 
 label day2_sofa_tv_done:
-    show bg black with Dissolve(1.0)
+    scene bg black with Dissolve(1.0)
 
     mc_thoughts "Ahhhhh. I love this feeling.. It feels so good!"
     mc_thoughts "Like i'm having sex.."
     mc_thoughts "Wait a minute, what's going on?"
 
 
-label scene0144:
     scene bg 0144 with Dissolve(1.0)
-
     call wait_for_click
 
     "You open your eyes and see Emily smiling down at you"
@@ -1593,8 +1544,7 @@ label scene0144:
 
 
 label day2_emily_handjob:
-    scene bg house01_living_night with Dissolve(1.0)
-
+    show bg house01_living_night with Dissolve(1.0)
     show emily 0202 at topleft with Dissolve(1.0)
 
     "She speaks with a teasing voice"
@@ -1837,7 +1787,6 @@ label day2_spit:
 
 label day2_snowball:
     scene bg 0145 with Dissolve(1.0)
-
     call wait_for_click
 
     "You arrive at the table"
@@ -1958,13 +1907,11 @@ label day2_no_party:
 
     mc "Yeah me too!"
 
-    show bg house01_bedroom_night
-
+    scene bg house01_bedroom_night
     "You both get on the bed"
 
 
-label scene0146:
-    scene bg 0146 with Dissolve(1.0)
+    show bg 0146 with Dissolve(1.0)
 
     "You snuggle up tightly against her soft body and you kiss her back"
 

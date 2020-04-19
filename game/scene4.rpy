@@ -1,4 +1,5 @@
 label day6_start:
+    $ quick_menu = False
     scene bg white with Dissolve(1.0)
     scene bg black with Dissolve(2.0)
     show text "{color=#ffffff}{size=36}Day 6 Tuesday{/size}{/color}" at topright with Dissolve(1.0):
@@ -7,24 +8,20 @@ label day6_start:
     pause 1.0
     hide text with Dissolve(1.0)
 
-label scene0601:
     scene bg 0601 with Dissolve(1.0)
     call wait_for_click
 
-label scene0602:
     scene bg 0602 with Dissolve(1.0)
 
     "You wake up with the feeling of being watched"
 
 
-label scene0603:
-    scene bg 0603 with Dissolve(1.0)
+    show bg 0603 with Dissolve(1.0)
 
     "Mwah"
 
 
-label scene0604:
-    scene bg 0604 with Dissolve(1.0)
+    show bg 0604 with Dissolve(1.0)
 
     em "Good morning babe"
 
@@ -59,7 +56,7 @@ label day6_mom_no:
 
 
 label day6_mom_done:
-    scene bg 0605 with Dissolve(1.0)
+    show bg 0605 with Dissolve(1.0)
 
     em "Your little thing was hard all night and kept poking me"
     em "Not letting me sleep properly.."
@@ -67,14 +64,12 @@ label day6_mom_done:
     mc "S sorry"
 
 
-label scene0606:
-    scene bg 0606 with Dissolve(1.0)
+    show bg 0606 with Dissolve(1.0)
 
     em "Maybe I should take care of it?"
 
 
-label scene0607:
-    scene bg 0607 with Dissolve(1.0)
+    show bg 0607 with Dissolve(1.0)
 
     em "She sits down on you pressing your glans against her warm vagina"
 
@@ -86,22 +81,20 @@ label scene0607:
 label day6_mom_breast:
     em "Suck your mom's breast!"
 
-label scene0608:
-    scene bg 0608 with Dissolve(1.0)
+    show bg 0608 with Dissolve(1.0)
     "You start licking and sucking her nipple "
 
     em "Good little boy"
     em "Suck harder!"
 
-label scene0609:
-    scene bg 0609 with Dissolve(1.0)
+    show bg 0609 with Dissolve(1.0)
 
     em "Ahhhh"
     em "Mommy is getting so horny!"
 
 
 label day6_breast_done:
-    scene bg 0610 with Dissolve(1.0)
+    show bg 0610 with Dissolve(1.0)
 
     "She leans down and starts to lick and suck your nipple"
 
@@ -110,8 +103,7 @@ label day6_breast_done:
     mc "Please keep doi"
 
 
-label scene0611:
-    scene bg 0611 with Dissolve(1.0)
+    show bg 0611 with Dissolve(1.0)
 
     "Before you can finish the sentence Emily gets up a little and grinds her warm pussy on your glans"
 
@@ -122,28 +114,26 @@ label scene0611:
 
 
 
-label scene0612:
-    scene bg 0612 with Dissolve(1.0)
+    show bg 0612 with Dissolve(1.0)
 
     em "Does that sound fair?"
 
 
-label scene0613:
-    scene bg 0613 with Dissolve(1.0)
+    show bg 0613 with Dissolve(1.0)
 
     em "Hmm?"
 
 
-label scene0614:
-    scene bg 0614 with Dissolve(1.0)
+    show bg 0614 with Dissolve(1.0)
 
     em "I think it does.."
     em "You need to do exactly what I tell you to do and nothing else"
 
+    $ quick_menu = False
     show bg 06_morning_bed
     pause 5.0
+    $ quick_menu = True
 
-label scene0615:
     scene bg 0615 with Dissolve(3.0)
 
     "Her grinding on top of you is too much and you start to cum"
@@ -153,8 +143,7 @@ label scene0615:
     mc "Ahh I'mm ggoing.."
 
 
-label scene0616:
-    scene bg 0616 with Dissolve(1.0)
+    show bg 0616 with Dissolve(1.0)
 
     "Emily gets down between your legs faster than lightning and grabs your cock harder than ever with her hand tightly around your shaft and her thumb pressing painfully into the backside of your cock while her other hand squeezes your testicles even more painfully "
     "Your body tries to cum but it's not physically possible and the immense pain halts your orgasm too"
@@ -166,8 +155,7 @@ label scene0616:
     em "DID I TELL YOU TO CUM????"
 
 
-label scene0617:
-    scene bg 0617 with Dissolve(1.0)
+    show bg 0617 with Dissolve(1.0)
 
     mc "N   nno"
 
@@ -179,8 +167,7 @@ label scene0617:
     mc "Ssorry... But it really hurts.."
 
 
-label scene0618:
-    scene bg 0618 with Dissolve(1.0)
+    show bg 0618 with Dissolve(1.0)
 
     em "Get up!"
     em "Time to start getting ready for the day"
@@ -188,7 +175,6 @@ label scene0618:
     "She helps you up and you follow her"
 
 
-label scene0619:
     scene bg 0619 with Dissolve(1.0)
 
     em "That wasn't pain.."
@@ -198,7 +184,6 @@ label scene0619:
     "You say nothing. You can't believe what she's saying. Somehow it excites and scares you at the same time and you notice you are still really hard down there"
 
 
-label scene0620:
     scene bg 0620 with Dissolve(1.0)
 
     "You walk into the bathroom behind her"
@@ -206,7 +191,6 @@ label scene0620:
     mc "How can I still be this horny? Didn't I just cum?"
 
 
-label scene0621:
     scene bg 0621 with Dissolve(1.0)
 
     "Emily sits down on the toilet seat"
@@ -245,8 +229,7 @@ label scene0621:
     em "Schh don't worry.. Just be a good boy and we might get married some day soon"
 
 
-label scene0622:
-    scene bg 0622 with Dissolve(1.0)
+    show bg 0622 with Dissolve(1.0)
 
     em "Look.. I really have to pee"
     em "Brush your teeth and leave"
@@ -275,14 +258,12 @@ label day6_pee_starts:
     em "You better take a good look now"
 
 
-label scene0624:
-    scene bg 0624 with Dissolve(1.0)
+    show bg 0624 with Dissolve(1.0)
 
     em "Ahhh"
 
 
-label scene0625:
-    scene bg 0625 with Dissolve(1.0)
+    show bg 0625 with Dissolve(1.0)
 
     "Suddenly her other hand grabs the back of your head and pushes you closer"
 
@@ -326,20 +307,20 @@ label day6_pee_drink_yes:
     em "Oh?"
     em "Good boy"
 
+    $ quick_menu = False
     scene bg 06_toilet_lick
     pause 6.0
+    $ quick_menu = True
 
 
-label scene0628:
-    scene bg 0628 with Dissolve(1.0)
+    show bg 0628 with Dissolve(1.0)
 
     em "Mmmm"
 
     "Emilys legs wrap around your head and press you so hard it becomes hard to breathe"
 
 
-label scene0629:
-    scene bg 0629 with Dissolve(1.0)
+    show bg 0629 with Dissolve(1.0)
 
     em "Haaaa Aaaahhhhhhh"
 
@@ -347,7 +328,6 @@ label scene0629:
     "It's kinda salty.. It's very salty.."
 
 
-label scene0630:
     scene bg 0630 with Dissolve(1.0)
     "Soon after she lets you go and pushes you up"
 
@@ -359,7 +339,6 @@ label scene0630:
     "You can see a smirk on her face while she gets up"
 
 
-label scene0631:
     scene bg 0631 with Dissolve(1.0)
 
     em "You were so eager that you got it mixed with little pee"
@@ -367,8 +346,7 @@ label scene0631:
     em "Come here"
 
 
-label scene0632:
-    scene bg 0632 with Dissolve(1.0)
+    show bg 0632 with Dissolve(1.0)
 
     "She drags you up and gives your cheek a long wet kiss"
     "She then whispers in your ear with a teasing and erotic voice"
@@ -406,14 +384,12 @@ label day6_pee_done:
 
     "You brush your teeth first and then you wait for her. When she's done you follow her out"
 
-label scene0633:
-    scene bg 0633 with Dissolve(1.0)
+    show bg 0633 with Dissolve(1.0)
 
     em "Hurry up!"
 
 
-label scene0634:
-    scene bg 0634 with Dissolve(1.0)
+    show bg 0634 with Dissolve(1.0)
 
     em "Time is running away but I need to punish you for that cum accident"
 
@@ -424,8 +400,7 @@ label scene0634:
     em "Down on your fucking knees!"
 
 
-label scene0635:
-    scene bg 0635 with Dissolve(1.0)
+    show bg 0635 with Dissolve(1.0)
 
     em "I'll have to call mistress Victoria today and discuss punishments because I don't want to hurt you too much.. yet.."
 
@@ -434,7 +409,7 @@ label scene0635:
     em "Haha"
     em "Close your eyes"
 
-    scene bg black with Dissolve(1.0)
+    show bg black with Dissolve(1.0)
 
     "You close your eyes and you hear Emily running around"
 
@@ -446,14 +421,12 @@ label scene0635:
     em "You can open your eyes now"
 
 
-label scene0636:
-    scene bg 0636 with Dissolve(1.0)
+    show bg 0636 with Dissolve(1.0)
 
     em "You did good. See how easy it is to be a good boy?"
 
 
-label scene0637:
-    scene bg 0637 with Dissolve(1.0)
+    show bg 0637 with Dissolve(1.0)
 
     em "But your punishments won't go away by being good.."
     em "If you earn a punishment you will get it no matter what.."
@@ -461,13 +434,11 @@ label scene0637:
     em "How much they hurt depends on you.. Sometimes.."
 
 
-label scene0638:
-    scene bg 0638 with Dissolve(1.0)
+    show bg 0638 with Dissolve(1.0)
 
     "Show me how sorry you are!"
 
-label scene0639:
-    scene bg 0639 with Dissolve(1.0)
+    show bg 0639 with Dissolve(1.0)
 
     em "SHOW ME!"
 
@@ -492,8 +463,7 @@ label day6_lick_shoes:
     em "But not good enough!"
 
 
-label scene0641:
-    scene bg 0641 with Dissolve(1.0)
+    show bg 0641 with Dissolve(1.0)
 
     em "Let me help you a little"
 
@@ -512,14 +482,12 @@ label day6_shoes_done:
     "What should I do with my little slave..?"
 
 
-label scene0643:
-    scene bg 0643 with Dissolve(1.0)
+    show bg 0643 with Dissolve(1.0)
 
     em "Hmm?"
 
 
-label scene0644:
-    scene bg 0644 with Dissolve(1.0)
+    show bg 0644 with Dissolve(1.0)
 
     em "Oh I know!"
     em "You have never been spanked.. Don't worry.. I'm sure you will grow to love it"
@@ -547,30 +515,25 @@ label day6_spank_done:
     em "But still something that shows you would do anything for me.. "
     em "Hmm."
 
-label scene0646:
-    scene bg 0646 with Dissolve(1.0)
+    show bg 0646 with Dissolve(1.0)
     "You feel her grabbing your balls and stretching them a little while another finger softly caresses your anus"
-#
-#Emily
+
     em "It's so tight and beautiful..."
     em "But a little dry.."
 
 
-label scene0646a:
-    scene bg 0646a with Dissolve(1.0)
+    show bg 0646a with Dissolve(1.0)
 
     "Emily spits"
     "Pptui!*"
 
 
-label scene0646b:
-    scene bg 0646b with Dissolve(1.0)
+    show bg 0646b with Dissolve(1.0)
 
     em "Mmmm"
 
 
-label scene0646c:
-    scene bg 0646c with Dissolve(1.0)
+    show bg 0646c with Dissolve(1.0)
 
     em "So much better"
     em "Wet and sexy!"
@@ -580,8 +543,7 @@ label scene0646c:
     mc "Hnnggg"
 
 
-label scene0647:
-    scene bg 0647 with Dissolve(1.0)
+    show bg 0647 with Dissolve(1.0)
 
     em "Good slave. Take it deeper! Do you like it?"
 
@@ -596,8 +558,7 @@ label scene0647:
     "The pain starts to shoot up and spreading around to your back and stomach"
 
 
-label scene0648:
-    scene bg 0648 with Dissolve(1.0)
+    show bg 0648 with Dissolve(1.0)
 
     mc "AUUUUUUUUUUUUUUUUUUAAAAAAAAAAAAAAI"
     mc "IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIKKKKKKKK"
@@ -605,8 +566,7 @@ label scene0648:
     "She lets go of your balls and your upper body falls down exhausted while trying to recover from the pain. Only your knees and her hands keeps your butt from falling down"
 
 
-label scene0649:
-    scene bg 0649 with Dissolve(1.0)
+    show bg 0649 with Dissolve(1.0)
 
     em "Hahaha"
     em "You really sounded like a princess in distress.."
@@ -734,8 +694,7 @@ label day6_questions_done:
     "You make your way to the bathroom trying to collect your own thoughts and feelings"
 
 
-label scene0651:
-    scene bg 0651 with Dissolve(1.0)
+    show bg 0651 with Dissolve(1.0)
 
     mc_thoughts "What just happened?"
     mc_thoughts "Did she stop loving me? Is she just role playing?"
@@ -743,38 +702,33 @@ label scene0651:
     mc_thoughts "My thoughts are all over the place, maybe a shower will help?"
 
 
-label scene0651a:
-    scene bg 0651a with Dissolve(1.0)
+    show bg 0651a with Dissolve(1.0)
     mc_thoughts "Please don't smell like flowers.."
 
-label scene0651b:
-    scene bg 0651b with Dissolve(1.0)
+    show bg 0651b with Dissolve(1.0)
 
     mc_thoughts "For women.."
     mc_thoughts "Of course.. Only thing missing now is some panties and tampons"
     mc_thoughts "I would die if she made me wear panties.. Note to self. DO NOT TALK ABOUT PANTIES WITH EM!"
 
 
-label scene0652:
     scene bg black with Dissolve(1.0)
     "Some time later"
 
-    scene bg 0652 with Dissolve(1.0)
+    show bg 0652 with Dissolve(1.0)
 
     mc_thoughts "Fuck.."
     mc_thoughts "Hey there baby face! How I didn't miss you.."
     mc_thoughts "Beard was my only manly trait I think.. If she chose those tights for me to wear today I'll have to find a paper bag or something to wear on my head"
 
 
-label scene0653:
-    scene bg 0653 with Dissolve(1.0)
+    show bg 0653 with Dissolve(1.0)
 
     mc_thoughts "Hey there Jr. Why the fuck are you up? I have a feeling it's a bad day for us today and you already nearly killed us earlier.."
     mc_thoughts "Go to bed!"
 
 
-label scene0654:
-    scene bg 0654 with Dissolve(1.0)
+    show bg 0654 with Dissolve(1.0)
 
     mc_thoughts "Ahh"
     mc_thoughts "But touching you feels so good!"
@@ -819,12 +773,11 @@ label day6_eleanor_not_home:
     mc "Bye!"
 
 
-label scene0655c:
     scene bg 0655c with Dissolve(1.0)
 
     mc_thoughts "Fuck.. I see panties..."
 
-    scene bg black with Dissolve(1.0)
+    show bg black with Dissolve(1.0)
     "You start putting your clothes on"
     "Luckily the panties weren't panties. But Jockstraps instead..."
     
@@ -849,15 +802,13 @@ label day6_eleanor_done:
     "After some time you arrive at the right place"
 
 
-label scene0675:
-    scene bg 0675 with Dissolve(1.0)
+    show bg 0675 with Dissolve(1.0)
 
     "?" "Hey!"
     "?" "Can I help you?"
 
 
-label scene0676:
-    scene bg 0676 with Dissolve(1.0)
+    show bg 0676 with Dissolve(1.0)
 
     mc "My girlfriend was here before and booked me a time too!"
 
@@ -868,52 +819,46 @@ label scene0676:
     "?" "Follow me"
 
 
-label scene0677:
-    scene bg 0677 with Dissolve(1.0)
+    show bg 0677 with Dissolve(1.0)
 
     "?" "Please take a seat"
     "?" "She had some very specific wishes so this can take some time"
     "?" "But now that I see you I'm sure we can do it"
 
 
-label scene0678:
-    scene bg 0678 with Dissolve(1.0)
+    show bg 0678 with Dissolve(1.0)
 
     "?" "We'll get some permanent extenders and we'll cut and bleach you"
     "?" "It's a really pretty and modern style!"
 
 
-label scene0679:
-    scene bg 0679 with Dissolve(1.0)
+    show bg 0679 with Dissolve(1.0)
 
     mc "Permanent extenders?"
 
     "?" "Yep, they'll get fused with your hair. You won't notice the difference and the only way to get rid of them is to cut them off"
 
 
-label scene0680:
-    scene bg 0680 with Dissolve(1.0)
+    show bg 0680 with Dissolve(1.0)
 
     mc "Will it hurt?"
 
     "?" "Ah don't worry!"
     "?" "You won't feel it!"
 
-    scene bg black with Dissolve(1.0)
+    show bg black with Dissolve(1.0)
 
     "After some time you start to nod off"
 
 
-label scene0681:
-    scene bg 0681 with Dissolve(1.0)
+    show bg 0681 with Dissolve(1.0)
 
     "?" "Hey there!"
     "?" "Slept well?"
     "?" "I think we are starting to get done!"
 
 
-label scene0682:
-    scene bg 0682 with Dissolve(1.0)
+    show bg 0682 with Dissolve(1.0)
 
     em "Hello"
 
@@ -922,8 +867,7 @@ label scene0682:
     "?" "What do you think?"
 
 
-label scene0683:
-    scene bg 0683 with Dissolve(1.0)
+    show bg 0683 with Dissolve(1.0)
 
     em "OH MY GOD!!!!!"
     em "Soooooooooo prettyyyyyyyyyyyyy!"
@@ -935,8 +879,7 @@ label scene0683:
     "?" "Turn around and take a look!"
 
 
-label scene0684:
-    scene bg 0684 with Dissolve(1.0)
+    show bg 0684 with Dissolve(1.0)
 
     mc "AAAAAAAAEEEEEEEIIIIIIIIIIi"
 
@@ -945,8 +888,7 @@ label scene0684:
     mc "..."
 
 
-label scene0685:
-    scene bg 0685 with Dissolve(1.0)
+    show bg 0685 with Dissolve(1.0)
 
     "?" "You don't like it?"
 
@@ -979,7 +921,7 @@ label day6_end:
     em "Can't wait to try them out!"
 
 
-    scene bg house01_entry_day with Dissolve(1.0)
+    show bg house01_entry_day with Dissolve(1.0)
 
     em "Let's just relax for the rest of today"
     em "Set your alarm before we go to bed because tomorrow I want to wake up by you massaging my feet!"

@@ -271,8 +271,6 @@ label weekend1_sunday_white_phone:
     "You push the dildo further in making it rub her clit more "
     "Just a couple more strokes and you'll cum too"
 
-
-label scene0446a:
     show bg 0446a with Dissolve(1.0)
 
     jump weekend1_sunday_common_phone

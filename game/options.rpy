@@ -112,6 +112,7 @@ define config.window = "auto"
 define config.window_show_transition = Dissolve(.2)
 define config.window_hide_transition = Dissolve(.2)
 
+define config.window_auto_hide = [ 'scene', 'call screen', 'menu' ]
 
 ## Preference defaults #########################################################
 

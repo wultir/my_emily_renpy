@@ -1,9 +1,6 @@
 label day1_dildo_no_lick:
     scene bg black with Dissolve(1.0)
-
-    show waiting at topleft
-    pause 1.0
-    hide waiting
+    call wait_for_click
 
     if inventory_dildo == "black":
         show emily sex_10A at top with Dissolve(1.0)

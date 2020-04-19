@@ -26,7 +26,7 @@ style gui_text:
     outlines []
 
 
-style button:
+style button: 
     properties gui.button_properties("button")
 
 style button_text is gui_text:
@@ -290,6 +290,8 @@ style green_choice_button_text is choice_button_text:
 ## menus.
 
 screen quick_menu():
+    key "K_F5" action QuickSave()
+    key "K_F8" action QuickLoad()
 
     ## Ensure this appears on top of other screens.
     zorder 100
@@ -837,6 +839,8 @@ style page_button:
 style page_button_text:
     properties gui.button_text_properties("page_button")
     color "#f3f3f3"
+    hover_color gui.hover_color
+    
 
 style slot_button:
     properties gui.button_properties("slot_button")
@@ -1259,6 +1263,14 @@ screen keyboard_help():
         label "V"
         text _("Toggles assistive {a=https://www.renpy.org/l/voicing}self-voicing{/a}.")
 
+    hbox:
+        label "F5"
+        text _("Quick Save.")
+
+    hbox:
+        label "F8"
+        text _("Quick Load.")
+
 
 screen mouse_help():
 
@@ -1659,6 +1671,9 @@ style pref_vbox:
 ## that uses fewer and bigger buttons that are easier to touch.
 screen quick_menu():
     variant "touch"
+
+    key "K_F5" action QuickSave()
+    key "K_F8" action QuickLoad()
 
     zorder 100
 
