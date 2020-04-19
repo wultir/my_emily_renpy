@@ -23,9 +23,10 @@ style hyperlink_text:
 
 style gui_text:
     properties gui.text_properties("interface")
+    outlines []
 
 
-style button:
+style button: 
     properties gui.button_properties("button")
 
 style button_text is gui_text:
@@ -152,6 +153,7 @@ style say_label:
     properties gui.text_properties("name", accent=True)
     xalign gui.name_xalign
     yalign 0.5
+    outlines [ (absolute(1), "#000000", absolute(0), absolute(0))]
 
 style say_dialogue:
     properties gui.text_properties("dialogue")
@@ -159,7 +161,7 @@ style say_dialogue:
     xpos gui.dialogue_xpos
     xsize gui.dialogue_width
     ypos gui.dialogue_ypos
-
+    outlines [ (absolute(0), "#000", absolute(2), absolute(2)) ]
 
 ## Input screen ################################################################
 ##
@@ -177,13 +179,10 @@ screen input(prompt):
     window:
 
         vbox:
-            xalign gui.dialogue_text_xalign
-            xpos gui.dialogue_xpos
-            xsize gui.dialogue_width
-            ypos gui.dialogue_ypos
-
             text prompt style "input_prompt"
-            input id "input"
+            frame:
+                xsize 1.0
+                input id "input"
 
 style input_prompt is default
 
@@ -194,7 +193,13 @@ style input_prompt:
 style input:
     xalign gui.dialogue_text_xalign
     xmaximum gui.dialogue_width
+    color "#000"
 
+style input_window:
+    background "#0000"
+    xsize 500
+    ysize 100
+    yalign 0.5
 
 ## Choice screen ###############################################################
 ##
@@ -209,7 +214,20 @@ screen choice(items):
 
     vbox:
         for i in items:
-            textbutton i.caption action i.action
+            if " [pink]" in i.caption:
+                textbutton i.caption.replace(" [pink]", "") action i.action:
+                    style "pink_choice_button"
+            elif " [red]" in i.caption:
+                textbutton i.caption.replace(" [red]", "") action i.action:
+                    style "red_choice_button"
+            elif " [black]" in i.caption:
+                textbutton i.caption.replace(" [black]", "") action i.action:
+                    style "black_choice_button"
+            elif " [green]" in i.caption:
+                textbutton i.caption.replace(" [green]", "") action i.action:
+                    style "green_choice_button"
+            else:
+                textbutton i.caption action i.action
 
 
 ## When this is true, menu captions will be spoken by the narrator. When false,
@@ -230,9 +248,40 @@ style choice_vbox:
 
 style choice_button is default:
     properties gui.button_properties("choice_button")
+    background Frame("gui/choices/white.png", 10, 10)
+    hover_background Frame("gui/choices/white_hover.png", 10, 10)
 
 style choice_button_text is default:
     properties gui.button_text_properties("choice_button")
+    outlines [ (absolute(0), "#A8806050", absolute(-1), absolute(1))]
+
+style pink_choice_button is choice_button:
+    background Frame("gui/choices/pink.png", 10, 10)
+    hover_background Frame("gui/choices/pink_hover.png", 10, 10)
+style pink_choice_button_text is choice_button_text:
+    color "#FEEEF5"
+    hover_color "#FEEEEE"
+
+style red_choice_button is choice_button:
+    background Frame("gui/choices/red.png", 10, 10)
+    hover_background Frame("gui/choices/red_hover.png", 10, 10)
+style red_choice_button_text is choice_button_text:
+    color "#F7DDDE"
+    outlines [(absolute(0), "#B9158850", absolute(-1), absolute(0))]
+
+style black_choice_button is choice_button:
+    background Frame("gui/choices/black.png", 10, 10)
+    hover_background Frame("gui/choices/black_hover.png", 10, 10)
+style black_choice_button_text is choice_button_text:
+    color "#D7D7D7"
+    outlines [(absolute(0), "#32328E50", absolute(-1), absolute(0))]
+
+style green_choice_button is choice_button:
+    background Frame("gui/choices/green.png", 10, 10)
+    hover_background Frame("gui/choices/green_hover.png", 10, 10)
+style green_choice_button_text is choice_button_text:
+    color "#DEF0DE"
+    outlines [(absolute(0), "#5CB6A750", absolute(-1), absolute(0))]
 
 
 ## Quick Menu screen ###########################################################
@@ -241,26 +290,53 @@ style choice_button_text is default:
 ## menus.
 
 screen quick_menu():
+    key "K_F5" action QuickSave()
+    key "K_F8" action QuickLoad()
 
     ## Ensure this appears on top of other screens.
     zorder 100
 
     if quick_menu:
+        button action ShowMenu('ingame'):
+            background "gui/settings.png"
+            xsize 32
+            ysize 32
+            align (1.0, 1.0)
+            xoffset -2
+            yoffset -2
 
         hbox:
             style_prefix "quick"
 
             xalign 0.5
             yalign 1.0
+            yoffset -10
+            xsize 1100
 
-            textbutton _("Back") action Rollback()
-            textbutton _("History") action ShowMenu('history')
-            textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
-            textbutton _("Auto") action Preference("auto-forward", "toggle")
-            textbutton _("Save") action ShowMenu('save')
-            textbutton _("Q.Save") action QuickSave()
-            textbutton _("Q.Load") action QuickLoad()
-            textbutton _("Prefs") action ShowMenu('preferences')
+            hbox:
+                spacing 10
+                button action ShowMenu('save'):
+                    xsize 70
+                    background "gui/ButtonSave.png"
+                    xpos 0
+                button action ShowMenu('load'):
+                    xsize 70
+                    background "gui/ButtonLoad.png"
+
+            hbox:
+                xalign 1.0
+                spacing 10
+                button action ShowMenu('history'):
+                    xsize 90
+                    background "gui/History.png"
+                button action Skip() alternate Skip(fast=True, confirm=True):
+                    xsize 70
+                    background "gui/ButtonSkip.png"
+                button action renpy.curried_call_in_new_context("_hide_windows"):
+                    xsize 70
+                    background "gui/ButtonClose.png"
+
+            
 
 
 ## This code ensures that the quick_menu screen is displayed in-game, whenever
@@ -275,6 +351,8 @@ style quick_button_text is button_text
 
 style quick_button:
     properties gui.button_properties("quick_button")
+    ysize 25
+
 
 style quick_button_text:
     properties gui.button_text_properties("quick_button")
@@ -299,13 +377,7 @@ screen navigation():
 
         spacing gui.navigation_spacing
 
-        if main_menu:
-
-            textbutton _("New Game") action Start()
-
-            textbutton _("Quick Start") action Start("quick_start")
-
-        else:
+        if not main_menu:
 
             textbutton _("History") action ShowMenu("history")
 
@@ -364,42 +436,63 @@ screen main_menu():
     add gui.main_menu_background
     add "transsnow"
 
-    ## This empty frame darkens the main menu.
-    frame:
-        pass
+    vbox:
+        pos (162, 206)
 
-    ## The use statement includes another screen inside this one. The actual
-    ## contents of the main menu are in the navigation screen.
-    use navigation
+        textbutton _("New Game") action Start() style style.main_menu_button
+        textbutton _("Load Game") action ShowMenu("load") style style.main_menu_button:
+            ypos 10
+
+        textbutton _("Quick Start") action Start("quick_start") style style.main_menu_button:
+            ypos 96
+
+    text "Get the latest update from f95zone.com" style "main_menu_message":
+        pos(690, 22)
+        anchor(0, 0)
 
     if gui.show_name:
-
         vbox:
             text "[config.name!t]":
                 style "main_menu_title"
 
-            text "[config.version]":
+            text "v [config.version]":
+                pos (336, 19)
                 style "main_menu_version"
 
+style main_menu_button is gui_button:
+    background "gui/main_menu_button.png"
+    hover_background "gui/main_menu_button_hover.png"
+    xsize 315
+    ysize 84
+
+style main_menu_button_text is gui_button_text:
+    font gui.main_menu_text_font
+    outlines [ (absolute(0), "#DF87AD", absolute(1), absolute(1))]
+    size 40
+    color "#ffffff"
+    anchor (0.5, 0.5)
+    align (0.5, 0.5)
 
 style main_menu_frame is empty
 style main_menu_vbox is vbox
 style main_menu_text is gui_text
-style main_menu_title is main_menu_text
-style main_menu_version is main_menu_text
+style main_menu_title is main_menu_text:
+    outlines [ (absolute(0), "#000", absolute(2), absolute(2)) ]
+style main_menu_version is main_menu_text:
+    size 40
+    color "#ffffff"
+style main_menu_message is main_menu_text:
+    outlines [ (absolute(0), "#000", absolute(2), absolute(2)) ]
+    size 50
+    color "#09ed1c"
 
 style main_menu_frame:
     xsize 420
     yfill True
 
-    #background "gui/overlay/main_menu.png"
 
 style main_menu_vbox:
-    xalign 0.0
-    xoffset 40
-    xmaximum 1200
-    yalign 1.0
-    yoffset -80
+    pos (157, 683)
 
 style main_menu_text:
     properties gui.text_properties("main_menu", accent=True)
@@ -530,8 +623,8 @@ style game_menu_label:
 
 style game_menu_label_text:
     size gui.title_text_size
-    color gui.accent_color
-    yalign 0.5
+    color gui.title_text_color
+    yalign 0
 
 style return_button:
     xpos gui.navigation_xpos
@@ -580,6 +673,21 @@ style about_text is gui_text
 style about_label_text:
     size gui.label_text_size
 
+# Back button
+screen back_button():
+    button:
+        style "back_button"
+        action Return()
+
+        ypos 60
+        xpos 1650
+        
+
+style back_button is gui_button:
+    background "gui/back_button.png"
+    hover_background "gui/back_button_hover.png"
+    xsize 265
+    ysize 127
 
 ## Load and Save screens #######################################################
 ##
@@ -597,6 +705,7 @@ screen save():
     use file_slots(_("Save"))
 
 
+
 screen load():
 
     tag menu
@@ -608,55 +717,70 @@ screen file_slots(title):
 
     default page_name_value = FilePageNameInputValue(pattern=_("Page {}"), auto=_("Automatic saves"), quick=_("Quick saves"))
 
-    use game_menu(title):
+    add gui.save_load_background
 
-        fixed:
+    label title style "slots_title_label"
 
-            ## This ensures the input will get the enter event before any of the
-            ## buttons do.
-            order_reverse True
+    if renpy.get_screen("load") and not main_menu:
+        textbutton _("Save") action ShowMenu('save') style "slots_save_load_switch"
+    elif renpy.get_screen("save"):
+        textbutton _("Load") action ShowMenu('load') style "slots_save_load_switch"
 
-            ## The page name, which can be edited by clicking on a button.
-            button:
-                style "page_label"
+    use back_button
+    # use game_menu(title):
 
-                key_events True
-                xalign 0.5
-                action page_name_value.Toggle()
 
-                input:
-                    style "page_label_text"
-                    value page_name_value
+    fixed:
 
-            ## The grid of file slots.
-            grid gui.file_slot_cols gui.file_slot_rows:
-                style_prefix "slot"
+        ## This ensures the input will get the enter event before any of the
+        ## buttons do.
+        order_reverse True
 
-                xalign 0.5
-                yalign 0.5
+        ## The page name, which can be edited by clicking on a button.
+        button:
+            style "page_label"
 
-                spacing gui.slot_spacing
+            key_events True
+            xalign 0.5
+            ypos 50
+            action page_name_value.Toggle()
 
-                for i in range(gui.file_slot_cols * gui.file_slot_rows):
+            input:
+                style "page_label_text"
+                value page_name_value
 
-                    $ slot = i + 1
+        ## The grid of file slots.
+        grid gui.file_slot_cols gui.file_slot_rows:
+            style_prefix "slot"
 
-                    button:
-                        action FileAction(slot)
+            xalign 0.5
+            yalign 0.5
+            yoffset -100
 
-                        has vbox
+            spacing gui.slot_spacing
 
-                        add FileScreenshot(slot) xalign 0.5
+            for i in range(gui.file_slot_cols * gui.file_slot_rows):
 
-                        text FileTime(slot, format=_("{#file_time}%A, %B %d %Y, %H:%M"), empty=_("empty slot")):
-                            style "slot_time_text"
+                $ slot = i + 1
 
-                        text FileSaveName(slot):
-                            style "slot_name_text"
+                button:
+                    action FileAction(slot)
 
-                        key "save_delete" action FileDelete(slot)
+                    has vbox
 
-            ## Buttons to access other pages.
+                    add FileScreenshot(slot) xalign 0.5
+
+                    text FileTime(slot, format=_("{#file_time}%A, %B %d %Y, %H:%M"), empty=_("empty slot")):
+                        style "slot_time_text"
+
+                    text FileSaveName(slot):
+                        style "slot_name_text"
+
+                    key "save_delete" action FileDelete(slot)
+
+        ## Buttons to access other pages.
+        frame:
+            style "pages"
             hbox:
                 style_prefix "page"
 
@@ -689,6 +813,14 @@ style slot_button is gui_button
 style slot_button_text is gui_button_text
 style slot_time_text is slot_button_text
 style slot_name_text is slot_button_text
+style slots_title_label is gui_label_text
+style slots_save_load_switch is gui_button
+style slots_save_load_switch_text is gui_button_text
+
+style pages:
+    background "#00000070"
+    xfill True
+    yalign 1.0
 
 style page_label:
     xpadding 75
@@ -697,19 +829,52 @@ style page_label:
 style page_label_text:
     text_align 0.5
     layout "subtitle"
+    color gui.title_text_color
     hover_color gui.hover_color
+    outlines [ (absolute(0), "#000", absolute(1), absolute(1))]
 
 style page_button:
     properties gui.button_properties("page_button")
 
 style page_button_text:
     properties gui.button_text_properties("page_button")
+    color "#f3f3f3"
+    hover_color gui.hover_color
+    
 
 style slot_button:
     properties gui.button_properties("slot_button")
+    background "#00000070"
 
 style slot_button_text:
     properties gui.button_text_properties("slot_button")
+    yoffset 10
+
+style slots_title_label:
+    xalign 0.5
+    yalign 1.0
+    yoffset -160
+
+style slots_title_label_text:
+    size gui.title_text_size
+    color gui.title_text_color
+    yalign 0
+    outlines [ (absolute(0), "#000", absolute(1), absolute(1))]
+    font gui.main_menu_text_font
+
+style slots_save_load_switch:
+    xalign 0.5
+    ypos 1.0
+    yanchor 0.5
+    xoffset 85
+    yoffset -155
+
+style slots_save_load_switch_text:
+    size 60
+    outlines [ (absolute(0), "#000", absolute(1), absolute(1))]
+    color "#8fcdff"
+    hover_color gui.hover_color
+    font gui.main_menu_text_font
 
 
 ## Preferences screen ##########################################################
@@ -885,6 +1050,44 @@ style slider_vbox:
 ## dialogue history stored in _history_list.
 ##
 ## https://www.renpy.org/doc/html/history.html
+screen history_content():
+    $ scroll=("vpgrid" if gui.history_height else "viewport")
+    $ yinitial = 1.0
+
+    frame:
+        style "history_screen"
+
+        frame:
+            style "history_view"
+            if scroll == "viewport":
+
+                viewport:
+                    yinitial yinitial
+                    scrollbars "vertical"
+                    mousewheel True
+                    draggable True
+                    pagekeys True
+
+                    side_yfill True
+
+                    vbox:
+                        transclude
+
+            elif scroll == "vpgrid":
+
+                vpgrid:
+                    cols 1
+                    yinitial yinitial
+
+                    scrollbars "vertical"
+                    mousewheel True
+                    draggable True
+                    pagekeys True
+
+                    side_yfill True
+
+                    transclude
+
 
 screen history():
 
@@ -893,7 +1096,7 @@ screen history():
     ## Avoid predicting this screen, as it can be very large.
     predict False
 
-    use game_menu(_("History"), scroll=("vpgrid" if gui.history_height else "viewport"), yinitial=1.0):
+    use history_content():
 
         style_prefix "history"
 
@@ -923,6 +1126,8 @@ screen history():
         if not _history_list:
             label _("The dialogue history is empty.")
 
+    use back_button()
+
 
 ## This determines what tags are allowed to be displayed on the history screen.
 
@@ -940,9 +1145,16 @@ style history_text is gui_text
 style history_label is gui_label
 style history_label_text is gui_label_text
 
+style history_screen:
+    background "gui/bg_history.jpg"
+
 style history_window:
     xfill True
     ysize gui.history_height
+
+style history_view:
+    area (90, 230, 1740, 720)
+    background "#111111"
 
 style history_name:
     xpos gui.history_name_xpos
@@ -1050,6 +1262,14 @@ screen keyboard_help():
     hbox:
         label "V"
         text _("Toggles assistive {a=https://www.renpy.org/l/voicing}self-voicing{/a}.")
+
+    hbox:
+        label "F5"
+        text _("Quick Save.")
+
+    hbox:
+        label "F8"
+        text _("Quick Load.")
 
 
 screen mouse_help():
@@ -1291,6 +1511,34 @@ style notify_frame:
 style notify_text:
     properties gui.text_properties("notify")
 
+## Ingame menu
+screen ingame():
+    add "images/bgimage/Menus/Menu.jpg"
+
+    use back_button()
+
+    vbox:
+        align (0.5, 0)
+        yoffset 100
+        spacing 60
+        style_prefix "ingame_menu"
+
+        textbutton _("Save").upper() action ShowMenu('save')
+        textbutton _("Load").upper() action ShowMenu('load')
+        textbutton _("Skip").upper() action Skip() alternate Skip(fast=True, confirm=True)
+        textbutton _("Preferences").upper() action ShowMenu("preferences")
+        textbutton _("Title").upper() action MainMenu()
+
+style ingame_menu_button is gui_button:
+    xsize 370
+    ysize 70
+    background "gui/menu_button.png"
+
+style ingame_menu_button_text is gui_button_text:
+    align (0.5, 0.5)
+    color "#ffffff"
+    size 40
+    font gui.ingame_menu_button_font
 
 ## NVL screen ##################################################################
 ##
@@ -1423,6 +1671,9 @@ style pref_vbox:
 ## that uses fewer and bigger buttons that are easier to touch.
 screen quick_menu():
     variant "touch"
+
+    key "K_F5" action QuickSave()
+    key "K_F8" action QuickLoad()
 
     zorder 100
 

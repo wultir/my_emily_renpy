@@ -122,9 +122,9 @@ label weekend1_sunday_swallow:
     "The thought of that makes you even more horny"
 
     menu:
-        "{color=[pink_choice]}Play!{/color}":
+        "Play! [pink]":
             jump weekend1_sunday_play
-        "{color=[red_choice]}Don't...{/color}":
+        "Don't... [red]":
             jump weekend1_sunday_no_play
 
 

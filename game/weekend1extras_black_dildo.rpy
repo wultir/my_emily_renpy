@@ -185,9 +185,9 @@ label weekend1_sunday_black_dildo_sofa:
     call wait_for_click
 
     menu:
-        "{color=[pink_choice]}Push her head deeper!{/color}":
+        "Push her head deeper! [pink]":
             jump weekend1_sunday_black_deep
-        "{color=[red_choice]}Don't do it{/color}":
+        "Don't do it [red]":
             jump weekend1_sunday_black_not_deep
 
 
@@ -279,8 +279,6 @@ label weekend1_sunday_black_phone:
     "You push her black cock further in making it rub her clit more "
     "Just a couple more strokes and you'll cum too"
 
-
-label scene0046b:
     show bg 0446b with Dissolve(1.0)
 
     jump weekend1_sunday_common_phone

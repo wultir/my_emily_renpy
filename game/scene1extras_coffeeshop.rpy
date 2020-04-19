@@ -15,18 +15,13 @@ label day1_coffee_shop:
 
     em "Okkkey we. will. just. sit. there"
 
-
-label scene00_29:
     scene bg 00_29 with Dissolve(1.0)
-
-    show waiting at topleft
-    pause
+    call wait_for_click
 
 
 label day1_coffe_shop_waiting:
-    scene bg coffee_01_day with Dissolve(1.0)
+    show bg coffee_01_day with Dissolve(1.0)
 
-    window show
     show emily 01_07 at right with Dissolve(1.0):
         yalign 0.5
         yoffset -100
@@ -57,9 +52,9 @@ label day1_coffe_shop_waiting:
     em "You really have to find work soon. I'm already working for James and teaching classes part time. I enjoy it, but it's so stressy!"
 
     menu:
-        "{color=[pink_choice]}I'll find something, don't worry!{/color}":
+        "I'll find something, don't worry! [pink]":
             jump day1_coffe_shop_getwork
-        "{color=[red_choice]}We could sell your butt!  ;){/color}":
+        "We could sell your butt!  ;) [red]":
             jump day1_coffe_shop_sellyou
 
 
@@ -117,9 +112,9 @@ label day1_coffe_shop_kiss:
     mc_thoughts "Should i kiss her longer? That way he would get a better look.."
 
     menu:
-        "{color=[pink_choice]}Longer Kiss{/color}":
+        "Longer Kiss [pink]":
             jump day1_coffe_shop_longer_kiss
-        "{color=[red_choice]}Stop{/color}":
+        "Stop [red]":
             mc_thoughts "No. I don't want that creep to see anything more!"
             jump day1_coffe_shop_burgers
 
