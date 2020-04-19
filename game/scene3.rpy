@@ -1,4 +1,5 @@
 label day5_start:
+    $ quick_menu = False
     scene bg black with Dissolve(1.0)
     show text "{color=#ffffff}{size=36}Day 5 Monday{/size}{/color}" at topright with Dissolve(1.0):
         offset (-10, 10)
@@ -6,6 +7,7 @@ label day5_start:
     pause 2.0
     hide text with Dissolve(1.0)
 
+    $ quick_menu = True
     "You are starting to wake up by some strange sensations"
 
 
@@ -15,11 +17,10 @@ label day5_start:
 
 
     scene bg 0501b with Dissolve(1.0)
-
     call wait_for_click
 
 
-    scene bg 0501 with Dissolve(1.0)
+    show bg 0501 with Dissolve(1.0)
 
     if mem_short_player == "candy":
         jump day5_continue_kissing
@@ -120,7 +121,7 @@ label day5_candy_over:
     "30 minutes later at school"
 
 
-    scene bg 0506 with Dissolve(1.0)
+    show bg 0506 with Dissolve(1.0)
 
     sp "Good morning Miss White"
     sp "I'm so glad you made it! We are a bit short staffed right now"
@@ -136,7 +137,7 @@ label day5_candy_over:
     "You move closer"
 
 
-    scene bg 0507 with Dissolve(1.0)
+    show bg 0507 with Dissolve(1.0)
 
     "He grabs you into a hug before you can react and you stand there mostly awkwardly while trying to adjust"
 
@@ -149,7 +150,7 @@ label day5_candy_over:
     "He lets go of the hug but keeps one arm around you while walking into a class room"
 
 
-    scene bg 0508 with Dissolve(1.0)
+    show bg 0508 with Dissolve(1.0)
 
     ww "This will be your class room for today"
     ww "Do not be nervous, you are very pretty and I've seen your grades"
@@ -240,7 +241,7 @@ label day5_yes_no_master:
     mi "Yay "
 
 
-    scene bg 0512 with Dissolve(1.0)
+    show bg 0512 with Dissolve(1.0)
 
     el "SISSYYYYYYYY!!!!!!!!!"
     el "Finally a teacher I CAN LIKE!!"
@@ -263,7 +264,7 @@ label day5_yes_no_master:
     el "Okey.. Oh and that quiet emo girl is Chloe"
 
 
-    scene bg 0513 with Dissolve(1.0)
+    show bg 0513 with Dissolve(1.0)
 
     "?" "HIIIIIII"
     "?" "I'm Ashanti or Ash"
@@ -276,18 +277,18 @@ label day5_yes_no_master:
     "She's already gone before you can answer"
 
 
-    scene bg 0514 with Dissolve(1.0)
+    show bg 0514 with Dissolve(1.0)
 
     "?" "Oaiiiiiahhhh I hate school"
     "?" "It's sooo booooring and lame"
     "?" "I better be out there fuc...."
 
-    scene bg 0514x with Dissolve(1.0)
+    show bg 0514x with Dissolve(1.0)
 
     "?" "...."
     "?" "....."
 
-    scene bg 0514xx with Dissolve(1.0)
+    show bg 0514xx with Dissolve(1.0)
 
     "?" "Whazzzzup Sexy!"
     "?" "Do you need help? What are you doing here?"
@@ -370,7 +371,7 @@ label day5_yes_no_master:
 
     "?" "Huh?"
 
-    scene bg 0518 with Dissolve(1.0)
+    show bg 0518 with Dissolve(1.0)
 
     "?" "Ohh Heyyyy sexy! "
     "?" "Do you need help with anything? We will help you!"
@@ -421,7 +422,7 @@ label day5_yes_no_master:
 
     ty "No duude...ette..."
 
-    scene bg 0520 with Dissolve(1.0)
+    show bg 0520 with Dissolve(1.0)
 
     da "Here bab.. girl"
 
@@ -440,12 +441,12 @@ label day5_yes_no_master:
 label day5_smoke_yes:
     $ em_kinks_smoking += 1
 
-    scene bg 0521 with Dissolve(1.0)
+    show bg 0521 with Dissolve(1.0)
 
     "Just as you finish the sentence he inserts the cigarette into your mouth. All you have to do is inhale..."
 
 
-    scene bg 0522 with Dissolve(1.0)
+    show bg 0522 with Dissolve(1.0)
 
     da "It's good! Isn't it?"
 
@@ -460,7 +461,7 @@ label day5_smoke_yes:
     da "Here you go dude"
 
 
-    scene bg 0523 with Dissolve(1.0)
+    show bg 0523 with Dissolve(1.0)
 
     ty "I want her to suck it too "
 
@@ -472,7 +473,7 @@ label day5_smoke_yes:
 
     "Tyler takes a deep inhale"
 
-    scene bg 0524 with Dissolve(1.0)
+    show bg 0524 with Dissolve(1.0)
 
     ty "Cough' Cough' Cough'"
     ty "Oh fuckkk.. Cough* Cough*"
@@ -609,20 +610,20 @@ label day5_game3:
 
 label day5_game4:
     show pc game4 with Dissolve(1.0)
-#&f.PlayerName
+
     mc "What are you doing?"
-#Jack
+
     j "Ohh baby you've been teasing me for so long now"
     j "Let me make you pregnant..."
     j "You are my slave now, bend over hahahaha"
-#&f.PlayerName
+
     mc "Haha you kinky bastard"
-#Jack
+
     j "Daaaaaaaaaaamn"
     j "Your characters ass looks just like yours in real life!!!!!!"
-#&f.PlayerName
+
     mc "What? Nooooo it doesn't"
-#Jack
+
     j "Uh huh yes it does! I saw your girl ass just a couple of days ago when we went swimming"
 
     menu:
@@ -980,7 +981,7 @@ label day5_sissy2_done:
     "Just when you are about to go and take a nap you hear something behind you so you turn around scared"
 
 
-label tv0501:
+label day2_tv:
     scene bg tv0501 with Dissolve(1.0)
 
     mc "Ohh It's you!"
@@ -1003,7 +1004,6 @@ label tv0501:
     mc "Let's go to the living room and you can stick it into the tv"
 
 
-label tv0502:
     scene bg tv0502 with Dissolve(1.0)
 
     "Emily pushes the usb stick into the tv"
@@ -1015,14 +1015,13 @@ label tv0502:
     mc "Patience baby! Let it load"
 
 
-label tv0503:
     scene bg tv0503 with Dissolve(1.0)
 
     em "I can't wait to get rid of these heels!"
     em "They look and make you feel sexy, but oh my god how they kill your feet!"
 
-label tv0504:
-    scene bg tv0504 with Dissolve(1.0)
+
+    show bg tv0504 with Dissolve(1.0)
     
     em "YEEEESSSHHH!"
     em "So nice.. I just wish i had someone who could massage my feet all the time!"
@@ -1037,8 +1036,7 @@ label tv0504:
             em "..."
 
 
-label tv0505:
-    scene bg tv0505 with Dissolve(1.0)
+    show bg tv0505 with Dissolve(1.0)
 
     "Emily relaxes on the sofa as something appears on the tv"
 
@@ -1052,8 +1050,7 @@ label tv0505:
     gv "Or do it now if you already got cold feet. I have no time for wimps like you who can never make up their own minds"
 
 
-label tv0506:
-    scene bg tv0506 with Dissolve(1.0)
+    show bg tv0506 with Dissolve(1.0)
 
     em "Oops I had already kinda forgotten about this game. I thought it's only some stupid online thing but this seems serious! "
     em "And she's so cocky haha!"
@@ -1081,8 +1078,7 @@ label tv0506:
     gv "By not accepting to become a cuckold, you will only cause pain and satisfaction both for yourself and your wife"
 
 
-label tv0507:
-    scene bg tv0507 with Dissolve(1.0)
+    show bg tv0507 with Dissolve(1.0)
 
 
     em "Awwww poor baby! What has happened to you?"
@@ -1099,7 +1095,7 @@ label tv0507:
     gv "You know, just the normal life if you ask anyone else who does not fully understand this forbidden and twisted kink"
     gv "It's up to you both to decide which is the right or wrong way"
 
-    scene bg black with Dissolve(1.0)
+    show bg black with Dissolve(1.0)
 
     jump day5_tv_cuck_start
 
@@ -1298,7 +1294,7 @@ label day5_shopping:
     em "Emily White"
 
 
-    scene bg 0527 with Dissolve(1.0)
+    show bg 0527 with Dissolve(1.0)
 
     sg "Yes you do!"
     sg "1000$ to be exact.. And here's a note about clothing rules.. Let me read.."
@@ -1313,13 +1309,13 @@ label day5_shopping:
     sg "No worries, you are here now. Follow me and I'll show you around!"
 
 
-    scene bg 0528 with Dissolve(1.0)
+    show bg 0528 with Dissolve(1.0)
 
     sg "Our biggest collection is our sexy underwear and lingerie"
     sg "But we have clothing for every occasion and need so we'll find something really sexy for you both today!"
 
 
-    scene bg 0529 with Dissolve(1.0)
+    show bg 0529 with Dissolve(1.0)
 
     sg "Let's start here with some sexy panties"
 
@@ -1343,7 +1339,7 @@ label day5_shopping:
     em "Thank you! "
 
 
-    scene bg 0532 with Dissolve(1.0)
+    show bg 0532 with Dissolve(1.0)
 
     "You put the pile of clothes into one changing booth and then you take a seat being totally spent"
 
@@ -1381,7 +1377,7 @@ label day5_no_baby:
 
 
 label day5_yesno_baby_done:
-    scene bg 0533 with Dissolve(1.0)
+    show bg 0533 with Dissolve(1.0)
 
     em "Soo ummm"
 
@@ -1397,7 +1393,7 @@ label day5_yesno_baby_done:
     "The blonde salesgirl enters before you can say anymore"
 
 
-    scene bg 0535 with Dissolve(1.0)
+    show bg 0535 with Dissolve(1.0)
 
     sg "Oh wow! Really sexy"
     sg "It suits you perfectly"
@@ -1457,13 +1453,13 @@ label day5_yesno_baby_done:
     em "With his sexy body.."
 
 
-    scene bg 0539 with Dissolve(1.0)
+    show bg 0539 with Dissolve(1.0)
     em "And his sexy and hard nipples"
 
     mc "Ahh"
 
 
-    scene bg 0540 with Dissolve(1.0)
+    show bg 0540 with Dissolve(1.0)
     "Emily squeezes your nipple between her fingers and pulls your head back kissing your neck and whispering"
 
     em "Fuck you are so sexy right now!"
@@ -1520,7 +1516,7 @@ label day5_good_boy:
     "You laugh nervously"
 
 
-    scene bg 0542 with Dissolve(1.0)
+    show bg 0542 with Dissolve(1.0)
 
     em "We better continue trying out more clothes and sorry again"
 
@@ -1624,7 +1620,7 @@ label day5_good_bad_done:
     mc_thoughts "Is it the official gay day or something??"
     mc_thoughts "Fuck fuck "
 
-    scene bg 0549 with Dissolve(1.0)
+    show bg 0549 with Dissolve(1.0)
 
     mc_thoughts "...."
     mc_thoughts "I want to cry"
@@ -1635,7 +1631,7 @@ label day5_good_bad_done:
     mc_thoughts "Yeah hahaha, I would hang myself in those"
 
 
-    scene bg 0550 with Dissolve(1.0)
+    show bg 0550 with Dissolve(1.0)
 
     em "So what do you think?"
     em "You look so pretty in those!"
@@ -1738,19 +1734,19 @@ label day5_good_bad_done:
     mc "Fuck this is hard"
 
 
-    scene bg 0558 with Dissolve(1.0)
+    show bg 0558 with Dissolve(1.0)
 
     mc "Hhhuuuuaaaaaaa"
     mc "I think... I can't..........."
 
-    scene bg 0559 with Dissolve(1.0)
+    show bg 0559 with Dissolve(1.0)
 
     mc "Baby"
     mc "I can't.."
     mc "It hurts"
 
 
-    scene bg 0560 with Dissolve(1.0)
+    show bg 0560 with Dissolve(1.0)
 
     em "What's wrong?"
 
@@ -1926,7 +1922,7 @@ label day5_continue_walk:
     mc "Just about my sexy bride. How lucky I am and how calm I am right now"
 
 
-    scene bg 0572 with Dissolve(1.0)
+    show bg 0572 with Dissolve(1.0)
 
     em "Yeah?"
     em "And I'm thinking about my sexy soon the be hubby"
@@ -1934,7 +1930,7 @@ label day5_continue_walk:
     "Her hand starts to glide down your leg"
 
 
-    scene bg 0573 with Dissolve(1.0)
+    show bg 0573 with Dissolve(1.0)
 
     "It goes further down and your dick is now fully awaken"
 
@@ -1949,7 +1945,7 @@ label day5_continue_walk:
     "And your finger slides in under her clothes trying to find her tight anus"
 
 
-    scene bg 0574 with Dissolve(1.0)
+    show bg 0574 with Dissolve(1.0)
     "Emily grabs your dick hard"
 
     em "NO!"
@@ -2012,13 +2008,13 @@ label day5_watch_henry:
     scene bg 0579 with Dissolve(1.0)
     "You can hear Emily's breathing intensify and she starts to massage your still hard dick "
 
-    scene bg 0580 with Dissolve(1.0)
+    show bg 0580 with Dissolve(1.0)
 
     "Emily keeps staring at him while massaging you more and more intensely"
     "She lets out a quiet moan"
 
 
-    scene bg 0581 with Dissolve(1.0)
+    show bg 0581 with Dissolve(1.0)
     "Still whispering"
 
     em "Ohh baby"
@@ -2035,19 +2031,19 @@ label day5_watch_henry:
     em "Hihi"
 
 
-    scene bg 0582 with Dissolve(1.0)
+    show bg 0582 with Dissolve(1.0)
 
     em "Oh no"
     em "He's done"
 
 
-    scene bg 0583 with Dissolve(1.0)
+    show bg 0583 with Dissolve(1.0)
 
     em "Oh look!"
     em "He's getting hard I think"
 
 
-    scene bg 0584 with Dissolve(1.0)
+    show bg 0584 with Dissolve(1.0)
 
     em "Oh god!"
     em "Yes!"
@@ -2055,7 +2051,7 @@ label day5_watch_henry:
     em "Hihi"
 
 
-    scene bg 0585 with Dissolve(1.0)
+    show bg 0585 with Dissolve(1.0)
 
     em "Aww now he's leaving"
     em "I would have loved to see more!"
@@ -2063,7 +2059,7 @@ label day5_watch_henry:
     em "Oh my god"
 
    
-    scene bg 0586 with Dissolve(1.0)
+    show bg 0586 with Dissolve(1.0)
 
     em "I'm so fucking horny now!"
     em "You never licked my pussy.. Right babe?"
@@ -2075,7 +2071,7 @@ label day5_watch_henry:
     em "I want you to lick it!! And deep!!"
 
 
-    scene bg 0587 with Dissolve(1.0)
+    show bg 0587 with Dissolve(1.0)
 
     em "Wait!"
     em "Quiet!"
@@ -2090,7 +2086,7 @@ label day5_watch_henry:
     "?" "Hahaha silly kids and their pop songs these days"
 
 
-    scene bg 0588 with Dissolve(1.0)
+    show bg 0588 with Dissolve(1.0)
 
     om "Ski-bi dibby dib yo da dub dub"
 
@@ -2105,7 +2101,7 @@ label day5_watch_henry:
     em "Loud gasp*"
 
 
-    scene bg 0590 with Dissolve(1.0)
+    show bg 0590 with Dissolve(1.0)
 
     om "You kids scared the living hell out of me!"
 
@@ -2114,7 +2110,7 @@ label day5_watch_henry:
     em "I'm sorry mister.. We are sorry.."
 
 
-    scene bg 0591 with Dissolve(1.0)
+    show bg 0591 with Dissolve(1.0)
 
     om "Well crap"
     om "You've already seen it so there's no point in hiding"
@@ -2144,7 +2140,7 @@ label day5_watch_henry:
     em "Yes hihi"
 
 
-    scene bg 0592 with Dissolve(1.0)
+    show bg 0592 with Dissolve(1.0)
 
     "You can't see Emilys eyes but you know her eyes are locked on his old but hard cock"
     "You are feeling jealous but at the same time incredibly horny too"
@@ -2184,7 +2180,7 @@ label day5_watch_henry:
     em "NOW!!"
 
 
-    scene bg 0595 with Dissolve(1.0)
+    show bg 0595 with Dissolve(1.0)
 
     mc "Whaaa?"
     "Emily grabs your head and pushes your head hard onto her pussy"

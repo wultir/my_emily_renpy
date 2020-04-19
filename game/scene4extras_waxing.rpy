@@ -18,7 +18,7 @@ label day6_waxing_start:
     "?" "Ah yes! Welcome! I'm Jasmine"
 
 
-    scene bg 0688 with Dissolve(1.0)
+    show bg 0688 with Dissolve(1.0)
 
     ja "I'm the one giving you both the full wax treatment today"
     ja "Please follow me"
@@ -39,7 +39,7 @@ label day6_waxing_start:
 
     ja "This is our cozy little couple room"
 
-    scene bg 0691 with Dissolve(1.0)
+    show bg 0691 with Dissolve(1.0)
 
     ja "I want you both to get naked. It's a full body treatment so fully naked!"
     ja "I've seen every possible different bacon and sausage model on the market and there will be lots of touching and skin to skin contact so prepare yourselves mentally while I go and prepare some other stuff"
@@ -47,7 +47,7 @@ label day6_waxing_start:
     ja "Then get your butt naked butts on the beds while waiting for me!"
     ja "Ok guys?"
 
-    scene bg 0692 with Dissolve(1.0)
+    show bg 0692 with Dissolve(1.0)
 
     ja "Anything else you want to know?"
 
@@ -75,15 +75,15 @@ label day6_waxing_start:
     ja "So guys.. Naked! I'll be back soon!"
 
 
-    scene bg 0693 with Dissolve(1.0)
+    show bg 0693 with Dissolve(1.0)
 
     em "Ok my little love slave.. Strip for me!"
 
-    scene bg 0694 with Dissolve(1.0)
+    show bg 0694 with Dissolve(1.0)
     "You nervously get up and stand in the corner"
     "You take your tight pants off"
 
-    scene bg 0695 with Dissolve(1.0)
+    show bg 0695 with Dissolve(1.0)
 
     em "Ohhh NICE!"
     em "So sexy! Pink is really your color!"
@@ -98,7 +98,7 @@ label day6_waxing_start:
     em "Oh fuck.. I can't wait to finally see your smooth and hairless!"
 
 
-    scene bg 0697 with Dissolve(1.0)
+    show bg 0697 with Dissolve(1.0)
 
     mc "Tthank you!"
 
@@ -112,38 +112,38 @@ label day6_waxing_start:
     em "Stop worrying!"
 
 
-    scene bg 0698 with Dissolve(1.0)
+    show bg 0698 with Dissolve(1.0)
 
     em "Maybe this ass will get your thoughts elsewhere?"
 
     mc "Yeah..."
 
 
-    scene bg 0699a with Dissolve(1.0)
+    show bg 0699a with Dissolve(1.0)
     "Too nervous for anything you look around the room and try to focus on anything to keep your mind of the upcoming doomsday moment"
 
 
-    scene bg 0699b with Dissolve(1.0)
+    show bg 0699b with Dissolve(1.0)
 
     mc "Bab... Princess do you think that picture is taken in a jungle?"
     mc "I want to see a jungle some day!"
 
 
-    scene bg 06100 with Dissolve(1.0)
+    show bg 06100 with Dissolve(1.0)
 
     em "Wow.. You really are nervous.."
     em "Be a good boy and maybe we could travel to a hot place some day and visit a jungle"
     em "Being naked like this is hot. I feel like an exhibitionist wife hihi"
 
 
-    scene bg 06101 with Dissolve(1.0)
+    show bg 06101 with Dissolve(1.0)
 
     em "Ohh it's rainy down in my jungle"
     em "A hard dick would be nice right now.. And for the first time ever it looks like yours have crawled inside your body.."
     em "Just try to relax baby.. Ok?"
 
 
-    scene bg 06102 with Dissolve(1.0)
+    show bg 06102 with Dissolve(1.0)
 
     em "Here give me your foot!"
     em "I'll massage it a little. It's relaxing. Right?"
@@ -154,7 +154,7 @@ label day6_waxing_start:
         em "You still owe me a good looooong foot massage! Mmmm can't wait!"
 
 
-    scene bg 06103 with Dissolve(1.0)
+    show bg 06103 with Dissolve(1.0)
 
     ja "How's it going guys?"
 
@@ -166,10 +166,10 @@ label day6_waxing_start:
     ja "Good. Get up on the beds and lay down."
     ja "Butts down and face up!"
 
-    scene bg 06105 with Dissolve(1.0)
+    show bg 06105 with Dissolve(1.0)
     "Emily gives you a loving look that calms you down a bit"
 
-    scene bg 06106 with Dissolve(1.0)
+    show bg 06106 with Dissolve(1.0)
 
     ja "Ohhh now I see why you are so nervous!"
     ja "Pink panties look great on you! You are in the right hands honey. You don't have to worry!"
@@ -177,33 +177,33 @@ label day6_waxing_start:
     "Those words stop your heart and you look at Emily in panic"
 
 
-    scene bg 06107 with Dissolve(1.0)
+    show bg 06107 with Dissolve(1.0)
 
     em "Hihi"
 
     "The smile on her face is enough for you to know she's enjoying this"
 
-    scene bg 06108 with Dissolve(1.0)
+    show bg 06108 with Dissolve(1.0)
 
     ja "Okey Emily I'm going to start inspecting your body hair"
     ja "Keep your face straight and this hand up. You can rest it on my breast"
 
 
-    scene bg 06109 with Dissolve(1.0)
+    show bg 06109 with Dissolve(1.0)
 
     em "Ohhh so soft.. but firm.."
 
     ja "Hah.. Thanks!"
     ja "You really don't seem to have that much hair. Just your vagina and some around your anus"
 
-    scene bg 06110 with Dissolve(1.0)
+    show bg 06110 with Dissolve(1.0)
 
     em "OHHHHHHH"
 
     ja "What's wrong?"
 
 
-    scene bg 06111 with Dissolve(1.0)
+    show bg 06111 with Dissolve(1.0)
 
     em "Absolutely nothing is wrong!"
 
@@ -213,7 +213,7 @@ label day6_waxing_start:
     em "In fact I want to see more! Much more!"
 
 
-    scene bg 06112 with Dissolve(1.0)
+    show bg 06112 with Dissolve(1.0)
 
     ja "Hah! It's only fair since I'm touching your privates. So look as much as you want!"
 
@@ -222,7 +222,7 @@ label day6_waxing_start:
     ja "Spread your legs a little for me"
 
 
-    scene bg 06113 with Dissolve(1.0)
+    show bg 06113 with Dissolve(1.0)
 
     em "Mmmmm. Spread yours too!"
     em "Your fingers and so soft"
@@ -234,7 +234,7 @@ label day6_waxing_start:
     ja "I rather see you both cum that most of the old bald white fat men who play super manly but start to moan like bitches and beg me to fuck them when my fingers get close to their old wrinkly asses"
 
 
-    scene bg 06114 with Dissolve(1.0)
+    show bg 06114 with Dissolve(1.0)
 
     ja "I prefer my men young, blonde, skinny and hairless haha"
     ja "Are you ready sexy nervous boy? I'm done with your girlfriend and she needs a break"
@@ -243,7 +243,7 @@ label day6_waxing_start:
 
     ja "Soon honey"
 
-    scene bg 06115 with Dissolve(1.0)
+    show bg 06115 with Dissolve(1.0)
 
     ja "Are you ready blondie?"
     ja "Think you can handle me?"
@@ -251,23 +251,23 @@ label day6_waxing_start:
     "You start to stammer nervously"
 
 
-    scene bg 06116 with Dissolve(1.0)
+    show bg 06116 with Dissolve(1.0)
     "You feel her getting behind your head"
 
 
-    scene bg 06117 with Dissolve(1.0)
+    show bg 06117 with Dissolve(1.0)
 
     ja "I'll be gentle with you virgin boy"
 
     mc "I.. Ehh. Thank you.."
 
 
-    scene bg 06118 with Dissolve(1.0)
+    show bg 06118 with Dissolve(1.0)
     "You see something blurry under her skirt and know instantly what is is without directly looking at it"
 
-    scene bg 06119 with Dissolve(1.0)
+    show bg 06119 with Dissolve(1.0)
 
-#Jasmine
+
     ja "I'm going to touch you too"
     ja "So you can close your eyes and pretend like nothing.. Or keep them open and see stuff you might regret haha"
 
@@ -279,28 +279,28 @@ label day6_waxing_start:
 
 
 label day6_not_looking:
-    scene bg 06120 with Dissolve(1.0)
+    show bg 06120 with Dissolve(1.0)
 
     "You decide to not look.. Some stuff you don't want to know about"
 
 
-    scene bg 06121 with Dissolve(1.0)
+    show bg 06121 with Dissolve(1.0)
 
     ja "Your upper body is pretty hairless. Just some on your arms and under them"
 
 
-    scene bg 06122 with Dissolve(1.0)
+    show bg 06122 with Dissolve(1.0)
 
     ja "Your legs however are hairy"
 
 
-    scene bg 06123 with Dissolve(1.0)
+    show bg 06123 with Dissolve(1.0)
 
     ja "Ohhh they are jockstraps!"
     ja "Gives me easy access to your anus.. Hm some hair there. Not too much!"
 
 
-    scene bg 06124a with Dissolve(1.0)
+    show bg 06124a with Dissolve(1.0)
 
     ja "Let's take these off so I can see your pubes and testicles"
 
@@ -315,52 +315,52 @@ label day6_under_skirt:
     call wait_for_click
 
 
-    scene bg 06121 with Dissolve(1.0)
+    show bg 06121 with Dissolve(1.0)
 
     ja "Your upper body is pretty hairless. Just some on your arms and under them"
 
 
-    scene bg 06122 with Dissolve(1.0)
+    show bg 06122 with Dissolve(1.0)
 
     ja "Your legs however are hairy"
 
 
-    scene bg 06123 with Dissolve(1.0)
+    show bg 06123 with Dissolve(1.0)
 
     ja "Ohhh they are jockstraps! Sexy!"
     ja "Gives me easy access to your anus.. Hm some hair there but not too much!"
 
 
-    scene bg 06124b with Dissolve(1.0)
+    show bg 06124b with Dissolve(1.0)
 
     "She keeps talking but you can't hear a word. You can't take your eyes of her butt and cock"
     "You can't really decide on what you are feeling, but getting horny is one of those feelings. Whether you like it or not she's making you hot"
 
 
-    scene bg 06124c with Dissolve(1.0)
+    show bg 06124c with Dissolve(1.0)
 
     "Her legs feel so soft but strong at the same time. Her cock feels soft too but heavy somehow. It's the first time another cock is touching you"
 
 
-    scene bg 06124d with Dissolve(1.0)
+    show bg 06124d with Dissolve(1.0)
 
     "Her butt is even softer than her legs but firm. You can feel the hard muscles under the softness. All you want to do is to touch and kiss her butt"
     "The feeling of your underwear getting dragged off you wakes you up"
 
 
 label day6_skirt_continue:
-    scene bg 06125 with Dissolve(1.0)
+    show bg 06125 with Dissolve(1.0)
 
     "Only now do you realise Jr has woken up a bit. You try to push those thoughts far, far away"
 
 
-    scene bg 06126 with Dissolve(1.0)
+    show bg 06126 with Dissolve(1.0)
 
     ja "Okey Emily.."
     ja "Are you ready?"
 
 
-    scene bg 06127 with Dissolve(1.0)
+    show bg 06127 with Dissolve(1.0)
 
     em "Y..yeah.. I remember it hurts, but not how much.."
 
@@ -373,7 +373,7 @@ label day6_skirt_continue:
     ja "Lucky girl!"
 
 
-    scene bg 06128 with Dissolve(1.0)
+    show bg 06128 with Dissolve(1.0)
 
     em "Ohhh!"
 
@@ -385,7 +385,7 @@ label day6_skirt_continue:
     ja "It's only normal and it will only make it less painful for you in the end"
 
 
-    scene bg 06129 with Dissolve(1.0)
+    show bg 06129 with Dissolve(1.0)
     "Emily looks at you and your eyes lock"
 
     ja "It's getting ready to be ripped off soon and you'll be left with a smooth and shiny vagina haha"
@@ -394,7 +394,7 @@ label day6_skirt_continue:
     em "Mmmm"
 
 
-    scene bg 06130 with Dissolve(1.0)
+    show bg 06130 with Dissolve(1.0)
 
     ja "Any second now honey"
 
@@ -407,12 +407,12 @@ label day6_skirt_continue:
     "Sound of tearing*"
 
 
-    scene bg 06131 with Dissolve(1.0)
+    show bg 06131 with Dissolve(1.0)
 
     em "AHHHHHHHHHHHHHHHHHHHH!!!!!!"
 
 
-    scene bg 06132 with Dissolve(1.0)
+    show bg 06132 with Dissolve(1.0)
 
     em "OHHH MYY GAAAWWWWDDDDDD"
     em "AHHHHHHh"
@@ -420,7 +420,7 @@ label day6_skirt_continue:
     em "Ohhhhh!"
 
 
-    scene bg 06133 with Dissolve(1.0)
+    show bg 06133 with Dissolve(1.0)
     "Emily keeps shaking and whimpering"
 
     em "I Imm s so ssorry"
@@ -436,13 +436,13 @@ label day6_skirt_continue:
     "You jump up and get behind them so you can see what the hell is going on"
 
 
-    scene bg 06134 with Dissolve(1.0)
+    show bg 06134 with Dissolve(1.0)
 
     "You feel relived when you see it's not inside her. But Emily's constant shaking and moving around makes Jasmines heavy cock move and flop around"
     "Flop shlick smack shlick smack shlick is the loud sound of their wet sexes hitting each others"
 
 
-    scene bg 06135 with Dissolve(1.0)
+    show bg 06135 with Dissolve(1.0)
 
     em "Mngghh mmy cc clitt"
     em "Ahhhhh"
@@ -456,7 +456,7 @@ label day6_skirt_continue:
     "You jump up once again to see what's going on now"
 
 
-    scene bg 06136 with Dissolve(1.0)
+    show bg 06136 with Dissolve(1.0)
 
     ej "Mmmhmmh "
 
@@ -466,7 +466,7 @@ label day6_skirt_continue:
     "Your heart and your brain stops.. "
     "You feel nothing.. "
 
-    scene bg 06137 with Dissolve(1.0)
+    show bg 06137 with Dissolve(1.0)
 
     ja "I can't get hard so I can't fuck you.."
     ja "I just got my estrogen shots.. It won't work today.."
@@ -478,7 +478,7 @@ label day6_skirt_continue:
     em "Oh wow.. It's still bigger than my little sissys cock when he's fully hard.."
 
 
-    scene bg 06138 with Dissolve(1.0)
+    show bg 06138 with Dissolve(1.0)
 
     "Confused and not knowing what to do or what to feel you bend over and look behind them again"
 
@@ -491,14 +491,14 @@ label day6_skirt_continue:
     ja "Besides.. I have work to do. Your boy.."
 
 
-    scene bg 06139 with Dissolve(1.0)
+    show bg 06139 with Dissolve(1.0)
 
     em "Sissy!"
 
     ja "Oh?.. Your sissy is waiting for his turn.."
 
 
-    scene bg 06140 with Dissolve(1.0)
+    show bg 06140 with Dissolve(1.0)
 
     em "Omg you are so perfect and cute, and sexy, and beautiful!"
     em "Come live with us! Then we won't be strangers anymore!"
@@ -512,7 +512,7 @@ label day6_skirt_continue:
     ja "I guess you are right.."
 
 
-    scene bg 06141 with Dissolve(1.0)
+    show bg 06141 with Dissolve(1.0)
 
     ja "I hope my girl cock won't scare your sissy?"
 
@@ -521,7 +521,7 @@ label day6_skirt_continue:
     mc "I.. ii.. What?"
 
 
-    scene bg 06142 with Dissolve(1.0)
+    show bg 06142 with Dissolve(1.0)
 
     ja "Does my girl cock scare you?"
 
@@ -533,11 +533,11 @@ label day6_skirt_continue:
 
 
 label day6_scared_yes:
-    scene bg 06144a with Dissolve(1.0)
+    show bg 06144a with Dissolve(1.0)
 
     ja "Sorry.. Look up then!"
 
-    scene bg black with Dissolve(1.0)
+    show bg black with Dissolve(1.0)
     "You close your eyes"
     "..."
     "Some time later"
@@ -549,13 +549,13 @@ label day6_scared_yes:
 
 
 label day6_scared_no:
-    scene bg 06143 with Dissolve(1.0)
+    show bg 06143 with Dissolve(1.0)
 
     ja "Good girl.. Haha"
     ja "Your skin is so beautiful but I'll show you something later that makes it ever better!"
 
 
-    scene bg 06144b with Dissolve(1.0)
+    show bg 06144b with Dissolve(1.0)
 
     ja "Hey.."
     ja "Do you have any girl name?"
@@ -569,7 +569,7 @@ label day6_scared_no:
     ja "And think about girl names you would love.."
 
 
-    scene bg black with Dissolve(1.0)
+    show bg black with Dissolve(1.0)
 
     "You close your eyes"
     "..."
@@ -579,7 +579,7 @@ label day6_scared_no:
 
 
 label day6_scared_continue:
-    scene bg 06144c with Dissolve(1.0)
+    show bg 06144c with Dissolve(1.0)
 
     mc "It feels strange. Like I have a hard shell on me"
 
@@ -596,7 +596,7 @@ label day6_scared_continue:
     mc "AWWWWWWWWWWWW SHIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIITTTTTTTTTTTTTTTTTTTTTTTTTTTTTT"
 
 
-    scene bg 06145 with Dissolve(1.0)
+    show bg 06145 with Dissolve(1.0)
 
     em "Shhhhhh baby!"
 
@@ -607,12 +607,12 @@ label day6_scared_continue:
     em "Shhh!"
 
 
-    scene bg 06146 with Dissolve(1.0)
+    show bg 06146 with Dissolve(1.0)
 
     em "Look up baby"
 
 
-    scene bg 06147 with Dissolve(1.0)
+    show bg 06147 with Dissolve(1.0)
 
     "All her weight is on your face right now. Your lips are touching her anus and your nose is touching her pussy"
     "Sound of tearing*"
@@ -620,10 +620,11 @@ label day6_scared_continue:
     mc "HHHHHIIIII"
     mc "..."
 
-    scene bg black with Dissolve(1.0)
+    show bg black with Dissolve(1.0)
     
     "..."
 
+    $ quick_menu = False
     scene bg 00_08 with Dissolve(1.0)
     scene bg 00_44 with Dissolve(1.0)
     scene bg 0101 with Dissolve(1.0)
@@ -632,15 +633,15 @@ label day6_scared_continue:
     scene bg 0535 with Dissolve(1.0)
     scene bg 06123 with Dissolve(1.0)
 
-
     scene bg 06148 with Dissolve(1.0)
+    $ quick_menu = True
 
     mc "Ahh.."
     mc "What happened?"
 
 
 label day6_butt_play_yes:
-    scene bg 06149a with Dissolve(1.0)
+    show bg 06149a with Dissolve(1.0)
 
     em "See how tight it is?"
 
@@ -648,7 +649,7 @@ label day6_butt_play_yes:
     ja "And then It's just training. You need to train him a lot"
 
 
-    scene bg 06149b with Dissolve(1.0)
+    show bg 06149b with Dissolve(1.0)
 
     mc "Ahhh"
     mc "Lube?"
@@ -662,14 +663,14 @@ label day6_butt_play_yes:
     em "So smooth!"
 
 
-    scene bg 06149c with Dissolve(1.0)
+    show bg 06149c with Dissolve(1.0)
 
     mc "I'm cold!"
     mc "And what are you doi.."
     mc "Ahhh"
 
 
-    scene bg 06149d with Dissolve(1.0)
+    show bg 06149d with Dissolve(1.0)
 
     em "Hussshhh"
     em "I'm showing her how tight you are!"
@@ -677,7 +678,7 @@ label day6_butt_play_yes:
     ja "You are pretty!"
 
 
-    scene bg 06149e with Dissolve(1.0)
+    show bg 06149e with Dissolve(1.0)
 
     em "See 2 fingers is everything I can get in there"
 
@@ -693,20 +694,20 @@ label day6_butt_play_yes:
 
 
 label day6_butt_play_no:
-    scene bg 06149b with Dissolve(1.0)
+    show bg 06149b with Dissolve(1.0)
 
     ja "Good morning there sleepy head.."
     ja "It seems the pain was too much for you haha"
 
 
 label day6_butt_play_done:
-    scene bg 06150 with Dissolve(1.0)
+    show bg 06150 with Dissolve(1.0)
 
     "Emily drags you up"
     em "Time to thank this pretty lady.."
 
 
-    scene bg 06151a with Dissolve(1.0)
+    show bg 06151a with Dissolve(1.0)
 
     em "I said..."
     em "Thank her!"
@@ -719,17 +720,17 @@ label day6_butt_play_done:
             jump day6_thank_you
 
 label day6_thank_you_mistress:
-    scene bg 06151b with Dissolve(1.0)
+    show bg 06151b with Dissolve(1.0)
 
     mc "Thank you mistress!"
 
 
-    scene bg 06151c with Dissolve(1.0)
+    show bg 06151c with Dissolve(1.0)
 
     mc "Smack*"
 
 
-    scene bg 06151d with Dissolve(1.0)
+    show bg 06151d with Dissolve(1.0)
 
     em "Awwww!"
     em "You make me so proud!! "
@@ -753,19 +754,19 @@ label day6_thank_you:
 
 
 label day6_thanks_done:
-    scene bg black with Dissolve(1.0)
+    show bg black with Dissolve(1.0)
 
     "You all get dressed and follow Jasmine out"
 
 
-    scene bg 06152 with Dissolve(1.0)
+    show bg 06152 with Dissolve(1.0)
 
     ja "I hope you guys like it!"
     ja "And I really hope you'll come back.."
     ja "I'll give you a real good discount next time haha!"
 
 
-    scene bg 06153 with Dissolve(1.0)
+    show bg 06153 with Dissolve(1.0)
 
     ja "Here take this"
     ja "Emily make sure he uses this as his body soap while showering"

@@ -40,6 +40,7 @@ label intro:
 
 
 label input_mc_name:
+    $ quick_menu = False
     python:
         mc_name = renpy.input("Please enter your name:")
         mc_name = mc_name.strip()
@@ -48,6 +49,7 @@ label input_mc_name:
         "name please!"
         jump input_mc_name
 
+    $ quick_menu = True
     "Your name is set to: [mc_name] Small"
 
 
@@ -712,10 +714,12 @@ label day1_tv:
 
     scene bg black with Dissolve(1.0)
 
+    $ quick_menu = False
     show waiting at topleft
     show bg 00_37 with Dissolve(1.0)
     pause 1.0
     hide waiting
+    $ quick_menu = True
 
     mc_thoughts "WOW! "
     mc_thoughts "I'm just going to hide the dildo here behind the sofa pillow for now "
@@ -981,7 +985,7 @@ label day1_black_dildo:
     call wait_for_click
 
 
-    show bg 00_44B with Dissolve(1.0)
+    show bg 00_44 with Dissolve(1.0)
 
     em "You really want to see me take that black monster?"
 
@@ -1213,9 +1217,7 @@ label day1_white_dildo_turn_around:
 
     show emily sex_03A at top with Dissolve(1.0)
 
-    show waiting at topleft
-    pause
-    hide waiting
+    call wait_for_click
 
     show emily sex_04A at top with Dissolve(1.0)
 
@@ -1471,9 +1473,7 @@ label day1_sex_smoking:
 
     "Kisses*"
 
-    show waiting at topleft
-    window hide
-    pause
+    call wait_for_click
 
 
 label day1_end:

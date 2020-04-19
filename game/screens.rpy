@@ -290,6 +290,8 @@ style green_choice_button_text is choice_button_text:
 ## menus.
 
 screen quick_menu():
+    key "K_F5" action QuickSave()
+    key "K_F8" action QuickLoad()
 
     ## Ensure this appears on top of other screens.
     zorder 100
@@ -1261,6 +1263,14 @@ screen keyboard_help():
         label "V"
         text _("Toggles assistive {a=https://www.renpy.org/l/voicing}self-voicing{/a}.")
 
+    hbox:
+        label "F5"
+        text _("Quick Save.")
+
+    hbox:
+        label "F8"
+        text _("Quick Load.")
+
 
 screen mouse_help():
 
@@ -1661,6 +1671,9 @@ style pref_vbox:
 ## that uses fewer and bigger buttons that are easier to touch.
 screen quick_menu():
     variant "touch"
+
+    key "K_F5" action QuickSave()
+    key "K_F8" action QuickLoad()
 
     zorder 100
 

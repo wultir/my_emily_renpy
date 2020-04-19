@@ -23,6 +23,7 @@ label day1_sex_shop:
 
 
 label day1_sex_shop_girl:
+    $ quick_menu = False
     scene bg xxx_store_01_day with Dissolve(1.0)
 
     show xxx_girl 01_01 at center with Dissolve(1.0):
@@ -36,6 +37,7 @@ label day1_sex_shop_girl:
         yanchor 0.75
         zoom 1.29
 
+    $ quick_menu = True
     xg "Hiya!"
     xg "What is it daddy?"
 

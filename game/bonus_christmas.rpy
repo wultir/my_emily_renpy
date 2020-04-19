@@ -1,4 +1,5 @@
 label bonus_christmas:
+    $ quick_menu = False
     $ renpy.music.set_volume(1.0, 0, channel="music")
     play music "audio/bgm/Music/Jingle_Bells_3.ogg" fadein 5.0
 

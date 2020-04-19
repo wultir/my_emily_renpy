@@ -4,7 +4,7 @@ label weekend1_saturday:
     show text "Day 3 Saturday" at topright with Dissolve(1.0):
         offset (-10, 10)
 
-    show bg  0301 with Dissolve(1.0)
+    show bg 0301 with Dissolve(1.0)
 
     call wait_for_click
 
@@ -150,7 +150,7 @@ label weekend1_saturday_jack:
     "Emily is not looking in your direction at all and she keeps dancing feeling happy and sexy"
 
 
-    scene 0306 with Dissolve(1.0)
+    show 0306 with Dissolve(1.0)
 
     "She continues to sing and dance"
 
@@ -162,7 +162,7 @@ label weekend1_saturday_jack:
     mc "Oh shit!"
 
 
-    scene 0307 with Dissolve(1.0)
+    show 0307 with Dissolve(1.0)
 
     em "You wan't to fuck me? Don't you?"
     em "I've been extra horny after that movie you showed me and that dildo"
@@ -175,7 +175,7 @@ label weekend1_saturday_jack:
     em "Take your dick out!"
 
 
-    scene 0308 with Dissolve(1.0)
+    show 0308 with Dissolve(1.0)
 
     em "And put it inside me NOW!"
     em "Fuck meeeeee hard babe!!!"
@@ -186,14 +186,14 @@ label weekend1_saturday_jack:
     em "What?"
 
 
-    scene 0309 with Dissolve(1.0)
+    show 0309 with Dissolve(1.0)
 
     em "...."
     em "....."
     em "Eeeeeeeeeekkkkkkkkkk"
 
     
-    scene 0310 with Dissolve(1.0)
+    show 0310 with Dissolve(1.0)
 
     em "No no no no no no no"
     em "I'm sooooooo embarrassed!"
@@ -203,7 +203,7 @@ label weekend1_saturday_jack:
     em "I'm sorry Jack"
 
 
-    scene 0311 with Dissolve(1.0)
+    show 0311 with Dissolve(1.0)
 
     mc_thoughts "This feels awkward and I feel a bit jealous, but it's also hot.."
     mc_thoughts "Is she looking at Jacks crotch?"
@@ -211,7 +211,7 @@ label weekend1_saturday_jack:
     j "What?? Don't be!"
 
 
-    scene 0312 with Dissolve(1.0)
+    show 0312 with Dissolve(1.0)
 
     j "You aren't fat!"
     j "You are pretty!"
@@ -345,7 +345,7 @@ label weekend1_saturday_trust_love:
     em "Are you ready Jack?"
 
 
-    scene bg 0316 with Dissolve(1.0)
+    show bg 0316 with Dissolve(1.0)
 
     j "Yes miLady"
     j "This way miLady"
@@ -691,7 +691,7 @@ label weekend1_saturday_at_work:
 
 
 label weekend1_saturday_work_begin:
-    scene bg 0317 with Dissolve(1.0)
+    show bg 0317 with Dissolve(1.0)
 
     em_thoughts "I wonder if it's in Jame's office?"
     em_thoughts "..."
@@ -704,7 +704,7 @@ label weekend1_saturday_work_begin:
     em_thoughts "Oh no is he ok?"
 
 
-    scene bg 0319 with Dissolve(1.0)
+    show bg 0319 with Dissolve(1.0)
 
     "Emily was worried for James, remembering what day it is for him. But she didn't know what to do so she tiptoed close to him"
 
@@ -716,7 +716,7 @@ label weekend1_saturday_work_begin:
     em "Hello?"
 
 
-    scene bg 0320 with Dissolve(1.0)
+    show bg 0320 with Dissolve(1.0)
 
     jm "Yawn*"
     jm "Eyy god damn it"
@@ -779,7 +779,7 @@ label weekend1_saturday_work_begin:
     "Then he drags her without Emily having any time to do anything"
 
 
-    scene bg 0321 with Dissolve(1.0)
+    show bg 0321 with Dissolve(1.0)
 
     jm "Come here bonnie!"
 
@@ -823,7 +823,6 @@ label weekend1_saturday_emily_sits:
 
 
     scene bg 0322 with Dissolve(1.0)
-
     call wait_for_click
 
     "That's when she feels it!"
@@ -843,7 +842,6 @@ label weekend1_saturday_emily_sits:
 
 
     scene bg 0323 with Dissolve(1.0)
-
     call wait_for_click
 
 
@@ -854,7 +852,6 @@ label weekend1_saturday_emily_sits:
 
 
     scene bg 0324 with Dissolve(1.0)
-
     call wait_for_click
 
     "Without James thinking his firm grip is just ever so slightly pulling her cheeks apart making it easy for his big cock to firmly plant itself against her ass and anus"
@@ -866,7 +863,6 @@ label weekend1_saturday_emily_sits:
 
 
     scene bg 0325 with Dissolve(1.0)
-
     call wait_for_click
 
     em "Oh god daddy"
@@ -879,7 +875,6 @@ label weekend1_saturday_emily_sits:
 
 
     scene bg 0326 with Dissolve(1.0)
-
     call wait_for_click
 
     "Emilys pussy has taken over her control and she jump up on James "
@@ -901,7 +896,6 @@ label weekend1_saturday_emily_sits:
 
 
     scene bg 0327 with Dissolve(1.0)
-
     call wait_for_click
 
     "James brain finally wins the battle over his cock"
@@ -927,7 +921,7 @@ label weekend1_saturday_emily_sits:
     "She leans agains the wall with her hand going inside her panties"
 
 
-    scene bg 0329 with Dissolve(1.0)
+    show bg 0329 with Dissolve(1.0)
 
     em_thoughts "It's so warm and wet"
     em_thoughts "I can't go on like this, I have to cum!"
@@ -939,7 +933,7 @@ label weekend1_saturday_emily_sits:
     "Finally her legs give up and she slams down screaming in orgasm"
 
 
-    scene bg 0330 with Dissolve(1.0)
+    show bg 0330 with Dissolve(1.0)
 
     em "Nhgggaaa AHHHHHHH"
     em "OHHHHHH YESSSSSSSSSSSSSSSSSSSS"
@@ -998,7 +992,6 @@ label weekend1_saturday_emily_sits:
 
 
     scene bg 0332 with Dissolve(1.0)
-
     call wait_for_click
 
     g "Baby..."
@@ -1011,7 +1004,6 @@ label weekend1_saturday_emily_sits:
 
 
     scene bg 0333 with Dissolve(1.0)
-
     call wait_for_click
 
     g "That's what friends are for!"
@@ -1043,9 +1035,7 @@ label weekend1_saturday_emily_sits:
     g "Here let me help you up"
 
     scene bg work_wife_lobby_day with Dissolve(1.0)
-
     show gabriela 033A with Dissolve(1.0)
-
     call wait_for_click
 
     "Gabby drags you up to your feet"
@@ -1155,9 +1145,7 @@ label weekend1_saturday_emily_sits_not:
     em "I didn't know my best friend had come home from Brazil yet!"
 
     scene bg work_wife_lobby_day with Dissolve(1.0)
-
     show gabriela 032A with Dissolve(1.0)
-
     call wait_for_click
 
     g "I KNOW!"
@@ -1176,9 +1164,7 @@ label weekend1_saturday_back_home:
     "Some time later you both arrive home at you"
 
     scene bg house01_entry_day with Dissolve(1.0)
-
     show gabriela 035 with Dissolve(1.0)
-
     call wait_for_click
 
     "Gabriela kisses and hugs Emily before leaving"
@@ -1296,6 +1282,9 @@ label weekend1_saturday_sad_emily:
     em_thoughts "How could I do that? I love [mc_name] so much!"
     em_thoughts "Thank god I actually didn't do anything... But I would have.. I think"
 
+    if em_kinks_cheat_jack == 0:
+        jump weekend1_saturday_james_cheat
+
 
 label weekend1_saturday_jack_cheat:
     $ mc_cuckpoints += 1
@@ -1327,7 +1316,6 @@ label weekend1_saturday_james_cheat:
 
 label weekend1_saturday_em_crying:
     scene bg 0335 with Dissolve(1.0)
-
     call wait_for_click
 
     em "Sniff sniff"
@@ -1361,6 +1349,7 @@ label weekend1_saturday_em_crying:
 
 
 label weekend1_sunday:
+    $ quick_menu = False
     scene bg black with Dissolve(1.0)
     show text "Day 4 Sunday" at topright with Dissolve(1.0):
         offset (-10, 10)
@@ -1370,6 +1359,7 @@ label weekend1_sunday:
     hide text with Dissolve(1.0)
 
     scene bg 0401 with Dissolve(1.0)
+    $ quick_menu = True
 
     "So far Sunday has been like Saturday.. Just a lazy day together with the love of your life"
     "Once again you both are watching tv"
@@ -1400,15 +1390,12 @@ label weekend1_sunday:
 
 
     scene bg 04tstv1 with Dissolve(1.0)
-
     call wait_for_click
 
     show tv 04trans1 at top with Dissolve(1.0)
-
     call wait_for_click
 
     show tv 04trans2 at top with Dissolve(1.0)
-
     call wait_for_click
 
     mc "..."

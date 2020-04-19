@@ -52,7 +52,6 @@ label day5_anal:
     em "Pressing your nose inside and smelling all of me..."
     em "You want that babe?"
 
-    #
     if em_kinks_black == 1:
         jump day5_black_love
     else:
@@ -71,7 +70,7 @@ label day5_black_love:
 
 
 label day5_continue_anal:
-    scene bg 0599 with Dissolve(1.0)
+    show bg 0599 with Dissolve(1.0)
 
     em "Or is it something else?"
     em "Hmmmm..."
@@ -282,7 +281,7 @@ label day5_lick_done:
         jump day5_mommy_end
 
 
-    scene bg 05104 with Dissolve(1.0)
+    show bg 05104 with Dissolve(1.0)
 
     em "You will learn.."
     em "Now give me a kiss!"

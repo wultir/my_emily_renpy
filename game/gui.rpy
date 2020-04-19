@@ -15,6 +15,7 @@ init python:
     config.font_replacement_map["fonts/Aleo-Regular.otf", True, False] = ("fonts/Aleo-Bold.otf", False, False)
     config.font_replacement_map["fonts/Aleo-Regular.otf", True, True] = ("fonts/Aleo-BoldItalic.otf", False, False)
 
+
 ################################################################################
 ## GUI Configuration Variables
 ################################################################################

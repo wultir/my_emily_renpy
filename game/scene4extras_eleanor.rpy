@@ -10,12 +10,12 @@ label day6_eleanor_home:
     mc "FUCK!"
 
 
-    scene bg 0655a with Dissolve(1.0)
+    show bg 0655a with Dissolve(1.0)
 
     ele "Oh!"
 
 
-    scene bg 0655b with Dissolve(1.0)
+    show bg 0655b with Dissolve(1.0)
 
     ele "Ah hah"
     ele "Uh huh"
@@ -40,14 +40,14 @@ label day6_eleanor_home:
     mc "Fuck"
 
 
-    scene bg 0657 with Dissolve(1.0)
-#Elanor
+    show bg 0657 with Dissolve(1.0)
+
     ele "Sorry!"
     ele "I didn't think you would march in that naked.."
     ele "Haha"
 
 
-    scene bg 0658 with Dissolve(1.0)
+    show bg 0658 with Dissolve(1.0)
 
     ele "Let's see what she chose for you!"
 
@@ -55,7 +55,7 @@ label day6_eleanor_home:
 
     ele "Excuse me!"
 
-    scene bg 0659 with Dissolve(1.0)
+    show bg 0659 with Dissolve(1.0)
 
     ele "What are these? "
     ele "Panties?"
@@ -67,7 +67,7 @@ label day6_eleanor_home:
     mc "FUCK FUCK FUCK FUCK FUCK FUCK FUCK FUCK FUCK FUCK FUCK FUCK FUCK FUCK FUCK FUCK FUCK FUCK FUCK FUCK FUCK FUCK FUCK FUCK FUCK"
 
 
-    scene bg 0660 with Dissolve(1.0)
+    show bg 0660 with Dissolve(1.0)
 
     ele "Ohhhhh "
     ele "Jockstraps!"
@@ -91,7 +91,7 @@ label day6_eleanor_home:
     ele "Stop holding your cock hihi and put these on!"
 
 
-    scene bg 0661 with Dissolve(1.0)
+    show bg 0661 with Dissolve(1.0)
     "When realising you are still naked and holding your cock in your hand you grab the straps and jump into them"
 
     ele "Sexy!"
@@ -112,27 +112,27 @@ label day6_eleanor_home:
     mc "Nice!"
 
 
-    scene bg 0664 with Dissolve(1.0)
+    show bg 0664 with Dissolve(1.0)
 
     ele "You like it?"
 
     mc "Yeah.. Looks expensive!"
 
 
-    scene bg 0665 with Dissolve(1.0)
+    show bg 0665 with Dissolve(1.0)
 
     ele "Oh I'm sure it was"
     ele "It's important for some men to have blonde wifes with big breasts and stupid cars like this.."
     ele "But I don't complain! I get access to some nice things too hihi"
 
 
-    scene bg 0666 with Dissolve(1.0)
+    show bg 0666 with Dissolve(1.0)
 
     mc "Oh like what?"
     mc "Now I'm curious!"
 
 
-    scene bg 0667 with Dissolve(1.0)
+    show bg 0667 with Dissolve(1.0)
 
     ele "Curiosity killed the cat!"
     ele "I get access to stuff like credit cards and other.. secrets.."
@@ -141,14 +141,14 @@ label day6_eleanor_home:
     "When she presses the start button it sounds like a war broke out right behind you and like the world is going under"
 
 
-    scene bg 0668 with Dissolve(1.0)
+    show bg 0668 with Dissolve(1.0)
 
     mc "Ohhh myyy goddddd!"
 
     ele "Yeah I know! It's so violent.. But I'll drive slowly. This car scares me!"
 
 
-    scene bg 0669 with Dissolve(1.0)
+    show bg 0669 with Dissolve(1.0)
 
     mc "Where are we going?"
 
@@ -159,14 +159,14 @@ label day6_eleanor_home:
     "You arrive and you take a seat while Elanor goes and orders something"
 
 
-    scene bg 0671 with Dissolve(1.0)
+    show bg 0671 with Dissolve(1.0)
 
     ele "Here you go!"
     ele "Have you ever tasted macarons, they are like orgasms on clouds!"
     ele "And I know you aren't a fan of coffee so I got you this. It's called Milkers tears."
 
 
-    scene bg 0672 with Dissolve(1.0)
+    show bg 0672 with Dissolve(1.0)
 
     ele "And a big steaming hot black one for me.. I love them black haha"
     ele "So how's life treating you?"
@@ -178,7 +178,7 @@ label day6_eleanor_home:
     "After 15 minutes or so talking about life in general"
 
 
-    scene bg 0673 with Dissolve(1.0)
+    show bg 0673 with Dissolve(1.0)
 
     ele "Forgive me for asking, but we are family now and you guys are young.."
     ele "So how's your sex? Is it good?"

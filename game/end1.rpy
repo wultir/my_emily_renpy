@@ -1,4 +1,5 @@
 label the_end1:
+    $ quick_menu = False
     scene bg black with Dissolve(1.0)
 
     show text "{font=fonts/Elsie-Regular.ttf}{color=#f686b8}{size=100}The End{/size}{/color}{/font}" with ComposeTransition(Dissolve(2.0), after=CropMove(3.0, "wiperight")):
@@ -136,7 +137,7 @@ label the_end1:
     a "{cps=7}Yup!{/cps}{p=2.0}{nw}"
     a "{cps=7}And now I need ice cream! Please pleaseeeee{/cps}{p=2.0}{nw}"
 
-    scene bg e0114 with Dissolve(5.0)
+    show bg e0114 with Dissolve(5.0)
     mc "{cps=7}Gahh 2 against 1{/cps}{p=2.0}{nw}"
 
     em "{cps=7}Yup{/cps}{p=2.0}{nw}"
@@ -180,7 +181,7 @@ label the_end1:
     a "{cps=7}Hmm{/cps}{p=2.0}{nw}"
 
 
-    scene bg e0119 with Dissolve(5.0)
+    show bg e0119 with Dissolve(5.0)
     a "{cps=7}Hmmmmmm{/cps}{p=2.0}{nw}"
 
     scene bg e0120 with Dissolve(5.0)
@@ -214,6 +215,7 @@ label the_end1:
 
     scene bg black with Dissolve(5.0)
 
+    $ quick_menu = False
     show text "{font=fonts/Elsie-Regular.ttf}{color=#f686b8}{size=100}Thank you for playing!{/size}{/color}{/font}" with ComposeTransition(Dissolve(2.0), after=CropMove(3.0, "wiperight")):
         pos (432, 398)
         anchor (0,0)
