@@ -4,7 +4,6 @@
 ## them. Lines beginning with a single '#' mark are commented-out code, and you
 ## may want to uncomment them when appropriate.
 
-
 ## Basics ######################################################################
 
 ## A human-readable name of the game. This is used to set the default window
@@ -23,7 +22,7 @@ define gui.show_name = True
 
 ## The version of the game.
 
-define config.version = "0.4f-0.1"
+define config.version = "0.4a-0.2"
 
 
 ## Text that is placed on the game's about screen. Place the text between the
@@ -113,6 +112,7 @@ define config.window = "auto"
 define config.window_show_transition = Dissolve(.2)
 define config.window_hide_transition = Dissolve(.2)
 
+define config.window_auto_hide = [ 'scene', 'call screen', 'menu' ]
 
 ## Preference defaults #########################################################
 

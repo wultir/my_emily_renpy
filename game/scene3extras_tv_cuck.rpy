@@ -3,15 +3,12 @@ label day5_tv_cuck_start:
 
     em "I truly love you babe and I will forever and ever and ever and ever"
 
-label day5_tv_cuck_01:
     show tv cuck01 with Dissolve(1.0):
         anchor(0,0)
         pos(323, -14)
 
     em "Oh my gosh!"
 
-
-label day5_tv_cuck_02:
     show tv cuck02 with Dissolve(1.0):
 
     gv "Take a look at these two ladies ankle tattoos"
@@ -28,26 +25,22 @@ label day5_tv_cuck_02:
     em "Eh I mean,,, I was right! Kinda.."
 
 
-label day5_tv_cuck_03:
     show tv cuck03 with Dissolve(1.0):
 
     gv "There's a very good reason for them being so popular"
 
 
-label day5_tv_cuck_04:
     show tv cuck04 with Dissolve(1.0):
 
     gv "Especially in our type of relationships"
 
 
-label day5_tv_cuck_05:
     show tv cuck05 with Dissolve(1.0):
 
     gv "It's true what they all say...."
     gv "Once you go black you never go back.."
 
 
-label day5_tv_cuck_06:
     show tv cuck06 with Dissolve(1.0):
 
     gv "You'll understand after the steep learning curve of getting your cervix hammered and your mind going completely blank after getting fucked so wild and brutally you no longer can feel your own orgasms,body and thoughts"
@@ -55,7 +48,6 @@ label day5_tv_cuck_06:
     gv "It's just like losing your virginity. It's painful at first, but it gets better. Much better.. "
 
 
-label day5_tv_cuck_07:
     show tv cuck07 with Dissolve(1.0):
 
     gv "Not only are they bigger and stronger in every way. But they also know how to treat you and how to fuck you like the slut you really are.."
@@ -65,7 +57,6 @@ label day5_tv_cuck_07:
     gv "These are not scientific facts. Just my own.. But I have more experience that those facts have subjects.."
 
 
-label day5_tv_cuck_08:
     show tv cuck08 with Dissolve(1.0):
 
     gv "Now how do you get everything you deserve and desire?"
@@ -79,7 +70,6 @@ label day5_tv_cuck_08:
     gv "Well,, if he has no dick or sex drive.. But your boy beside you has both. "
 
 
-label day5_tv_cuck_09:
     show tv cuck09 with Dissolve(1.0):
 
     gv "Now imagine what happens to a boy like that one beside you"
@@ -88,7 +78,6 @@ label day5_tv_cuck_09:
     gv "Who knows he can never give you true pleasure"
 
 
-label day5_tv_cuck_10:
     show tv cuck10 with Dissolve(1.0):
 
     gv "Control, train and humiliate him the right way and there's nothing you can't get"
@@ -98,19 +87,16 @@ label day5_tv_cuck_10:
     gv "He lives to please you. Any way you want, need and deserve"
 
 
-label day5_tv_cuck_11:
     show tv cuck11 with Dissolve(1.0):
 
     gv "That control starts with chastity"
 
 
-label day5_tv_cuck_12:
     show tv cuck12 with Dissolve(1.0):
 
     gv "That's another thing we will discuss much more closely in a couple of days"
 
 
-label day5_tv_cuck_13:
     show tv cuck13 with Dissolve(1.0):
 
     gv "Cum is a great and necessary tool alongside with a chastity cage to start your training"
@@ -118,7 +104,6 @@ label day5_tv_cuck_13:
     gv "He will soon start to enjoy it, even more than you have or ever will"
 
 
-label day5_tv_cuck_14:
     show tv cuck14 with Dissolve(1.0):
 
     gv "Don't be shy Cuckie"
@@ -127,7 +112,6 @@ label day5_tv_cuck_14:
     gv "And times are changing. You can't damage your own manly ego anymore. Ignore those thoughts, what matters is your girlfriends. Make her and yourself free and happy!"
 
 
-label day5_tv_cuck_15:
     show tv cuck15 with Dissolve(1.0):
 
     gv "Are you worried deep inside that you might like it?"
@@ -135,20 +119,17 @@ label day5_tv_cuck_15:
     gv "It's so nasty, kinky and wrong that it all becomes so right, sexy and beautiful"
 
 
-label day5_tv_cuck_16:
     show tv cuck16 with Dissolve(1.0):
 
     gv "Just let it happen Sweetie. Relax and let your mistress guide you"
 
 
-label day5_tv_cuck_17:
     show tv cuck17 with Dissolve(1.0):
 
     gv "Yes good boy!"
     gv "Look at your girlfriend. She's so sexy covered in cum. She will get so horny when you show her how much you love her and you might get a reward later!"
 
 
-label day5_tv_cuck_18:
     show tv cuck18 with Dissolve(1.0):
 
     gv "If your head is stuck too deep in your own selfish ass and you refuse, then be ready for the dire consequences that WILL come in time"
@@ -157,7 +138,6 @@ label day5_tv_cuck_18:
     gv "Or you could just..."
 
 
-label day5_tv_cuck_19:
     show tv cuck19 with Dissolve(1.0):
 
     gv "Accept your fate.."
@@ -165,27 +145,22 @@ label day5_tv_cuck_19:
     gv "Make her happy and you WILL become the 1%% of world's population that lives in true happiness for the rest of your short little life"
 
 
-label day5_tv_cuck_20:
     show tv cuck20 with Dissolve(1.0):
 
     gv "Good boy.. Now lick her clean.. I know you love it, she knows it too"
     gv "giggles*"
 
 
-label day5_tv_cuck_21:
     show tv cuck21 with Dissolve(1.0):
     call wait_for_click
 
 
-label day5_tv_cuck_22:
     show tv cuck22 with Dissolve(1.0):
     call wait_for_click
 
-label day5_tv_cuck_23:
     show tv cuck23 with Dissolve(1.0):
     call wait_for_click
 
-label day5_tv_cuck_24:
     show tv cuck24 with Dissolve(1.0):
 
     gv "And soon you will both be sharing the love and sucking her boyfriends clean. A real cock is so yummy!"
@@ -194,7 +169,6 @@ label day5_tv_cuck_24:
     gv "Psssst... She is wet right now!!"
 
 
-label day5_tv_cuck_25:
     show tv cuck25 with Dissolve(1.0):
 
     gv "By this time you have both already accepted that you are not a real man"
@@ -203,7 +177,6 @@ label day5_tv_cuck_25:
     gv "You are a cute little fag.. A true sissy"
 
 
-label day5_tv_cuck_26:
     show tv cuck26 with Dissolve(1.0):
 
     gv "Congratulations Sweetie!!!"
@@ -217,7 +190,6 @@ label day5_tv_cuck_26:
     gv "You will be like a kid in a candy shop trying to choose which shapes and flavours to choose from.. Or how many.."
 
 
-label day5_tv_cuck_27:
     show tv cuck27 with Dissolve(1.0):
 
     gv "It's one of those truly life changing moments for the both of you"
@@ -225,17 +197,14 @@ label day5_tv_cuck_27:
     gv "And you will do anything to become your true sexy self once more"
 
 
-label day5_tv_cuck_28:
     show tv cuck28 with Dissolve(1.0):
     call wait_for_click
 
 
-label day5_tv_cuck_29:
     show tv cuck29 with Dissolve(1.0):
     call wait_for_click
 
 
-label day5_tv_cuck_30:
     show tv cuck30 with Dissolve(1.0):
 
     gv "As time goes on and the more cocks you'll have the more your cute little ass will change"
@@ -246,7 +215,6 @@ label day5_tv_cuck_30:
     em "Oh? Ohh that's good"
 
 
-label day5_tv_cuck_31:
     show tv cuck31 with Dissolve(1.0):
 
     gv "And girls! Don't forget about other girls!"
@@ -257,7 +225,6 @@ label day5_tv_cuck_31:
     em "Oh.. Hmm"
 
 
-label day5_tv_cuck_32:
     show tv cuck32 with Dissolve(1.0):
 
     gv "Another crucial skill to have is.."
@@ -271,17 +238,14 @@ label day5_tv_cuck_32:
     gv "It should go without saying that that's a rule you should learn early on.. It's absolutely critical you show them deep love the first times you are with another man. You should always do it, but if you forget those first times you are most likely going to damage him beyond repair in the long run.. Do NOT skip it!"
 
 
-label day5_tv_cuck_33:
     show tv cuck33 with Dissolve(1.0):
     call wait_for_click
 
 
-label day5_tv_cuck_34:
     show tv cuck34 with Dissolve(1.0):
     call wait_for_click
 
 
-label day5_tv_cuck_35:
     show tv cuck35 with Dissolve(1.0):
 
     gv "If you have no deepthroating experience then be ready with a bucket"
@@ -289,7 +253,6 @@ label day5_tv_cuck_35:
     gv "Hint... Also a great humiliation tool!!"
 
 
-label day5_tv_cuck_36:
     show tv cuck36 with Dissolve(1.0):
 
     gv "Piss.. Ahh piss"
@@ -299,7 +262,6 @@ label day5_tv_cuck_36:
     gv "If you manage to train him for this then you are one step closer to never have to buy toilet paper again. Your anus will always be sparkly clean while your pussy will be permanently wet"
 
 
-label day5_tv_cuck_37:
     show tv cuck37 with Dissolve(1.0):
 
     gv "We have covered this a bit already"
@@ -308,7 +270,6 @@ label day5_tv_cuck_37:
     gv "The look in his eyes the first time a man cums in his mouth will make you cum!"
 
 
-label day5_tv_cuck_38:
     show tv cuck38 with Dissolve(1.0):
 
     gv "The feeling of his tongue getting deeper inside you every time a real man thrusts into him is so sexy"
@@ -317,7 +278,6 @@ label day5_tv_cuck_38:
     gv "The moment when the bull buries his cock deep inside your sissys ass to cum will make you cum too from the forces,vibrations and sounds your cute little sissy is sending deep into your pussy"
 
 
-label day5_tv_cuck_39:
     show tv cuck39 with Dissolve(1.0):
 
     gv "Gangbang is something you and your sissy will grow to love too"
@@ -325,7 +285,6 @@ label day5_tv_cuck_39:
     gv "And it's the only form that will make white men almost as good at giving pleasure as from a black one"
 
 
-label day5_tv_cuck_40:
     show tv cuck40 with Dissolve(1.0):
 
     gv "Or...."
@@ -334,7 +293,6 @@ label day5_tv_cuck_40:
     gv "You will not know anything for some time and will only have a silly smile on your face for a few days being stupid and leaking drool... And cum.."
 
 
-label day5_tv_cuck_41:
     show tv cuck41 with Dissolve(1.0):
 
     gv "Pregnancy.."
@@ -351,7 +309,6 @@ label day5_tv_cuck_41:
 
 
 
-label day5_tv_cuck_42:
     show tv cuck42 with Dissolve(1.0):
 
     gv "And talking about right genes.."
@@ -361,7 +318,6 @@ label day5_tv_cuck_42:
     gv "Your sissy will agree when you ask him little later in your relationship"
 
 
-label day5_tv_cuck_43:
     show tv cuck43 with Dissolve(1.0):
 
     gv "Or if you feel kinky and want to experience a kink most girls have in secret"
@@ -370,20 +326,17 @@ label day5_tv_cuck_43:
     gv "If your daddy is black just don't do it haha. You would marry him instead!"
 
 
-label day5_tv_cuck_44:
     show tv cuck44 with Dissolve(1.0):
 
     gv "So ladies what did we learn?"
     gv "Control equals freedom and happiness "
 
 
-label day5_tv_cuck_45:
     show tv cuck45 with Dissolve(1.0):
 
     gv "Control a mans cock to strip his will and powers away"
 
 
-label day5_tv_cuck_46:
     show tv cuck46 with Dissolve(1.0):
 
     gv "After you take his cock away from him"
@@ -399,7 +352,6 @@ label day5_tv_cuck_46:
     gv "Time will tell if you both need this.. You will learn more eventually.."
 
 
-label day5_tv_cuck_47:
     show tv cuck47 with Dissolve(1.0):
 
     gv "He belongs to you. He wants it!"
@@ -411,7 +363,6 @@ label day5_tv_cuck_47:
     gv "And all the cucks watching... Relax, it's just a figure of speech.."
 
 
-label day5_tv_cuck_48:
     show tv cuck48 with Dissolve(1.0):
 
     gv "His balls are the most sensitive place he has."
@@ -423,7 +374,6 @@ label day5_tv_cuck_48:
     gv "You might want that last one later in your life, but you will learn all about that too at a later date"
 
 
-label day5_tv_cuck_49:
     show tv cuck49 with Dissolve(1.0):
 
     gv "However.. Don't just start beating the living shit out of him.. You will not gain his trust that way. Only his fear.. And that is wrong. Nothing good will come out from it"
@@ -437,14 +387,12 @@ label day5_tv_cuck_49:
     em "Ahh those both are so sexy!"
 
 
-label day5_tv_cuck_50:
     show tv cuck50 with Dissolve(1.0):
 
     gv "That is the secret for the perfect marriage. The ever lasting love"
     gv "The most attentive and caring loving husband in the world"
 
 
-label day5_tv_cuck_51:
     show tv cuck51 with Dissolve(1.0):
 
     gv "I will not force you into anything. I will only give you the opportunities and tools you will need alongside our long jounrey together"

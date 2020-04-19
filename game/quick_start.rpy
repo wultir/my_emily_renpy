@@ -26,7 +26,7 @@ label quick_start_name:
     "Your name is set to: [mc_name] Small"
 
 
-label quick_start_dildo:
+    # Dildo choice
     show text "{color=#ffffff}{size=36}Day 1 Thursday{/size}{/color}" at topright with Dissolve(1.0):
         offset (-10, 10)
 
@@ -35,177 +35,162 @@ label quick_start_dildo:
     "Which dildo did you choose?"
 
     menu:
-        "{color=[black_choice]}Black{/color}":
+        "Black [black]":
             $ inventory_dildo = "black"
             $ em_kinks_black += 1
-        "{color=[white_choice]}White{/color}":
+        "White":
             $ inventory_dildo = "white"
 
 
-label quick_start_video:
+    # Video choice
     show bg 00_35 with Dissolve(1.0)
 
     "What type of porn did you watch with Emily?"
     "(Black on white made Emily fascinated by the color pink)"
 
     menu:
-        "{color=[black_choice]}Black bull fucks my blonde wife{/color}":
+        "Black bull fucks my blonde wife [black]":
             $ mem_emily_pink = True
             $ em_kinks_black += 1
             show bg 00_38A with Dissolve(1.0)
-        "{color=[white_choice]}19 year white guy fucks my mature wife{/color}":
+        "19 year white guy fucks my mature wife":
             show bg 00_38B with Dissolve(1.0)
 
 
-label quick_start_day2:
+    # Day 2
     hide text with Dissolve(1.0)
     show text "{color=#ffffff}{size=36}Day 2 Friday{/size}{/color}" at topright with Dissolve(1.0):
         offset (-10, 10)
 
     if mem_emily_pink:
-        jump quick_start_pink_work
-    else:
-        jump quick_start_work_done
+        # Emily's reaction to James
+        show bg 0133 with Dissolve(1.0)
 
-label quick_start_pink_work:
-    show bg 0133 with Dissolve(1.0)
+        "While wearing pink at work James complimented and made Emily feel good and blush. Did she thank him or ignore him?"
+        "(Thanking James could lead to something)"
 
-    "While wearing pink at work James complimented and made Emily feel good and blush. Did she thank him or ignore him?"
-    "(Thanking James could lead to something)"
-
-    menu:
-        "{color=[pink_choice]}Emily thanked James{/color}":
-            $ em_loves_james += 1
-            jump quick_start_work_done
-        "{color=[white_choice]}Emily ignored James{/color}":
-            jump quick_start_work_done
+        menu:
+            "Emily thanked James [pink]":
+                $ em_loves_james += 1
+            "Emily ignored James":
+                pass
 
 
-label quick_start_work_done:
+    # MC's reaction to Eleanor
     show bg 0137 with Dissolve(1.0)
 
     "Did you tell Elanor her breasts are sexy when she wanted your honest opinion?"
     "(If you did you also found and read the note hidden in her handbag)"
 
     menu:
-        "{color=[pink_choice]}Yes! Sexy gilf!{/color}":
+        "Yes! Sexy gilf! [pink]":
             $ ele_loves_mc = "love"
             $ mem_eleanor_secret_player = True
-            jump quick_start_jack_elise
-        "{color=[white_choice]}Noooo I'm not interested in her{/color}":
-            jump quick_start_jack_elise
+        "Noooo I'm not interested in her":
+            pass
     
 
-label quick_start_jack_elise:
+    # MC's reaction to Jack wanting to pursue Elise
     show bg 0120 with Dissolve(1.0)
 
     "Did you tell Jack it's ok to go after Elise if he feels like it?"
 
     menu:
-        "{color=[white_choice]}Yes{/color}":
+        "Yes":
             $ j_loves_elise = 1
-            jump quick_start_day3
-        "{color=[black_choice]}No{/color}":
-            jump quick_start_day3
+        "No [black]":
+            pass
 
-
-label quick_start_day3:
+    # Day 3
     hide text with Dissolve(1.0)
     show text "{color=#ffffff}{size=36}Day 3 Saturday{/size}{/color}" at topright with Dissolve(1.0):
         offset (-10, 10)
 
     show bg 0314 with Dissolve(1.0)
 
+    # MC's reaction to Jack perving on Emily
     "Emily accidentally gave you and Jack a sexy dance not knowing he was there. When she realised what she had done she felt embarrassed and ugly. Jack comforted her"
     "Jack apologized to you for telling Emily she's beautiful and sexy. How did you react?"
     "(Telling him it's ok results in Jack's feelings growing for her)"
 
     menu:
-        "{color=[pink_choice]}You told Jack he did nothing wrong{/color}":
+        "You told Jack he did nothing wrong [pink]":
             $ j_loves_emily = 1
-            jump quick_start_bull
-        "{color=[red_choice]}You didn't like it{/color}":
-            jump quick_start_bull
+        "You didn't like it [red]":
+            pass
 
 
-label quick_start_bull:
+    # MC's interest in Marcus the black bull
     show bg bullask with Dissolve(1.0)
 
     "When looking at your profile on taboo palace Black Prince contacted you. Are you interested in him?"
 
     menu:
-        "{color=[pink_choice]}Yes I am{/color}":
+        "Yes I am [pink]":
             $ bull_marcus = True
-            jump quick_start_day5
-        "{color=[red_choice]}No I'm not{/color}":
-            $ bull_marcus = False
-            jump quick_start_day5
+        "No I'm not [red]":
+            pass
 
 
-label quick_start_day5:
+    # Day 5
     hide text with Dissolve(1.0)
     show text "{color=#ffffff}{size=36}Day 5 Monday{/size}{/color}" at topright with Dissolve(1.0):
         offset (-10, 10)
 
     show bg 0568 with Dissolve(1.0)
 
+    # Butt play in park
     "When you were in the park with Emily and met the old man did you let Emily play with your butt and did the old man notice this?"
 
     menu:
-        "{color=[pink_choice]}Yes he did{/color}":
+        "Yes he did [pink]":
             $ henry_mem_saw_buttplay = True
             show bg 0568b with Dissolve(1.0)
             pause 1.0
-            jump quick_start_look_old_man_peeing
-        "{color=[red_choice]}No he didn't{/color}":
-            $ henry_mem_saw_buttplay = False
-            jump quick_start_look_old_man_peeing
+        "No he didn't [red]":
+            pass
 
 
-label quick_start_look_old_man_peeing:
+    # Watching henry pee in the park
     show bg 0576 with Dissolve(1.0)
 
     "Did you and Emily look when the old man needed to pee and thought he was alone?"
 
     menu:
-        "{color=[pink_choice]}Yes... Yes we did{/color}":
+        "Yes... Yes we did [pink]":
             $ henry_mem_saw_penis = True
-            jump quick_start_misc
-        "{color=[red_choice]}Eww.. Naaaa!{/color}":
-            $ henry_mem_saw_penis = False
-            jump quick_start_misc
+        "Eww.. Naaaa! [red]":
+            pass
 
 
-label quick_start_misc:
+    # Emily smoking
     hide text with Dissolve(1.0)
     show text "{color=#ffffff}{size=36}Misc{/size}{/color}" at topright with Dissolve(1.0):
         offset (-10, 10)
 
-    show bg black with Dissolve(1.0)
+    scene bg black with Dissolve(1.0)
 
     "Does Emily like to smoke?"
 
     menu:
-        "{color=[white_choice]}Emily smokes{/color}":
+        "Emily smokes":
             $ em_kinks_smoking = 2
-            jump quick_start_mommy
-        "{color=[white_choice]}Emily doesn't like smoking{/color}":
-            jump quick_start_mommy
+        "Emily doesn't like smoking":
+            pass
 
 
-label quick_start_mommy:
+    # Mommy roleplay
     "Did you and Emily get into some kinky mom/son roleplay?"
 
     menu:
-        "{color=[white_choice]}Yes mom{/color}":
+        "Yes mom":
             $ em_kinks_incest_play = True
             "Wow... You kinky son of a bitch!"
-            jump quick_start_done
-        "{color=[white_choice]}No we did not!{/color}":
+        "No we did not!":
             $ em_kinks_incest_play = False
-            jump quick_start_done
 
-label quick_start_done:
+
+    # End of quick start
     window hide
     hide text with Dissolve(1.0)
     stop music fadeout 1.0

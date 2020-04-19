@@ -1,7 +1,9 @@
 label the_end_04:
+    $ quick_menu = False
     scene bg music with Dissolve(1.0)
     call wait_for_click(False)
 
+    $ quick_menu = False
     scene bg black with Dissolve(1.0)
 
     $ renpy.music.set_volume(0.5, 0, channel="music")
