@@ -1688,12 +1688,39 @@ screen quick_menu():
             textbutton _("Back") action Rollback()
             textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
             textbutton _("Auto") action Preference("auto-forward", "toggle")
-            textbutton _("Menu") action ShowMenu()
+            textbutton _("History") action ShowMenu("History")
+            textbutton _("Menu") action ShowMenu("ingame")
 
 
 style window:
     variant "small"
     background "gui/phone/textbox.png"
+
+style say_label:
+    variant "small"
+    xoffset -100
+    size 35
+
+style quick_button:
+    variant "small"
+    ysize 50
+
+style quick_button_text:
+    variant "small"
+    size 40
+    yoffset -10
+
+style input_window:
+    variant "small"
+    ypos 150
+
+style input_window:
+    variant "medium"
+    ypos 150
+
+style say_dialogue:
+    variant "small"
+    size 35
 
 style radio_button:
     variant "small"
